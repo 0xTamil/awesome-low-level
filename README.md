@@ -39,7 +39,7 @@ If you are new to low-level programming, follow these core steps:
 ### Circuits & Electronics
 - **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**
 
-### Computer System
+### Computer Fundamentals
 - **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**
 - **[A Crash Course in Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)**
