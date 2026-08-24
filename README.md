@@ -4,33 +4,42 @@
 
 If you are new to low-level programming, follow these core steps:
 
-1. **Learn Computer Fundamentals**
+1. **Learn Electronics & Circuits**
+   * **What to do:** Learn digital logic basics, how logic gates (AND, OR, NOT) build combination circuits, and how sequential logic (flip-flops, clock signals) allows systems to store memory. Build and trace Finite State Machines (FSMs) to model how systems transition between different states based on inputs.
+   * **Why it matters:** FSMs and digital logic are the blueprint for all computational hardware. Understanding how state transitions and clock cycles work at the circuit level gives you the exact mental model needed to write stateful low-level code and control hardware devices.
+
+2. **Learn Computer Fundamentals**
    * **What to do:** Understand how computers read data and execute instructions. Learn basic programming rules like variables, loops, logic, and how your code actually talks to hardware components like the CPU and RAM.
    * **Why it matters:** Building a strong mental model of how computer memory and hardware work together makes learning any system language much easier later on.
 
-2. **Learn C & Memory**
+3. **Learn C & Memory**
    * **What to do:** Learn the **C programming language** deeply. Focus on core low-level topics: managing memory manually, using pointers (variables that store memory addresses), doing pointer arithmetic, and allocation (`malloc` and `free`).
    * **Why it matters:** C is the foundational language of systems programming. It strips away hidden abstractions and gives you direct control over memory, forcing you to understand exactly how software interacts with computer hardware.
 
-3. **Build Small Projects**
+4. **Build Small Projects**
    * **What to do:** Put your C knowledge to work by building tiny, practical command-line interface (CLI) tools. Build things like a custom file reader, a simple memory-logging tool, a text file parser, or a basic shell utility.
    * **Why it matters:** Writing code from scratch is the fastest way to catch memory leaks, fix pointer bugs, and learn how real programs interact with the operating system.
 
-4. **Study Algorithms & Data Structures**
+5. **Study Algorithms & Data Structures**
    * **What to do:** Learn standard ways to organize data (like linked lists, arrays, stacks, queues, and trees) and key techniques to process that data (like sorting, searching, and recursion).
    * **Why it matters:** Hardware has limits. Choosing the right data structure and algorithm ensures your low-level code runs fast, uses minimal RAM, and handles big workloads cleanly.
 
-5. **Pick a Specialized Field**
+6. **Pick a Specialized Field**
    * **What to do:** Decide what kind of low-level software you want to build. Pick one focused domain to explore next.
    * **Why it matters:** Low-level programming is a massive field. Picking a specific path gives you a clear target and helps you choose the exact tools and projects to build next.
 
-6. **Learn Modern Systems Languages (Optional)**
+7. **Learn Modern Systems Languages (Optional)**
    * **What to do:** Expand your skills beyond C by exploring modern systems programming languages like **C++, Rust, Zig, or Odin** or choose to **stick with C**, as it remains fully powerful and relevant for almost all low-level domains.
    * **Why it matters:** While C is all you strictly need, learning modern languages introduces extra toolsets like object-oriented design in C++, automatic memory safety in Rust, or streamlined syntax and memory control in Zig and Odin.
 
 ---
 
 ## Getting Started
+
+### Electronic & Circuits
+- **[Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**
+
+### Computer System
 - **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**
 - **[A Crash Course in Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)**
@@ -53,6 +62,8 @@ If you are new to low-level programming, follow these core steps:
 - **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
 
 ### Data Structures & Algorithms
+
+- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A full list of DSA resources & exercises.
 - **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly guide to organizing and processing data.
 - **[VisuAlgo](https://visualgo.net/)**: Animated visual tools showing how algorithms sort and search data.
 - **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: Free university lectures covering algorithmic design and efficiency.
@@ -108,6 +119,9 @@ If you are new to low-level programming, follow these core steps:
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running custom Linux systems on small hardware chips.
+
+#### Fill in the blanks
+- **[Learn STM32 Microcontroller Programming](https://www.youtube.com/watch?v=vKyL43qXPpk)**: Compherensive course that cover STM32 programming.
 
 ---
 
@@ -187,6 +201,8 @@ Technical channels focusing on low-level systems engineering, software architect
 - **[javidx9](https://youtube.com/@javidx9)**
 - **[3Blue1Brown](https://youtube.com/@3blue1brown)**
 - **[Code Guild](https://youtube.com/@code-guild)**
+- **[TechExplained](https://www.youtube.com/@TechsExplained)**
+- **[Low Level Game Dev](https://www.youtube.com/@lowlevelgamedev9330)**
 
 ---
 
