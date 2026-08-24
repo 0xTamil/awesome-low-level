@@ -121,7 +121,7 @@ If you are new to low-level programming, follow these core steps:
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running custom Linux systems on small hardware chips.
 
-#### Fill in the blanks
+> #### Addons
 - **[Learn STM32 Microcontroller Programming](https://www.youtube.com/watch?v=vKyL43qXPpk)**: Compherensive course that cover STM32 programming.
 
 ---
