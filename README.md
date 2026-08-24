@@ -47,6 +47,7 @@ If you are new to low-level programming, follow these core steps:
 - **[Teach Yourself CS](https://teachyourselfcs.com/)**
 - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**
 - **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**
+- **[Awesome CS](github.com/prakhar1989/awesome-courses)**
 
 ---
 
