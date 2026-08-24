@@ -4,8 +4,8 @@
 
 If you are new to low-level programming, follow these core steps:
 
-1. **Learn Electronics & Circuits**
-   * **What to do:** Learn how logic gates (AND, OR, NOT) build combination circuits, and how sequential logic (flip-flops, clock signals) allows systems to store memory. Build and trace Finite State Machines (FSMs) to model how systems transition between different states based on inputs.
+1. **Learn Circuits & Electronics**
+   * **What to do:** Learn how logic gates (AND, OR, NOT) build combinational circuits, and how sequential logic (flip-flops, clock signals) allows systems to store memory. Learn about Finite State Machines (FSMs) to model how systems transition between different states based on inputs.
    * **Why it matters:** FSMs and digital logic are the blueprint for all computational hardware. Understanding how state transitions and clock cycles work at the circuit level gives you the exact mental model needed to write stateful low-level code and control hardware devices.
 
 2. **Learn Computer Fundamentals**
@@ -36,8 +36,8 @@ If you are new to low-level programming, follow these core steps:
 
 ## Getting Started
 
-### Electronic & Circuits
-- **[Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**
+### Circuits & Electronics
+- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**
 
 ### Computer System
 - **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**
