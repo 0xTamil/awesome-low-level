@@ -46,7 +46,7 @@
 
 ## 1. Learn Circuits & Electronics
 
-### What to study
+### What to do
 
 Learn these topics in order:
 
