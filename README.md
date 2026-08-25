@@ -476,6 +476,8 @@ However, the most important skill is understanding the underlying concepts. Once
 
 > Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
 
+[0xTamil](https://discord.gg/YZRknMKn2K)
+
 ---
 
 # License
