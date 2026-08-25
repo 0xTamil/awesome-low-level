@@ -46,8 +46,6 @@
 
 ## 1. Learn Circuits & Electronics
 
-> **Description:** Learn the basic principles behind digital hardware and understand how simple electronic components work together to perform computation.
-
 ### What to do
 
 Learn how basic logic gates such as **AND, OR, and NOT** are used to build combinational circuits. Then move on to **sequential logic**, including flip-flops and clock signals, which allow digital systems to store and update state.
@@ -61,8 +59,6 @@ Digital logic is the foundation of modern computer hardware. Understanding how c
 ---
 
 ## 2. Learn Computer Fundamentals
-
-> **Description:** Understand what happens inside a computer when a program runs and how hardware components work together to execute instructions and store information.
 
 ### What to do
 
@@ -85,8 +81,6 @@ A strong understanding of computer fundamentals helps you see what is happening 
 
 ## 3. Learn C & Memory
 
-> **Description:** Use C to explore how programs manage memory, represent data, and interact closely with the operating system and hardware.
-
 ### What to do
 
 Learn the **C programming language** with a strong focus on how memory works. Important topics include:
@@ -107,8 +101,6 @@ C gives you direct access to memory and exposes many concepts that are hidden by
 ---
 
 ## 4. Build Small Projects
-
-> **Description:** Turn theory into practical experience by building small programs that force you to work with memory, files, system interfaces, and debugging.
 
 ### What to do
 
@@ -135,8 +127,6 @@ Solving these problems helps you develop practical debugging and problem-solving
 ---
 
 ## 5. Study Algorithms & Data Structures
-
-> **Description:** Learn how to organize data efficiently and choose algorithms that make programs faster, use less memory, and scale better.
 
 ### What to do
 
@@ -173,8 +163,6 @@ Understanding these concepts is especially important in low-level programming, w
 
 ## 6. Pick a Specialized Field
 
-> **Description:** Choose a specific area of low-level programming and begin focusing your learning on the technologies, concepts, and projects used in that field.
-
 ### What to do
 
 Once you have a solid foundation, choose a specific area of low-level programming to explore further.
@@ -192,8 +180,6 @@ Choosing a specialization gives you a clearer direction and helps you decide whi
 ---
 
 ## 7. Learn Modern Systems Languages *(Optional)*
-
-> **Description:** Explore other systems programming languages to discover different approaches to performance, abstraction, memory management, and software design.
 
 ### What to do
 
@@ -326,16 +312,12 @@ However, the most important skill is understanding the underlying concepts. Once
 
 ## 1. Embedded Systems
 
-> **Description:** Write software that runs directly on dedicated hardware and interacts with physical devices, sensors, motors, and microcontrollers.
-
-### Overview
-
-Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
+> **Overview:** Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
 
-### Additional Resources
+### Addons
 
 - **[Learn STM32 Microcontroller Programming](https://www.youtube.com/watch?v=vKyL43qXPpk)**: A comprehensive course covering STM32 microcontroller programming.
 
@@ -343,11 +325,7 @@ Embedded programming involves writing software for devices that perform specific
 
 ## 2. FPGA Programming
 
-> **Description:** Design digital hardware by describing circuits and logic that can execute operations directly in programmable hardware.
-
-### Overview
-
-FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
+> **Overview:** FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
 
 - **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of FPGA resources, tools, HDLs, and project tutorials.
 - **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides and learning materials for developing custom programmable logic.
@@ -356,11 +334,7 @@ FPGA development is different from traditional programming because you are descr
 
 ## 3. Compilers & Interpreters
 
-> **Description:** Learn how programming languages are transformed from source code into executable instructions or interpreted at runtime.
-
-### Overview
-
-Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
+> **Overview:** Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
 
 - **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for compiler and runtime development.
 
@@ -368,11 +342,7 @@ Compiler and interpreter development explores how programming languages work int
 
 ## 4. Operating Systems Development
 
-> **Description:** Build software that manages hardware resources and provides the fundamental services required by applications.
-
-### Overview
-
-Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
+> **Overview:** Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
 
 - **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, tutorials, and project resources for operating system development.
 
@@ -380,11 +350,7 @@ Operating systems development involves working directly with processor architect
 
 ## 5. GPGPU & Parallel Computing
 
-> **Description:** Use many processing units simultaneously to solve large computational problems faster than traditional sequential programs.
-
-### Overview
-
-GPGPU programming uses graphics processors for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
+> **Overview:** GPGPU programming uses graphics processors for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
 
 - **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for GPU computing.
 - **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: Resources covering GPU architecture and parallel computing.
@@ -393,11 +359,7 @@ GPGPU programming uses graphics processors for general-purpose computation. GPUs
 
 ## 6. Graphics Programming
 
-> **Description:** Build the software and rendering systems that transform mathematical scene data into 2D and 3D images.
-
-### Overview
-
-Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
+> **Overview:** Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
 
 - **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated resources covering graphics mathematics, rendering, and engine development.
 
@@ -405,11 +367,7 @@ Graphics programming combines programming, mathematics, and GPU hardware. You wo
 
 ## 7. Game Engine Development
 
-> **Description:** Build the reusable software systems that handle the technical foundation of games.
-
-### Overview
-
-Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
+> **Overview:** Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
 
 - **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: Books, tutorials, libraries, and resources for building game engines.
 - **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: A collection of open-source game engines and reference implementations.
@@ -418,11 +376,7 @@ Game engine development combines multiple low-level disciplines. A game engine m
 
 ## 8. Network Systems Programming
 
-> **Description:** Build software that communicates efficiently across networks using low-level protocols, sockets, asynchronous I/O, and packet processing.
-
-### Overview
-
-Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
+> **Overview:** Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
 
 - **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
 - **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
