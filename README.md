@@ -46,15 +46,61 @@
 
 ## 1. Learn Circuits & Electronics
 
-### What to do
+### What to study
 
-Learn how basic logic gates such as **AND, OR, and NOT** are used to build combinational circuits. Then move on to **sequential logic**, including flip-flops and clock signals, which allow digital systems to store and update state.
+Learn these topics in order:
 
-Study **Finite State Machines (FSMs)** to understand how systems transition between different states based on inputs and clock cycles.
+1. **Basic Electronics**
+   - Voltage, current, and resistance
+   - Electrical circuits
+   - Digital and analog signals
+
+2. **Bits & Binary**
+   - What a bit is
+   - `0` and `1`
+   - Bytes
+   - Binary and hexadecimal numbers
+   - Binary arithmetic
+
+3. **Logic Gates**
+   - AND, OR, NOT
+   - XOR, NAND, and NOR
+   - Truth tables
+   - Boolean logic
+
+4. **Combinational Logic**
+   - How logic gates are combined
+   - Adders and subtractors
+   - Multiplexers
+   - Encoders and decoders
+   - Comparators
+
+5. **Sequential Logic**
+   - Why computers need memory
+   - Latches
+   - Flip-flops
+   - Registers
+   - Counters
+   - Clock signals
+   - Timing
+
+6. **Finite State Machines**
+   - States
+   - Inputs and outputs
+   - State transitions
+   - State diagrams
+   - Synchronous state machines
+
+7. **Basic Computer Hardware**
+   - ALU
+   - Registers
+   - Control unit
+   - CPU basics
+   - How digital circuits come together to build a processor
 
 ### Why it matters
 
-Digital logic is the foundation of modern computer hardware. Understanding how circuits process inputs, store state, and synchronize operations gives you a stronger mental model for low-level programming, hardware interaction, and stateful systems.
+Digital computers are built from these basic concepts. Learning **bits, logic gates, circuits, memory, state machines, and CPUs** gives you a clear understanding of how computer hardware works.
 
 ---
 
