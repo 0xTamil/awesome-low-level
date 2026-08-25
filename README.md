@@ -1,38 +1,142 @@
 # Awesome Low Level
 
-## Roadmap
+# Roadmap
 
-If you are new to low-level programming, follow these steps:
+## 1. Learn Circuits & Electronics
 
-1. Learn Circuits & Electronics
+### What to do
+Learn how basic logic gates such as **AND, OR, and NOT** are used to build combinational circuits. Then move on to **sequential logic**, including flip-flops and clock signals, which allow digital systems to store and update state. Study **Finite State Machines (FSMs)** to understand how systems transition between different states based on inputs and clock cycles.
 
-- What to do: Learn how logic gates such as AND, OR, and NOT are used to build combinational circuits. Then learn sequential logic, including flip-flops and clock signals, which allow digital systems to store and update state. Study Finite State Machines (FSMs) to understand how a system changes between different states based on inputs and clock cycles.
+### Why it matters
+Digital logic is the foundation of modern computer hardware. Understanding how circuits process inputs, store state, and synchronize operations gives you a stronger mental model for low-level programming, hardware interaction, and stateful systems.
 
-- Why it matters: Digital logic is the foundation of modern computer hardware. Understanding how circuits store state, process inputs, and synchronize operations with clock cycles gives you a stronger mental model for low-level programming, hardware interaction, and stateful systems.
+---
 
-2. **Learn Computer Fundamentals**
-   * **What to do:** Understand how computers read data and execute instructions. Learn basic programming rules like variables, loops, logic, and how your code actually talks to hardware components like the CPU and RAM.
-   * **Why it matters:** Building a strong mental model of how computer memory and hardware work together makes learning any system language much easier later on.
+## 2. Learn Computer Fundamentals
 
-3. **Learn C & Memory**
-   * **What to do:** Learn the **C programming language** deeply. Focus on core low-level topics: managing memory manually, using pointers (variables that store memory addresses), doing pointer arithmetic, and allocation (`malloc` and `free`).
-   * **Why it matters:** C is the foundational language of systems programming. It strips away hidden abstractions and gives you direct control over memory, forcing you to understand exactly how software interacts with computer hardware.
+### What to do
+Understand the basic components of a computer and how they work together. Learn how the **CPU executes instructions**, how **RAM stores data**, and how programs are represented and processed by a computer.
 
-4. **Build Small Projects**
-   * **What to do:** Put your C knowledge to work by building tiny, practical command-line interface (CLI) tools. Build things like a custom file reader, a simple memory-logging tool, a text file parser, or a basic shell utility.
-   * **Why it matters:** Writing code from scratch is the fastest way to catch memory leaks, fix pointer bugs, and learn how real programs interact with the operating system.
+You should also understand fundamental programming concepts such as:
 
-5. **Study Algorithms & Data Structures**
-   * **What to do:** Learn standard ways to organize data (like linked lists, arrays, stacks, queues, and trees) and key techniques to process that data (like sorting, searching, and recursion).
-   * **Why it matters:** Hardware has limits. Choosing the right data structure and algorithm ensures your low-level code runs fast, uses minimal RAM, and handles big workloads cleanly.
+- Variables and data types
+- Conditions and logic
+- Loops
+- Functions
+- Basic input and output
+- How programs interact with memory and hardware
 
-6. **Pick a Specialized Field**
-   * **What to do:** Decide what kind of low-level software you want to build. Pick one focused domain to explore next.
-   * **Why it matters:** Low-level programming is a massive field. Picking a specific path gives you a clear target and helps you choose the exact tools and projects to build next.
+### Why it matters
+A strong understanding of how computers execute programs makes systems programming much easier. It helps you understand what actually happens when your code runs instead of treating the computer as a black box.
 
-7. **Learn Modern Systems Languages (Optional)**
-   * **What to do:** Expand your skills beyond C by exploring modern systems programming languages like **C++, Rust, Zig, or Odin** or choose to **stick with C**, as it remains fully powerful and relevant for almost all low-level domains.
-   * **Why it matters:** While C is all you strictly need, learning modern languages introduces extra toolsets like object-oriented design in C++, automatic memory safety in Rust, or streamlined syntax and memory control in Zig and Odin.
+---
+
+## 3. Learn C & Memory
+
+### What to do
+Learn the **C programming language** deeply, with a strong focus on how memory works. Important topics include:
+
+- Pointers and memory addresses
+- Pointer arithmetic
+- Stack and heap memory
+- Manual memory management
+- Dynamic memory allocation using `malloc`, `calloc`, `realloc`, and `free`
+- Structs and memory layout
+- Arrays and strings
+- Undefined behavior
+
+### Why it matters
+C gives you direct control over memory and exposes many of the concepts hidden by higher-level languages. Learning C helps you understand how software interacts with memory, the operating system, and hardware.
+
+---
+
+## 4. Build Small Projects
+
+### What to do
+Apply your knowledge by building small but practical projects. Start with simple command-line tools and gradually increase their complexity.
+
+Examples:
+
+- A custom file reader
+- A text file parser
+- A simple memory logging tool
+- A basic shell utility
+- A calculator
+- A simple command-line text editor
+- A small memory allocator
+
+Focus on understanding how your program interacts with memory, files, and the operating system.
+
+### Why it matters
+Building projects is one of the fastest ways to discover gaps in your understanding. You will encounter real problems such as memory leaks, pointer bugs, invalid memory access, and file handling issues.
+
+Solving these problems helps you develop practical debugging and problem-solving skills.
+
+---
+
+## 5. Study Algorithms & Data Structures
+
+### What to do
+Learn common ways to organize and process data.
+
+Important data structures include:
+
+- Arrays
+- Linked lists
+- Stacks
+- Queues
+- Hash tables
+- Trees
+- Graphs
+
+Also study important algorithmic concepts such as:
+
+- Searching
+- Sorting
+- Recursion
+- Iteration
+- Time complexity
+- Space complexity
+
+Try implementing these data structures yourself in C rather than only using library implementations.
+
+### Why it matters
+Hardware resources are limited. Choosing the right data structure and algorithm can significantly affect how fast a program runs and how much memory it uses.
+
+Understanding these concepts is especially important in low-level programming, where performance and memory usage often matter.
+
+---
+
+## 6. Pick a Specialized Field
+
+### What to do
+Once you have a solid foundation, choose a specific area of low-level programming to explore further.
+
+Start building projects related to the area that interests you the most.
+
+### Why it matters
+Low-level programming is a massive field. You do not need to learn everything at once.
+
+Choosing a specialization gives you a clearer direction and helps you decide which technologies, concepts, and projects are most relevant to your goals.
+
+---
+
+## 7. Learn Modern Systems Languages *(Optional)*
+
+### What to do
+After developing a strong understanding of C and low-level concepts, you can explore other systems programming languages such as:
+
+- **C++** — More abstraction, object-oriented programming, generic programming, and modern language features.
+- **Rust** — Strong memory safety guarantees without relying on a garbage collector.
+- **Zig** — Explicit control, simple language design, and strong interoperability with C.
+- **Odin** — A straightforward language focused on simplicity and systems programming.
+
+You can also choose to continue focusing on **C**. Learning another language is useful, but it is not required to become a strong low-level programmer.
+
+### Why it matters
+Different languages provide different tools and approaches to systems programming. Learning them can expose you to new ideas about memory safety, abstraction, performance, and software design.
+
+However, the most important skill is understanding the underlying concepts. Once you understand how computers, memory, and systems work, learning another systems programming language becomes much easier.
 
 ---
 
