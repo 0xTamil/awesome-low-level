@@ -52,13 +52,13 @@ Learn these topics in order:
 
 1. **Basic Electronics**
    - [Voltage, current, and resistance (Ohm's Law)](https://en.wikipedia.org/wiki/Ohm's_law)
-   - [Electrical circuits](https://en.wikipedia.org/wiki/Electronic_circuit)
+   - [Electronic circuits](https://en.wikipedia.org/wiki/Electronic_circuit)
    - [Digital and analog signals](https://en.wikipedia.org/wiki/Signal_processing)
 
 2. **Bits & Binary**
    - [What a bit is](https://en.wikipedia.org/wiki/Bit)
    - [Bytes](https://en.wikipedia.org/wiki/Byte)
-   - [Binary](https://en.wikipedia.org/wiki/Binary_number) and [hexadecimal numbers](https://en.wikipedia.org/wiki/Hexadecimal)
+   - [Binary](https://en.wikipedia.org/wiki/Binary_number) and [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) numbers
    - [Binary arithmetic](https://commons.wikimedia.org/wiki/Category:Binary_arithmetic)
 
 3. **Logic Gates**
