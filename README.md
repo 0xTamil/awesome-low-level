@@ -428,6 +428,14 @@ However, the most important skill is understanding the underlying concepts. Once
 
 ---
 
+## 9. Cybersecurity
+
+> **Overview:** Cybersecurity focuses on understanding how computer systems, networks, applications, and data can be protected from attacks and unauthorized access. It involves operating system security, networking, cryptography, vulnerability analysis, secure programming, reverse engineering, digital forensics, and penetration testing.
+
+- **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
+- **[Awesome List](https://github.com/0xor0ne/awesome-list)**: Collection of awesome blog posts, write-ups, and papers focusing on cybersecurity.
+
+
 # Recommended Creators
 
 > A collection of creators who cover topics related to systems programming, low-level development, mathematics, graphics, software engineering, and game engine development.
