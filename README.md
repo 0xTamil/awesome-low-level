@@ -308,7 +308,7 @@ However, the most important skill is understanding the underlying concepts. Once
 
 > C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
 
-- **[How to Start C++ Development?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
+- **[How to Start C++ Development ?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
 - **[Learn C++](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 - **[Hacking C++](https://hackingcpp.com/index.html)**: Visual guides, diagrams, and references for modern C++.
 - **[C++ By Example](https://cppbyexample.com/)**: Concise examples demonstrating C++ syntax and language features.
