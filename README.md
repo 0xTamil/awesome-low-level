@@ -56,7 +56,7 @@ Learn these topics in order:
    - [Digital and analog signals](https://en.wikipedia.org/wiki/Signal_processing)
 
 2. **Bits & Binary**
-   - [What a bit is](https://en.wikipedia.org/wiki/Bit)
+   - [What a bit is ?](https://en.wikipedia.org/wiki/Bit)
    - [Bytes](https://en.wikipedia.org/wiki/Byte)
    - [Binary](https://en.wikipedia.org/wiki/Binary_number) and [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) numbers
    - [Binary arithmetic](https://commons.wikimedia.org/wiki/Category:Binary_arithmetic)
@@ -69,14 +69,14 @@ Learn these topics in order:
    - [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
 
 4. **Combinational Logic**
-   - [How logic gates are combined](https://en.wikipedia.org/wiki/Combinational_logic)
+   - [How logic gates are combined ?](https://en.wikipedia.org/wiki/Combinational_logic)
    - [Adders](https://en.wikipedia.org/wiki/Adder_(electronics)) and [subtractors](https://en.wikipedia.org/wiki/Subtractor)
    - [Multiplexers](https://en.wikipedia.org/wiki/Multiplexer)
    - [Encoders](https://en.wikipedia.org/wiki/Encoder_(digital)) and [decoders](https://en.wikipedia.org/wiki/Binary_decoder)
    - [Comparators](https://en.wikipedia.org/wiki/Digital_comparator)
 
 5. **Sequential Logic**
-   - [Why computers need memory](https://en.wikipedia.org/wiki/Sequential_logic)
+   - [How memory works in circuit level ?](https://en.wikipedia.org/wiki/Sequential_logic)
    - [Flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
    - [Counters](https://en.wikipedia.org/wiki/Counter_(digital))
    - [Clock signals](https://en.wikipedia.org/wiki/Clock_signal)
