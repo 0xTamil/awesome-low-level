@@ -308,8 +308,6 @@ However, the most important skill is understanding the underlying concepts. Once
 
 # Specialized Fields
 
-> Explore specific areas of low-level and systems programming. Each field focuses on a different layer of computing, from embedded hardware and operating systems to graphics, compilers, networking, and parallel computation.
-
 ## 1. Embedded Systems
 
 > **Overview:** Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
