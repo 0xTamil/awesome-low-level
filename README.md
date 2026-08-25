@@ -472,8 +472,15 @@ However, the most important skill is understanding the underlying concepts. Once
 
 ---
 
+# Discord
+
+> Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
+
+---
+
 # License
 
 > This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
