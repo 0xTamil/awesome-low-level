@@ -50,41 +50,41 @@
 
 Learn these topics in order:
 
-1. **Basic Electronics**
+### 1. **Basic Electronics**
    - [Voltage, current, and resistance (Ohm's Law)](https://en.wikipedia.org/wiki/Ohm's_law)
    - [Electronic circuits](https://en.wikipedia.org/wiki/Electronic_circuit)
    - [Digital and analog signals](https://en.wikipedia.org/wiki/Signal_processing)
 
-2. **Bits & Binary**
+### 2. **Bits & Binary**
    - [What a bit is ?](https://en.wikipedia.org/wiki/Bit)
    - [Bytes](https://en.wikipedia.org/wiki/Byte)
    - [Binary](https://en.wikipedia.org/wiki/Binary_number) and [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) numbers
    - [Binary arithmetic](https://commons.wikimedia.org/wiki/Category:Binary_arithmetic)
 
-3. **Logic Gates**
+### 3. **Logic Gates**
    - [Basic Gates](https://en.wikipedia.org/wiki/Logic_gate)
    - [Truth tables](https://en.wikipedia.org/wiki/Logic_gate#Truth_tables)
    - [K-map](https://en.wikipedia.org/wiki/Karnaugh_map)
    - [De Morgan Theorem](https://en.wikipedia.org/wiki/De_Morgan's_laws)
    - [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
 
-4. **Combinational Logic**
+### 4. **Combinational Logic**
    - [How logic gates are combined ?](https://en.wikipedia.org/wiki/Combinational_logic)
    - [Adders](https://en.wikipedia.org/wiki/Adder_(electronics)) and [subtractors](https://en.wikipedia.org/wiki/Subtractor)
    - [Multiplexers](https://en.wikipedia.org/wiki/Multiplexer)
    - [Encoders](https://en.wikipedia.org/wiki/Encoder_(digital)) and [decoders](https://en.wikipedia.org/wiki/Binary_decoder)
    - [Comparators](https://en.wikipedia.org/wiki/Digital_comparator)
 
-5. **Sequential Logic**
+### 5. **Sequential Logic**
    - [How memory works in circuit level ?](https://en.wikipedia.org/wiki/Sequential_logic)
    - [Flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
    - [Counters](https://en.wikipedia.org/wiki/Counter_(digital))
    - [Clock signals](https://en.wikipedia.org/wiki/Clock_signal)
 
-6. **Finite State Machines**
+### 6. **Finite State Machines**
    - [States](https://en.wikipedia.org/wiki/Finite-state_machine)
 
-7. **Microprocessor**
+### 7. **Microprocessor**
    - [ALU](https://en.wikipedia.org/wiki/Arithmetic_logic_unit)
    - [Registers](https://en.wikipedia.org/wiki/Processor_register)
    - [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
