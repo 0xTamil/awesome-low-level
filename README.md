@@ -2,7 +2,7 @@
 
 ## Roadmap
 
-If you are new to low-level programming, follow these core steps:
+If you are new to low-level programming, follow these steps:
 
 1. **Learn Circuits & Electronics**
    * **What to do:** Learn how logic gates (AND, OR, NOT) build combinational circuits, and how sequential logic (flip-flops, clock signals) allows systems to store memory. Learn about Finite State Machines (FSMs) to model how systems transition between different states based on inputs.
@@ -55,7 +55,6 @@ If you are new to low-level programming, follow these core steps:
 
 ### C Programming
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A clear guide to practical C development and the standard library.
-- **[C Programming: A Modern Approach](https://knking.com/books/c2/)**: A detailed textbook widely considered the best standard reference for C beginners.
 - **[The C Book](http://knking.com/books/c2/index.html)**: A reference book covering foundational C concepts.
 - **[The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)**: The original, concise introduction to C written by its creators.
 - **[Learn C](https://learn-c.org/)**: Interactive browser-based tutorials for writing and testing C code.
