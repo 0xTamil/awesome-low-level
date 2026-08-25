@@ -1,6 +1,8 @@
 # Awesome Low Level
 
-A curated collection of resources for learning low-level programming, computer systems, and specialized systems programming fields.
+> A curated collection of resources for learning low-level programming, computer systems, and systems-oriented software development. It covers the fundamentals of how computers work, practical programming foundations, and specialized fields such as operating systems, graphics, embedded systems, compilers, and more.
+
+---
 
 ## Table of Contents
 
@@ -11,14 +13,14 @@ A curated collection of resources for learning low-level programming, computer s
   - [4. Build Small Projects](#4-build-small-projects)
   - [5. Study Algorithms & Data Structures](#5-study-algorithms--data-structures)
   - [6. Pick a Specialized Field](#6-pick-a-specialized-field)
-  - [7. Learn Modern Systems Languages (Optional)](#7-learn-modern-systems-languages-optional)
+  - [7. Learn Modern Systems Languages](#7-learn-modern-systems-languages-optional)
 - [Getting Started](#getting-started)
   - [Circuits & Electronics](#circuits--electronics)
   - [Computer Fundamentals](#computer-fundamentals)
 - [Core Foundations](#core-foundations)
   - [C Programming](#c-programming)
   - [Data Structures & Algorithms](#data-structures--algorithms)
-- [Other Systems Languages (Optional)](#other-systems-languages-optional)
+- [Other Systems Languages](#other-systems-languages-optional)
   - [C++](#c)
   - [Rust](#rust)
   - [Zig](#zig)
@@ -40,11 +42,17 @@ A curated collection of resources for learning low-level programming, computer s
 
 # Roadmap
 
+> A suggested learning path for beginners who want to understand low-level programming from the ground up. The roadmap starts with digital logic and computer fundamentals before moving into memory, C programming, projects, algorithms, and eventually specialized areas of systems programming.
+
 ## 1. Learn Circuits & Electronics
+
+> **Description:** Learn the basic principles behind digital hardware and understand how simple electronic components work together to perform computation.
 
 ### What to do
 
-Learn how basic logic gates such as **AND, OR, and NOT** are used to build combinational circuits. Then move on to **sequential logic**, including flip-flops and clock signals, which allow digital systems to store and update state. Study **Finite State Machines (FSMs)** to understand how systems transition between different states based on inputs and clock cycles.
+Learn how basic logic gates such as **AND, OR, and NOT** are used to build combinational circuits. Then move on to **sequential logic**, including flip-flops and clock signals, which allow digital systems to store and update state.
+
+Study **Finite State Machines (FSMs)** to understand how systems transition between different states based on inputs and clock cycles.
 
 ### Why it matters
 
@@ -54,9 +62,11 @@ Digital logic is the foundation of modern computer hardware. Understanding how c
 
 ## 2. Learn Computer Fundamentals
 
+> **Description:** Understand what happens inside a computer when a program runs and how hardware components work together to execute instructions and store information.
+
 ### What to do
 
-Understand the basic components of a computer and how they work together. Learn how the **CPU executes instructions**, how **RAM stores data**, and how programs are represented and processed by a computer.
+Learn the purpose of major computer components such as the **CPU, RAM, storage, and input/output devices**. Understand how the CPU executes instructions, how data is stored in memory, and how programs are represented inside a computer.
 
 You should also understand fundamental programming concepts such as:
 
@@ -69,15 +79,17 @@ You should also understand fundamental programming concepts such as:
 
 ### Why it matters
 
-A strong understanding of how computers execute programs makes systems programming much easier. It helps you understand what actually happens when your code runs instead of treating the computer as a black box.
+A strong understanding of computer fundamentals helps you see what is happening beneath your code. Instead of treating the computer as a black box, you begin to understand how instructions, memory, and hardware work together.
 
 ---
 
 ## 3. Learn C & Memory
 
+> **Description:** Use C to explore how programs manage memory, represent data, and interact closely with the operating system and hardware.
+
 ### What to do
 
-Learn the **C programming language** deeply, with a strong focus on how memory works. Important topics include:
+Learn the **C programming language** with a strong focus on how memory works. Important topics include:
 
 - Pointers and memory addresses
 - Pointer arithmetic
@@ -90,11 +102,13 @@ Learn the **C programming language** deeply, with a strong focus on how memory w
 
 ### Why it matters
 
-C gives you direct control over memory and exposes many of the concepts hidden by higher-level languages. Learning C helps you understand how software interacts with memory, the operating system, and hardware.
+C gives you direct access to memory and exposes many concepts that are hidden by higher-level languages. Learning C helps you understand how data is represented in memory and how software interacts with the operating system and hardware.
 
 ---
 
 ## 4. Build Small Projects
+
+> **Description:** Turn theory into practical experience by building small programs that force you to work with memory, files, system interfaces, and debugging.
 
 ### What to do
 
@@ -114,13 +128,15 @@ Focus on understanding how your program interacts with memory, files, and the op
 
 ### Why it matters
 
-Building projects is one of the fastest ways to discover gaps in your understanding. You will encounter real problems such as memory leaks, pointer bugs, invalid memory access, and file handling issues.
+Projects reveal gaps that tutorials often hide. You will encounter real problems such as memory leaks, pointer bugs, invalid memory access, and file handling issues.
 
 Solving these problems helps you develop practical debugging and problem-solving skills.
 
 ---
 
 ## 5. Study Algorithms & Data Structures
+
+> **Description:** Learn how to organize data efficiently and choose algorithms that make programs faster, use less memory, and scale better.
 
 ### What to do
 
@@ -157,19 +173,27 @@ Understanding these concepts is especially important in low-level programming, w
 
 ## 6. Pick a Specialized Field
 
+> **Description:** Choose a specific area of low-level programming and begin focusing your learning on the technologies, concepts, and projects used in that field.
+
 ### What to do
 
-Once you have a solid foundation, choose a specific area of low-level programming to explore further. Start building projects related to the area that interests you the most.
+Once you have a solid foundation, choose a specific area of low-level programming to explore further.
+
+You can explore areas such as operating systems, graphics programming, embedded systems, compilers, FPGA programming, networking, parallel computing, or game engine development.
+
+Start building projects related to the area that interests you the most.
 
 ### Why it matters
 
-Low-level programming is a massive field. You do not need to learn everything at once.
+Low-level programming is a massive field, and you do not need to master everything at once.
 
 Choosing a specialization gives you a clearer direction and helps you decide which technologies, concepts, and projects are most relevant to your goals.
 
 ---
 
 ## 7. Learn Modern Systems Languages *(Optional)*
+
+> **Description:** Explore other systems programming languages to discover different approaches to performance, abstraction, memory management, and software design.
 
 ### What to do
 
@@ -192,175 +216,224 @@ However, the most important skill is understanding the underlying concepts. Once
 
 # Getting Started
 
+> Resources for building a basic understanding of digital electronics and computer systems before moving deeper into low-level programming.
+
 ## Circuits & Electronics
 
-- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**
+> Learn the fundamentals of electronic circuits, digital logic, and the physical principles that make modern computing hardware possible.
+
+- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
 
 ## Computer Fundamentals
 
-- **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**
-- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**
-- **[A Crash Course in Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)**
-- **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**
-- **[Teach Yourself CS](https://teachyourselfcs.com/)**
-- **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**
-- **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**
-- **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**
+> Learn how computers represent information, execute instructions, manage memory, and combine hardware and software to run programs.
+
+- **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
+- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
+- **[A Crash Course in Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)**: A video series covering the history and core concepts of computer science.
+- **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
+- **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
+- **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
+- **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: A complete community-driven curriculum for self-taught computer science learners.
+- **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A large collection of free computer science courses and educational resources.
 
 ---
 
 # Core Foundations
 
+> The essential programming and problem-solving knowledge needed before moving into more advanced systems programming topics.
+
 ## C Programming
 
-- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A clear guide to practical C development and the standard library.
-- **[The C Book](http://knking.com/books/c2/index.html)**: A reference book covering foundational C concepts.
-- **[The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)**: The original, concise introduction to C written by its creators.
-- **[Learn C](https://learn-c.org/)**: Interactive browser-based tutorials for writing and testing C code.
-- **[C FAQ](https://c-faq.com/)**: Practical answers to common questions, tricky bugs, and pointer memory rules.
+> Learn C as a systems programming language and develop a strong understanding of memory, pointers, data representation, and low-level software design.
+
+- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
+- **[The C Book](http://knking.com/books/c2/index.html)**: A reference covering foundational C programming concepts.
+- **[The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)**: A classic introduction to the C programming language.
+- **[Learn C](https://learn-c.org/)**: Interactive browser-based tutorials for learning and practicing C.
+- **[C FAQ](https://c-faq.com/)**: Answers to common C questions, including pointers, memory management, and language behavior.
 - **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
 
 ## Data Structures & Algorithms
 
-- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms resources with exercises.
-- **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly guide to organizing and processing data.
-- **[VisuAlgo](https://visualgo.net/)**: Animated visual tools showing how algorithms sort and search data.
-- **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: Free university lectures covering algorithmic design and efficiency.
-- **[Algorithm Visualizer](https://algorithm-visualizer.org/)**: An interactive platform that animates code execution step by step.
-- **[Algorithms (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/home/)**: A detailed textbook covering classic algorithms and data structures.
+> Learn how to organize data and design efficient solutions by understanding common data structures, algorithms, and computational complexity.
+
+- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
+- **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
+- **[VisuAlgo](https://visualgo.net/)**: Interactive visualizations of common data structures and algorithms.
+- **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
+- **[Algorithm Visualizer](https://algorithm-visualizer.org/)**: An interactive tool that visualizes algorithm execution.
+- **[Algorithms (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/home/)**: A detailed textbook and collection of resources covering algorithms and data structures.
 
 ---
 
 # Other Systems Languages *(Optional)*
 
+> Once you understand the foundations of systems programming, exploring other languages can help you compare different approaches to memory management, safety, abstraction, and performance.
+
 ## C++
 
-- **[How to Start C++ Development?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up compilers, build systems, and environments.
-- **[Learn C++](https://www.learncpp.com/)**: Comprehensive step-by-step tutorials covering beginner to advanced C++.
-- **[Hacking C++](https://hackingcpp.com/index.html)**: Visual diagrams and cheat sheets for modern C++ standards.
-- **[C++ By Example](https://cppbyexample.com/)**: Concise code snippets demonstrating modern C++ syntax and features.
+> C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
+
+- **[How to Start C++ Development?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
+- **[Learn C++](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
+- **[Hacking C++](https://hackingcpp.com/index.html)**: Visual guides, diagrams, and references for modern C++.
+- **[C++ By Example](https://cppbyexample.com/)**: Concise examples demonstrating C++ syntax and language features.
 - **[C++ Reference](https://en.cppreference.com/w/)**: A comprehensive reference for C++ language features and the standard library.
-- **[Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)**: A practical summary of features added in C++11 and newer versions.
-- **[C++ Programming Exercises](https://www.w3resource.com/cpp-exercises/)**: Coding challenges with worked solutions to test your understanding.
-- **[Project Euler](https://projecteuler.net/about)**: Logic and mathematics problems designed to be solved with code.
-- **[Cpp Quiz](https://cppquiz.org/)**: Multiple-choice quizzes testing your knowledge of C++ language rules.
-- **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: Resources on structuring memory layout for CPU performance.
-- **[Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)**: A collection of useful bitwise operations and low-level tricks.
+- **[Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)**: A summary of important features introduced in modern C++ standards.
+- **[C++ Programming Exercises](https://www.w3resource.com/cpp-exercises/)**: Exercises for practicing C++ programming.
+- **[Project Euler](https://projecteuler.net/about)**: Mathematical and logical programming challenges.
+- **[Cpp Quiz](https://cppquiz.org/)**: Quizzes focused on C++ language rules and behavior.
+- **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: Resources about organizing data for performance and cache efficiency.
+- **[Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)**: A collection of useful bitwise operations and low-level programming techniques.
 
 ## Rust
 
-- **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official book covering memory safety, ownership, and concurrency.
-- **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on programming exercises to practice Rust syntax.
-- **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**: Runnable code examples demonstrating Rust features.
-- **[Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)**: Learn advanced memory handling in Rust by building list structures.
-- **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)**: An advanced guide to writing unsafe Rust and raw memory operations.
-- **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**: A curated list of popular Rust libraries, frameworks, and tools.
+> Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
+
+- **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official Rust book covering ownership, borrowing, memory safety, and concurrency.
+- **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on exercises for practicing Rust.
+- **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**: Runnable examples demonstrating Rust features.
+- **[Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)**: Learn advanced memory concepts by implementing linked data structures.
+- **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)**: An advanced guide to unsafe Rust and low-level memory operations.
+- **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**: A curated collection of Rust libraries, tools, and resources.
 
 ## Zig
 
-- **[Zig Learn](https://ziglearn.org/)**: A structured step-by-step guide to Zig syntax and manual memory control.
-- **[Zig Language Reference](https://ziglang.org/documentation/master/)**: The official documentation covering Zig tools and language features.
-- **[Ziglings](https://codeberg.org/ziglings/exercises)**: Interactive broken-code exercises designed to teach Zig syntax.
-- **[Learning Zig](https://pedropark99.github.io/zig-book/)**: A guide explaining low-level systems concepts using Zig.
-- **[Awesome Zig](https://github.com/zigcc/awesome-zig)**: A community repository of useful tools, engines, and starter projects.
+> Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
+
+- **[Zig Learn](https://ziglearn.org/)**: A structured guide to learning Zig syntax and manual memory management.
+- **[Zig Language Reference](https://ziglang.org/documentation/master/)**: Official documentation covering Zig's language features and tooling.
+- **[Ziglings](https://codeberg.org/ziglings/exercises)**: Interactive exercises designed to teach Zig through broken code.
+- **[Learning Zig](https://pedropark99.github.io/zig-book/)**: A guide to learning systems programming concepts with Zig.
+- **[Awesome Zig](https://github.com/zigcc/awesome-zig)**: A curated collection of Zig libraries, tools, and projects.
 
 ## Odin
 
-- **[Odin Overview](https://odin-lang.org/docs/overview/)**: An overview of Odin's syntax, design goals, and memory control.
-- **[Odin Demo Program](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)**: A single code file demonstrating many Odin language features.
-- **[Understanding the Odin Programming Language](https://odinbook.com/)**: An introductory book on developing systems with Odin.
-- **[Learn Odin in Y Minutes](https://learnxinyminutes.com/odin/)**: A concise syntax cheat sheet for quick reference.
-- **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**: A collection of game engines, libraries, and resources built with Odin.
+> Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
+
+- **[Odin Overview](https://odin-lang.org/docs/overview/)**: An introduction to Odin's syntax, design philosophy, and memory management.
+- **[Odin Demo Program](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)**: A demonstration program covering many Odin language features.
+- **[Understanding the Odin Programming Language](https://odinbook.com/)**: An introductory resource for learning Odin.
+- **[Learn Odin in Y Minutes](https://learnxinyminutes.com/odin/)**: A concise overview of Odin syntax.
+- **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**: A collection of Odin libraries, tools, and community resources.
 
 ---
 
 # Specialized Fields
 
+> Explore specific areas of low-level and systems programming. Each field focuses on a different layer of computing, from embedded hardware and operating systems to graphics, compilers, networking, and parallel computation.
+
 ## 1. Embedded Systems
 
-> **Overview:**  
-> Embedded programming means writing code that runs on microcontrollers, sensors, and chips inside physical devices instead of standard PCs. You work directly with hardware interfaces to control systems found in devices such as smart appliances, vehicles, and industrial equipment.
+> **Description:** Write software that runs directly on dedicated hardware and interacts with physical devices, sensors, motors, and microcontrollers.
+
+### Overview
+
+Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
-- **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running custom Linux systems on embedded hardware.
+- **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
 
-> **Additional Resources:**
-- **[Learn STM32 Microcontroller Programming](https://www.youtube.com/watch?v=vKyL43qXPpk)**: A comprehensive course covering STM32 programming.
+### Additional Resources
+
+- **[Learn STM32 Microcontroller Programming](https://www.youtube.com/watch?v=vKyL43qXPpk)**: A comprehensive course covering STM32 microcontroller programming.
 
 ---
 
 ## 2. FPGA Programming
 
-> **Overview:**  
-> FPGA programming means designing and configuring digital hardware circuits instead of writing conventional software for a CPU. You describe hardware that can perform many operations in parallel and is used in areas such as signal processing, networking, research, and hardware prototyping.
+> **Description:** Design digital hardware by describing circuits and logic that can execute operations directly in programmable hardware.
 
-- **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of hardware development resources, FPGA tools, HDLs, and project tutorials.
-- **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides, toolchains, and learning materials for developing custom logic circuits.
+### Overview
+
+FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
+
+- **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of FPGA resources, tools, HDLs, and project tutorials.
+- **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides and learning materials for developing custom programmable logic.
 
 ---
 
 ## 3. Compilers & Interpreters
 
-> **Overview:**  
-> Compiler development involves building tools that transform source code into executable programs or intermediate representations. You learn how programming languages process text, represent programs internally, optimize code, and generate instructions for computer hardware.
+> **Description:** Learn how programming languages are transformed from source code into executable instructions or interpreted at runtime.
 
-- **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for building compilers and runtime systems.
+### Overview
+
+Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
+
+- **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for compiler and runtime development.
 
 ---
 
 ## 4. Operating Systems Development
 
-> **Overview:**  
-> Operating systems development involves building the system software that manages computer hardware and provides services to applications. You work with memory management, scheduling, file systems, drivers, interrupts, and processor architecture.
+> **Description:** Build software that manages hardware resources and provides the fundamental services required by applications.
 
-- **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, technical tutorials, and project repositories for building custom operating systems.
+### Overview
+
+Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
+
+- **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, tutorials, and project resources for operating system development.
 
 ---
 
 ## 5. GPGPU & Parallel Computing
 
-> **Overview:**  
-> GPGPU means using graphics processing hardware for general-purpose computation. GPUs can execute large numbers of similar operations in parallel, making them useful for areas such as scientific computing, simulations, machine learning, and large-scale numerical processing.
+> **Description:** Use many processing units simultaneously to solve large computational problems faster than traditional sequential programs.
 
-- **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for general-purpose parallel computing on GPUs.
-- **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: A collection of resources on GPU architecture and parallel computing.
+### Overview
+
+GPGPU programming uses graphics processors for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
+
+- **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for GPU computing.
+- **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: Resources covering GPU architecture and parallel computing.
 
 ---
 
 ## 6. Graphics Programming
 
-> **Overview:**  
-> Graphics programming involves writing software that renders 2D and 3D images. You work with mathematics, rendering pipelines, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, or DirectX.
+> **Description:** Build the software and rendering systems that transform mathematical scene data into 2D and 3D images.
 
-- **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated mathematics tutorials, rendering guides, and engine development resources.
+### Overview
+
+Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
+
+- **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated resources covering graphics mathematics, rendering, and engine development.
 
 ---
 
 ## 7. Game Engine Development
 
-> **Overview:**  
-> Game engine development involves building the underlying systems used to create and run games. This can include graphics, physics, audio, input, resource loading, memory management, and other engine systems.
+> **Description:** Build the reusable software systems that handle the technical foundation of games.
 
-- **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: A curated collection of books, tutorials, libraries, and resources for building custom game engines.
-- **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: An organized directory of open-source game engines and reference implementations.
+### Overview
+
+Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
+
+- **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: Books, tutorials, libraries, and resources for building game engines.
+- **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: A collection of open-source game engines and reference implementations.
 
 ---
 
 ## 8. Network Systems Programming
 
-> **Overview:**  
-> Network systems programming involves building software that communicates across computer networks. You work with sockets, protocols such as TCP and UDP, asynchronous I/O, packet processing, and network performance.
+> **Description:** Build software that communicates efficiently across networks using low-level protocols, sockets, asynchronous I/O, and packet processing.
 
-- **[Awesome Networking](https://github.com/facyber/awesome-networking)**: A collection of books, courses, protocols, and tutorials for learning computer networking.
-- **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for designing, operating, and understanding computer networks.
-- **[Awesome Network Programmability](https://github.com/cisco-ie/awesome-network-programmability)**: Libraries and guides focused on automating network devices and building network software.
-- **[Awesome Game Networking](https://github.com/rumaniel/Awesome-Game-Networking)**: Resources and articles for building multiplayer network systems.
+### Overview
+
+Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
+
+- **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
+- **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
+- **[Awesome Network Programmability](https://github.com/cisco-ie/awesome-network-programmability)**: Libraries and guides for network automation and programmable networking.
+- **[Awesome Game Networking](https://github.com/rumaniel/Awesome-Game-Networking)**: Resources for building multiplayer and real-time networked applications.
 
 ---
 
 # Recommended Creators
 
-Technical channels focusing on low-level systems engineering, software architecture, mathematics, and engine development:
+> A collection of creators who cover topics related to systems programming, low-level development, mathematics, graphics, software engineering, and game engine development.
 
 - **[TsodingDaily](https://www.youtube.com/@TsodingDaily)**
 - **[ThePrimeTimeagen](https://www.youtube.com/@ThePrimeTimeagen)**
@@ -379,20 +452,22 @@ Technical channels focusing on low-level systems engineering, software architect
 
 # Web Interface
 
-Browse all resources in an interactive Wikipedia-style reference:
+> Browse the entire collection through an interactive, Wikipedia-inspired web interface designed to make discovering and filtering resources easier.
 
 **[Awesome Low Level Web Interface](https://0xtamil.github.io/awesome-low-level/)**
 
 ### Features
 
-- **Search & Filter**: Full-text search and multi-tag filtering by language, topic, or format.
-- **Roadmap**: A structured learning path for beginners.
-- **Bookmarks**: Save resources locally for quick access.
-- **Dark/Light Mode**: Wikipedia Vector 2022-style appearance controls.
-- **Mobile Responsive**: Optimized layout and search experience for mobile devices.
+- **Search & Filter**: Search resources and filter them by language, topic, or format.
+- **Roadmap**: Follow a structured learning path for low-level programming.
+- **Bookmarks**: Save useful resources locally for quick access.
+- **Dark/Light Mode**: Switch between appearance modes with a Wikipedia Vector 2022-inspired design.
+- **Mobile Responsive**: Use the resource collection comfortably on desktop and mobile devices.
 
 ---
 
 # License
+
+> This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
