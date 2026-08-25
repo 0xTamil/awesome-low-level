@@ -55,9 +55,7 @@
 
 ### What to do
 
-Learn from the physical behavior of electricity toward the basic building blocks of digital computers. You do not need to become an electrical engineer; the goal is to understand enough electronics to see how electrical signals can represent information and how those signals are combined to build computation and memory.
-
-Learn these topics in order:
+Start with the physical foundations of computing and gradually work toward understanding how a CPU is built. Learn how electricity and electronic circuits represent information, how binary values are manipulated using logic gates, how those gates are combined to perform calculations, and how circuits can store information and maintain state. Finally, learn how these building blocks come together to form a microprocessor and how a processor executes instructions.
 
 #### 1. **Basic Electronics**
    - [Voltage, current, and resistance (Ohm's Law)](https://en.wikipedia.org/wiki/Ohm's_law)
