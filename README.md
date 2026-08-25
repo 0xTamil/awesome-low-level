@@ -460,7 +460,7 @@ However, the most important skill is understanding the underlying concepts. Once
 
 > Browse the entire collection through an interactive, Wikipedia-inspired web interface designed to make discovering and filtering resources easier.
 
-**[Awesome Low Level Web Interface](https://0xtamil.github.io/awesome-low-level/)**
+**[Awesome Low Level](https://0xtamil.github.io/awesome-low-level/)**
 
 ### Features
 
