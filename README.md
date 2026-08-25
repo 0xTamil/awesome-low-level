@@ -8,7 +8,7 @@
 
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
-     - [1. Basic Electronics](#1-basic-electronics)
+      - [1. Basic Electronics](#1-basic-electronics)
       - [2. Bits & Binary](#2-bits--binary)
       - [3. Logic Gates](#3-logic-gates)
       - [4. Combinational Logic](#4-combinational-logic)
