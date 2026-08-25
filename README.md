@@ -4,9 +4,11 @@
 
 If you are new to low-level programming, follow these steps:
 
-1. **Learn Circuits & Electronics**
-   * **What to do:** Learn how [logic gates](https://en.wikipedia.org/wiki/Logic_gate) (AND, OR, NOT) build [combinational circuits](https://en.wikipedia.org/wiki/Combinational_logic), and how [sequential logic](https://en.wikipedia.org/wiki/Sequential_logic) ([flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics)), [clock signals](https://en.wikipedia.org/wiki/Clock_signal)) allows systems to store memory. Learn about [Finite State Machines (FSMs)](https://en.wikipedia.org/wiki/Finite-state_machine) to model how systems transition between different states based on inputs.
-   * **Why it matters:** FSMs and digital logic are the blueprint for all computational hardware. Understanding how state transitions and clock cycles work at the circuit level gives you the exact mental model needed to write stateful low-level code and control hardware devices.
+1. Learn Circuits & Electronics
+
+- What to do: Learn how logic gates such as AND, OR, and NOT are used to build combinational circuits. Then learn sequential logic, including flip-flops and clock signals, which allow digital systems to store and update state. Study Finite State Machines (FSMs) to understand how a system changes between different states based on inputs and clock cycles.
+
+- Why it matters: Digital logic is the foundation of modern computer hardware. Understanding how circuits store state, process inputs, and synchronize operations with clock cycles gives you a stronger mental model for low-level programming, hardware interaction, and stateful systems.
 
 2. **Learn Computer Fundamentals**
    * **What to do:** Understand how computers read data and execute instructions. Learn basic programming rules like variables, loops, logic, and how your code actually talks to hardware components like the CPU and RAM.
