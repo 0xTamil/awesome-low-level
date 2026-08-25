@@ -110,9 +110,7 @@ Understanding these concepts is especially important in low-level programming, w
 ## 6. Pick a Specialized Field
 
 ### What to do
-Once you have a solid foundation, choose a specific area of low-level programming to explore further.
-
-Start building projects related to the area that interests you the most.
+Once you have a solid foundation, choose a specific area of low-level programming to explore further. Start building projects related to the area that interests you the most.
 
 ### Why it matters
 Low-level programming is a massive field. You do not need to learn everything at once.
@@ -126,10 +124,10 @@ Choosing a specialization gives you a clearer direction and helps you decide whi
 ### What to do
 After developing a strong understanding of C and low-level concepts, you can explore other systems programming languages such as:
 
-- **C++** — More abstraction, object-oriented programming, generic programming, and modern language features.
-- **Rust** — Strong memory safety guarantees without relying on a garbage collector.
-- **Zig** — Explicit control, simple language design, and strong interoperability with C.
-- **Odin** — A straightforward language focused on simplicity and systems programming.
+- **C++**: More abstraction, object-oriented programming, generic programming, and modern language features.
+- **Rust**: Strong memory safety guarantees without relying on a garbage collector.
+- **Zig**: Explicit control, simple language design, and strong interoperability with C.
+- **Odin**: A straightforward language focused on simplicity and systems programming.
 
 You can also choose to continue focusing on **C**. Learning another language is useful, but it is not required to become a strong low-level programmer.
 
