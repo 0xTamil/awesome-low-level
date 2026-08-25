@@ -41,6 +41,7 @@
   - [6. Graphics Programming](#6-graphics-programming)
   - [7. Game Engine Development](#7-game-engine-development)
   - [8. Network Systems Programming](#8-network-systems-programming)
+  - [9. Cybersecurity](#9-Cybersecurity)
 - [Recommended Creators](#recommended-creators)
 - [Web Interface](#web-interface)
 - [License](#license)
