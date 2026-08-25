@@ -55,6 +55,8 @@
 
 ### What to do
 
+Work from the physical behavior of electricity toward the basic building blocks of digital computers. You do not need to become an electrical engineer; the goal is to understand enough electronics to see how electrical signals can represent information and how those signals are combined to build computation and memory.
+
 Learn these topics in order:
 
 #### 1. **Basic Electronics**
