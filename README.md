@@ -282,6 +282,7 @@ However, the most important skill is understanding the underlying concepts. Once
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
 - **[The C Book](http://knking.com/books/c2/index.html)**: A reference covering foundational C programming concepts.
 - **[The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)**: A classic introduction to the C programming language.
+- **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introductory free book about computer systems & C programming language.
 - **[Learn C](https://learn-c.org/)**: Interactive browser-based tutorials for learning and practicing C.
 - **[C FAQ](https://c-faq.com/)**: Answers to common C questions, including pointers, memory management, and language behavior.
 - **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
