@@ -7,7 +7,8 @@
 ## Table of Contents
 
 - [How to Refer](#how-to-refer)
-- [What is Low Level Programming](#what-is-low-level-programming)
+- [What is Low-Level Programming](#what-is-low-level-programming)
+- [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
@@ -29,13 +30,13 @@
 - [Core Foundations](#core-foundations)
   - [C Programming](#c-programming)
   - [Data Structures & Algorithms](#data-structures--algorithms)
-- [Other Systems Languages](#other-systems-languages-optional)
-  - [Procedural Systems Languages](#procedural-systems-languages)
+- [Other Low-Level Languages](#other-systems-languages-optional)
+  - [Procedural Low-Level Languages](#procedural-systems-languages)
     - [C++](#c)
     - [Rust](#rust)
     - [Zig](#zig)
     - [Odin](#odin)
-  - [Non-Procedural Systems Languages](#non-procedural-systems-languages)
+  - [Non-Procedural Low-Level Languages](#non-procedural-systems-languages)
     - [Ante](#ante)
     - [Carp](#carp)
     - [Futhark](#futhark)
@@ -68,13 +69,23 @@ If you're already an experienced programmer, you can skip topics you already kno
 
 ---
 
-## What is Low Level Programming
+## What is Low-Level Programming
 
-In simple terms, low-level programming means writing software that is **closer to how the computer actually works**. The commands and functions in these languages can be structurally similar to the instructions executed by the processor. Because there is less abstraction between the programming language and the machine, low-level languages are often described as being **"close to the hardware."**
+In simple terms, **low-level programming** means writing software that is **close to how a computer works internally**. It gives programmers more direct control over the **CPU, memory, and hardware resources**. The code is often closer to the instructions that the processor actually executes, with less abstraction between the programmer and the machine. This is why low-level programming is often described as being **“close to the hardware.”**
 
-Languages such as **Assembly and C** are commonly associated with low-level programming, while languages such as **C++, Rust, Zig, and Odin** can also be used for systems programming while providing different levels of abstraction.
+Languages such as **Assembly and C** are commonly associated with low-level programming. Languages such as **C++, Rust, Zig, and Odin** can also be used for low-level and systems programming, while providing different levels of abstraction and control.
 
-Low-level programming is commonly used for **operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics, networking, and other software where control over memory, hardware, and performance is important.**
+Low-level programming is commonly used in **operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics, networking, and performance-critical software**. It is especially useful when programmers need **fine control over memory, hardware, and system performance**.
+
+---
+
+## Low-Level Programming vs System Programming
+
+Often, people confuse **low-level programming** with **systems programming**, but they are not exactly the same. **Low-level programming is about how closely the code works with the hardware**. It involves things like memory, CPU instructions, pointers, and data layout. **Systems programming is about building software that forms part of a larger computer system or provides important services to other software**, such as operating systems, compilers, databases, drivers, and servers. The two often overlap. For example, writing an operating system kernel in C is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build system software using a language that provides more abstraction.
+
+> A simple way to remember it is: **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
+
+- **[What is Systems Programming, Really?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between **systems programming** and **low-level programming**.
 
 ---
 
@@ -311,7 +322,7 @@ Learning additional systems languages exposes you to different approaches to mem
 
 ## Data Structures & Algorithms
 
-> Data Structures and Algorithms are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low level programming, resources that teach DSA concepts using C may be more relevant and useful.
+> Data Structures and Algorithms are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA concepts using C may be more relevant and useful.
 
 - **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
 - **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
