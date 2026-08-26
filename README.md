@@ -4,16 +4,6 @@
 
 ---
 
-## How to Refer
-
-This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
-
-Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
-
-If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
-
----
-
 ## Table of Contents
 
 - [How to Refer](#how-to-refer)
@@ -64,6 +54,16 @@ If you're already an experienced programmer, you can skip topics you already kno
 - [Web Interface](#web-interface)
 - [Discord](#discord)
 - [License](#license)
+
+---
+
+## How to Refer
+
+This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
+
+Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
+
+If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
 
 ---
 
@@ -228,11 +228,7 @@ Understanding these concepts is especially important in low-level programming, w
 
 ### What to do
 
-Once you have a solid foundation, choose a specific area of low-level programming to explore further.
-
-You can explore areas such as operating systems, graphics programming, embedded systems, compilers, FPGA programming, networking, parallel computing, or game engine development.
-
-Start building projects related to the area that interests you the most.
+Once you have a solid foundation, choose a specific area of low-level programming to explore further. You can explore areas such as operating systems, graphics programming, embedded systems, compilers, FPGA programming, networking, parallel computing, or game engine development. Start building projects related to the area that interests you the most.
 
 ### Why it matters
 
@@ -246,20 +242,29 @@ Choosing a specialization gives you a clearer direction and helps you decide whi
 
 ### What to do
 
-After developing a strong understanding of C and low-level concepts, you can explore other systems programming languages such as:
+After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural systems languages** such as:
 
-- **C++**: More abstraction, object-oriented programming, generic programming, and modern language features.
-- **Rust**: Strong memory safety guarantees without relying on a garbage collector.
-- **Zig**: Explicit control, simple language design, and strong interoperability with C.
-- **Odin**: A straightforward language focused on simplicity and systems programming.
+- **C++**: Adds powerful abstractions, object-oriented programming, generic programming, and modern language features while still providing low-level control.
 
-You can also choose to continue focusing on **C**. Learning another language is useful, but it is not required to become a strong low-level programmer.
+- **Rust**: Provides strong memory safety guarantees without relying on a garbage collector, while still being designed for systems programming.
+
+- **Zig**: Focuses on explicit control, simplicity, predictable behavior, and strong interoperability with C.
+
+- **Odin**: A straightforward systems language focused on simplicity, performance, and practical low-level programming.
+
+You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge.
+
+You can also **stick with C** if you want. C remains highly relevant to systems programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+
+If you want to explore something different, you can also try **non-procedural systems languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
+
+If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
 
 ### Why it matters
 
-Different languages provide different tools and approaches to systems programming. Learning them can expose you to new ideas about memory safety, abstraction, performance, and software design.
+Learning additional systems languages exposes you to different approaches to memory management, abstraction, performance, and low-level programming.
 
-However, the most important skill is understanding the underlying concepts. Once you understand how computers, memory, and systems work, learning another systems programming language becomes much easier.
+We recommend starting with the procedural languages above because they provide a more direct continuation from C. However, if you're interested in different programming paradigms, experimenting with non-procedural systems languages can be a great way to expand your understanding of low-level programming.
 
 ---
 
