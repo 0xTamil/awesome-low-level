@@ -373,16 +373,16 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 ## Non-Procedural Systems Languages
 
 ### Ante
-**[Ante Lang](https://antelang.org/)**: A functional systems language inspired by ML, with Rust-inspired memory management.
+- **[Ante Lang](https://antelang.org/)**: A functional systems language inspired by ML, with Rust-inspired memory management.
 
 ### Carp
-**[Carp Lang](https://github.com/carp-lang/Carp)**: A LISP designed for game development with Rust-inspired memory management and low-level control.
+- **[Carp Lang](https://github.com/carp-lang/Carp)**: A LISP designed for game development with Rust-inspired memory management and low-level control.
 
 ### Futhark
-**[Futhark Lang](https://futhark-lang.org/)**: An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
+- **[Futhark Lang](https://futhark-lang.org/)**: An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
 
 ### Forth
-**[Awesome Forth](https://github.com/lassik/awesome-forth)**: A stack-based language well suited for embedded programming and direct hardware control.
+- **[Awesome Forth](https://github.com/lassik/awesome-forth)**: A stack-based language well suited for embedded programming and direct hardware control.
 
 ### Uxn
 - **[Uxn Site](https://100r.co/site/uxn.html)**: A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
