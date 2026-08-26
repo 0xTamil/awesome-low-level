@@ -39,11 +39,12 @@ If you're already an experienced programmer, you can skip topics you already kno
   - [C Programming](#c-programming)
   - [Data Structures & Algorithms](#data-structures--algorithms)
 - [Other Systems Languages](#other-systems-languages-optional)
-  - [C++](#c)
-  - [Rust](#rust)
-  - [Zig](#zig)
-  - [Odin](#odin)
-- [Non-Procedural Systems Languages](#non-procedural-systems-languages)
+  - [Procedural Systems Languages](#procedural-systems-languages)
+    - [C++](#c)
+    - [Rust](#rust)
+    - [Zig](#zig)
+    - [Odin](#odin)
+  - [Non-Procedural Systems Languages](#non-procedural-systems-languages)
     - [Ante](#ante)
     - [Carp](#carp)
     - [Futhark](#futhark)
@@ -318,7 +319,9 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 
 # Other Systems Languages *(Optional)*
 
-## C++
+## Procedural Systems Languages
+
+### C++
 
 > C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
 
@@ -334,7 +337,7 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: Resources about organizing data for performance and cache efficiency.
 - **[Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)**: A collection of useful bitwise operations and low-level programming techniques.
 
-## Rust
+### Rust
 
 > Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
 
@@ -345,7 +348,7 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 - **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)**: An advanced guide to unsafe Rust and low-level memory operations.
 - **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**: A curated collection of Rust libraries, tools, and resources.
 
-## Zig
+### Zig
 
 > Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
 
@@ -355,7 +358,7 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 - **[Learning Zig](https://pedropark99.github.io/zig-book/)**: A guide to learning systems programming concepts with Zig.
 - **[Awesome Zig](https://github.com/zigcc/awesome-zig)**: A curated collection of Zig libraries, tools, and projects.
 
-## Odin
+### Odin
 
 > Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
 
@@ -382,7 +385,7 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 **[Awesome Forth](https://github.com/lassik/awesome-forth)**: A stack-based language well suited for embedded programming and direct hardware control.
 
 ### Uxn
-**[Uxn Site](https://100r.co/site/uxn.html)**: A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
+- **[Uxn Site](https://100r.co/site/uxn.html)**: A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
 
 ---
 
