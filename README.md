@@ -1,8 +1,16 @@
 # Awesome Low Level
 
-> A curated collection of resources for learning low-level programming, computer systems, and systems-oriented software development. It covers the fundamentals of how computers work, practical programming foundations, and specialized fields such as operating systems, graphics, embedded systems, compilers, and more.
+> A curated collection of resources for learning low-level programming from the ground up, starting with electronics and progressing toward the specialized fields you’re interested in.
 
 ---
+
+## How to Refer
+
+This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
+
+Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything,feel free to pick one or two resources that best suit your learning style.
+
+If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
 
 ## Table of Contents
 
@@ -51,13 +59,11 @@
 
 # Roadmap
 
-> A suggested learning path for beginners who want to understand low-level programming from the ground up. The roadmap starts with digital logic and computer fundamentals before moving into memory, C programming, projects, algorithms, and eventually specialized areas of systems programming.
-
 ## 1. Learn Circuits & Electronics
 
 ### What to do
 
-Start with the physical foundations of computing and gradually work toward understanding how a CPU is built. Learn how electricity and electronic circuits represent information, how binary values are manipulated using logic gates, how those gates are combined to perform calculations, and how circuits can store information and maintain state. Finally, learn how these building blocks come together to form a microprocessor and how a processor executes instructions.
+Begin with the basics of how computers work at the physical level. Learn about electronics, binary, and logic gates, then explore how circuits can perform calculations and store data. From there, understand how these simple components are combined to build a CPU and how a processor runs programs.
 
 #### 1. **Basic Electronics**
    - [Voltage, current, and resistance (Ohm's Law)](https://en.wikipedia.org/wiki/Ohm's_law)
