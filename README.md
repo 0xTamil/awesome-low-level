@@ -71,7 +71,9 @@ If you're already an experienced programmer, you can skip topics you already kno
 
 ## What is Low-Level Programming
 
-  <img width="800" alt="Levels of abstraction from hardware to high-level languages" src="https://github.com/user-attachments/assets/f1f502b3-9a2a-4dd5-9107-25d8d7efc99e" />
+ <p align="center">
+  <img width="700" alt="Levels of abstraction from hardware to high-level languages" src="https://github.com/user-attachments/assets/f1f502b3-9a2a-4dd5-9107-25d8d7efc99e" />
+</p>
 
 The diagram shows different **levels of abstraction** between the programmer and the computer's hardware. At the bottom, we have the **hardware**, which is what the computer physically uses to perform operations. Moving upward, we get **machine language, Assembly, and higher-level languages**. The higher we go, the more details about the hardware are hidden from the programmer.
 
