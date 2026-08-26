@@ -23,20 +23,20 @@
   - [4. Build Small Projects](#4-build-small-projects)
   - [5. Study Algorithms & Data Structures](#5-study-algorithms--data-structures)
   - [6. Pick a Specialized Field](#6-pick-a-specialized-field)
-  - [7. Learn Modern Systems Languages](#7-learn-modern-systems-languages-optional)
+  - [7. Learn Modern Low-Level Languages](#7-learn-modern-systems-languages-optional)
 - [Getting Started](#getting-started)
   - [Circuits & Electronics](#circuits--electronics)
   - [Computer Fundamentals](#computer-fundamentals)
 - [Core Foundations](#core-foundations)
   - [C Programming](#c-programming)
   - [Data Structures & Algorithms](#data-structures--algorithms)
-- [Other Low-Level Languages](#other-systems-languages-optional)
-  - [Procedural Low-Level Languages](#procedural-systems-languages)
+- [Other Low-Level Languages](#other-low-level-languages-optional)
+  - [Procedural Low-Level Languages](#procedural-languages)
     - [C++](#c)
     - [Rust](#rust)
     - [Zig](#zig)
     - [Odin](#odin)
-  - [Non-Procedural Low-Level Languages](#non-procedural-systems-languages)
+  - [Non-Procedural Low-Level Languages](#non-systems-languages)
     - [Ante](#ante)
     - [Carp](#carp)
     - [Futhark](#futhark)
@@ -272,20 +272,20 @@ Choosing a specialization gives you a clearer direction and helps you decide whi
 
 ---
 
-## 7. Learn Modern Systems Languages *(Optional)*
+## 7. Learn Modern Low-Level Languages *(Optional)*
 
 ### What to do
 
-After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural systems languages** such as:
+After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural languages** such as:
 
 - **C++**: Adds powerful abstractions, object-oriented programming, generic programming, and modern language features while still providing low-level control.
 - **Rust**: Provides strong memory safety guarantees without relying on a garbage collector, while still being designed for systems programming.
 - **Zig**: Focuses on explicit control, simplicity, predictable behavior, and strong interoperability with C.
 - **Odin**: A straightforward systems language focused on simplicity, performance, and practical low-level programming.
 
-> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also **stick with C** if you want. C remains highly relevant to systems programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also **stick with C** if you want. C remains highly relevant to low-level programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
 
-If you want to explore something different, you can also try **non-procedural systems languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
+If you want to explore something different, you can also try **non-procedural languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
 
 > If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
 
@@ -347,9 +347,9 @@ Learning additional systems languages exposes you to different approaches to mem
 
 ---
 
-# Other Systems Languages *(Optional)*
+# Other Low-Level Languages *(Optional)*
 
-## Procedural Systems Languages
+## Procedural Languages
 
 ### C++
 
@@ -400,7 +400,7 @@ Learning additional systems languages exposes you to different approaches to mem
 
 ---
 
-## Non-Procedural Systems Languages
+## Non-Procedural Languages
 
 ### Ante
 > A functional systems language inspired by ML, with Rust-inspired memory management.
