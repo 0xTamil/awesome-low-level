@@ -214,7 +214,7 @@ Also study important algorithmic concepts such as:
 - Time complexity
 - Space complexity
 
-Try implementing these data structures yourself in C rather than only using library implementations.
+> Try implementing these data structures yourself in C rather than only using library implementations.
 
 ### Why it matters
 
@@ -253,7 +253,7 @@ After developing a strong understanding of C and low-level concepts, we recommen
 
 If you want to explore something different, you can also try **non-procedural systems languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
 
-If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
+> If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
 
 ### Why it matters
 
