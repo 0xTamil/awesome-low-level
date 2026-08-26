@@ -283,8 +283,6 @@ However, the most important skill is understanding the underlying concepts. Once
 
 # Core Foundations
 
-> The essential programming and problem-solving knowledge needed before moving into more advanced systems programming topics.
-
 ## C Programming
 
 > Learn C as a systems programming language and develop a strong understanding of memory, pointers, data representation, and low-level software design.
@@ -301,7 +299,7 @@ However, the most important skill is understanding the underlying concepts. Once
 
 > Learn how to organize data and design efficient solutions by understanding common data structures, algorithms, and computational complexity.
 
-Data Structures and Algorithms are generally language-agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA concepts using C may be more relevant and useful.
+Data Structures and Algorithms are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low level programming, resources that teach DSA concepts using C may be more relevant and useful.
 
 - **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
 - **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
