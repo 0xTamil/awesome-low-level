@@ -267,9 +267,13 @@ Learning additional systems languages exposes you to different approaches to mem
 
 ## Circuits & Electronics
 
+> Learn the fundamentals of electronic circuits, digital logic, and the physical principles that make modern computing hardware possible.
+
 - **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
 
 ## Computer Fundamentals
+
+> Learn how computers represent information, execute instructions, manage memory, and combine hardware and software to run programs.
 
 - **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
