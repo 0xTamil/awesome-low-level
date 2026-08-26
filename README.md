@@ -71,11 +71,17 @@ If you're already an experienced programmer, you can skip topics you already kno
 
 ## What is Low-Level Programming
 
-In simple terms, **low-level programming** means writing software that is **close to how a computer works internally**. It gives programmers more direct control over the **CPU, memory, and hardware resources**. The code is often closer to the instructions that the processor actually executes, with less abstraction between the programmer and the machine. This is why low-level programming is often described as being **“close to the hardware.”**
+<p align="center">
+  <img width="550" alt="Levels of abstraction from hardware to high-level languages" src="https://github.com/user-attachments/assets/f1f502b3-9a2a-4dd5-9107-25d8d7efc99e" />
+</p>
 
-Languages such as **Assembly and C** are commonly associated with low-level programming. Languages such as **C++, Rust, Zig, and Odin** can also be used for low-level and systems programming, while providing different levels of abstraction and control.
+The diagram shows different **levels of abstraction** between the programmer and the computer's hardware. At the bottom, we have the **hardware**, which is what the computer physically uses to perform operations. Moving upward, we get **machine language, Assembly, and higher-level languages**. The higher we go, the more details about the hardware are hidden from the programmer.
 
-Low-level programming is commonly used in **operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics, networking, and performance-critical software**. It is especially useful when programmers need **fine control over memory, hardware, and system performance**.
+**Low-level programming** means working closer to the bottom of this stack. It gives programmers more direct control over the **CPU, memory, and hardware resources**, with less abstraction between the code and the machine. This is why low-level programming is often described as being **“close to the hardware.”**
+
+Languages such as **Assembly and C** are commonly associated with low-level programming. Languages such as **C++, Rust, Zig, and Odin** can also be used for low-level and systems programming while providing different levels of abstraction and control.
+
+Low-level programming is commonly used in **operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics, networking, and performance-critical software**, where programmers need fine control over **memory, hardware, and system performance**.
 
 ---
 
