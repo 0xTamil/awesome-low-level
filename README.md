@@ -10,7 +10,7 @@
 - [How to Refer ?](#how-to-refer-)
 - [What is Low-Level Programming ?](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
-- [Let's Go](#let's-go)
+- [Let's Gooo !](#let's-go)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
@@ -103,7 +103,7 @@ The two often overlap. For example, writing an operating system kernel in C is b
 
 ---
 
-## Let's Go
+## Let's Gooo !
 
 Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up.
 
