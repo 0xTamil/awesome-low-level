@@ -43,6 +43,12 @@ If you're already an experienced programmer, you can skip topics you already kno
   - [Rust](#rust)
   - [Zig](#zig)
   - [Odin](#odin)
+- [Non-Procedural Systems Languages](#non-procedural-systems-languages)
+    - [Ante](#ante)
+    - [Carp](#carp)
+    - [Futhark](#futhark)
+    - [Forth](#forth)
+    - [Uxn](#uxn)
 - [Specialized Fields](#specialized-fields)
   - [1. Embedded Systems](#1-embedded-systems)
   - [2. FPGA Programming](#2-fpga-programming)
@@ -358,6 +364,25 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 - **[Understanding the Odin Programming Language](https://odinbook.com/)**: An introductory resource for learning Odin.
 - **[Learn Odin in Y Minutes](https://learnxinyminutes.com/odin/)**: A concise overview of Odin syntax.
 - **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**: A collection of Odin libraries, tools, and community resources.
+
+---
+
+## Non-Procedural Systems Languages
+
+### [Ante](https://antelang.org/)
+A functional systems language inspired by ML, with Rust-inspired memory management.
+
+### [Carp](https://github.com/carp-lang/Carp)
+A LISP designed for game development with Rust-inspired memory management and low-level control.
+
+### [Futhark](https://futhark-lang.org/)
+An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
+
+### [Forth](https://github.com/lassik/awesome-forth)
+A stack-based language well suited for embedded programming and direct hardware control.
+
+### [Uxn](https://100r.co/site/uxn.html)
+A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
 
 ---
 
