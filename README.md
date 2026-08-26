@@ -81,7 +81,13 @@ Low-level programming is commonly used in **operating systems, embedded systems,
 
 ## Low-Level Programming vs System Programming
 
-Often, people confuse **low-level programming** with **systems programming**, but they are not exactly the same. **Low-level programming is about how closely the code works with the hardware**. It involves things like memory, CPU instructions, pointers, and data layout. **Systems programming is about building software that forms part of a larger computer system or provides important services to other software**, such as operating systems, compilers, databases, drivers, and servers. The two often overlap. For example, writing an operating system kernel in C is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build system software using a language that provides more abstraction.
+Often, people confuse **low-level programming** with **systems programming**, but they are not exactly the same. 
+
+**Low-level programming is about how closely the code works with the hardware**. It involves things like memory, CPU instructions, pointers, and data layout. 
+
+**Systems programming is about building software that forms part of a larger computer system or provides important services to other software**, such as operating systems, compilers, databases, drivers, and servers. 
+
+The two often overlap. For example, writing an operating system kernel in C is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build system software using a language that provides more abstraction.
 
 > A simple way to remember it is: **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
 
