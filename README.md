@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [How to Refer](#how-to-refer)
+- [What is Low Level Programming](#what-is-low-level-programming)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
@@ -64,6 +65,16 @@ This megathread is not perfect, and some resources or topics may be missing. How
 Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
 If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
+
+---
+
+## What is Low Level Programming
+
+In simple terms, low-level programming means writing software that is **closer to how the computer actually works**. The commands and functions in these languages can be structurally similar to the instructions executed by the processor. Because there is less abstraction between the programming language and the machine, low-level languages are often described as being **"close to the hardware."**
+
+Languages such as **Assembly and C** are commonly associated with low-level programming, while languages such as **C++, Rust, Zig, and Odin** can also be used for systems programming while providing different levels of abstraction.
+
+Low-level programming is commonly used for **operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics, networking, and other software where control over memory, hardware, and performance is important.**
 
 ---
 
