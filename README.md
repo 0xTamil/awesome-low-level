@@ -282,7 +282,7 @@ However, the most important skill is understanding the underlying concepts. Once
 
 - **[C Roadmap](https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages%2FC%2Froadmap.md)**: An ordered guide to become a C programmer/developer.
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
-- **[The C Book](http://knking.com/books/c2/index.html)**: A reference covering foundational C programming concepts.
+- **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**: A classic book covering all about C programming.
 - **[The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)**: A classic introduction to the C programming language.
 - **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
 - **[Learn C](https://learn-c.org/)**: Interactive browser-based tutorials for learning and practicing C.
