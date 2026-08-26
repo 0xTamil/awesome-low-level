@@ -258,8 +258,6 @@ However, the most important skill is understanding the underlying concepts. Once
 
 # Getting Started
 
-> Resources for building a basic understanding of digital electronics and computer systems before moving deeper into low-level programming.
-
 ## Circuits & Electronics
 
 > Learn the fundamentals of electronic circuits, digital logic, and the physical principles that make modern computing hardware possible.
@@ -313,8 +311,6 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 ---
 
 # Other Systems Languages *(Optional)*
-
-> Once you understand the foundations of systems programming, exploring other languages can help you compare different approaches to memory management, safety, abstraction, and performance.
 
 ## C++
 
