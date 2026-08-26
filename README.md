@@ -12,8 +12,11 @@ Some sections include multiple resources, including links to other megathreads t
 
 If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
 
+---
+
 ## Table of Contents
 
+- [How to Refer](#how-to-refer)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
