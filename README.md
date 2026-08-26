@@ -245,11 +245,8 @@ Choosing a specialization gives you a clearer direction and helps you decide whi
 After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural systems languages** such as:
 
 - **C++**: Adds powerful abstractions, object-oriented programming, generic programming, and modern language features while still providing low-level control.
-
 - **Rust**: Provides strong memory safety guarantees without relying on a garbage collector, while still being designed for systems programming.
-
 - **Zig**: Focuses on explicit control, simplicity, predictable behavior, and strong interoperability with C.
-
 - **Odin**: A straightforward systems language focused on simplicity, performance, and practical low-level programming.
 
 You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge.
