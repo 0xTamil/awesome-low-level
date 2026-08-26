@@ -8,7 +8,7 @@
 
 This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
 
-Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything,feel free to pick one or two resources that best suit your learning style.
+Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
 If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
 
