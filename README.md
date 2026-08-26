@@ -6,8 +6,8 @@
 
 ## Table of Contents
 
-- [How to Refer](#how-to-refer)
-- [What is Low-Level Programming](#what-is-low-level-programming)
+- [How to Refer ?](#how-to-refer)
+- [What is Low-Level Programming ?](#what-is-low-level-programming)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
@@ -59,7 +59,7 @@
 
 ---
 
-## How to Refer
+## How to Refer ?
 
 This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
 
@@ -69,7 +69,7 @@ If you're already an experienced programmer, you can skip topics you already kno
 
 ---
 
-## What is Low-Level Programming
+## What is Low-Level Programming ?
 
  <p align="center">
   <img width="700" alt="Levels of abstraction from hardware to high-level languages" src="https://github.com/user-attachments/assets/f1f502b3-9a2a-4dd5-9107-25d8d7efc99e" />
