@@ -305,7 +305,7 @@ Data Structures and Algorithms are generally language-agnostic, meaning the core
 
 - **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
 - **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
-- **[Algorithms Design in C](https://www.ime.usp.br/~pf/algorithms/) Site of a course on algorithms and data structures using the C programming language.
+- **[Algorithms Design in C](https://www.ime.usp.br/~pf/algorithms/)**: Site of a course on algorithms and data structures using the C programming language.
 - **[C DSA interactive Suite](https://github.com/darshan2456/C_DSA_interactive_suite)**: Interactive terminal based application for learning DSA written in pure C.
 - **[VisuAlgo](https://visualgo.net/)**: Interactive visualizations of common data structures and algorithms.
 - **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
