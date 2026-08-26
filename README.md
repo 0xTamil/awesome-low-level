@@ -291,7 +291,7 @@ If you want to explore something different, you can also try **non-procedural la
 
 ### Why it matters
 
-Learning additional systems languages exposes you to different approaches to memory management, abstraction, performance, and low-level programming.
+Learning additional low level languages exposes you to different approaches to memory management, abstraction, performance, and low-level programming.
 
 ---
 
