@@ -6,9 +6,11 @@
 
 ## Table of Contents
 
+## Let's Go
 - [How to Refer ?](#how-to-refer-)
 - [What is Low-Level Programming ?](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
+- [Let's Go](#let's-go)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
@@ -98,6 +100,20 @@ The two often overlap. For example, writing an operating system kernel in C is b
 > A simple way to remember it is: **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
 
 - **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between **systems programming** and **low-level programming**.
+
+---
+
+## Let's Go
+
+Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up.
+
+The goal is not to immediately jump into Assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
+
+> **A note for beginners:** It is easy to get stuck in **tutorial hell**, where you keep watching tutorials and collecting resources without actually writing code. It is also common to fall into **premature optimization**, trying to make code extremely fast before you have even written a working solution. Focus on understanding the fundamentals, writing code, building projects, and learning from your mistakes. **Write the code first, then learn how to improve it.**
+
+You may also notice that this collection does not rely heavily on commonly used websites such as **W3Schools, LeetCode, or general-purpose YouTube channels**. That does not mean those resources are bad. If they are included, there is a reason for it. The goal here is to encourage you to become comfortable with **official documentation, books, technical references, courses, source code, and other high-quality learning materials**.
+
+> **Learning how to find and understand information is part of becoming a good programmer.** Don't depend on tutorials for everything. Learn to read documentation, search for answers, experiment, and understand things for yourself.
 
 ---
 
