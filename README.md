@@ -44,6 +44,7 @@
   - [9. Cybersecurity](#9-Cybersecurity)
 - [Recommended Creators](#recommended-creators)
 - [Web Interface](#web-interface)
+- [Discord](#discord)
 - [License](#license)
 
 ---
