@@ -10,7 +10,7 @@
 - [How to Refer ?](#how-to-refer-)
 - [What is Low-Level Programming ?](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
-- [Let's Gooo !](#let's-go)
+- [Let's Gooo !](#lets-gooo-)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
