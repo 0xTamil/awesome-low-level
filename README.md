@@ -249,9 +249,7 @@ After developing a strong understanding of C and low-level concepts, we recommen
 - **Zig**: Focuses on explicit control, simplicity, predictable behavior, and strong interoperability with C.
 - **Odin**: A straightforward systems language focused on simplicity, performance, and practical low-level programming.
 
-You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge.
-
-You can also **stick with C** if you want. C remains highly relevant to systems programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also **stick with C** if you want. C remains highly relevant to systems programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
 
 If you want to explore something different, you can also try **non-procedural systems languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
 
