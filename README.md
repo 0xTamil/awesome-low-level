@@ -6,8 +6,8 @@
 
 ## Table of Contents
 
-- [How to Refer ?](#how-to-refer)
-- [What is Low-Level Programming ?](#what-is-low-level-programming)
+- [How to Refer ?](#how-to-refer-)
+- [What is Low-Level Programming ?](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
