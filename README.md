@@ -280,6 +280,7 @@ However, the most important skill is understanding the underlying concepts. Once
 
 > Learn C as a systems programming language and develop a strong understanding of memory, pointers, data representation, and low-level software design.
 
+- **[C Roadmap](https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages%2FC%2Froadmap.md)**: An ordered guide to become a C programmer/developer.
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
 - **[The C Book](http://knking.com/books/c2/index.html)**: A reference covering foundational C programming concepts.
 - **[The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)**: A classic introduction to the C programming language.
