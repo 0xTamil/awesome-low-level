@@ -24,7 +24,7 @@
   - [5. Study Algorithms & Data Structures](#5-study-algorithms--data-structures)
   - [6. Pick a Specialized Field](#6-pick-a-specialized-field)
   - [7. Learn Modern Low-Level Languages](#7-learn-modern-low-level-languages-optional)
-- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
   - [Circuits & Electronics](#circuits--electronics)
   - [Computer Fundamentals](#computer-fundamentals)
 - [Core Foundations](#core-foundations)
@@ -295,7 +295,7 @@ Learning additional low level languages exposes you to different approaches to m
 
 ---
 
-# Getting Started
+# Prerequisites
 
 ## Circuits & Electronics
 
