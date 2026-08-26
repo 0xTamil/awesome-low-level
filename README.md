@@ -85,7 +85,7 @@ Often, people confuse **low-level programming** with **systems programming**, bu
 
 > A simple way to remember it is: **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
 
-- **[What is Systems Programming, Really?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between **systems programming** and **low-level programming**.
+- **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between **systems programming** and **low-level programming**.
 
 ---
 
