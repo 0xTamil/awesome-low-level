@@ -373,12 +373,9 @@ Learning additional low level languages exposes you to different approaches to m
 
 - **[How to Start C++ Development ?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
 - **[Learn C++](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
-- **[Hacking C++](https://hackingcpp.com/index.html)**: Visual guides, diagrams, and references for modern C++.
 - **[C++ By Example](https://cppbyexample.com/)**: Concise examples demonstrating C++ syntax and language features.
 - **[C++ Reference](https://en.cppreference.com/w/)**: A comprehensive reference for C++ language features and the standard library.
 - **[Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)**: A summary of important features introduced in modern C++ standards.
-- **[C++ Programming Exercises](https://www.w3resource.com/cpp-exercises/)**: Exercises for practicing C++ programming.
-- **[Project Euler](https://projecteuler.net/about)**: Mathematical and logical programming challenges.
 - **[Cpp Quiz](https://cppquiz.org/)**: Quizzes focused on C++ language rules and behavior.
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: Resources about organizing data for performance and cache efficiency.
 - **[Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)**: A collection of useful bitwise operations and low-level programming techniques.
