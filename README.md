@@ -70,25 +70,17 @@ This megathread is not perfect, and some resources or topics may be missing. Som
 
 ### If You're an Absolute Beginner
 
-Follow the roadmap from the beginning.
-
-When a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
+Follow the roadmap from the beginning. When a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
 
 > For example, you might already understand variables, loops, functions, conditions, and basic data structures, but still have never written C code before. That's completely fine. In that case, you should still learn the C specific basics before moving on to more low-level topics.
 
 ### If You Have Some Low-Level Experience
 
-You can skip the introductory material and focus on the topics you haven't learned yet. 
-
-You don't necessarily need to follow the roadmap from the beginning. Use the table of contents to find the concepts you're unfamiliar with and work from there.
+You can skip the introductory material and focus on the topics you haven't learned yet. You don't necessarily need to follow the roadmap from the beginning. Use the table of contents to find the concepts you're unfamiliar with and work from there.
 
 ### If You Have High-Level Programming Experience
 
-You may already understand high-level programming concepts but have little or no experience with low-level programming.
-
-In this case, **don't assume that low-level programming follows the same programming style you're used to.**
-
-A lot of low-level code tends to be more **function-oriented, procedural, or data-oriented**, rather than heavily object-oriented. If you're coming from Java or Python, you may want to temporarily put OOP thinking aside and learn how to approach problems in a lower-level style first.
+You may already understand high-level programming concepts but have little or no experience with low-level programming. In this case, **don't assume that low-level programming follows the same programming style you're used to.** A lot of low-level code tends to be more **function-oriented, procedural, or data-oriented**, rather than heavily object-oriented. If you're coming from Java or Python, you may want to temporarily put OOP thinking aside and learn how to approach problems in a lower-level style first.
 
 > That doesn't mean OOP is useless in low-level programming. It's still used in many areas, especially things like **game engines, graphics and simulations**. However, it shouldn't be treated as the default way of thinking about low-level programming.
 
