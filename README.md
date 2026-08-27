@@ -35,7 +35,7 @@
 - [Core Foundations](#core-foundations)
   - [C Programming](#c-programming)
   - [Data Structures & Algorithms](#data-structures--algorithms)
-- [Other Low-Level Languages](#other-low-level-languages-optional)
+- [Other Low-Level Languages (Optional)](#other-low-level-languages-optional)
   - [Procedural Languages](#procedural-languages)
     - [C++](#c)
     - [Rust](#rust)
