@@ -69,6 +69,8 @@ This megathread is not perfect, and some resources or topics may be missing. How
 
 Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
+---
+
 ### If You're an Absolute Beginner
 
 If you're completely new to programming, follow the roadmap from the beginning.
