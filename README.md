@@ -321,7 +321,7 @@ Learning additional low level languages exposes you to different approaches to m
 > Learn the fundamentals of electronic circuits, digital logic, and the physical principles that make modern computing hardware possible.
 
 - **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
-- **[Nand2Tetris](https://www.nand2tetris.org/)**:A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
+- **[Nand2Tetris](https://www.nand2tetris.org/)**: A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
 
 ## Computer Fundamentals
 
