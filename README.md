@@ -67,7 +67,7 @@ This megathread is not perfect, and some resources or topics may be missing. How
 
 Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
-If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
+> If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
 
 ---
 
@@ -97,7 +97,7 @@ Often, people confuse **low-level programming** with **systems programming**, bu
 
 The two often overlap. For example, writing an operating system kernel in C is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build system software using a language that provides more abstraction.
 
-> A simple way to remember it is: **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
+> **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
 
 - **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between **systems programming** and **low-level programming**.
 
@@ -109,7 +109,7 @@ Now that we have a basic understanding of what low-level programming is, let's s
 
 The goal is not to immediately jump into Assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
 
-> **A note for beginners:** It is easy to get stuck in **tutorial hell**, where you keep watching tutorials and collecting resources without actually writing code. It is also common to fall into **premature optimization**, trying to make code extremely fast before you have even written a working solution. Focus on understanding the fundamentals, writing code, building projects, and learning from your mistakes. **Write the code first, then learn how to improve it.**
+> A note for beginners: It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code**. Start by writing something yourself, then learn how to improve it.
 
 You may also notice that this collection does not rely heavily on commonly used websites such as **W3Schools, LeetCode, or general-purpose YouTube channels**. That does not mean those resources are bad. If they are included, there is a reason for it. The goal here is to encourage you to become comfortable with **official documentation, books, technical references, courses, source code, and other high-quality learning materials**.
 
