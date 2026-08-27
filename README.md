@@ -333,6 +333,7 @@ Learning additional low level languages exposes you to different approaches to m
 - **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
 - **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
 - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
+- **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
 - **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: A complete community-driven curriculum for self-taught computer science learners.
 - **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A large collection of free computer science courses and educational resources.
 
