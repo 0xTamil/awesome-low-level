@@ -63,13 +63,12 @@
 - [License](#license)
 
 ---
+
 ## How to Refer ?
 
 This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
 
 Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
-
----
 
 ### If You're an Absolute Beginner
 
