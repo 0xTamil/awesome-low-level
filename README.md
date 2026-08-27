@@ -72,7 +72,7 @@ This megathread is not perfect, and some resources or topics may be missing. Som
 
 If you're completely new to programming, follow the roadmap from the beginning.
 
-**One important note:** when a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
+When a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
 
 > For example, you might already understand variables, loops, functions, conditions, and basic data structures, but still have never written C code before. That's completely fine. In that case, you should still learn the C specific basics before moving on to more low-level topics.
 
