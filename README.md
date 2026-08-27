@@ -345,6 +345,7 @@ Learning additional low level languages exposes you to different approaches to m
 > Learn C as a systems programming language and develop a strong understanding of memory, pointers, data representation, and low-level software design.
 
 - **[C Roadmap](https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages%2FC%2Froadmap.md)**: An ordered guide to become a C programmer/developer.
+- **[C Programming Wiki](https://www.reddit.com/r/C_Programming/wiki/index/)**: Official C_Programming subreddit wiki that fill with useful resources.
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
 - **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**: A classic book covering all about C programming.
 - **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
