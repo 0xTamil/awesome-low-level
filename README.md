@@ -66,15 +66,13 @@
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
-
-Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
+This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
 ### If You're an Absolute Beginner
 
-If you're completely new to programming, follow the roadmap from the beginning.
+- If you're completely new to programming, follow the roadmap from the beginning.
 
-One important note: when a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
+- **One important note:** when a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
 
 > For example, you might already understand variables, loops, functions, conditions, and basic data structures, but still have never written C code before. That's completely fine. In that case, you should still learn the C specific basics before moving on to more low-level topics.
 
