@@ -8,6 +8,9 @@
 
 ## Let's Go
 - [How to Refer](#how-to-refer-)
+  - [If You're an Absolute Beginner](#how-to-refer-)
+  - [If You Have Some Low-Level Experience](#how-to-refer-)
+  - [If You Have High-Level Programming Experience](#how-to-refer-)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Let's Gooo](#lets-gooo-)
@@ -60,14 +63,37 @@
 - [License](#license)
 
 ---
-
 ## How to Refer ?
 
 This megathread is not perfect, and some resources or topics may be missing. However, if you're a beginner, we recommend following the roadmap from top to bottom.
 
 Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
-> If you're already an experienced programmer, you can skip topics you already know and use the table of contents to jump directly to the resources you need.
+### If You're an Absolute Beginner
+
+If you're completely new to programming, follow the roadmap from the beginning.
+
+One important note: when a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
+
+> For example, you might already understand variables, loops, functions, conditions, and basic data structures, but still have never written C code before. That's completely fine. In that case, you should still learn the C specific basics before moving on to more low-level topics.
+
+### If You Have Some Low-Level Experience
+
+If you already have some experience with low-level programming, you can skip the introductory material and focus on the topics you haven't learned yet. 
+
+You don't necessarily need to follow the roadmap from the beginning. Use the table of contents to find the concepts you're unfamiliar with and work from there.
+
+### If You Have High-Level Programming Experience
+
+If your programming experience mainly comes from languages such as Java, Python, C#, or other high-level/OOP-focused languages, you may already understand programming concepts but have little or no experience with low-level programming.
+
+In this case, **don't assume that low-level programming follows the same programming style you're used to.**
+
+A lot of low-level code tends to be more **function-oriented, procedural, or data-oriented**, rather than heavily object-oriented. If you're coming from Java or Python, you may want to temporarily put OOP thinking aside and learn how to approach problems in a lower-level style first.
+
+> That doesn't mean OOP is useless in low-level programming. It's still used in many areas, especially things like **game development and large software projects**. However, it shouldn't be treated as the default way of thinking about low-level programming.
+
+Once you understand those concepts, you can bring OOP or other programming paradigms back into the picture when they're actually useful.
 
 ---
 
