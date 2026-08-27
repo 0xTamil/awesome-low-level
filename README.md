@@ -77,6 +77,7 @@ Follow the roadmap from the beginning. When a resource says that you should "kno
 Here are some suggested resources to check out before get into low-level programming:
 
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
+- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
 
 ### If You Have Some Low-Level Experience
 
