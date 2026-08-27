@@ -70,7 +70,7 @@ This megathread is not perfect, and some resources or topics may be missing. Som
 
 ### If You're an Absolute Beginner
 
-If you're completely new to programming, follow the roadmap from the beginning.
+Follow the roadmap from the beginning.
 
 When a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
 
@@ -78,13 +78,13 @@ When a resource says that you should "know C basics" or assumes some prior progr
 
 ### If You Have Some Low-Level Experience
 
-If you already have some experience with low-level programming, you can skip the introductory material and focus on the topics you haven't learned yet. 
+You can skip the introductory material and focus on the topics you haven't learned yet. 
 
 You don't necessarily need to follow the roadmap from the beginning. Use the table of contents to find the concepts you're unfamiliar with and work from there.
 
 ### If You Have High-Level Programming Experience
 
-If your programming experience mainly comes from languages such as Java, Python, C#, or other high-level/OOP-focused languages, you may already understand programming concepts but have little or no experience with low-level programming.
+You may already understand programming concepts but have little or no experience with low-level programming.
 
 In this case, **don't assume that low-level programming follows the same programming style you're used to.**
 
