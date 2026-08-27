@@ -94,7 +94,7 @@ Once you understand those concepts, you can bring OOP or other programming parad
   <img width="700" alt="Levels of abstraction from hardware to high-level languages" src="https://github.com/user-attachments/assets/f1f502b3-9a2a-4dd5-9107-25d8d7efc99e" />
 </p>
 
-The diagram shows different **levels of abstraction** between the programmer and the computer's hardware. At the bottom, we have the **hardware**, which is what the computer physically uses to perform operations. Moving upward, we get **machine language, Assembly, and programming languages**. The higher we go, the more details about the hardware are hidden from the programmer.**Low-level programming** means working **closer to the machine** across **different parts of the stack**. 
+The diagram shows different **levels of abstraction** between the programmer and the computer's hardware. At the bottom, we have the **hardware**, which is what the computer physically uses to perform operations. Moving upward, we get **machine code, Assembly, and programming languages**. The higher we go, the more details about the hardware are hidden from the programmer. **Low-level programming** means working **closer to the machine** across **different parts of the stack**. 
 
 It gives programmers more direct control over the **CPU, memory, and hardware resources**, with less abstraction between the code and the machine. This is why low-level programming is often described as being **“close to the hardware.”** Languages such as **Assembly and C** are commonly associated with low-level programming. Languages such as **C++, Rust, Zig, and Odin** can also be used for low-level and systems programming while providing different levels of abstraction and control.
 
@@ -116,9 +116,9 @@ The two often overlap. For example, writing an operating system kernel in C is b
 
 ## Let's Gooo !
 
-Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up. The goal is not to immediately jump into Assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
+Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up. The goal is not to immediately jump into assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
 
-> **A note for beginners**: It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code**. Start by writing something yourself, then learn how to improve it.
+> **A note for beginners**: It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code** first. Start by writing something yourself, then learn how to improve it.
 
 You may also notice that this collection does not rely heavily on commonly used websites such as **W3Schools, LeetCode, or general-purpose YouTube channels**. That does not mean those resources are bad. If they are included, there is a reason for it. The goal here is to encourage you to become comfortable with **official documentation, books, technical references, courses, source code, and other high-quality learning materials**.
 
@@ -321,6 +321,7 @@ Learning additional low level languages exposes you to different approaches to m
 > Learn the fundamentals of electronic circuits, digital logic, and the physical principles that make modern computing hardware possible.
 
 - **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
+- **[Nand2Tetris](https://www.nand2tetris.org/)**:A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
 
 ## Computer Fundamentals
 
