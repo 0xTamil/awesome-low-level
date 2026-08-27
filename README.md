@@ -66,7 +66,7 @@
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
+This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. Ok, So;
 
 ### If You're an Absolute Beginner
 
