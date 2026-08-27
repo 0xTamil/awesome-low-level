@@ -8,9 +8,9 @@
 
 ## Let's Go
 - [How to Refer](#how-to-refer-)
-  - [If You're an Absolute Beginner](#how-to-refer-)
-  - [If You Have Some Low-Level Experience](#how-to-refer-)
-  - [If You Have High-Level Programming Experience](#how-to-refer-)
+  - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
+  - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
+  - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Let's Gooo](#lets-gooo-)
@@ -242,9 +242,7 @@ Focus on understanding how your program interacts with memory, files, and the op
 
 ### Why it matters
 
-Projects reveal gaps that tutorials often hide. You will encounter real problems such as memory leaks, pointer bugs, invalid memory access, and file handling issues.
-
-Solving these problems helps you develop practical debugging and problem-solving skills.
+Projects reveal gaps that tutorials often hide. You will encounter real problems such as memory leaks, pointer bugs, invalid memory access, and file handling issues. Solving these problems helps you develop practical debugging and problem-solving skills.
 
 ---
 
@@ -277,9 +275,7 @@ Also study important algorithmic concepts such as:
 
 ### Why it matters
 
-Hardware resources are limited. Choosing the right data structure and algorithm can significantly affect how fast a program runs and how much memory it uses.
-
-Understanding these concepts is especially important in low-level programming, where performance and memory usage often matter.
+Hardware resources are limited. Choosing the right data structure and algorithm can significantly affect how fast a program runs and how much memory it uses. Understanding these concepts is especially important in low-level programming, where performance and memory usage often matter.
 
 ---
 
@@ -291,9 +287,7 @@ Once you have a solid foundation, choose a specific area of low-level programmin
 
 ### Why it matters
 
-Low-level programming is a massive field, and you do not need to master everything at once.
-
-Choosing a specialization gives you a clearer direction and helps you decide which technologies, concepts, and projects are most relevant to your goals.
+Low-level programming is a massive field, and you do not need to master everything at once. Choosing a specialization gives you a clearer direction and helps you decide which technologies, concepts, and projects are most relevant to your goals.
 
 ---
 
