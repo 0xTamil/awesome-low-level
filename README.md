@@ -109,7 +109,7 @@ Now that we have a basic understanding of what low-level programming is, let's s
 
 The goal is not to immediately jump into Assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
 
-> A note for beginners: It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code**. Start by writing something yourself, then learn how to improve it.
+> **A note for beginners**: It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code**. Start by writing something yourself, then learn how to improve it.
 
 You may also notice that this collection does not rely heavily on commonly used websites such as **W3Schools, LeetCode, or general-purpose YouTube channels**. That does not mean those resources are bad. If they are included, there is a reason for it. The goal here is to encourage you to become comfortable with **official documentation, books, technical references, courses, source code, and other high-quality learning materials**.
 
