@@ -84,7 +84,7 @@ You don't necessarily need to follow the roadmap from the beginning. Use the tab
 
 ### If You Have High-Level Programming Experience
 
-You may already understand programming concepts but have little or no experience with low-level programming.
+You may already understand high-level programming concepts but have little or no experience with low-level programming.
 
 In this case, **don't assume that low-level programming follows the same programming style you're used to.**
 
