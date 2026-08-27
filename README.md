@@ -90,7 +90,7 @@ In this case, **don't assume that low-level programming follows the same program
 
 A lot of low-level code tends to be more **function-oriented, procedural, or data-oriented**, rather than heavily object-oriented. If you're coming from Java or Python, you may want to temporarily put OOP thinking aside and learn how to approach problems in a lower-level style first.
 
-> That doesn't mean OOP is useless in low-level programming. It's still used in many areas, especially things like **game development and large software projects**. However, it shouldn't be treated as the default way of thinking about low-level programming.
+> That doesn't mean OOP is useless in low-level programming. It's still used in many areas, especially things like **game engine, graphics, simulations**. However, it shouldn't be treated as the default way of thinking about low-level programming.
 
 Once you understand those concepts, you can bring OOP or other programming paradigms back into the picture when they're actually useful.
 
