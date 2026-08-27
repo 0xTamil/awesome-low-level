@@ -116,9 +116,7 @@ The two often overlap. For example, writing an operating system kernel in C is b
 
 ## Let's Gooo !
 
-Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up.
-
-The goal is not to immediately jump into Assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
+Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up. The goal is not to immediately jump into Assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
 
 > **A note for beginners**: It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code**. Start by writing something yourself, then learn how to improve it.
 
