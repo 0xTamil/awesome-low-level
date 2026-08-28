@@ -7,6 +7,7 @@
 ## Table of Contents
 
 ## Let's Go
+- [Why we made this](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
@@ -61,6 +62,14 @@
 - [Web Interface](#web-interface)
 - [Discord](#discord)
 - [License](#license)
+
+---
+
+## Why we made this ?
+
+We made this megathread to help self-learners get started with low-level programming and build a strong foundation in its fundamentals. Having a clear learning path and structure can make it much easier to know where to start and what to learn next, so we created this guide to help with that.
+
+We put a lot of time and effort into reviewing the resources included here to make sure they are useful and relevant for learning. This megathread was made purely out of passion for the subject, and we hope it can be useful to anyone who wants to get into low-level programming.
 
 ---
 
