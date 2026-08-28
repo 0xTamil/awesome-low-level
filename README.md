@@ -329,7 +329,7 @@ Learning additional low level languages exposes you to different approaches to m
 
 ## Computer Fundamentals
 
-> Recommend taking the CS50: Introduction to Computer Science course first, then choosing one of the resources from this list. Many of them provide a comprehensive curriculum and a clear learning structure, so you don’t need to pick everything. Just choose one that fits you and follow it along.
+> We suggest taking the CS50: Introduction to Computer Science course first, then choosing one of the resources from this list. Many of them provide a comprehensive curriculum and a clear learning structure, so you don’t need to pick everything. Just choose one that fits you and follow it along.
 
 - **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
 - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
