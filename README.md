@@ -537,13 +537,13 @@ Learning additional low level languages exposes you to different approaches to m
 
 ## Tsoding
 
-Tsoding is a great programmer who makes fun and interesting coding videos. Can learn how to code, solve problems, and think like a programmer from him.
+Tsoding is a great programmer who makes fun and interesting coding videos. We can learn how to code, solve problems, and think like a programmer from him.
 
 - **[Tsoding](https://www.youtube.com/@Tsoding)**
 - **[TsodingDaily](https://www.youtube.com/@TsodingDaily)**
 - **[Twitch](https://www.twitch.tv/tsoding)**
 - **[Github](https://github.com/rexim)**
-- **[Projects](https://tsoding.github.io/schedule/)**
+- **[Stream Projects](https://tsoding.github.io/schedule/)**
 
 ---
 
