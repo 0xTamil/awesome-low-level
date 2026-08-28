@@ -325,14 +325,12 @@ Learning additional low level languages exposes you to different approaches to m
 
 ## Circuits & Electronics
 
-> Learn the fundamentals of electronic circuits, digital logic, and the physical principles that make modern computing hardware possible.
-
 - **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
 - **[Nand2Tetris](https://www.nand2tetris.org/)**: A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
 
 ## Computer Fundamentals
 
-> Learn how computers represent information, execute instructions, manage memory, and combine hardware and software to run programs.
+> We suggest taking the introductory MIT course first, then choosing one of the resources from this list. Many of them provide a comprehensive curriculum and a clear learning structure, so you don’t need to pick everything. Just choose one that fits you and follow it along.
 
 - **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
 - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
