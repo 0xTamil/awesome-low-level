@@ -7,7 +7,7 @@
 ## Table of Contents
 
 ## Let's Go
-- [Why we Made this](#why-we-made-this-)
+- [Why We Made This](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
@@ -65,7 +65,7 @@
 
 ---
 
-## Why we Made this ?
+## Why We Made This ?
 
 We made this megathread to help self-learners get started with low-level programming and build a strong foundation in its fundamentals. Having a clear learning path and structure can make it much easier to know where to start and what to learn next, so we created this guide to help with that.
 
