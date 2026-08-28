@@ -533,9 +533,17 @@ Learning additional low level languages exposes you to different approaches to m
 
 # Recommended Creators
 
-> A collection of creators who cover topics related to systems programming, low-level development, mathematics, graphics, software engineering, and game engine development.
+> A collection of creators who cover topics related to low-level programming.
 
-- **[TsodingDaily](https://www.youtube.com/@TsodingDaily)**
+- Tsoding
+  - **[Tsoding](https://www.youtube.com/@Tsoding)**
+  - **[TsodingDaily](https://www.youtube.com/@TsodingDaily)**
+  - **[Twitch](https://www.twitch.tv/tsoding)**
+  - **[Github](https://github.com/rexim)**
+  - **[Projects](https://tsoding.github.io/schedule/)**
+
+
+
 - **[ThePrimeTimeagen](https://www.youtube.com/@ThePrimeTimeagen)**
 - **[CakeZ](https://www.youtube.com/@Cakez77)**
 - **[Artful Bytes](https://www.youtube.com/@artfulbytes)**
