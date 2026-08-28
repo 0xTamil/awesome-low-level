@@ -530,6 +530,7 @@ Learning additional low level languages exposes you to different approaches to m
 - **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
 - **[Awesome List](https://github.com/0xor0ne/awesome-list)**: Collection of awesome blog posts, write-ups, and papers focusing on cybersecurity.
 
+---
 
 # Recommended Creators
 
