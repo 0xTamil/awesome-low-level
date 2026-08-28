@@ -533,7 +533,9 @@ Learning additional low level languages exposes you to different approaches to m
 
 # Recommended Creators
 
-> A collection of creators who cover topics related to low-level programming.
+A collection of creators who cover topics related to low-level programming.
+
+> Learn from these creators by watching their videos and following along with their projects. Pay attention to how they approach and solve problems, check out their GitHub repositories and source code, and study how they write and structure their code. Treat these great creators as mentors and learn from their experience.
 
 - **[Tsoding](https://www.youtube.com/@Tsoding)**
 - **[ThePrimeTimeagen](https://www.youtube.com/@ThePrimeTimeagen)**
