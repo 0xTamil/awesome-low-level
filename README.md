@@ -563,6 +563,7 @@ A collection of creators who cover topics related to low-level programming.
 
 # Web Interface
 ![Status](https://badgen.net/badge/Status/Broken/red?icon=github)
+
 Browse the entire collection through an interactive, Wikipedia-inspired web interface designed to make discovering and filtering resources easier.
 
 **[Awesome Low Level](https://0xtamil.github.io/awesome-low-level/)**
