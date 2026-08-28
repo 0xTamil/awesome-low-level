@@ -536,11 +536,11 @@ Learning additional low level languages exposes you to different approaches to m
 > A collection of creators who cover topics related to low-level programming.
 
 ## Tsoding
-  - **[Tsoding](https://www.youtube.com/@Tsoding)**
-  - **[TsodingDaily](https://www.youtube.com/@TsodingDaily)**
-  - **[Twitch](https://www.twitch.tv/tsoding)**
-  - **[Github](https://github.com/rexim)**
-  - **[Projects](https://tsoding.github.io/schedule/)**
+- **[Tsoding](https://www.youtube.com/@Tsoding)**
+- **[TsodingDaily](https://www.youtube.com/@TsodingDaily)**
+- **[Twitch](https://www.twitch.tv/tsoding)**
+- **[Github](https://github.com/rexim)**
+- **[Projects](https://tsoding.github.io/schedule/)**
 
 
 
