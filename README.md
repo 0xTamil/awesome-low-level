@@ -109,17 +109,39 @@ Now that you know how to refer to this megathread, you may still ask:
 
 **"Okay, but how do I actually learn?"**
 
-Sometimes, you may get stuck watching tutorials for too long. You may understand what a tutorial is teaching, but when you try to build something on your own, you don't know where to start or how to come up with your own solution.
+Low-level programming can be difficult. You will get stuck, make mistakes, feel burnt out, or sometimes regret starting. That is normal. Learning how to deal with difficult problems is part of becoming a programmer.
 
-In that case, try **project-based learning**. Instead of only reading or watching tutorials, use projects to apply what you learn.
+This section explains two things: **project-based learning** and how to use **AI tools without becoming dependent on them**.
 
-Pick a topic you want to learn and choose one or two resources from this megathread. Learn the concept, then try to build or implement something with it yourself. You don't need to finish every resource or go through everything available.
+### Project-Based Learning
 
-> For example, if you learn about linked lists, try implementing one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator. If you learn about file handling, build something that reads, writes, or processes files.
+Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**.
 
-Try to solve problems yourself before looking for a tutorial that shows the exact solution. You can use documentation to check syntax, functions, and technical details, but try to understand and implement things on your own first.
+Pick a topic, choose a resource, learn the concept, and then build or implement something using what you learned.
 
-Getting stuck and making mistakes is a normal part of learning. Try different approaches, debug your code, read documentation, search for information, and experiment. Once you have tried solving the problem yourself, you can check tutorials, guides, or other implementations and compare them with your own work.
+> For example, if you learn about linked lists, implement one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator.
+
+Try solving problems yourself before looking for a tutorial with the exact solution. Use documentation to check syntax and technical details, then compare your work with other implementations after you have tried it yourself.
+
+#### Why is it useful for Low-Level Programming?
+
+Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice.
+
+Building projects exposes you to real problems such as pointer bugs, invalid memory access, memory leaks, and debugging. It also forces you to think about how to structure your program and solve problems on your own.
+
+You don't need to build large projects. Small experiments and programs are enough. The goal is to apply what you learn instead of only consuming tutorials.
+
+### Using AI Tools
+
+AI tools can be useful, but try not to depend on them for every problem. Before asking AI, spend some time trying to understand and solve the problem yourself.
+
+AI can help explain errors, clarify concepts, or guide you in the right direction. However, avoid immediately asking it to write the full solution or build the entire project for you.
+
+> **Use AI to help you learn and think, not to do all the thinking for you.**
+
+You can also try a **no-AI challenge** for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead.
+
+It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
 
 ---
 
