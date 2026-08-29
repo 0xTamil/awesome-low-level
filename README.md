@@ -630,7 +630,9 @@ Browse the entire collection through an interactive, Wikipedia-inspired web inte
 
 > Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
 
-[0xTamil](https://discord.gg/YZRknMKn2K)
+  <a href="https://discord.gg/YZRknMKn2K">
+    <img width="700" alt="banner" src="https://github.com/user-attachments/assets/59f2514d-f239-40bf-b620-bc24039dce45" />
+  </a>
 
 ---
 
