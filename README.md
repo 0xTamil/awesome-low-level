@@ -80,12 +80,12 @@ We put a lot of time and effort into reviewing the resources included here to ma
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
-
-Regardless of your programming experience, we highly recommend checking out these resources before getting into low-level programming.
+This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. Before that, we highly recommend checking out these resources before getting into low-level programming.
 
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
 - **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
+
+So, Let's say;
 
 ### If You're an Absolute Beginner
 
