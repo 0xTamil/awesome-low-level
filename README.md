@@ -149,7 +149,7 @@ AI can help explain errors, clarify concepts, or guide you in the right directio
 
 > **Use AI to help you learn and think, not to do all the thinking for you.**
 
-You can also try a **no-AI challenge** for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead. It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
+You can also try a **no AI challenge** for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead. It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
 
 ---
 
