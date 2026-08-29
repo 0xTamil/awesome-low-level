@@ -9,6 +9,8 @@
 - [Why We Made This](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
+    - [But, If You Already Have Some Programming Experience](#but-if-you-already-have-some-programming-experience)
+    - [But, If You're New to Programming](#but-if-youre-new-to-programming)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
   - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
 - [How to Learn](#how-to-learn-)
@@ -87,7 +89,7 @@ Here are some suggested resources to check out before get into low-level program
 
 ### If You're an Absolute Beginner
 
-### But, If You Already Have Some Programming Experience
+#### But, If You Already Have Some Programming Experience
 
 You may already know some programming fundamentals, or you may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level.
 
@@ -97,7 +99,7 @@ Also, keep in mind that **programming fundamentals are not the same thing as kno
 
 If you already have some programming experience, follow the roadmap and move quickly through anything you already understand. When you reach something unfamiliar, take the time to learn it properly before moving on to the next topic.
 
-### But, If You're New to Programming
+#### But, If You're New to Programming
 
 If you're completely new to programming, for example coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting.
 
