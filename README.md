@@ -104,14 +104,8 @@ Once you understand those concepts, you can bring OOP or other programming parad
 ---
 
 ## How to Learn ?
-
-Now that you know how to refer to this megathread, you may still ask:
-
-**"Okay, but how do I actually learn?"**
-
+ 
 Low-level programming can be difficult. You will get stuck, make mistakes, feel burnt out, or sometimes regret starting. That is normal. Learning how to deal with difficult problems is part of becoming a programmer.
-
-This section explains two things: **project-based learning** and how to use **AI tools without becoming dependent on them**.
 
 ### Project-Based Learning
 
@@ -123,7 +117,7 @@ Pick a topic, choose a resource, learn the concept, and then build or implement 
 
 Try solving problems yourself before looking for a tutorial with the exact solution. Use documentation to check syntax and technical details, then compare your work with other implementations after you have tried it yourself.
 
-#### Why is it useful for Low-Level Programming?
+#### Why is it useful for Low-Level Programming ?
 
 Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice.
 
