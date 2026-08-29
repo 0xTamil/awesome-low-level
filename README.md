@@ -111,9 +111,7 @@ Low-level programming can be difficult. You will get stuck, make mistakes, feel 
 
 ### Project-Based Learning
 
-Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**.
-
-Pick a topic, choose a resource, learn the concept, and then build or implement something using what you learned.
+Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**. Pick a topic, choose a resource, learn the concept, and then build or implement something using what you learned.
 
 > For example, if you learn about linked lists, implement one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator.
 
@@ -121,9 +119,7 @@ Try solving problems yourself before looking for a tutorial with the exact solut
 
 #### Why is it useful for Low-Level Programming ?
 
-Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice.
-
-Building projects exposes you to real problems such as pointer bugs, invalid memory access, memory leaks, and debugging. It also forces you to think about how to structure your program and solve problems on your own.
+Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice. Building projects exposes you to real problems such as pointer bugs, invalid memory access, memory leaks, and debugging. It also forces you to think about how to structure your program and solve problems on your own.
 
 You don't need to build large projects. Small experiments and programs are enough. The goal is to apply what you learn instead of only consuming tutorials.
 
@@ -135,9 +131,7 @@ AI can help explain errors, clarify concepts, or guide you in the right directio
 
 > **Use AI to help you learn and think, not to do all the thinking for you.**
 
-You can also try a **no-AI challenge** for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead.
-
-It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
+You can also try a **no-AI challenge** for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead. It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
 
 ---
 
