@@ -558,6 +558,7 @@ A collection of creators who cover topics related to low-level programming.
 - **[Code Guild](https://youtube.com/@code-guild)**
 - **[TechExplained](https://www.youtube.com/@TechsExplained)**
 - **[Low Level Game Dev](https://www.youtube.com/@lowlevelgamedev9330)**
+- **[Core Dumped](https://youtube.com/@coredumpped)**
 
 ---
 
