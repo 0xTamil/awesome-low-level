@@ -9,8 +9,8 @@
 - [Why We Made This](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
-    - [But, If You Already Have Some Programming Experience](#but-if-you-already-have-some-programming-experience)
-    - [But, If You're Really New to Programming](#but-if-youre-really-new-to-programming)
+    - [But, You Already Have Some Programming Experience](#but-you-already-have-some-programming-experience)
+    - [But, You're Really New to Programming](#but-youre-really-new-to-programming)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
   - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
 - [How to Learn](#how-to-learn-)
@@ -89,7 +89,7 @@ So, Let's say;
 
 ### If You're an Absolute Beginner
 
-#### But, If You Already Have Some Programming Experience
+#### But, You Already Have Some Programming Experience
 
 You may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level. Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the C-specific concepts that are important for low-level programming.
 
@@ -97,7 +97,7 @@ You may be coming from a **CS, EEE, IT, or another technical background**. In th
 
 From there, follow the roadmap and build your understanding step by step.
 
-#### But, If You're Really New to Programming
+#### But, You're Really New to Programming
 
 You may coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)** and its beginner resources to get started.
 
