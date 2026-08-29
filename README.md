@@ -6,13 +6,15 @@
 
 ## Table of Contents
 
-## Let's Go
 - [Why We Made This](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
   - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
 - [How to Learn](#how-to-learn-)
+  - [Project-Based Learning](#project-based-learning)
+    - [Why is it useful for Low-Level Programming](#why-is-it-useful-for-low-level-programming-)
+  - [Using AI Tools](#using-ai-tools)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Let's Gooo](#lets-gooo-)
