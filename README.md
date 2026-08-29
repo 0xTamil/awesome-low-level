@@ -103,7 +103,7 @@ You may coming from a **non-CS background** but want to learn programming and ev
 
 - **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: A best learning guide for absolute beginners to get into programming.
 
-Once you're comfortable with the basics, start learning **C**. C is a good language for this roadmap because it lets you see concepts such as memory and data much more directly than many higher-level languages.
+Once you're comfortable with the basics, start learning **C** and **Computer Fundamentals**.
 
 > You don't need to become an expert programmer before starting C. Learn the fundamentals, get comfortable writing simple programs, then gradually learn the C-specific concepts you need for low-level programming.
 
