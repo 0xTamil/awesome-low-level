@@ -127,7 +127,7 @@ Low-level programming can be difficult. You will get stuck, make mistakes, feel 
 
 ### Project-Based Learning
 
-Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**. Pick a topic, choose a resource, learn the concept, and then build or implement something using what you learned.
+Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**. Pick a topic, choose a resource from here, learn the concept, and then build or implement something using what you learned.
 
 > For example, if you learn about linked lists, implement one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator.
 
