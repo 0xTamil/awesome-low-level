@@ -137,15 +137,11 @@ Try solving problems yourself before looking for a tutorial with the exact solut
 
 #### Why is it useful for Low-Level Programming ?
 
-Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice. Building projects exposes you to real problems such as pointer bugs, invalid memory access, memory leaks, and debugging. It also forces you to think about how to structure your program and solve problems on your own.
-
-You don't need to build large projects. Small experiments and programs are enough. The goal is to apply what you learn instead of only consuming tutorials.
+Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice. Building projects exposes you to real problems such as pointer bugs, invalid memory access, memory leaks, and debugging. It also forces you to think about how to structure your program and solve problems on your own. You don't need to build large projects. Small experiments and programs are enough. The goal is to apply what you learn instead of only consuming tutorials.
 
 ### Using AI Tools
 
-AI tools can be useful, but try not to depend on them for every problem. Before asking AI, spend some time trying to understand and solve the problem yourself.
-
-AI can help explain errors, clarify concepts, or guide you in the right direction. However, avoid immediately asking it to write the full solution or build the entire project for you.
+AI tools can be useful, but try not to depend on them for every problem. Before asking AI, spend some time trying to understand and solve the problem yourself. AI can help explain errors, clarify concepts, or guide you in the right direction. However, avoid immediately asking it to write the full solution or build the entire project for you.
 
 > **Use AI to help you learn and think, not to do all the thinking for you.**
 
