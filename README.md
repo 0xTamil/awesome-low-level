@@ -78,18 +78,36 @@ We put a lot of time and effort into reviewing the resources included here to ma
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. Let's say;
-
-### If You're an Absolute Beginner
-
-Follow the roadmap from the beginning. When a resource says that you should "know C basics" or assumes some prior programming knowledge, don't worry too much about it. You may already understand some programming fundamentals from other sources, but **programming fundamentals are not the same thing as knowing C itself**.
-
-> For example, you might already understand variables, loops, functions, conditions, and basic data structures, but still have never written C code before. That's completely fine. In that case, you should still learn the C specific basics before moving on to more low-level topics.
+This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style.
 
 Here are some suggested resources to check out before get into low-level programming:
 
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
 - **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
+
+### If You're an Absolute Beginner
+
+### But, If You Already Have Some Programming Experience
+
+You may already know some programming fundamentals, or you may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level.
+
+Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the C-specific concepts that are important for low-level programming.
+
+> For example, a university course may say that you have learned "C basics", but that might mostly mean learning programming fundamentals using C. You should still make sure you understand C itself, especially things like **pointers, memory, arrays, structs, manual memory management, and how C interacts with the machine**.*
+
+If you already have some programming experience, follow the roadmap and move quickly through anything you already understand. When you reach something unfamiliar, take the time to learn it properly before moving on to the next topic.
+
+### But, If You're New to Programming
+
+If you're completely new to programming, for example coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting.
+
+First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the **r/learnprogramming wiki** and its beginner resources to get started.
+
+Once you're comfortable with the basics, start learning **C**. C is a good language for this roadmap because it lets you see concepts such as memory and data much more directly than many higher-level languages.
+
+> You don't need to become an expert programmer before starting C. Learn the fundamentals, get comfortable writing simple programs, then gradually learn the C-specific concepts you need for low-level programming.
+
+From there, follow the roadmap and build your understanding step by step.
 
 ### If You Have Some Low-Level Experience
 
