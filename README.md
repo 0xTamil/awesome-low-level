@@ -91,9 +91,7 @@ Here are some suggested resources to check out before get into low-level program
 
 #### But, If You Already Have Some Programming Experience
 
-You may already know some programming fundamentals, or you may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level.
-
-Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the C-specific concepts that are important for low-level programming.
+You may already know some programming fundamentals, or you may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level. Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the C-specific concepts that are important for low-level programming.
 
 > For example, a university course may say that you have learned "C basics", but that might mostly mean learning programming fundamentals using C. You should still make sure you understand C itself, especially things like **pointers, memory, arrays, structs, manual memory management, and how C interacts with the machine**.*
 
@@ -101,9 +99,7 @@ If you already have some programming experience, follow the roadmap and move qui
 
 #### But, If You're New to Programming
 
-If you're completely new to programming, for example coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting.
-
-First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the **r/learnprogramming wiki** and its beginner resources to get started.
+If you're completely new to programming, for example coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the **r/learnprogramming wiki** and its beginner resources to get started.
 
 Once you're comfortable with the basics, start learning **C**. C is a good language for this roadmap because it lets you see concepts such as memory and data much more directly than many higher-level languages.
 
