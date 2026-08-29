@@ -12,6 +12,7 @@
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
   - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
+- [How to Learn](#how-to-learn-)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Let's Gooo](#lets-gooo-)
@@ -99,6 +100,26 @@ You may already understand high-level programming concepts but have little or no
 > That doesn't mean OOP is useless in low-level programming. It's still used in many areas, especially things like **game engines, graphics and simulations**. However, it shouldn't be treated as the default way of thinking about low-level programming.
 
 Once you understand those concepts, you can bring OOP or other programming paradigms back into the picture when they're actually useful.
+
+---
+
+## How to Learn ?
+
+Now that you know how to refer to this megathread, you may still ask:
+
+**"Okay, but how do I actually learn?"**
+
+Sometimes, you may get stuck watching tutorials for too long. You may understand what a tutorial is teaching, but when you try to build something on your own, you don't know where to start or how to come up with your own solution.
+
+In that case, try **project-based learning**. Instead of only reading or watching tutorials, use projects to apply what you learn.
+
+Pick a topic you want to learn and choose one or two resources from this megathread. Learn the concept, then try to build or implement something with it yourself. You don't need to finish every resource or go through everything available.
+
+> For example, if you learn about linked lists, try implementing one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator. If you learn about file handling, build something that reads, writes, or processes files.
+
+Try to solve problems yourself before looking for a tutorial that shows the exact solution. You can use documentation to check syntax, functions, and technical details, but try to understand and implement things on your own first.
+
+Getting stuck and making mistakes is a normal part of learning. Try different approaches, debug your code, read documentation, search for information, and experiment. Once you have tried solving the problem yourself, you can check tutorials, guides, or other implementations and compare them with your own work.
 
 ---
 
