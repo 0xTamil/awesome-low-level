@@ -101,7 +101,7 @@ From there, follow the roadmap and build your understanding step by step.
 
 You may coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the;
 
-- **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)** a best guide for absolute beginners who want to learn programming from scratch.
+- **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: A best guide for absolute beginners who want to learn programming from scratch.
 
 Once you're comfortable with the basics, start learning **C**. C is a good language for this roadmap because it lets you see concepts such as memory and data much more directly than many higher-level languages.
 
