@@ -177,6 +177,33 @@ The two often overlap. For example, writing an operating system kernel in C is b
 
 ---
 
+## Why Learn to Program in C ?
+
+- It is the *de facto* standard of programming languages.
+  - C runs on everything.
+  - C lets you write programs that use very few resources.
+  - C gives you near-total control over the system, down to the level of pushing around individual bits with your bare hands.
+  - C imposes very few constraints on programming style. Unlike higher-level languages, C doesn’t have much of an ideology. There are very few programs you can’t write in C.
+  - Many of the programming languages people actually use (Visual Basic, Perl, Python, Ruby, PHP, etc.) are executed by interpreters written in C (or [C++](https://cs.yale.edu/homes/aspnes/classes/223/notes.html#cplusplus), an extension to C).
+
+- You will learn discipline.
+  - C makes it easy to shoot yourself in the foot.
+  - You can learn to avoid this by being careful about where you point it.
+  - Pain is a powerful teacher of caution.
+
+On the other hand, there are many reasons why you might not want to use C later in life. It’s missing a lot of features of modern programming languages, including:
+
+- A garbage collector.
+- Minimal programmer-protection features like array bounds-checking or a strong type system.
+- Non-trivial built-in data structures.
+- Language support for exceptions, namespaces, object-oriented programming, etc.
+
+For most problems where minimizing programmer time and maximizing robustness are more important than minimizing runtime, other languages are a better choice. But for this class, we’ll be using C.
+
+> C extrapolates to many programming languages. Its design is the blueprint that framed many of our modern languages. By studying it, you'll better understand why certain language innovations were necessary and gain a deeper understanding of what's happening under the hood something you won't get as easily with languages like Python or JavaScript.
+
+---
+
 ## Let's Gooo !
 
 Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up. The goal is not to immediately jump into assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
