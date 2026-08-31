@@ -180,10 +180,8 @@ The two often overlap. For example, writing an operating system kernel in C is b
 ---
 
 ## Why Learn to Program in C ?
+C is a **de facto standard** in the programming world and has been around for decades.
 
-There are several good reasons to learn C, especially if you want to understand **low-level programming** and how software interacts with a computer.
-
-- C is a **de facto standard** in the programming world and has been around for decades.
   - C runs on **almost every type of computer and system**, from tiny embedded devices to large operating systems.
   - C allows you to write programs that use **very few system resources**, making it well suited for performance-critical and resource-constrained environments.
   - C gives you **near-total control over the system**, allowing you to work directly with memory, hardware, and even individual bits when necessary.
