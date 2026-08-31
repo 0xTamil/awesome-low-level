@@ -196,7 +196,9 @@ C helps you develop **programming discipline**.
 - Learning C teaches you to be **careful with memory, pointers, data, and resources**.
 - In this sense, C can be a powerful teacher: **mistakes have consequences**, which encourages you to develop better programming habits.
 
-> C is also important because its design has influenced **many modern programming languages**. Its concepts and design decisions can be seen throughout the programming ecosystem. By studying C, you can better understand **why certain language features and abstractions became necessary** and gain a deeper understanding of what is happening **under the hood** something that can be harder to see when working only with higher-level languages such as Python or JavaScript.
+C is also important because its design has influenced **many modern programming languages**. Its concepts and design decisions can be seen throughout the programming ecosystem. 
+
+> By studying C, you can better understand **why certain language features and abstractions became necessary** and gain a deeper understanding of what is happening **under the hood** something that can be harder to see when working only with higher-level languages such as Python or JavaScript.
 
 If you want to understand **how computers work at a lower level**, learn how memory and data are handled, or work in areas such as **operating systems, embedded systems, compilers, game engines, graphics, or performance-critical software**, learning C provides a strong foundation.
 
