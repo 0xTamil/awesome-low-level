@@ -182,17 +182,18 @@ The two often overlap. For example, writing an operating system kernel in C is b
 ## Why Learn to Program in C ?
 C is a **de facto standard** in the programming world and has been around for decades.
 
-  - C runs on **almost every type of computer and system**, from tiny embedded devices to large operating systems.
-  - C allows you to write programs that use **very few system resources**, making it well suited for performance-critical and resource-constrained environments.
-  - C gives you **near-total control over the system**, allowing you to work directly with memory, hardware, and even individual bits when necessary.
-  - C imposes **very few restrictions on programming style**. Unlike many higher-level languages, it does not strongly enforce a particular programming paradigm or ideology. As a result, there are very few kinds of programs that cannot be written in C.
-  - Many popular programming languages and tools are implemented in C or C++. For example, interpreters and runtimes for languages such as **Python, Ruby, PHP, and Perl** are largely written in C or C++.
+- C runs on **almost every type of computer and system**, from tiny embedded devices to large operating systems.
+- C allows you to write programs that use **very few system resources**, making it well suited for performance-critical and resource-constrained environments.
+- C gives you **near-total control over the system**, allowing you to work directly with memory, hardware, and even individual bits when necessary.
+- C imposes **very few restrictions on programming style**. Unlike many higher-level languages, it does not strongly enforce a particular programming paradigm or ideology. As a result, there are very few kinds of programs that cannot be written in C.
+- Many popular programming languages and tools are implemented in C or C++. For example, interpreters and runtimes for languages such as **Python, Ruby, PHP, and Perl** are largely written in C or C++.
 
-- C helps you develop **programming discipline**.
-  - C gives you a lot of freedom, but that freedom also means it is **easy to make serious mistakes**.
-  - Problems such as invalid memory access, buffer overflows, memory leaks, and undefined behavior can occur if you are not careful.
-  - Learning C teaches you to be **careful with memory, pointers, data, and resources**.
-  - In this sense, C can be a powerful teacher: **mistakes have consequences**, which encourages you to develop better programming habits.
+C helps you develop **programming discipline**.
+
+- C gives you a lot of freedom, but that freedom also means it is **easy to make serious mistakes**.
+- Problems such as invalid memory access, buffer overflows, memory leaks, and undefined behavior can occur if you are not careful.
+- Learning C teaches you to be **careful with memory, pointers, data, and resources**.
+- In this sense, C can be a powerful teacher: **mistakes have consequences**, which encourages you to develop better programming habits.
 
 > C is also important because its design has influenced **many modern programming languages**. Its concepts and design decisions can be seen throughout the programming ecosystem. By studying C, you can better understand **why certain language features and abstractions became necessary** and gain a deeper understanding of what is happening **under the hood** something that can be harder to see when working only with higher-level languages such as Python or JavaScript.
 
