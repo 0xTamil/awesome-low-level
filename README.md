@@ -192,15 +192,6 @@ The two often overlap. For example, writing an operating system kernel in C is b
   - You can learn to avoid this by being careful about where you point it.
   - Pain is a powerful teacher of caution.
 
-On the other hand, there are many reasons why you might not want to use C later in life. It’s missing a lot of features of modern programming languages, including:
-
-- A garbage collector.
-- Minimal programmer-protection features like array bounds-checking or a strong type system.
-- Non-trivial built-in data structures.
-- Language support for exceptions, namespaces, object-oriented programming, etc.
-
-For most problems where minimizing programmer time and maximizing robustness are more important than minimizing runtime, other languages are a better choice. But for this class, we’ll be using C.
-
 > C extrapolates to many programming languages. Its design is the blueprint that framed many of our modern languages. By studying it, you'll better understand why certain language innovations were necessary and gain a deeper understanding of what's happening under the hood something you won't get as easily with high-level languages like Python or JavaScript.
 
 ---
