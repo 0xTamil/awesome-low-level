@@ -19,6 +19,7 @@
   - [Using AI Tools](#using-ai-tools)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
+- [Why Learn to Program in C](#why-learn-to-program-in-c-)
 - [Let's Gooo](#lets-gooo-)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
@@ -34,7 +35,7 @@
   - [4. Build Small Projects](#4-build-small-projects)
   - [5. Study Algorithms & Data Structures](#5-study-algorithms--data-structures)
   - [6. Pick a Specialized Field](#6-pick-a-specialized-field)
-  - [7. Learn Modern Low-Level Languages](#7-learn-modern-low-level-languages-optional)
+  - [7. Learn Modern Low-Level Languages (Optional)](#7-learn-modern-low-level-languages-optional)
 - [Prerequisites](#prerequisites)
   - [Circuits & Electronics](#circuits--electronics)
   - [Computer Fundamentals](#computer-fundamentals)
@@ -200,7 +201,7 @@ On the other hand, there are many reasons why you might not want to use C later 
 
 For most problems where minimizing programmer time and maximizing robustness are more important than minimizing runtime, other languages are a better choice. But for this class, we’ll be using C.
 
-> C extrapolates to many programming languages. Its design is the blueprint that framed many of our modern languages. By studying it, you'll better understand why certain language innovations were necessary and gain a deeper understanding of what's happening under the hood something you won't get as easily with languages like Python or JavaScript.
+> C extrapolates to many programming languages. Its design is the blueprint that framed many of our modern languages. By studying it, you'll better understand why certain language innovations were necessary and gain a deeper understanding of what's happening under the hood something you won't get as easily with high-level languages like Python or JavaScript.
 
 ---
 
