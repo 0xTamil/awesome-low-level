@@ -103,7 +103,6 @@ From there, follow the roadmap and build your understanding step by step.
 You may coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the;
 
 - **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: A best learning guide for absolute beginners to get into programming.
-- **[Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)**: A wonderful article that make dummies to get into programming.
 
 Once you're comfortable with the basics, start learning **C** and **Computer Fundamentals**.
 
@@ -127,7 +126,9 @@ Once you understand those concepts, you can bring OOP or other programming parad
 
 ## How to Learn ?
  
-Low-level programming can be difficult. You will get stuck, make mistakes, feel burnt out, or sometimes regret starting. That is normal. Learning how to deal with difficult problems is part of becoming a programmer.
+Low-level programming can be difficult. You will get stuck, make mistakes, feel burnt out, or sometimes regret starting. That is normal. Learning how to deal with difficult problems is part of becoming a programmer. To get a broader perspective on how to learn programming effectively, check out this resource:
+
+- **[Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)**: A great article for beginners that provides a realistic perspective on learning programming and what it takes to become proficient over time.
 
 ### Project-Based Learning
 
