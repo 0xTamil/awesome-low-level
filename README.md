@@ -631,6 +631,7 @@ A collection of creators who cover topics related to low-level programming.
 - **[TechExplained](https://www.youtube.com/@TechsExplained)**
 - **[Low Level Game Dev](https://www.youtube.com/@lowlevelgamedev9330)**
 - **[Core Dumped](https://youtube.com/@coredumpped)**
+- **[Dave's Garage](https://www.youtube.com/@DavesGarage)**
 
 ---
 
