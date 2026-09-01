@@ -20,6 +20,7 @@
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Why C First](#why-c-first-)
+- [What about C++](#what-about-c++-)
 - [Let's Gooo](#lets-gooo-)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
@@ -181,6 +182,7 @@ The two often overlap. For example, writing an operating system kernel in C is b
 ---
 
 ## Why C First ?
+
 C is a **de facto standard** in the programming world and has been around for decades.
 
 - C runs on **almost every type of computer and system**, from tiny embedded devices to large operating systems.
@@ -204,7 +206,7 @@ If you want to understand **how computers work at a lower level**, learn how mem
 
 ---
 
-## Why not C++ ?
+## What about C++ ?
 
 There is a common confusion among beginners about which language is better for low-level programming: **C or C++**. You will often hear the advice **"learn C before C++."** There is a reason behind it, but that doesn't mean C++ is a bad choice.
 
