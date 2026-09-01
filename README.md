@@ -257,200 +257,304 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 # Roadmap
 
-# Roadmap
-
-## 1. Learn Circuits & Electronics
-
-Start by understanding how computers are built from the physical level upward. Learn the fundamentals of electricity, electronic components, digital logic, binary representation, and sequential circuits. The goal is to understand how electrical components are combined to create digital hardware.
-
-> You **do not need to study electronics in-depth before learning C**. Learn enough to understand how digital computers are physically constructed, then continue into computer fundamentals and programming.
-
-### 1.1 Basic Electronics
-
-- Voltage, current, resistance, power, energy, Ohm's Law, and series/parallel circuits
-- Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL)
-- Resistors, capacitors, inductors, diodes, transistors, and MOSFETs
-- Analog and digital signals
-
-### 1.2 Circuit Analysis
-
-- Nodes, branches, and loops
-- Voltage dividers and current dividers
-- Thevenin's theorem and Norton's theorem
-- RC/RL circuits, time constants, transient behavior, and steady-state behavior
-
-### 1.3 Analog Electronics
-
-- Diodes and rectifiers
-- BJT and MOSFET fundamentals
-- Transistors as switches and amplifiers
-- Operational amplifiers
-- Voltage regulators
-- Analog-to-digital conversion (ADC) and digital-to-analog conversion (DAC)
-
-### 1.4 Logic Gates & Boolean Logic
-
-- AND, OR, NOT, NAND, NOR, XOR, and XNOR gates
-- Truth tables and Boolean algebra
-- De Morgan's laws
-- Karnaugh maps
-
-### 1.5 Bits & Binary
-
-- Bits and bytes
-- Binary and hexadecimal numbers
-- Binary arithmetic
-- Signed and unsigned representation
-- Two's complement
-- Integer representation and overflow
-
-> **Bitwise operations are covered later in Computer Fundamentals and C.** Here, focus on understanding binary states and how digital circuits represent information.
-
-### 1.6 Combinational Logic
-
-- Adders and subtractors
-- Half adders and full adders
-- Multiplexers and demultiplexers
-- Encoders and decoders
-- Comparators
-- Tri-state logic
-
-### 1.7 Sequential Logic
-
-- Latches and flip-flops
-- SR, D, JK, and T flip-flops
-- Clock signals and clock edges
-- Registers and shift registers
-- Counters
-- Setup time, hold time, and propagation delay
-
-### 1.8 Memory Circuits
-
-Learn how digital circuits physically store information.
-
-- SRAM, DRAM, and ROM
-- Memory cells and memory arrays
-- Address lines and data lines
-- Read/write operations
-- Memory addressing circuits
-
-> This section focuses on **memory as electronic hardware**. Virtual memory, address spaces, stack, heap, and memory management are covered later in Computer Fundamentals and C.
-
-### 1.9 Finite State Machines
-
-- States, transitions, inputs, and outputs
-- State diagrams and state tables
-- Moore and Mealy machines
-- State registers
-- FSM implementation using logic gates and flip-flops
-
----
-
 ## 2. Learn Computer Fundamentals
 
-Move from individual electronic circuits to the computer system as a whole. Learn how processors, memory, storage, programs, operating systems, and I/O work together from a programmer's perspective.
+Understand how modern computer systems work from a programmer's perspective. Learn how information is represented, how processors execute instructions, how memory and storage are organized, how programs are compiled and loaded, how operating systems manage programs and resources, and how computers communicate through I/O and networks.
 
-> The Electronics section explains **how digital hardware is physically constructed**. This section explains **how a completed computer system operates and how software interacts with it**.
+> The **Electronics** section focuses on how digital hardware is physically constructed. This section focuses on how a completed computer system operates and how software interacts with it.
 
-### 2.1 Computer Architecture
+### 2.1 Computer Systems Overview
 
-- CPU, Arithmetic Logic Unit (ALU), control unit, registers, program counter, stack pointer, and instruction register
-- Instruction Set Architecture (ISA), machine instructions, instruction encoding/decoding, and the fetch-decode-execute cycle
-- CPU pipelines, cache, buses, and memory controllers
-- Hardware interrupts and privilege levels
+Understand the major components of a computer system and how they work together.
+
+- Computer systems
+- Levels of abstraction
+- Hardware and software
+- Bits and information
+- Program execution
+- CPU, memory, storage, operating system, and networks
+- Processes and threads
+- Virtual memory
+- Files
+- System abstractions
+- Concurrency and parallelism
+- Amdahl's Law
 
 ### 2.2 Data Representation
 
-Understand how software interprets and manipulates binary data.
+Understand how computers represent and manipulate information.
 
-- Integer types, signed/unsigned integers, and two's complement
-- Floating-point numbers and IEEE 754
-- Characters, strings, ASCII, Unicode, and character encodings
-- Endianness
-- Data alignment, struct layout, padding, and bit fields
-- Bitwise operations
+- Binary numbers
+- Hexadecimal notation
+- Bits and bytes
+- Data sizes
+- Memory addresses
+- Addressing
+- Byte ordering and endianness
+- Character representation
+- Strings
+- ASCII
+- Unicode
+- Character encodings
+- Integer representation
+- Signed and unsigned integers
+- Two's complement
+- Integer conversions
+- Integer overflow
+- Integer arithmetic
+- Floating-point numbers
+- IEEE 754
+- Floating-point arithmetic
+- Rounding and precision
+- Boolean algebra
+- Bit-level operations
+- Logical operations
+- Shift operations
 
-> Binary representation itself was introduced in **1.5 Bits & Binary**. Here, focus on how software interprets and manipulates that data.
+> Binary representation was introduced in **Electronics**. Here, focus on how software and computer systems represent and manipulate data.
 
-### 2.3 Memory & Address Spaces
+### 2.3 Computer Architecture
 
-Focus on memory from the programmer and operating-system perspective.
+Understand how processors execute programs and how the major hardware components work together.
 
-- Memory addresses, address spaces, virtual addresses, and physical addresses
-- Virtual memory, pages, page tables, memory mapping, and memory protection
-- Stack, heap, static/global memory, code/text, and data segments
-- Memory layout and memory allocation
-- Memory-mapped files
+- Computer architecture
+- CPU
+- Central Processing Unit
+- Arithmetic Logic Unit (ALU)
+- Control unit
+- CPU registers
+- Program counter
+- Instruction Set Architecture (ISA)
+- Machine instructions
+- Instruction encoding
+- Instruction decoding
+- Fetch-decode-execute cycle
+- Memory controllers
+- Hardware interrupts
+- Privilege levels
+- CPU performance
+- Instruction execution
+- Instruction-level parallelism
+- CPU pipelining
+- Pipeline stages
+- Pipeline hazards
+- Branch prediction
+- Branch misprediction
 
-> SRAM, DRAM, ROM, memory cells, and physical read/write circuits were covered in **1.8 Memory Circuits**.
+> Detailed logic gates, combinational circuits, sequential circuits, registers, and physical CPU construction are covered in **Electronics**.
 
-### 2.4 Programming Fundamentals
+### 2.4 Memory & Storage Systems
 
-Learn the programming concepts needed to work with systems software.
+Understand how computers organize data across different levels of memory and storage.
 
-- Variables, constants, data types, operators, expressions, and statements
-- Conditions, loops, functions, parameters, return values, scope, and lifetime
-- Recursion and modular programming
-- Input/output and error handling
+- Storage hierarchy
+- Registers
+- CPU cache
+- Main memory
+- RAM
+- DRAM
+- Storage devices
+- Disk storage
+- Solid-state drives (SSD)
+- Locality
+- Temporal locality
+- Spatial locality
+- Memory hierarchy
+- Cache memories
+- Cache organization
+- Direct-mapped caches
+- Set-associative caches
+- Fully associative caches
+- Cache replacement
+- Cache writes
+- Cache performance
+- Cache-friendly programming
 
-### 2.5 Compilation & Program Representation
+> Physical memory circuits such as SRAM cells, DRAM cells, memory arrays, address lines, and data lines belong to **Electronics**. Virtual memory and address translation are covered in **2.7 Virtual Memory & Memory Management**.
 
-Understand how source code becomes an executable program.
+### 2.5 Program Compilation & Execution
 
-- Source code, preprocessing, compilation, assembly, and machine code
-- Object files, symbols, relocation, and linking
-- Static libraries and dynamic/shared libraries
-- Executable files and program loaders
-- Debug information
-- ABI and calling conventions
+Understand how source code is transformed into executable programs and how those programs are prepared to run.
+
+- Source code
+- Preprocessing
+- Compilation
+- Assembly
+- Machine code
+- Object files
+- Executable files
+- Symbols
+- Symbol tables
+- Symbol resolution
+- Relocation
+- Linking
+- Static linking
+- Static libraries
+- Dynamic linking
+- Shared libraries
+- Position-independent code (PIC)
+- Program loading
+- Runtime environment
+- ABI
+- Calling conventions
+- Program vs. process
+
+> Detailed machine-level programming and assembly programming are covered separately. This section focuses on understanding the compilation and execution pipeline.
 
 ### 2.6 Operating System Fundamentals
 
-Learn how the operating system manages hardware and provides services to programs.
+Understand how the operating system manages hardware and provides services to programs.
 
-- Operating systems, kernel, user space, and kernel space
-- Processes, threads, process creation, and process lifecycle
-- Scheduling and context switching
+- Operating systems
+- Kernel
+- User space
+- Kernel space
+- User mode
+- Kernel mode
 - System calls
-- File systems, files, file descriptors, and permissions
-- Device drivers
-- Synchronization, concurrency, and inter-process communication (IPC)
+- Processes
+- Process creation
+- Process termination
+- Process lifecycle
+- Process IDs
+- Threads
+- Thread execution
+- Scheduling
+- Context switching
+- Exceptions
+- Interrupts
+- Signals
+- Inter-process communication (IPC)
+- Synchronization
+- Basic concurrency
+- Concurrent execution
 
-### 2.7 Input/Output & Hardware Interaction
+> Detailed thread synchronization, race conditions, deadlocks, and parallel programming can be studied later when specializing in **Concurrency & Parallel Computing**.
 
-Understand how software communicates with devices through the operating system and hardware interfaces.
+### 2.7 Virtual Memory & Memory Management
 
-- Standard input, standard output, standard error, and buffering
-- File descriptors and device files
-- Device drivers
-- Memory-mapped I/O and port I/O
-- Direct Memory Access (DMA)
-- Interrupt-driven, blocking, non-blocking, and asynchronous I/O
+Understand how the operating system provides processes with protected and isolated memory spaces.
 
-> Physical logic circuits and electronic hardware were covered in **Circuits & Electronics**. This section focuses on the **software and operating-system side of hardware interaction**.
+- Physical addresses
+- Virtual addresses
+- Address spaces
+- Virtual memory
+- Memory pages
+- Page tables
+- Address translation
+- Translation Lookaside Buffer (TLB)
+- Page faults
+- Memory protection
+- Memory mapping
+- Shared memory
+- Stack memory
+- Heap memory
+- Static and global memory
+- Code/text segment
+- Data segment
+- Process memory layout
+- Dynamic memory allocation
+- Heap management
+- Memory fragmentation
+- Memory leaks
+- Common memory-related bugs
 
-### 2.8 Networking Fundamentals
+> C-specific pointer usage and manual memory management are covered in **C & Memory**. Here, focus on the operating-system and runtime concepts behind memory management.
 
-Learn how computers communicate with each other.
+### 2.8 System I/O & Files
 
-- Network interfaces, MAC addresses, Ethernet, and IP addressing
-- IPv4, IPv6, subnets, and routing
-- Ports, TCP, UDP, packets, DNS, HTTP, and HTTPS
-- Sockets and the client/server model
+Understand how programs interact with files and operating-system I/O facilities.
+
+- System-level I/O
+- Files
+- File metadata
+- Directories
+- File descriptors
+- Opening and closing files
+- Reading and writing
+- Standard input
+- Standard output
+- Standard error
+- Buffered I/O
+- Unbuffered I/O
+- File sharing
+- I/O redirection
+- Standard I/O
+- Basic device I/O
+
+> Device drivers, memory-mapped I/O, DMA, and hardware-specific interfaces are better studied when specializing in **Embedded Systems**, **Operating Systems**, or **Hardware Programming**.
+
+### 2.9 Networking Fundamentals
+
+Understand how computers communicate with other systems.
+
+- Computer networks
+- Client-server model
+- Network interfaces
+- MAC addresses
+- Ethernet
+- IP addresses
+- IPv4
+- IPv6
+- Subnets
+- Routing
+- Ports
+- Packets
+- TCP
+- UDP
+- DNS
+- Domain names
+- Network connections
+- Sockets
+- Socket addresses
+- HTTP
+- HTTPS
+- Basic client-server communication
 - Basic network troubleshooting
 
-### 2.9 Program Execution & Runtime
+> Advanced networking, asynchronous networking, packet processing, network performance, and network protocol implementation can be studied later under **Network Systems Programming**.
 
-Understand what happens when a program is launched and runs.
+### 2.10 Essential System Tools
 
-- Programs and processes
-- Program loading and address-space initialization
-- Stack and heap initialization
-- Function calls, call stacks, stack frames, and calling conventions
-- Runtime environment and environment variables
-- Exit codes and signals
-- Shared libraries and dynamic linking
-- Thread execution
+Learn the basic tools used to inspect, execute, and understand computer systems.
+
+- Command-line interface
+- Shells
+- Environment variables
+- Processes and process inspection
+- File-system navigation
+- Basic system utilities
+- Compilers
+- Linkers
+- Object-file inspection
+- System-call tracing
+- Debuggers
+- Basic performance monitoring
+- Basic binary analysis
+
+> Advanced debugging, reverse engineering, profiling, and binary analysis can be studied later under **Debugging** and **Cybersecurity**.
+
+### 2.11 Core System Concepts
+
+Bring the major concepts together and understand how they interact.
+
+- Hardware and software abstraction
+- Program compilation
+- Program loading
+- CPU instruction execution
+- Memory hierarchy
+- Virtual memory
+- Processes and threads
+- System calls
+- Files and I/O
+- Networking
+- Concurrency
+- Parallelism
+- Performance trade-offs
+- System resource management
+- Abstraction boundaries
+
+> The goal of **Computer Fundamentals** is not to master every topic in depth. The goal is to understand the major components of a computer system and how they interact. Deeper topics can be studied later when you choose a specialization.
 
 ---
 
