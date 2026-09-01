@@ -19,7 +19,7 @@
   - [Using AI Tools](#using-ai-tools)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
-- [Why Learning C is Important](#why-lear ing-c-is-important-)
+- [Why Learning C is Important](#why-learning-c-is-important-)
 - [C vs C++ in Low-Level Programming](#what-about-c++-)
 - [Let's Gooo](#lets-gooo-)
 - [Roadmap](#roadmap)
