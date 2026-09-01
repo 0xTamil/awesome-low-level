@@ -229,6 +229,8 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 <img width="6946" height="4098" alt="Roadmap" src="https://github.com/user-attachments/assets/23aa319e-dd67-4721-bf1e-90b7c862f254" />
 
+You don’t need to study electronics in depth before learning C. However, the further down the systems stack you go, the more important electronics becomes. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential.
+
 ---
 
 # Prerequisites
