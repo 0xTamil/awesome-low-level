@@ -247,9 +247,9 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 ## 1. Learn Circuits & Electronics
 
-Begin with the basics of how computers work at the physical level. Learn about electronics, binary, and logic gates, then explore how circuits can perform calculations and store data. From there, understand how these simple components are combined to build a CPU and how a processor runs programs.
+Start by learning how computers work at the physical level. Learn the basics of electricity, electronic components, binary, and logic gates. Then see how these simple parts work together to perform calculations, make decisions, and store data. From there, learn how these building blocks are combined to create memory and a CPU. Understand how a CPU uses registers, executes instructions, and runs programs. Finally, learn assembly to see how software interacts with the hardware.
 
-> You don’t necessarily need to learn circuits and electronics in depth. You can **learn them along the way while learning C**. We suggest learning the basics because it depends on the field you want to go into. For example, if you want to work in embedded systems and do bare-metal programming with electronics, this knowledge is important. But if you want to go into another field, want to learn C, or don’t know what you want to do yet, just learn the basics at least up to **assembly**, then move on to **computer fundamentals** and **C**.
+> You do not need to study electronics in depth before learning C. You can learn the basics along the way while learning C. If you want to work in embedded systems, firmware, or bare-metal programming, a stronger understanding of electronics and circuits will be useful. If you are not sure what field you want to go, learn the basics up to assembly, then move on to computer fundamentals and C.
 
 ### 1. Basic Electronics
 
