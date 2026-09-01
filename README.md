@@ -19,7 +19,7 @@
   - [Using AI Tools](#using-ai-tools)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
-- [Why Learn to Program in C](#why-learn-to-program-in-c-)
+- [Why C First](#why-c-first-)
 - [Let's Gooo](#lets-gooo-)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
@@ -180,7 +180,7 @@ The two often overlap. For example, writing an operating system kernel in C is b
 
 ---
 
-## Why Learn to Program in C ?
+## Why C First ?
 C is a **de facto standard** in the programming world and has been around for decades.
 
 - C runs on **almost every type of computer and system**, from tiny embedded devices to large operating systems.
@@ -201,6 +201,34 @@ C is also important because its design has influenced **many modern programming 
 > By studying C, you can better understand **why certain language features and abstractions became necessary** and gain a deeper understanding of what is happening **under the hood** something that can be harder to see when working only with higher-level languages such as Python or JavaScript.
 
 If you want to understand **how computers work at a lower level**, learn how memory and data are handled, or work in areas such as **operating systems, embedded systems, compilers, game engines, graphics, or performance-critical software**, learning C provides a strong foundation.
+
+---
+
+## Why not C++ ?
+
+There is a common confusion among beginners about which language is better for low-level programming: **C or C++**. You will often hear the advice **"learn C before C++."** There is a reason behind it, but that doesn't mean C++ is a bad choice.
+
+C is often recommended because it does a better job of making you confront what is happening underneath your program. For example, C gives you much less abstraction around things like strings and memory. You have to understand how they work instead of simply relying on a convenient abstraction.
+
+C++ can hide more of those details. Its classes and other features can make programming easier and allow you to write much larger and more complex software, but that also means it can be easier to use something without understanding what is happening underneath.
+
+> **C makes it harder to avoid the fundamentals, while C++ gives you more ways to abstract them.**
+
+Another thing to understand is that C++ does not automatically make your programs "less low-level." You can write C-like code in C++ if that is what the project needs. The language gives you the choice between staying close to the fundamentals and using higher-level abstractions.
+
+Both languages are capable of building serious software. You can use either one for things like **operating systems, embedded software, game engines, graphics, compilers, and other performance-critical projects**.
+
+So, should you always learn C before C++?
+
+**Not necessarily.**
+
+If you prefer C++, you can start with C++ first. You don't have to learn C separately before starting. Just make sure you understand the C fundamentals that C++ is built around as you progress.
+
+Likewise, starting with C and moving to C++ later is completely fine.
+
+The advice to **"learn C before C++"** is mainly about making the fundamentals easier to understand, not because C++ is incapable of low-level programming.
+
+> **C is a great starting point for understanding the fundamentals, but C++ is still a perfectly valid choice.**
 
 ---
 
