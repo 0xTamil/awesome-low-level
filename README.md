@@ -231,6 +231,14 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 You don’t need to study electronics in depth before learning C. However, the further down the systems stack you go, the more important electronics becomes. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential.
 
+After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural languages** such as **C++**, **Rust**, **Zig** and **Odin**.
+
+> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also **stick with C** if you want. C remains highly relevant to low-level programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+
+If you want to explore something different, you can also try **non-procedural languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
+
+> If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
+
 ---
 
 # Prerequisites
