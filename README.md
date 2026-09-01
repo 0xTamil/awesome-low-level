@@ -247,8 +247,6 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 ## 1. Learn Circuits & Electronics
 
-### What to do
-
 Begin with the basics of how computers work at the physical level. Learn about electronics, binary, and logic gates, then explore how circuits can perform calculations and store data. From there, understand how these simple components are combined to build a CPU and how a processor runs programs.
 
 > You don’t necessarily need to learn circuits and electronics in depth. You can **learn them along the way while learning C**. We suggest learning the basics because it depends on the field you want to go into. For example, if you want to work in embedded systems and do bare-metal programming with electronics, this knowledge is important. But if you want to go into another field, want to learn C, or don’t know what you want to do yet, just learn the basics at least up to **assembly**, then move on to **computer fundamentals** and **C**.
@@ -389,8 +387,6 @@ Begin with the basics of how computers work at the physical level. Learn about e
 
 ## 2. Learn Computer Fundamentals
 
-### What to do
-
 Learn the purpose of major computer components such as the **CPU, RAM, storage, and input/output devices**. Understand how the CPU executes instructions, how data is stored in memory, and how programs are represented inside a computer.
 
 You should also understand fundamental programming concepts such as:
@@ -406,8 +402,6 @@ You should also understand fundamental programming concepts such as:
 
 ## 3. Learn C & Memory
 
-### What to do
-
 Learn the **C programming language** with a strong focus on how memory works. Important topics include:
 
 - Pointers and memory addresses
@@ -422,8 +416,6 @@ Learn the **C programming language** with a strong focus on how memory works. Im
 ---
 
 ## 4. Build Small Projects
-
-### What to do
 
 Apply your knowledge by building small but practical projects. Start with simple command-line tools and gradually increase their complexity.
 
@@ -441,8 +433,6 @@ Focus on understanding how your program interacts with memory, files, and the op
 ---
 
 ## 5. Study Algorithms & Data Structures
-
-### What to do
 
 Learn how to organize data and design efficient solutions by understanding common data structures, algorithms, and computational complexity.
 
@@ -463,7 +453,6 @@ Also study important algorithmic concepts such as:
 - Recursion
 - Iteration
 - Time complexity
-- Space complexity
 
 > Try implementing these data structures yourself in C rather than only using library implementations.
 
@@ -471,15 +460,11 @@ Also study important algorithmic concepts such as:
 
 ## 6. Pick a Specialized Field
 
-### What to do
-
 Once you have a solid foundation, choose a specific area of low-level programming to explore further. You can explore areas such as operating systems, graphics programming, embedded systems, compilers, FPGA programming, networking, parallel computing, or game engine development. Start building projects related to the area that interests you the most.
 
 ---
 
 ## 7. Learn Modern Low-Level Languages *(Optional)*
-
-### What to do
 
 After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural languages** such as:
 
