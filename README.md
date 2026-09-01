@@ -249,45 +249,144 @@ Begin with the basics of how computers work at the physical level. Learn about e
 
 > You don’t necessarily need to learn circuits and electronics in depth. You can **learn them along the way while learning C**. We suggest learning the basics because it depends on the field you want to go into. For example, if you want to work in embedded systems and do bare-metal programming with electronics, this knowledge is important. But if you want to go into another field, want to learn C, or don’t know what you want to do yet, just learn the basics at least up to **assembly**, then move on to **computer fundamentals** and **C**.
 
-#### 1. **Basic Electronics**
-   - [Voltage, current, and resistance (Ohm's Law)](https://en.wikipedia.org/wiki/Ohm's_law)
-   - [Electronic circuits](https://en.wikipedia.org/wiki/Electronic_circuit)
-   - [Digital and analog signals](https://en.wikipedia.org/wiki/Signal_processing)
+### 1. Basic Electronics
 
-#### 2. **Bits & Binary**
-   - [What a bit is ?](https://en.wikipedia.org/wiki/Bit)
-   - [Bytes](https://en.wikipedia.org/wiki/Byte)
-   - [Binary](https://en.wikipedia.org/wiki/Binary_number) and [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) numbers
-   - [Binary arithmetic](https://commons.wikimedia.org/wiki/Category:Binary_arithmetic)
+- Voltage, current, and resistance
+- Ohm's Law
+- Power and energy
+- Series and parallel circuits
+- Kirchhoff's Circuit Laws
+- Resistors
+- Capacitors
+- Inductors
+- Diodes
+- Transistors
+- MOSFETs
+- Analog and digital signals
 
-#### 3. **Logic Gates**
-   - [Basic Gates](https://en.wikipedia.org/wiki/Logic_gate)
-   - [Truth tables](https://en.wikipedia.org/wiki/Logic_gate#Truth_tables)
-   - [K-map](https://en.wikipedia.org/wiki/Karnaugh_map)
-   - [De Morgan Theorem](https://en.wikipedia.org/wiki/De_Morgan's_laws)
-   - [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra)
+### 2. Circuit Analysis
 
-#### 4. **Combinational Logic**
-   - [How logic gates are combined ?](https://en.wikipedia.org/wiki/Combinational_logic)
-   - [Adders](https://en.wikipedia.org/wiki/Adder_(electronics)) and [subtractors](https://en.wikipedia.org/wiki/Subtractor)
-   - [Multiplexers](https://en.wikipedia.org/wiki/Multiplexer)
-   - [Encoders](https://en.wikipedia.org/wiki/Encoder_(digital)) and [decoders](https://en.wikipedia.org/wiki/Binary_decoder)
-   - [Comparators](https://en.wikipedia.org/wiki/Digital_comparator)
+- Circuit diagrams and schematics
+- Nodes, branches, and loops
+- Kirchhoff's Current Law (KCL)
+- Kirchhoff's Voltage Law (KVL)
+- Voltage dividers
+- Current dividers
+- Thevenin's theorem
+- Norton's theorem
+- RC and RL circuits
+- Time constants
+- Transient and steady-state behavior
 
-#### 5. **Sequential Logic**
-   - [How memory works in circuit level ?](https://en.wikipedia.org/wiki/Sequential_logic)
-   - [Flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
-   - [Counters](https://en.wikipedia.org/wiki/Counter_(digital))
-   - [Clock signals](https://en.wikipedia.org/wiki/Clock_signal)
+### 3. Analog Electronics
 
-#### 6. **Finite State Machines**
-   - [States](https://en.wikipedia.org/wiki/Finite-state_machine)
+- Diodes and rectifiers
+- BJT fundamentals
+- MOSFET fundamentals
+- Transistors as switches
+- Transistors as amplifiers
+- Operational amplifiers
+- Voltage regulators
+- Analog-to-digital conversion (ADC)
+- Digital-to-analog conversion (DAC)
 
-#### 7. **Microprocessor**
-   - [ALU](https://en.wikipedia.org/wiki/Arithmetic_logic_unit)
-   - [Registers](https://en.wikipedia.org/wiki/Processor_register)
-   - [Instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)
-   - [Assembly](https://en.wikipedia.org/wiki/Assembly_language)
+### 4. Bits & Binary
+
+- Bits
+- Bytes
+- Binary numbers
+- Hexadecimal numbers
+- Binary arithmetic
+- Signed and unsigned numbers
+- Two's complement
+- Bitwise operations
+- Integer overflow
+
+### 5. Logic Gates & Boolean Logic
+
+- AND, OR, NOT gates
+- NAND and NOR gates
+- XOR and XNOR gates
+- Truth tables
+- Boolean algebra
+- De Morgan's laws
+- Karnaugh maps
+- Logic minimization
+
+### 6. Combinational Logic
+
+- Combinational logic
+- Adders
+- Subtractors
+- Multiplexers
+- Demultiplexers
+- Encoders
+- Decoders
+- Comparators
+- Tri-state logic
+
+### 7. Sequential Logic
+
+- Sequential logic
+- Latches
+- Flip-flops
+- Clock signals
+- Clock edges
+- Registers
+- Shift registers
+- Counters
+- Setup and hold time
+- Propagation delay
+
+### 8. Memory
+
+- Memory cells
+- SRAM
+- DRAM
+- ROM
+- Memory addressing
+- Address bus
+- Data bus
+- Read and write operations
+- Memory hierarchy
+
+### 9. Finite State Machines
+
+- Finite state machines (FSMs)
+- States
+- Transitions
+- Inputs and outputs
+- State diagrams
+- Moore machines
+- Mealy machines
+
+### 10. Computer Organization
+
+- CPU architecture
+- Datapath
+- Control unit
+- ALU
+- CPU registers
+- Program counter
+- Stack pointer
+- Instruction Set Architecture (ISA)
+- Machine instructions
+- Instruction encoding
+- Fetch-decode-execute cycle
+- Buses
+- Interrupts
+- Basic pipelining
+
+### 11. Assembly & Low-Level Programming
+
+- Assembly language
+- Registers and instructions
+- Memory addressing
+- Stack and calling conventions
+- Function calls
+- Branches and jumps
+- System calls
+- Interaction between assembly and hardware
 
 ### Why it matters
 
