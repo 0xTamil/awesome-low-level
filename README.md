@@ -227,7 +227,9 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 # Roadmap
 
-<img width="3800" height="3796" alt="Roadmap" src="https://github.com/user-attachments/assets/eb751d34-23b3-4e95-b496-b1a70e3fb50a" />
+<p align="center">
+  <img width="3800" height="3796" alt="Roadmap" src="https://github.com/user-attachments/assets/eb751d34-23b3-4e95-b496-b1a70e3fb50a" />
+</p>
 
 You don’t need to study electronics in depth before learning C. However, the further down the systems stack you go, the more important electronics becomes. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential.
 
