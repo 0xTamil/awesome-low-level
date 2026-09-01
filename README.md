@@ -214,23 +214,17 @@ C is often recommended because it does a better job of making you confront what 
 
 C++ can hide more of those details. Its classes and other features can make programming easier and allow you to write much larger and more complex software, but that also means it can be easier to use something without understanding what is happening underneath.
 
-> **C makes it harder to avoid the fundamentals, while C++ gives you more ways to abstract them.**
-
 Another thing to understand is that C++ does not automatically make your programs "less low-level." You can write C-like code in C++ if that is what the project needs. The language gives you the choice between staying close to the fundamentals and using higher-level abstractions.
 
-Both languages are capable of building serious software. You can use either one for things like **operating systems, embedded software, game engines, graphics, compilers, and other performance-critical projects**.
+> Both languages are capable of building serious software. You can use either one for **low-level systems**.
 
 So, should you always learn C before C++?
 
 **Not necessarily.**
 
-If you prefer C++, you can start with C++ first. You don't have to learn C separately before starting. Just make sure you understand the C fundamentals that C++ is built around as you progress.
+If you prefer C++, you can start with C++ first. You don't have to learn C separately before starting. Just make sure you understand the C fundamentals that C++ is built around as you progress. Likewise, starting with C and moving to C++ later is completely fine.
 
-Likewise, starting with C and moving to C++ later is completely fine.
-
-The advice to **"learn C before C++"** is mainly about making the fundamentals easier to understand, not because C++ is incapable of low-level programming.
-
-> **C is a great starting point for understanding the fundamentals, but C++ is still a perfectly valid choice.**
+> The advice to **"learn C before C++"** is mainly about making the fundamentals easier to understand, not because C++ is incapable of low-level programming. C is a great starting point for understanding the fundamentals, but C++ is still a perfectly valid choice.
 
 ---
 
