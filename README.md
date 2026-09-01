@@ -23,36 +23,6 @@
 - [C vs C++ in Low-Level Programming](#c-vs-c-in-low-level-programming)
 - [Let's Gooo](#lets-gooo-)
 - [Roadmap](#roadmap)
-  - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
-    - [1.1 Basic Electronics](#11-basic-electronics)
-    - [1.2 Circuit Analysis](#12-circuit-analysis)
-    - [1.3 Analog Electronics](#13-analog-electronics)
-    - [1.4 Logic Gates & Boolean Logic](#14-logic-gates--boolean-logic)
-    - [1.5 Bits & Binary](#15-bits--binary)
-    - [1.6 Combinational Logic](#16-combinational-logic)
-    - [1.7 Sequential Logic](#17-sequential-logic)
-    - [1.8 Memory](#18-memory)
-    - [1.9 Finite State Machines](#19-finite-state-machines)
-    - [1.10 Microprocessor](#110-microprocessor)
-    - [1.11 Assembly](#111-assembly)
-  - [2. Learn Computer Fundamentals](#2-learn-computer-fundamentals)
-    - [2.1 Computer Architecture](#21-computer-architecture)
-    - [2.2 Data Representation](#22-data-representation)
-    - [2.3 Memory](#23-memory)
-    - [2.4 Programming Fundamentals](#24-programming-fundamentals)
-    - [2.5 Compilation & Program Representation](#25-compilation--program-representation)
-    - [2.6 Operating System Fundamentals](#26-operating-system-fundamentals)
-    - [2.7 Input/Output & Hardware Interaction](#27-inputoutput--hardware-interaction)
-    - [2.8 Networking Fundamentals](#28-networking-fundamentals)
-    - [2.9 Program Execution & Runtime](#29-program-execution--runtime)
-    - [2.10 Command Line & System Tools](#210-command-line--system-tools)
-    - [2.11 Debugging](#211-debugging)
-    - [2.12 Basic Computer Security](#212-basic-computer-security)
-  - [3. Learn C & Memory](#3-learn-c--memory)
-  - [4. Build Small Projects](#4-build-small-projects)
-  - [5. Study Algorithms & Data Structures](#5-study-algorithms--data-structures)
-  - [6. Pick a Specialized Field](#6-pick-a-specialized-field)
-  - [7. Learn Modern Low-Level Languages (Optional)](#7-learn-modern-low-level-languages-optional)
 - [Prerequisites](#prerequisites)
   - [Circuits & Electronics](#circuits--electronics)
   - [Computer Fundamentals](#computer-fundamentals)
@@ -258,8 +228,6 @@ You may also notice that this collection does not rely heavily on commonly used 
 # Roadmap
 
 <img width="6946" height="4098" alt="Roadmap" src="https://github.com/user-attachments/assets/23aa319e-dd67-4721-bf1e-90b7c862f254" />
-
-
 
 ---
 
