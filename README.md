@@ -82,12 +82,7 @@ We put a lot of time and effort into reviewing the resources included here to ma
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. At the same time, we highly recommend checking out these resources before getting into low-level programming.
-
-- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
-- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
-
-So, Let's say;
+This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. So, Let's say;
 
 ### If You're an Absolute Beginner
 
@@ -101,9 +96,14 @@ From there, follow the roadmap and build your understanding step by step.
 
 #### But, You're Really New to Programming
 
-You may coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming fundamentals so you can become familiar with how programming works. You can check out the;
+You may coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming & computer science fundamentals. You can check out the;
 
 - **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: A best learning guide for absolute beginners to get into programming.
+- **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
+- **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
+- **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
+- **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: A complete community-driven curriculum for self-taught computer science learners.
+- **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
 
 Once you're comfortable with the basics, start learning **C** and **Computer Fundamentals**.
 
@@ -436,15 +436,8 @@ Learning additional low level languages exposes you to different approaches to m
 
 ## Computer Fundamentals
 
-Many of these resources provide a comprehensive Computer Science curriculum and a clear learning structure, so you don’t need to follow everything. Instead, use them as a guide and find the topics related to computer fundamentals that are relevant to your learning.
-
-> Computer Science covers a much broader range of topics, while computer fundamentals focus on understanding how computers work. That’s why we provide these resources as references: they are primarily CS-focused, but you can use them to find and learn the fundamental concepts you need to get started with low-level programming.
-
-- **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
-- **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
-- **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
-- **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: A complete community-driven curriculum for self-taught computer science learners.
-- **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
+- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
+- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
 - **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
 - **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A large collection of free computer science courses and educational resources.
 
