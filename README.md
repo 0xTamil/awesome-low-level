@@ -104,6 +104,7 @@ You may coming from a **non-CS background** but want to learn programming and ev
 - **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
 - **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: A complete community-driven curriculum for self-taught computer science learners.
 - **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
+- **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A large collection of free computer science courses and educational resources.
 
 Once you're comfortable with the basics, start learning **C** and **Computer Fundamentals**.
 
@@ -439,7 +440,6 @@ Learning additional low level languages exposes you to different approaches to m
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
 - **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
 - **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
-- **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A large collection of free computer science courses and educational resources.
 
 ---
 
