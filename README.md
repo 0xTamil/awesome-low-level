@@ -25,12 +25,16 @@
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
     - [1. Basic Electronics](#1-basic-electronics)
-    - [2. Bits & Binary](#2-bits--binary)
-    - [3. Logic Gates](#3-logic-gates)
-    - [4. Combinational Logic](#4-combinational-logic)
-    - [5. Sequential Logic](#5-sequential-logic)
-    - [6. Finite State Machines](#6-finite-state-machines)
-    - [7. Microprocessor](#7-microprocessor)
+    - [2. Circuit Analysis](#2-circuit-analysis)
+    - [3.  Analog Electronics](#3-analog-electronics)
+    - [4. Logic Gates & Boolean Logic](#4-logic-gates-&-boolean-logic)
+    - [5. Bits & Binary](#5-bits-&-binary)
+    - [6. Combinational Logic](#6-combinational-logic)
+    - [7. Sequential Logic](#7-sequential-logic)
+    - [8. Memory](#8-memory)
+    - [9. Finite State Machines](#9-finite-state-machines)
+    - [10. Microprocessor](#10-microprocessor)
+    - [11. Assembly](#11-assembly)
   - [2. Learn Computer Fundamentals](#2-learn-computer-fundamentals)
   - [3. Learn C & Memory](#3-learn-c--memory)
   - [4. Build Small Projects](#4-build-small-projects)
@@ -266,7 +270,6 @@ Begin with the basics of how computers work at the physical level. Learn about e
 
 ### 2. Circuit Analysis
 
-- Circuit diagrams and schematics
 - Nodes, branches, and loops
 - Kirchhoff's Current Law (KCL)
 - Kirchhoff's Voltage Law (KVL)
@@ -290,7 +293,17 @@ Begin with the basics of how computers work at the physical level. Learn about e
 - Analog-to-digital conversion (ADC)
 - Digital-to-analog conversion (DAC)
 
-### 4. Bits & Binary
+### 4. Logic Gates & Boolean Logic
+
+- AND, OR, NOT, NOR gates
+- XOR and XNOR gates
+- NAND as Universal gates
+- Truth tables
+- Boolean algebra
+- Karnaugh maps
+- De Morgan's laws
+
+### 5. Bits & Binary
 
 - Bits
 - Bytes
@@ -302,20 +315,9 @@ Begin with the basics of how computers work at the physical level. Learn about e
 - Bitwise operations
 - Integer overflow
 
-### 5. Logic Gates & Boolean Logic
-
-- AND, OR, NOT gates
-- NAND and NOR gates
-- XOR and XNOR gates
-- Truth tables
-- Boolean algebra
-- De Morgan's laws
-- Karnaugh maps
-- Logic minimization
 
 ### 6. Combinational Logic
 
-- Combinational logic
 - Adders
 - Subtractors
 - Multiplexers
@@ -327,7 +329,6 @@ Begin with the basics of how computers work at the physical level. Learn about e
 
 ### 7. Sequential Logic
 
-- Sequential logic
 - Latches
 - Flip-flops
 - Clock signals
@@ -340,7 +341,6 @@ Begin with the basics of how computers work at the physical level. Learn about e
 
 ### 8. Memory
 
-- Memory cells
 - SRAM
 - DRAM
 - ROM
@@ -352,7 +352,6 @@ Begin with the basics of how computers work at the physical level. Learn about e
 
 ### 9. Finite State Machines
 
-- Finite state machines (FSMs)
 - States
 - Transitions
 - Inputs and outputs
@@ -363,30 +362,28 @@ Begin with the basics of how computers work at the physical level. Learn about e
 ### 10. Microprocessor
 
 - CPU architecture
-- Datapath
+- CPU registers
+- Buses
 - Control unit
 - ALU
-- CPU registers
 - Program counter
 - Stack pointer
-- Instruction Set Architecture (ISA)
 - Machine instructions
 - Instruction encoding
+- Instruction dencoding
 - Fetch-decode-execute cycle
-- Buses
 - Interrupts
-- Basic pipelining
 
 ### 11. Assembly
 
-- Assembly language
+- Instruction Set Architecture (ISA)
 - Registers and instructions
 - Memory addressing
 - Stack and calling conventions
 - Function calls
 - Branches and jumps
 - System calls
-- Interaction between assembly and hardware
+- Interaction between assmbley and hardware
 
 ---
 
@@ -405,10 +402,6 @@ You should also understand fundamental programming concepts such as:
 - Basic input and output
 - How programs interact with memory and hardware
 
-### Why it matters
-
-A strong understanding of computer fundamentals helps you see what is happening beneath your code. Instead of treating the computer as a black box, you begin to understand how instructions, memory, and hardware work together.
-
 ---
 
 ## 3. Learn C & Memory
@@ -425,10 +418,6 @@ Learn the **C programming language** with a strong focus on how memory works. Im
 - Structs and memory layout
 - Arrays and strings
 - Undefined behavior
-
-### Why it matters
-
-C gives you direct access to memory and exposes many concepts that are hidden by higher-level languages. Learning C helps you understand how data is represented in memory and how software interacts with the operating system and hardware.
 
 ---
 
@@ -448,10 +437,6 @@ Examples:
 - A small memory allocator
 
 Focus on understanding how your program interacts with memory, files, and the operating system.
-
-### Why it matters
-
-Projects reveal gaps that tutorials often hide. You will encounter real problems such as memory leaks, pointer bugs, invalid memory access, and file handling issues. Solving these problems helps you develop practical debugging and problem-solving skills.
 
 ---
 
@@ -482,10 +467,6 @@ Also study important algorithmic concepts such as:
 
 > Try implementing these data structures yourself in C rather than only using library implementations.
 
-### Why it matters
-
-Hardware resources are limited. Choosing the right data structure and algorithm can significantly affect how fast a program runs and how much memory it uses. Understanding these concepts is especially important in low-level programming, where performance and memory usage often matter.
-
 ---
 
 ## 6. Pick a Specialized Field
@@ -493,10 +474,6 @@ Hardware resources are limited. Choosing the right data structure and algorithm 
 ### What to do
 
 Once you have a solid foundation, choose a specific area of low-level programming to explore further. You can explore areas such as operating systems, graphics programming, embedded systems, compilers, FPGA programming, networking, parallel computing, or game engine development. Start building projects related to the area that interests you the most.
-
-### Why it matters
-
-Low-level programming is a massive field, and you do not need to master everything at once. Choosing a specialization gives you a clearer direction and helps you decide which technologies, concepts, and projects are most relevant to your goals.
 
 ---
 
@@ -516,10 +493,6 @@ After developing a strong understanding of C and low-level concepts, we recommen
 If you want to explore something different, you can also try **non-procedural languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
 
 > If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
-
-### Why it matters
-
-Learning additional low level languages exposes you to different approaches to memory management, abstraction, performance, and low-level programming.
 
 ---
 
