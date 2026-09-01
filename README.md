@@ -19,8 +19,8 @@
   - [Using AI Tools](#using-ai-tools)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
-- [Why C First](#why-c-first-)
-- [What about C++](#what-about-c++-)
+- [Why Learning C is Important](#why-lear ing-c-is-important-)
+- [C vs C++ in Low-Level Programming](#what-about-c++-)
 - [Let's Gooo](#lets-gooo-)
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
@@ -181,7 +181,7 @@ The two often overlap. For example, writing an operating system kernel in C is b
 
 ---
 
-## Why C First ?
+## Why Learning C is Important ?
 
 C is a **de facto standard** in the programming world and has been around for decades.
 
@@ -202,11 +202,11 @@ C is also important because its design has influenced **many modern programming 
 
 > By studying C, you can better understand **why certain language features and abstractions became necessary** and gain a deeper understanding of what is happening **under the hood** something that can be harder to see when working only with higher-level languages such as Python or JavaScript.
 
-If you want to understand **how computers work at a lower level**, learn how memory and data are handled, or work in areas such as **operating systems, embedded systems, compilers, game engines, graphics, or performance-critical software**, learning C provides a strong foundation.
+If you want to understand **how computers work at a lower level**, learn how memory and data are handled, or work in **low level systems**, learning C provides a strong foundation.
 
 ---
 
-## What about C++ ?
+## C vs C++ in Low-Level Programming
 
 There is a common confusion among beginners about which language is better for low-level programming: **C or C++**. You will often hear the advice **"learn C before C++."** There is a reason behind it, but that doesn't mean C++ is a bad choice.
 
