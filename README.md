@@ -436,7 +436,9 @@ Learning additional low level languages exposes you to different approaches to m
 
 ## Computer Fundamentals
 
-> We suggest taking the **CS50: Introduction to Computer Science** course first, then **choosing one of the resources** from this list. Many of them provide a **comprehensive curriculum and a clear learning structure**, so you don’t need to pick everything. Just choose one that fits you and follow it along.
+Many of these resources provide a comprehensive Computer Science curriculum and a clear learning structure, so you don’t need to follow everything. Instead, use them as a guide and find the topics related to computer fundamentals that are relevant to your learning.
+
+> Computer Science covers a much broader range of topics, while computer fundamentals focus on understanding how computers work. That’s why we provide these resources as references: they are primarily CS-focused, but you can use them to find and learn the fundamental concepts you need to get started with low-level programming.
 
 - **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
 - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
