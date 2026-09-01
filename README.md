@@ -13,29 +13,45 @@
     - [But, You're Really New to Programming](#but-youre-really-new-to-programming)
   - [If You Have Some Low-Level Experience](#if-you-have-some-low-level-experience)
   - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
+
 - [How to Learn](#how-to-learn-)
   - [Project-Based Learning](#project-based-learning)
     - [Why is it useful for Low-Level Programming](#why-is-it-useful-for-low-level-programming-)
   - [Using AI Tools](#using-ai-tools)
+
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
 - [Why Learning C is Important](#why-learning-c-is-important-)
-- [C vs C++ in Low-Level Programming](#what-about-c++-)
+- [C vs C++ in Low-Level Programming](#c-vs-c-in-low-level-programming)
 - [Let's Gooo](#lets-gooo-)
+
 - [Roadmap](#roadmap)
   - [1. Learn Circuits & Electronics](#1-learn-circuits--electronics)
-    - [1. Basic Electronics](#1-basic-electronics)
-    - [2. Circuit Analysis](#2-circuit-analysis)
-    - [3.  Analog Electronics](#3-analog-electronics)
-    - [4. Logic Gates & Boolean Logic](#4-logic-gates--boolean-logic)
-    - [5. Bits & Binary](#5-bits--binary)
-    - [6. Combinational Logic](#6-combinational-logic)
-    - [7. Sequential Logic](#7-sequential-logic)
-    - [8. Memory](#8-memory)
-    - [9. Finite State Machines](#9-finite-state-machines)
-    - [10. Microprocessor](#10-microprocessor)
-    - [11. Assembly](#11-assembly)
+    - [1.1 Basic Electronics](#11-basic-electronics)
+    - [1.2 Circuit Analysis](#12-circuit-analysis)
+    - [1.3 Analog Electronics](#13-analog-electronics)
+    - [1.4 Logic Gates & Boolean Logic](#14-logic-gates--boolean-logic)
+    - [1.5 Bits & Binary](#15-bits--binary)
+    - [1.6 Combinational Logic](#16-combinational-logic)
+    - [1.7 Sequential Logic](#17-sequential-logic)
+    - [1.8 Memory](#18-memory)
+    - [1.9 Finite State Machines](#19-finite-state-machines)
+    - [1.10 Microprocessor](#110-microprocessor)
+    - [1.11 Assembly](#111-assembly)
+
   - [2. Learn Computer Fundamentals](#2-learn-computer-fundamentals)
+    - [2.1 Computer Architecture](#21-computer-architecture)
+    - [2.2 Data Representation](#22-data-representation)
+    - [2.3 Memory](#23-memory)
+    - [2.4 Programming Fundamentals](#24-programming-fundamentals)
+    - [2.5 Compilation & Program Representation](#25-compilation--program-representation)
+    - [2.6 Operating System Fundamentals](#26-operating-system-fundamentals)
+    - [2.7 Input/Output & Hardware Interaction](#27-inputoutput--hardware-interaction)
+    - [2.8 Networking Fundamentals](#28-networking-fundamentals)
+    - [2.9 Program Execution & Runtime](#29-program-execution--runtime)
+    - [2.10 Command Line & System Tools](#210-command-line--system-tools)
+    - [2.11 Debugging](#211-debugging)
+    - [2.12 Basic Computer Security](#212-basic-computer-security)
   - [3. Learn C & Memory](#3-learn-c--memory)
   - [4. Build Small Projects](#4-build-small-projects)
   - [5. Study Algorithms & Data Structures](#5-study-algorithms--data-structures)
@@ -251,7 +267,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 
 > You **do not need to study electronics in depth before learning C**. You **can learn the basics along the way while learning C**. If you want to work in embedded systems, firmware, or **bare-metal programming**, a **stronger understanding of electronics and circuits** will be useful. If you are not sure what field you want to go, **learn the basics up to assembly**, then move on to **computer fundamentals and C**.
 
-### 1. Basic Electronics
+### 1.1 Basic Electronics
 
 - Voltage, current, and resistance
 - Ohm's Law
@@ -266,7 +282,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - MOSFETs
 - Analog and digital signals
 
-### 2. Circuit Analysis
+### 1.2 Circuit Analysis
 
 - Nodes, branches, and loops
 - Kirchhoff's Current Law (KCL)
@@ -279,7 +295,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Time constants
 - Transient and steady-state behavior
 
-### 3. Analog Electronics
+### 1.3 Analog Electronics
 
 - Diodes and rectifiers
 - BJT fundamentals
@@ -291,7 +307,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Analog-to-digital conversion (ADC)
 - Digital-to-analog conversion (DAC)
 
-### 4. Logic Gates & Boolean Logic
+### 1.4 Logic Gates & Boolean Logic
 
 - AND, OR, NOT, NOR gates
 - XOR and XNOR gates
@@ -301,7 +317,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Karnaugh maps
 - De Morgan's laws
 
-### 5. Bits & Binary
+### 1.5 Bits & Binary
 
 - Bits
 - Bytes
@@ -314,7 +330,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Integer overflow
 
 
-### 6. Combinational Logic
+### 1.6 Combinational Logic
 
 - Adders
 - Subtractors
@@ -325,7 +341,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Comparators
 - Tri-state logic
 
-### 7. Sequential Logic
+### 1.7 Sequential Logic
 
 - Latches
 - Flip-flops
@@ -337,7 +353,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Setup and hold time
 - Propagation delay
 
-### 8. Memory
+### 1.8 Memory
 
 - SRAM
 - DRAM
@@ -348,7 +364,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Read and write operations
 - Memory hierarchy
 
-### 9. Finite State Machines
+### 1.9 Finite State Machines
 
 - States
 - Transitions
@@ -357,7 +373,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Moore machines
 - Mealy machines
 
-### 10. Microprocessor
+### 1.10 Microprocessor
 
 - CPU architecture
 - CPU registers
@@ -372,7 +388,7 @@ Start by **learning how computers work at the physical level**. Learn the basics
 - Fetch-decode-execute cycle
 - Interrupts
 
-### 11. Assembly
+### 1.11 Assembly
 
 - Instruction Set Architecture (ISA)
 - Registers and instructions
@@ -387,16 +403,165 @@ Start by **learning how computers work at the physical level**. Learn the basics
 
 ## 2. Learn Computer Fundamentals
 
-Learn the purpose of major computer components such as the **CPU, RAM, storage, and input/output devices**. Understand how the CPU executes instructions, how data is stored in memory, and how programs are represented inside a computer.
+Learn how a computer system works from the perspective of a programmer, including how hardware, memory, data, programs, and the operating system work together.
 
-You should also understand fundamental programming concepts such as:
+### 2.1 Computer Architecture
 
-- Variables and data types
+- CPU
+- RAM
+- Storage
+- GPU
+- Motherboard
+- Buses
+- Input/output devices
+- Registers
+- CPU cache
+- Instruction cycle
+- Instruction Set Architecture (ISA)
+
+### 2.2 Data Representation
+
+- Bits and bytes
+- Binary and hexadecimal
+- Integers
+- Signed and unsigned numbers
+- Two's complement
+- Floating-point numbers
+- Characters and strings
+- ASCII and Unicode
+- Endianness
+- Bitwise operations
+
+### 2.3 Memory
+
+- Memory addresses
+- Address spaces
+- Pointers and references
+- Stack
+- Heap
+- Static/global memory
+- Memory layout
+- Virtual memory
+- Memory hierarchy
+
+### 2.4 Programming Fundamentals
+
+- Variables and constants
+- Data types
+- Operators
+- Expressions and statements
 - Conditions and logic
 - Loops
 - Functions
-- Basic input and output
-- How programs interact with memory and hardware
+- Scope and lifetime
+- Recursion
+- Basic input/output
+- Error handling
+
+### 2.5 Compilation & Program Representation
+
+- Source code
+- Preprocessing
+- Compilation
+- Assembly
+- Machine code
+- Object files
+- Linking
+- Static and dynamic libraries
+- Executables
+- Program loading
+
+### 2.6 Operating System Fundamentals
+
+- Kernel and user space
+- Processes
+- Threads
+- Process memory
+- Scheduling
+- Virtual memory
+- System calls
+- Filesystems
+- File descriptors
+- Permissions
+- Device drivers
+- Interrupts
+
+### 2.7 Input/Output & Hardware Interaction
+
+- Files
+- Standard input/output
+- File descriptors
+- Buffering
+- Devices
+- Memory-mapped I/O
+- DMA
+- Interrupt-driven I/O
+
+### 2.8 Networking Fundamentals
+
+- Network interfaces
+- MAC addresses
+- IP addresses
+- Ports
+- TCP and UDP
+- Packets
+- DNS
+- HTTP/HTTPS
+- Sockets
+- Client/server model
+
+### 2.9 Program Execution & Runtime
+
+- Program vs process
+- Process creation
+- Process lifecycle
+- Threads
+- Function calls
+- Call stack
+- Stack frames
+- Runtime environment
+- Environment variables
+- Exit codes
+- Shared libraries
+
+### 2.10 Command Line & System Tools
+
+- Shell
+- Filesystem navigation
+- Processes
+- Environment variables
+- Permissions
+- Compilers
+- Linkers
+- Debuggers
+- Build tools
+- Binary inspection tools
+
+### 2.11 Debugging
+
+- Compile-time errors
+- Runtime errors
+- Logic errors
+- Breakpoints
+- Stepping
+- Call stacks
+- Registers
+- Memory inspection
+- Logging
+- Tracing
+- Core dumps
+
+### 2.12 Basic Computer Security
+
+- Privilege levels
+- Permissions
+- Memory protection
+- Memory safety
+- Invalid memory access
+- Buffer overflows
+- ASLR
+- DEP/NX
+- Stack protection
 
 ---
 
