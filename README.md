@@ -257,6 +257,8 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 # Roadmap
 
+<img width="6946" height="4098" alt="Roadmap" src="https://github.com/user-attachments/assets/23aa319e-dd67-4721-bf1e-90b7c862f254" />
+
 
 
 ---
