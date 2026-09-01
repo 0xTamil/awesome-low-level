@@ -360,7 +360,7 @@ Begin with the basics of how computers work at the physical level. Learn about e
 - Moore machines
 - Mealy machines
 
-### 10. Computer Organization
+### 10. Microprocessor
 
 - CPU architecture
 - Datapath
@@ -377,7 +377,7 @@ Begin with the basics of how computers work at the physical level. Learn about e
 - Interrupts
 - Basic pipelining
 
-### 11. Assembly & Low-Level Programming
+### 11. Assembly
 
 - Assembly language
 - Registers and instructions
@@ -387,10 +387,6 @@ Begin with the basics of how computers work at the physical level. Learn about e
 - Branches and jumps
 - System calls
 - Interaction between assembly and hardware
-
-### Why it matters
-
-Digital computers are built from these basic concepts. Learning **bits, logic gates, circuits, memory, state machines, and CPUs** gives you a clear understanding of how computer hardware works.
 
 ---
 
