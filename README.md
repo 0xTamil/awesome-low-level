@@ -339,6 +339,8 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 
 ### C++
 
+<img width="150" alt="cpp_logo" src="https://github.com/user-attachments/assets/3ed8fce0-cc22-48ae-bde1-3d136f6f4ad1" />
+
 C++ extends low-level programming with powerful abstraction mechanisms while still giving you significant control over memory, performance, and hardware-level details.
 
 > C++ is a continuously evolving language. Many older books, tutorials, and resources teach outdated versions of C++ or practices that are no longer recommended. When learning C++, we recommend focusing on resources that teach modern C++ standards such as C++17, C++20, and C++23.
@@ -369,6 +371,8 @@ As you become more comfortable with C++, you can also explore other approaches t
 
 ### Rust
 
+<img width="150" alt="rust-logo-512x512" src="https://github.com/user-attachments/assets/86e703e4-ff32-44c2-9e65-4dc8af1093c7" />
+
 Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
 
 - **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official Rust book covering ownership, borrowing, memory safety, and concurrency.
@@ -380,6 +384,8 @@ Rust focuses on systems programming with strong compile-time guarantees for memo
 
 ### Zig
 
+<img width="150" alt="zig-programming-language-icon" src="https://github.com/user-attachments/assets/fa4257a9-5645-48a2-ae13-6657c2710d0a" />
+
 Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
 
 - **[Zig Learn](https://ziglearn.org/)**: A structured guide to learning Zig syntax and manual memory management.
@@ -389,6 +395,8 @@ Zig emphasizes explicit control, predictable behavior, and close interoperabilit
 - **[Awesome Zig](https://github.com/zigcc/awesome-zig)**: A curated collection of Zig libraries, tools, and projects.
 
 ### Odin
+
+<img width="150" alt="odin" src="https://github.com/user-attachments/assets/0d3d6347-2da6-4545-9a8c-391259d70d93" />
 
 Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
 
