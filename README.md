@@ -337,7 +337,9 @@ We recommend starting with LearnCpp. It's free, comprehensive, and regularly upd
 
 - **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 
-Then pick a book, let's say, If you're completely new to programming or new to C++, use:
+Then pick a book, let's say; 
+
+If you're completely new to programming or new to C++, use:
 
 - **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: The 3rd edition covers C++20 and C++23. A good choice for beginners who are new to both programming and C++.
 
