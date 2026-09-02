@@ -236,7 +236,7 @@ You may also notice that this collection does not rely heavily on commonly used 
 </p>
 
 
-You don't need to study electronics in depth before learning C. At this stage, a basic understanding of electronics is enough to understand how computers work at the hardware level. However, as you move further down the specialized stack, electronics becomes increasingly important. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential.
+You don't need to study electronics in depth before learning C. At this stage, a basic understanding of electronics is enough to understand how computers work at the hardware level. However, as you move further down the specialized stack (Second Diagram), electronics becomes increasingly important. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential.
 
 Next, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
 
@@ -252,15 +252,9 @@ Once you're comfortable with C and have a basic understanding of memory, start b
 
 After gaining some practical experience, move on to Data Structures & Algorithms. Learn how data can be organized, stored, accessed, and processed efficiently. Focus on structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, along with algorithms for searching, sorting, traversal, recursion, and problem solving.
 
-Since this roadmap focuses on low-level programming, implementing these concepts in C can be especially useful. It allows you to connect algorithmic concepts with their underlying memory representation and gives you a better understanding of how these structures are actually implemented.
-
 > You don't need to treat DSA as a separate topic disconnected from C. Implement the structures and algorithms yourself, understand their memory layout, and pay attention to their time and space complexity.
 
 You don't need to learn every specialized field. Choose the area that interests you and build depth in it. The roadmap includes fields such as Embedded Systems, FPGA Programming, Compilers & Interpreters, Operating Systems, GPGPU & Parallel Computing, Graphics Programming, Game Engine Development, Network Systems Programming, and Cybersecurity.
-
-Your specialization will determine how deeply you need to understand the layers beneath it. The further down the stack you go, the more important your understanding of electronics and hardware becomes. Fields closer to the hardware require you to understand more of what is happening physically inside the computer, while fields higher up can rely on more layers of abstraction.
-
-> For example, Embedded Systems and FPGA Programming sit very close to the hardware, so you need a stronger understanding of electronics, digital logic, circuits, microcontrollers, signals, registers, buses, and hardware interfaces. As you move upward toward areas such as Operating Systems, Compilers, Graphics, Networking, and Cybersecurity, electronics becomes less central, while concepts such as CPU architecture, memory, instruction sets, operating systems, concurrency, and system interfaces become more important.
 
 After developing a strong understanding of C and low-level concepts, we recommend learning some additional procedural languages such as C++, Rust, Zig, and Odin.
 
