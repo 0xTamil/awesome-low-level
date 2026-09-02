@@ -365,9 +365,7 @@ Once you're comfortable with the language, use cppreference as your primary docu
 
 - **[cppreference](https://en.cppreference.com/)**: A comprehensive reference for the C++ language and standard library. It's best used for looking up specific language features, library functions, and technical details rather than as a primary learning resource.
 
-That's pretty much all you need to get started with C++. You don't need to go through dozens of different resources. Pick the learning resource that fits your background, practice by writing code, and use cppreference whenever you need to look something up.
-
-As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
+That's pretty much all you need to get started with C++. You don't need to go through dozens of different resources. Pick the learning resource that fits your background, practice by writing code, and use cppreference whenever you need to look something up. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
 
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
