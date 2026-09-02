@@ -511,9 +511,11 @@ Browse the entire collection through an interactive, Wikipedia-inspired web inte
 
 Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
 
-<a href="https://discord.gg/YZRknMKn2K">
-  <img width="400" alt="banner" src="https://github.com/user-attachments/assets/59f2514d-f239-40bf-b620-bc24039dce45" />
-</a>
+<p align="center">
+  <a href="https://discord.gg/YZRknMKn2K">
+    <img width="400" alt="banner" src="https://github.com/user-attachments/assets/59f2514d-f239-40bf-b620-bc24039dce45" />
+  </a>
+</p>
 
 ---
 
