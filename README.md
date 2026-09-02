@@ -232,39 +232,54 @@ You may also notice that this collection does not rely heavily on commonly used 
 # Roadmap
 
 <p align="center">
-  <img width="400" alt="Roadmap" src="https://github.com/user-attachments/assets/6f19ac73-b710-4d38-b304-85bafad18e13" />
+  <img width="400" alt="Roadmap" src="https://github.com/user-attachments/assets/e9889424-d5da-4b3f-bf7f-625198e75660" />
 </p>
 
-<p align="center">
-  <img width="2914" height="1346" alt="Specialized Stack" src="https://github.com/user-attachments/assets/2cfe6bde-1a16-4ef1-91f2-9c1abb8c8beb" />
-</p>
+## 1. Basic Electronics
 
+You don't need to study electronics in depth before learning C. A basic understanding of electronics is enough to understand how computers work at the hardware level.
 
-You don't need to study electronics in depth before learning C. A basic understanding of electronics is enough to understand how computers work at the hardware level. Next, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
+## 2. Computer Fundamentals
 
-After that, start learning C. C is particularly useful for this roadmap because it gives you relatively direct control over memory and system resources while still allowing you to write practical software. While learning C, don't focus only on syntax. Pay particular attention to pointers, arrays, structs, memory allocation, stack and heap memory, data representation, bitwise operations, and how programs use memory. The goal is to understand not only what your code does, but also what happens in memory when your code runs.
+After that, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
+
+## 3. C Programming
+
+Once you have a foundation in computer fundamentals, start learning C. Don't focus only on syntax. Pay particular attention to pointers, arrays, structs, memory allocation, stack and heap memory, data representation, bitwise operations, and how programs use memory. The goal is to understand not only what your code does, but also what happens in memory when your code runs.
 
 > You don't need to master every part of C before moving forward. Build a solid understanding of the language, especially the parts that help you reason about memory and how programs interact with the machine.
 
-Once you're comfortable with C and have a basic understanding of memory, start building small projects. This is where you begin applying what you've learned instead of only studying concepts. Build things yourself, experiment with different approaches, debug your own mistakes, and gradually work on projects that require you to think about memory, data, program structure, and system behavior.
+## 4. Practice Data Structures & Algorithms
 
-> Don't worry about making large or impressive projects. Small programs are enough if they force you to understand what you're doing. The goal is to turn your knowledge of C and computer fundamentals into practical programming experience.
+After becoming comfortable with C, start practicing data structures and algorithms. Learn how data can be organized, stored, accessed, and processed efficiently. Focus on structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, along with algorithms for searching, sorting, traversal, recursion, and problem solving.
 
-After gaining some practical experience, move on to Data Structures & Algorithms. Learn how data can be organized, stored, accessed, and processed efficiently. Focus on structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, along with algorithms for searching, sorting, traversal, recursion, and problem solving.
+> Don't treat DSA as something completely separate from C. Implement the structures and algorithms yourself rather than simply relying on libraries. This will strengthen your understanding of both C and problem solving.
 
-> You don't need to treat DSA as a separate topic disconnected from C. Implement the structures and algorithms yourself rather than using libraries.
+## 5. Build Small Projects
 
-The Specialized Stack (Second Diagram) shows how the different areas of low-level programming relate to each other and how higher-level systems depend on the layers beneath them. It is mainly there to give you a broader picture of the stack and help you understand what kind of knowledge each field builds upon. You don't need to learn every specialized field. Use the stack to understand how the different areas connect, then choose the area that interests you and build depth in it.
+Once you have a solid understanding of C and have practiced data structures and algorithms, start building small projects. This is where you begin applying what you've learned instead of only studying concepts.
 
-> The further down the stack you go, the more important your understanding of hardware, electronics, and lower-level concepts becomes. As you move upward, more abstractions are introduced and you can rely more on the systems underneath.
+Build things yourself, experiment with different approaches, debug your own mistakes, and gradually work on projects that require you to think about memory, data, program structure, and system behavior.
 
-After developing a strong understanding of C and low-level concepts, we recommend learning some additional procedural languages such as C++, Rust, Zig, and Odin.
+> Don't worry about making large or impressive projects. Small programs are enough if they force you to understand what you're doing. The goal is to turn your knowledge of C, computer fundamentals, and DSA into practical programming experience.
+
+6. Learn Modern Low-Level Languages (Optional)
+
+After gaining practical experience through projects, you can optionally explore additional procedural low-level languages such as C++, Rust, Zig, or Odin.
 
 > You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also stick with C if you want. C remains highly relevant to low-level programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
 
-If you want to explore something different, you can also try non-procedural languages such as Ante, Carp, Futhark, Forth, or Uxn.
+You can also explore non-procedural or alternative programming languages such as Ante, Carp, Futhark, Forth, or Uxn if you want to experiment with different programming models.
 
 > If you're not sure what procedural and non-procedural languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
+
+7. Pick a Specialized Field
+
+Once you have built a strong foundation in computer fundamentals, C, data structures and algorithms, and practical programming experience, you can choose a specialized field to focus on.
+
+> The different specialized fields are covered in the Specialized Field section. You don't need to choose a specialization immediately. First build a strong foundation, gain practical experience, and then explore the areas that interest you most.
+
+This keeps the main roadmap clean and makes it clear that the actual specialization paths are explained later.
 
 ---
 
@@ -386,6 +401,12 @@ A small virtual machine and stack-based system for experimenting with low-level 
 ---
 
 # Specialized Fields
+
+<p align="center">
+  <img width="4089" height="1346" alt="Stack" src="https://github.com/user-attachments/assets/87589847-9337-418a-8527-eeaa4be78a8a" />
+</p>
+
+
 
 ## 1. Embedded Systems
 
