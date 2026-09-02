@@ -407,17 +407,15 @@ A small virtual machine and stack-based system for experimenting with low-level 
  <img width="3810" height="2605" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
-The diagram above is meant to give you the **foundation** for low-level programming. Once you have built a basic understanding of programming, computer fundamentals, C, and data structures & algorithms, you can start exploring a specialized field.
+This roadmap provides a foundation for exploring low-level programming. Once you understand core programming concepts, computer fundamentals, C, and data structures & algorithms, you can choose a specialized domain.
 
-If you don't know which field to choose, start with the **languages you're interested in**. Find the fields where those languages are commonly used and see which one interests you. For example, if you like **C++**, you can explore areas such as **game engine development, graphics programming, operating systems, compilers, or GPGPU & parallel computing**.
+Use this diagram to guide your learning path based on your language preferences, domain interest, or required hardware knowledge:
 
-Use these as a guide, not strict requirements. **Pick a field that interests you, then use the diagram to understand what knowledge and languages you may need.**
+- **Language-Driven Path:** If you prefer working with a specific language, look for fields where it serves as the **Gold Standard** (highlighted in yellow in the diagram). For example, if you prefer C++, key domains include Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
+- **Hardware-Driven Path:** If you want to work close to physical hardware, pay attention to the **Electronics** requirement badge on the right (ranging from Low to High). Fields at the bottom of the stack—such as FPGA Programming and Embedded Systems—demand a **High** level of electronics knowledge.
+- **Iterative Learning:** You do not need to master everything before picking a field. Choose a domain that excites you, start building projects, and fill in missing foundational topics or hardware concepts as needed.
 
-If your chosen field requires knowledge you haven't learned yet, simply **jump back to the relevant section of the roadmap and study it along the way**. This is especially important for fields closer to hardware, such as **FPGA programming and embedded systems**, where electronics becomes more important.
-
-> **You don't need to learn everything before choosing a specialization. Pick what interests you, start building, and learn the missing knowledge along the way.**
-
-So, let’s explore what each field is, starting from the bottom of the stack and working our way up;
+Below is a breakdown of each specialization, starting from the closest to hardware at the bottom of the stack and moving upward.
 
 ## 1. Embedded Systems
 
