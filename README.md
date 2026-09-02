@@ -1,6 +1,6 @@
 
 <p align="center">
- <img width="4334" height="629" alt="Banner" src="https://github.com/user-attachments/assets/892fab1c-9bac-4425-b3c7-658a61f26b54" />
+ <img width="800" alt="Banner" src="https://github.com/user-attachments/assets/892fab1c-9bac-4425-b3c7-658a61f26b54" />
 </p>
 
 > A curated collection of resources for learning low-level programming from the ground up, starting with electronics and progressing toward the specialized fields you’re interested in.
