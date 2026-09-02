@@ -240,7 +240,7 @@ You may also notice that this collection does not rely heavily on commonly used 
 </p>
 
 
-You don't need to study electronics in depth before learning C. At this stage, a basic understanding of electronics is enough to understand how computers work at the hardware level. Next, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
+You don't need to study electronics in depth before learning C. A basic understanding of electronics is enough to understand how computers work at the hardware level. Next, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
 
 After that, start learning C. C is particularly useful for this roadmap because it gives you relatively direct control over memory and system resources while still allowing you to write practical software. While learning C, don't focus only on syntax. Pay particular attention to pointers, arrays, structs, memory allocation, stack and heap memory, data representation, bitwise operations, and how programs use memory. The goal is to understand not only what your code does, but also what happens in memory when your code runs.
 
