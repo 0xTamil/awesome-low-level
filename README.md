@@ -331,14 +331,28 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 
 C++ extends low-level programming with powerful abstraction mechanisms while still giving you significant control over memory, performance, and hardware-level details.
 
-> C++ is a continuously evolving language. There are many outdated books, tutorials, and resources that teach older versions of C++ or practices that are no longer recommended. We recommend focusing on modern C++ resources when learning.
+> C++ is a continuously evolving language. Many older books, tutorials, and resources teach outdated versions of C++ or practices that are no longer recommended. When learning C++, we recommend focusing on resources that teach modern C++ standards such as C++17, C++20, and C++23.
 
-We suggest starting with "LearnCpp". It's free, comprehensive, and up to date, making it a good primary resource for learning modern C++.
+We recommend starting with LearnCpp. It's free, comprehensive, and regularly updated, making it a great primary resource for learning modern C++.
 
 - **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
-- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: 3rd edition, covering C++20/C++23. A good choice if you're an absolute beginner to programming and C++.
-- **[A Tour of C++](https://www.amazon.com/dp/013681648)**: 3rd edition for C++20. A concise introduction to modern C++ for programmers who already have some programming experience. The 2nd edition covers C++17.
-- **[cppreference](https://en.cppreference.com/)**: A comprehensive reference for the C++ language and standard library. Useful for looking up specific features rather than as a primary tutorial.
+
+If you're completely new to programming or new to C++, use:
+
+- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: The 3rd edition covers C++20 and C++23. A good choice for beginners who are new to both programming and C++.
+
+If you already have some C++ programming experience, use:
+
+- **[A Tour of C++](https://www.amazon.com/dp/013681648)**: The 3rd edition provides a concise introduction to modern C++ and covers C++20. The 2nd edition covers C++17.
+
+Once you're comfortable with the language, use cppreference as your primary documentation and reference:
+
+- **[cppreference](https://en.cppreference.com/)**: A comprehensive reference for the C++ language and standard library. It's best used for looking up specific language features, library functions, and technical details rather than as a primary learning resource.
+
+That's pretty much all you need to get started with C++. You don't need to go through dozens of different resources. Pick the learning resource that fits your background, practice by writing code, and use cppreference whenever you need to look something up.
+
+As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
+
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
 ---
