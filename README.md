@@ -335,11 +335,11 @@ C++ extends low-level programming with powerful abstraction mechanisms while sti
 
 We suggest starting with "LearnCpp". It's free, comprehensive, and up to date, making it a good primary resource for learning modern C++.
 
-- **[LearnCpp]**(https://www.learncpp.com/): Comprehensive tutorials covering modern C++ from beginner to advanced topics.
-- **[Programming: Principles and Practice Using C++]**(https://www.amazon.com/dp/0138308683): 3rd edition, covering C++20/C++23. A good choice if you're an absolute beginner to programming and C++.
-- **[A Tour of C++]**(https://www.amazon.com/dp/013681648): 3rd edition for C++20. A concise introduction to modern C++ for programmers who already have some programming experience. The 2nd edition covers C++17.
-- **[cppreference]**(https://en.cppreference.com/): A comprehensive reference for the C++ language and standard library. Useful for looking up specific features rather than as a primary tutorial.
-- **[Data-Oriented Design Resources]**(https://github.com/dbartolini/data-oriented-design): A collection of resources for learning about data-oriented design and performance.
+- **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
+- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: 3rd edition, covering C++20/C++23. A good choice if you're an absolute beginner to programming and C++.
+- **[A Tour of C++](https://www.amazon.com/dp/013681648)**: 3rd edition for C++20. A concise introduction to modern C++ for programmers who already have some programming experience. The 2nd edition covers C++17.
+- **[cppreference](https://en.cppreference.com/)**: A comprehensive reference for the C++ language and standard library. Useful for looking up specific features rather than as a primary tutorial.
+- **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
 ---
 
