@@ -410,12 +410,6 @@ The diagram above is meant to give you the **foundation** for low-level programm
 
 If you don't know which field to choose, start with the **languages you're interested in**. Find the fields where those languages are commonly used and see which one interests you. For example, if you like **C++**, you can explore areas such as **game engine development, graphics programming, operating systems, compilers, or GPGPU & parallel computing**.
 
-The diagram helps you compare these fields:
-
-- 🟨 **Gold:** Commonly preferred or established languages for the field.
-- 🟪 **Purple:** Approximate level of **CS fundamentals** required.
-- 🟩 **Green:** Approximate level of **electronics knowledge** required.
-
 Use these as a guide, not strict requirements. **Pick a field that interests you, then use the diagram to understand what knowledge and languages you may need.**
 
 If your chosen field requires knowledge you haven't learned yet, simply **jump back to the relevant section of the roadmap and study it along the way**. This is especially important for fields closer to hardware, such as **FPGA programming and embedded systems**, where electronics becomes more important.
