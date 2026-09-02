@@ -329,16 +329,19 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 
 ### C++
 
-C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
+C++ extends low-level programming with powerful abstraction mechanisms while still giving you significant control over memory, performance, and hardware-level details.
 
-- **[How to Start C++ Development ?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
-- **[Learncpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
-- **[C++ By Example](https://cppbyexample.com/)**: Concise examples demonstrating C++ syntax and language features.
-- **[C++ Reference](https://en.cppreference.com/w/)**: A comprehensive reference for C++ language features and the standard library.
-- **[Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)**: A summary of important features introduced in modern C++ standards.
-- **[Cpp Quiz](https://cppquiz.org/)**: Quizzes focused on C++ language rules and behavior.
-- **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: Resources about organizing data for performance and cache efficiency.
-- **[Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)**: A collection of useful bitwise operations and low-level programming techniques.
+> C++ is a continuously evolving language. There are many outdated books, tutorials, and resources that teach older versions of C++ or practices that are no longer recommended. We recommend focusing on modern C++ resources when learning.
+
+We suggest starting with "LearnCpp". It's free, comprehensive, and up to date, making it a good primary resource for learning modern C++.
+
+- "LearnCpp" (https://www.learncpp.com/): Comprehensive tutorials covering modern C++ from beginner to advanced topics.
+- "Programming: Principles and Practice Using C++" (https://www.amazon.com/dp/0138308683): 3rd edition, covering C++20/C++23. A good choice if you're an absolute beginner to programming and C++.
+- "A Tour of C++" (https://www.amazon.com/dp/013681648): 3rd edition for C++20. A concise introduction to modern C++ for programmers who already have some programming experience. The 2nd edition covers C++17.
+- "cppreference" (https://en.cppreference.com/): A comprehensive reference for the C++ language and standard library. Useful for looking up specific features rather than as a primary tutorial.
+- "Data-Oriented Design Resources" (https://github.com/dbartolini/data-oriented-design): A collection of resources for learning about data-oriented design and performance.
+
+---
 
 ### Rust
 
