@@ -407,15 +407,15 @@ A small virtual machine and stack-based system for experimenting with low-level 
  <img width="3810" height="2605" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
-This roadmap provides a foundation for exploring low-level programming. Once you understand core programming concepts, computer fundamentals, C, and data structures & algorithms, you can choose a specialized domain.
+This roadmap serves as a foundation for exploring low-level programming. Once you have built a solid understanding of core programming concepts, computer fundamentals, C, and data structures & algorithms, you can choose a specialized domain to explore.
 
-Use this diagram to guide your learning path based on your language preferences, domain interest, or required hardware knowledge:
+Use the diagram above to help guide your decision based on language standards, domain interest, or required hardware knowledge:
 
-- **Language-Driven Path:** If you prefer working with a specific language, look for fields where it serves as the **Gold Standard** (highlighted in yellow in the diagram). For example, if you prefer C++, key domains include Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
-- **Hardware-Driven Path:** If you want to work close to physical hardware, pay attention to the **Electronics** requirement badge on the right (ranging from Low to High). Fields at the bottom of the stack—such as FPGA Programming and Embedded Systems—demand a **High** level of electronics knowledge.
-- **Iterative Learning:** You do not need to master everything before picking a field. Choose a domain that excites you, start building projects, and fill in missing foundational topics or hardware concepts as needed.
+* **Language-Driven Path:** If you prefer working with a specific language, look for fields where it serves as the **Gold Standard** (highlighted in yellow on the diagram). For instance, if you enjoy working with C++, key domains to explore include Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
+* **Hardware-Driven Path:** If you want to work closer to physical hardware, pay attention to the **Electronics** requirement badges on the right side of the diagram (ranging from Low to High). specialized areas near the bottom of the stack such as FPGA Programming and Embedded Systems require a **High** level of electronics knowledge.
+* **Iterative Learning:** You do not need to master every foundational topic before picking a domain. Choose a field that excites you, start building projects, and fill in any missing knowledge or hardware concepts along the way.
 
-Below is a breakdown of each specialization, starting from the closest to hardware at the bottom of the stack and moving upward.
+Below is a breakdown of each specialization, ordered from the bottom of the stack (closest to the hardware) working our way up:
 
 ## 1. Embedded Systems
 
