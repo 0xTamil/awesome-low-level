@@ -407,13 +407,15 @@ A small virtual machine and stack-based system for experimenting with low-level 
  <img width="3810" height="2605" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
-Use the diagram above to help guide your decision based on language standards, domain interest, or required hardware knowledge:
+Use the diagram above as a guide when deciding which specialization to explore. You can approach it based on the **language you enjoy**, the **domain you're interested in**, or how closely you want to work with **hardware**:
 
-* **Language-Driven Path:** If you prefer working with a specific language, look for fields where it serves as the **Gold Standard** (highlighted in yellow on the diagram). For instance, if you enjoy working with C++, key domains to explore include Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
-* **Hardware-Driven Path:** If you want to work closer to physical hardware, pay attention to the **Electronics** requirement badges on the right side of the diagram (ranging from Low to High). specialized areas near the bottom of the stack such as FPGA Programming and Embedded Systems require a **High** level of electronics knowledge.
-* **Iterative Learning:** You do not need to master every foundational topic before picking a domain. Choose a field that excites you, start building projects, and fill in any missing knowledge or hardware concepts along the way.
+* ****Language-Driven Path:**** If you enjoy working with a particular language, consider the fields where that language is commonly used or considered a strong choice. Languages highlighted as ****Gold Standard**** in the diagram can be especially relevant for those domains. For example, if you enjoy **C++**, you may want to explore areas such as **Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing**.
 
-Below is a breakdown of each specialization, ordered from the bottom of the stack (closest to the hardware) working our way up:
+* ****Hardware-Driven Path:**** If you want to work closer to physical hardware, pay attention to the ****Electronics**** requirement badges on the right side of the diagram, ranging from **Low** to **High**. Fields closer to the hardware, such as **FPGA Programming and Embedded Systems**, generally require a stronger understanding of electronics and digital hardware.
+
+* ****Interest-Driven Learning:**** You don't need to decide on a specialization immediately, nor do you need to master every foundational topic first. Pick a field that interests you, start building projects, and learn the missing concepts as you encounter them. Your learning path can change as you discover what you enjoy.
+
+The sections below provide an overview of each specialization, starting with areas that are **closest to the hardware** and gradually moving toward higher levels of abstraction.
 
 ## 1. Embedded Systems
 
