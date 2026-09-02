@@ -343,11 +343,11 @@ C++ extends low-level programming with powerful abstraction mechanisms while sti
 
 > C++ is a continuously evolving language. Many older books, tutorials, and resources teach outdated versions of C++ or practices that are no longer recommended. When learning C++, we recommend focusing on resources that teach modern C++ standards such as C++17, C++20, and C++23.
 
-We recommend starting with LearnCpp. It's free, comprehensive, and regularly updated, making it a great primary resource for learning modern C++.
+We recommend starting with LearnCpp. It’s free, comprehensive, regularly updated, and covers modern C++ from beginner to advanced topics.
 
 - **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 
-Then pick a book, let's say; 
+From there, you can supplement your learning with a book depending on your background.
 
 If you're completely new to programming or new to C++, use:
 
@@ -366,8 +366,6 @@ That's pretty much all you need to get started with C++. You don't need to go th
 As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
 
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
-
----
 
 ### Rust
 
