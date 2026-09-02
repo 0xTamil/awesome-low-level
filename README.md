@@ -263,7 +263,7 @@ Build things yourself, experiment with different approaches, debug your own mist
 
 > Don't worry about making large or impressive projects. Small programs are enough if they force you to understand what you're doing. The goal is to turn your knowledge of C, computer fundamentals, and DSA into practical programming experience.
 
-6. Learn Modern Low-Level Languages (Optional)
+## 6. Learn Modern Low-Level Languages (Optional)
 
 After gaining practical experience through projects, you can optionally explore additional procedural low-level languages such as C++, Rust, Zig, or Odin.
 
@@ -273,8 +273,9 @@ You can also explore non-procedural or alternative programming languages such as
 
 > If you're not sure what procedural and non-procedural languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
 
-7. Pick a Specialized Field
+## 7. Pick a Specialized Field
 
+This keeps the main roadmap clean and makes it clear that the actual specialization paths are explained later.
 Once you have built a strong foundation in computer fundamentals, C, data structures and algorithms, and practical programming experience, you can choose a specialized field to focus on.
 
 > The different specialized fields are covered in the Specialized Field section. You don't need to choose a specialization immediately. First build a strong foundation, gain practical experience, and then explore the areas that interest you most.
