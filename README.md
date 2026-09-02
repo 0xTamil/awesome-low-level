@@ -148,7 +148,7 @@ You can also try a **no AI challenge** for a week. Avoid using AI for programmin
 ## What is Low-Level Programming ?
 
 <p align="center">
-  <img width="4139" height="2948" alt="Untitled-2026-08-25-2028" src="https://github.com/user-attachments/assets/8c9d045b-edb1-46d5-91dd-558e0dd53737" />
+  <img width="4139" alt="Untitled-2026-08-25-2028" src="https://github.com/user-attachments/assets/8c9d045b-edb1-46d5-91dd-558e0dd53737" />
 </p>
 
 The diagram shows different **levels of abstraction** between the programmer and the computer's hardware. At the bottom, we have the **hardware**, which is what the computer physically uses to perform operations. Moving upward, we get **machine code, Assembly, and programming languages**. The higher we go, the more details about the hardware are hidden from the programmer. **Low-level programming** means working **closer to the machine** across **different parts of the stack**. 
@@ -423,7 +423,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 # Specialized Fields
 
 <p align="center">
- <img width="3810" height="2605" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
+ <img width="3810" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
 Use the diagram above as a guide when deciding which specialization to explore. You can approach it based on the **language you enjoy**, the **domain you're interested in**, or how closely you want to work with **hardware**:
