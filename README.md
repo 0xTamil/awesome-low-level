@@ -404,7 +404,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 # Specialized Fields
 
 <p align="center">
-  <img width="4089" height="1346" alt="Stack" src="https://github.com/user-attachments/assets/87589847-9337-418a-8527-eeaa4be78a8a" />
+  <img width="3765" height="2605" alt="Untitled-2026-08-25-2028(8)" src="https://github.com/user-attachments/assets/57bf51ab-766a-4ca1-9c6d-61004eeff1b1" />
 </p>
 
 The diagram above is meant to give you the **foundation** for low-level programming. Once you have built a basic understanding of programming, computer fundamentals, C, and data structures & algorithms, you can start exploring a specialized field.
