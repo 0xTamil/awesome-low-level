@@ -232,7 +232,7 @@ You may also notice that this collection does not rely heavily on commonly used 
 # Roadmap
 
 <p align="center">
-  <img width="400" alt="Roadmap" src="https://github.com/user-attachments/assets/e9889424-d5da-4b3f-bf7f-625198e75660" />
+ <img width="200" alt="Roadmap" src="https://github.com/user-attachments/assets/89e2d2fb-2d19-4e5b-85d5-b94216084b01" />
 </p>
 
 ## 1. Basic Electronics
