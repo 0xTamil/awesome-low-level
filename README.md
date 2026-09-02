@@ -232,7 +232,7 @@ You may also notice that this collection does not rely heavily on commonly used 
 # Roadmap
 
 <p align="center">
- <img width="200" alt="Roadmap" src="https://github.com/user-attachments/assets/89e2d2fb-2d19-4e5b-85d5-b94216084b01" />
+  <img width="300" alt="Roadmap" src="https://github.com/user-attachments/assets/e390e835-4b3a-4410-8399-46203d300b8e" />
 </p>
 
 ## 1. Basic Electronics
@@ -404,7 +404,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 # Specialized Fields
 
 <p align="center">
-  <img width="3765" height="2605" alt="Untitled-2026-08-25-2028(8)" src="https://github.com/user-attachments/assets/57bf51ab-766a-4ca1-9c6d-61004eeff1b1" />
+ <img width="3810" height="2605" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
 The diagram above is meant to give you the **foundation** for low-level programming. Once you have built a basic understanding of programming, computer fundamentals, C, and data structures & algorithms, you can start exploring a specialized field.
