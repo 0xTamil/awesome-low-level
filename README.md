@@ -407,8 +407,6 @@ A small virtual machine and stack-based system for experimenting with low-level 
  <img width="3810" height="2605" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
-This roadmap serves as a foundation for exploring low-level programming. Once you have built a solid understanding of core programming concepts, computer fundamentals, C, and data structures & algorithms, you can choose a specialized domain to explore.
-
 Use the diagram above to help guide your decision based on language standards, domain interest, or required hardware knowledge:
 
 * **Language-Driven Path:** If you prefer working with a specific language, look for fields where it serves as the **Gold Standard** (highlighted in yellow on the diagram). For instance, if you enjoy working with C++, key domains to explore include Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
