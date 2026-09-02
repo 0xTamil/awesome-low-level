@@ -406,7 +406,21 @@ A small virtual machine and stack-based system for experimenting with low-level 
   <img width="4089" height="1346" alt="Stack" src="https://github.com/user-attachments/assets/87589847-9337-418a-8527-eeaa4be78a8a" />
 </p>
 
+The diagram above is meant to give you the **foundation** for low-level programming. Once you have built a basic understanding of programming, computer fundamentals, C, and data structures & algorithms, you can start exploring a specialized field.
 
+If you don't know which field to choose, start with the **languages you're interested in**. Find the fields where those languages are commonly used and see which one interests you. For example, if you like **C++**, you can explore areas such as **game engine development, graphics programming, operating systems, compilers, or GPGPU & parallel computing**.
+
+The diagram helps you compare these fields:
+
+- 🟨 **Gold:** Commonly preferred or established languages for the field.
+- 🟪 **Purple:** Approximate level of **CS fundamentals** required.
+- 🟩 **Green:** Approximate level of **electronics knowledge** required.
+
+Use these as a guide, not strict requirements. **Pick a field that interests you, then use the diagram to understand what knowledge and languages you may need.**
+
+If your chosen field requires knowledge you haven't learned yet, simply **jump back to the relevant section of the roadmap and study it along the way**. This is especially important for fields closer to hardware, such as **FPGA programming and embedded systems**, where electronics becomes more important.
+
+> **You don't need to learn everything before choosing a specialization. Pick what interests you, start building, and learn the missing knowledge along the way.**
 
 ## 1. Embedded Systems
 
