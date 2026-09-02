@@ -144,8 +144,8 @@ You can also try a **no AI challenge** for a week. Avoid using AI for programmin
 
 ## What is Low-Level Programming ?
 
- <p align="center">
-  <img width="700" alt="Levels of abstraction from hardware to high-level languages" src="https://github.com/user-attachments/assets/f1f502b3-9a2a-4dd5-9107-25d8d7efc99e" />
+<p align="center">
+  <img width="4139" height="2948" alt="Untitled-2026-08-25-2028" src="https://github.com/user-attachments/assets/8c9d045b-edb1-46d5-91dd-558e0dd53737" />
 </p>
 
 The diagram shows different **levels of abstraction** between the programmer and the computer's hardware. At the bottom, we have the **hardware**, which is what the computer physically uses to perform operations. Moving upward, we get **machine code, Assembly, and programming languages**. The higher we go, the more details about the hardware are hidden from the programmer. **Low-level programming** means working **closer to the machine** across **different parts of the stack**. 
