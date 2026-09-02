@@ -509,19 +509,19 @@ Browse the entire collection through an interactive, Wikipedia-inspired web inte
 
 # Discord
 
-Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
-
 <p align="center">
   <a href="https://discord.gg/YZRknMKn2K">
     <img width="400" alt="banner" src="https://github.com/user-attachments/assets/59f2514d-f239-40bf-b620-bc24039dce45" />
   </a>
 </p>
 
+Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the megathread.
+
 ---
 
 # License
 
-This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
-
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
 
