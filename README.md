@@ -362,7 +362,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 1. Embedded Systems
 
-> **Overview:** Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
+**Overview:** Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
@@ -375,7 +375,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 2. FPGA Programming
 
-> **Overview:** FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
+**Overview:** FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
 
 - **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of FPGA resources, tools, HDLs, and project tutorials.
 - **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides and learning materials for developing custom programmable logic.
@@ -384,7 +384,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 3. Compilers & Interpreters
 
-> **Overview:** Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
+**Overview:** Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
 
 - **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for compiler and runtime development.
 
@@ -392,7 +392,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 4. Operating Systems Development
 
-> **Overview:** Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
+**Overview:** Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
 
 - **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, tutorials, and project resources for operating system development.
 
@@ -400,7 +400,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 5. GPGPU & Parallel Computing
 
-> **Overview:** GPGPU programming uses graphics processors for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
+**Overview:** GPGPU programming uses graphics processors for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
 
 - **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for GPU computing.
 - **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: Resources covering GPU architecture and parallel computing.
@@ -409,7 +409,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 6. Graphics Programming
 
-> **Overview:** Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
+**Overview:** Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
 
 - **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated resources covering graphics mathematics, rendering, and engine development.
 
@@ -417,7 +417,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 7. Game Engine Development
 
-> **Overview:** Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
+**Overview:** Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
 
 - **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: Books, tutorials, libraries, and resources for building game engines.
 - **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: A collection of open-source game engines and reference implementations.
@@ -426,7 +426,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 8. Network Systems Programming
 
-> **Overview:** Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
+**Overview:** Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
 
 - **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
 - **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
@@ -437,7 +437,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 ## 9. Cybersecurity
 
-> **Overview:** Cybersecurity focuses on understanding how computer systems, networks, applications, and data can be protected from attacks and unauthorized access. It involves operating system security, networking, cryptography, vulnerability analysis, secure programming, reverse engineering, digital forensics, and penetration testing.
+**Overview:** Cybersecurity focuses on understanding how computer systems, networks, applications, and data can be protected from attacks and unauthorized access. It involves operating system security, networking, cryptography, vulnerability analysis, secure programming, reverse engineering, digital forensics, and penetration testing.
 
 - **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
 - **[Awesome List](https://github.com/0xor0ne/awesome-list)**: Collection of awesome blog posts, write-ups, and papers focusing on cybersecurity.
@@ -486,7 +486,7 @@ Browse the entire collection through an interactive, Wikipedia-inspired web inte
 
 # Discord
 
-> Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
+Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the wiki.
 
 <a href="https://discord.gg/YZRknMKn2K">
   <img width="400" alt="banner" src="https://github.com/user-attachments/assets/59f2514d-f239-40bf-b620-bc24039dce45" />
@@ -496,7 +496,7 @@ Browse the entire collection through an interactive, Wikipedia-inspired web inte
 
 # License
 
-> This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
+This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
