@@ -416,6 +416,8 @@ If your chosen field requires knowledge you haven't learned yet, simply **jump b
 
 > **You don't need to learn everything before choosing a specialization. Pick what interests you, start building, and learn the missing knowledge along the way.**
 
+So, let’s explore what each field is, starting from the bottom of the stack and working our way up;
+
 ## 1. Embedded Systems
 
 **Overview:** Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
