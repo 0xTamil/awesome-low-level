@@ -252,7 +252,7 @@ Once you're comfortable with C and have a basic understanding of memory, start b
 
 After gaining some practical experience, move on to Data Structures & Algorithms. Learn how data can be organized, stored, accessed, and processed efficiently. Focus on structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, along with algorithms for searching, sorting, traversal, recursion, and problem solving.
 
-> You don't need to treat DSA as a separate topic disconnected from C. Implement the structures and algorithms yourself.
+> You don't need to treat DSA as a separate topic disconnected from C. Implement the structures and algorithms yourself rather than using libraries.
 
 The Specialized Stack (Second Diagram) shows how the different areas of low-level programming relate to each other and how higher-level systems depend on the layers beneath them. It is mainly there to give you a broader picture of the stack and help you understand what kind of knowledge each field builds upon. You don't need to learn every specialized field. Use the stack to understand how the different areas connect, then choose the area that interests you and build depth in it.
 
