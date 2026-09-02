@@ -236,13 +236,39 @@ You may also notice that this collection does not rely heavily on commonly used 
 </p>
 
 
-You don’t need to study electronics in depth before learning C. However, the further down the systems stack you go, the more important electronics becomes. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential. After developing a strong understanding of C and low-level concepts, we recommend learning some additional **procedural languages** such as **C++**, **Rust**, **Zig** and **Odin**.
+You don't need to study electronics in depth before learning C. At this stage, a basic understanding of electronics is enough to understand how computers work at the hardware level. However, as you move further down the specialized stack, electronics becomes increasingly important. At the bottom layers, especially Embedded Systems and FPGA Programming, a solid understanding of electronics is essential.
 
-> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also **stick with C** if you want. C remains highly relevant to low-level programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+Next, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
 
-If you want to explore something different, you can also try **non-procedural languages** such as **Ante, Carp, Futhark, Forth, or Uxn**.
+After that, start learning C. C is particularly useful for this roadmap because it gives you relatively direct control over memory and system resources while still allowing you to write practical software.
 
-> If you're wondering what **procedural** and **non-procedural** languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
+While learning C, don't focus only on syntax. Pay particular attention to pointers, arrays, structs, memory allocation, stack and heap memory, data representation, bitwise operations, and how programs use memory. The goal is to understand not only what your code does, but also what happens in memory when your code runs.
+
+> You don't need to master every part of C before moving forward. Build a solid understanding of the language, especially the parts that help you reason about memory and how programs interact with the machine.
+
+Once you're comfortable with C and have a basic understanding of memory, start building small projects. This is where you begin applying what you've learned instead of only studying concepts. Build things yourself, experiment with different approaches, debug your own mistakes, and gradually work on projects that require you to think about memory, data, program structure, and system behavior.
+
+> Don't worry about making large or impressive projects. Small programs are enough if they force you to understand what you're doing. The goal is to turn your knowledge of C and computer fundamentals into practical programming experience.
+
+After gaining some practical experience, move on to Data Structures & Algorithms. Learn how data can be organized, stored, accessed, and processed efficiently. Focus on structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, along with algorithms for searching, sorting, traversal, recursion, and problem solving.
+
+Since this roadmap focuses on low-level programming, implementing these concepts in C can be especially useful. It allows you to connect algorithmic concepts with their underlying memory representation and gives you a better understanding of how these structures are actually implemented.
+
+> You don't need to treat DSA as a separate topic disconnected from C. Implement the structures and algorithms yourself, understand their memory layout, and pay attention to their time and space complexity.
+
+You don't need to learn every specialized field. Choose the area that interests you and build depth in it. The roadmap includes fields such as Embedded Systems, FPGA Programming, Compilers & Interpreters, Operating Systems, GPGPU & Parallel Computing, Graphics Programming, Game Engine Development, Network Systems Programming, and Cybersecurity.
+
+Your specialization will determine how deeply you need to understand the layers beneath it. The further down the stack you go, the more important your understanding of electronics and hardware becomes. Fields closer to the hardware require you to understand more of what is happening physically inside the computer, while fields higher up can rely on more layers of abstraction.
+
+> For example, Embedded Systems and FPGA Programming sit very close to the hardware, so you need a stronger understanding of electronics, digital logic, circuits, microcontrollers, signals, registers, buses, and hardware interfaces. As you move upward toward areas such as Operating Systems, Compilers, Graphics, Networking, and Cybersecurity, electronics becomes less central, while concepts such as CPU architecture, memory, instruction sets, operating systems, concurrency, and system interfaces become more important.
+
+After developing a strong understanding of C and low-level concepts, we recommend learning some additional procedural languages such as C++, Rust, Zig, and Odin.
+
+> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also stick with C if you want. C remains highly relevant to low-level programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+
+If you want to explore something different, you can also try non-procedural languages such as Ante, Carp, Futhark, Forth, or Uxn.
+
+> If you're not sure what procedural and non-procedural languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
 
 ---
 
