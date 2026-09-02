@@ -302,12 +302,10 @@ This keeps the main roadmap clean and makes it clear that the actual specializat
 
 ## C Programming
 
-- **[C Roadmap](https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages%2FC%2Froadmap.md)**: An ordered guide to become a C programmer/developer.
-- **[C Programming Wiki](https://www.reddit.com/r/C_Programming/wiki/index/)**: Official C_Programming subreddit wiki that fill with useful resources.
-- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
 - **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**: A classic book covering all about C programming.
-- **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
+- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
 - **[C FAQ](https://c-faq.com/)**: Answers to common C questions, including pointers, memory management, and language behavior.
+- **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
 - **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
 
 ## Data Structures & Algorithms
@@ -334,7 +332,7 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
 
 - **[How to Start C++ Development ?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
-- **[Learn C++](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
+- **[Learncpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 - **[C++ By Example](https://cppbyexample.com/)**: Concise examples demonstrating C++ syntax and language features.
 - **[C++ Reference](https://en.cppreference.com/w/)**: A comprehensive reference for C++ language features and the standard library.
 - **[Modern C++ Features](https://github.com/AnthonyCalandra/modern-cpp-features)**: A summary of important features introduced in modern C++ standards.
