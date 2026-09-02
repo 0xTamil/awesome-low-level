@@ -260,8 +260,6 @@ If you want to explore something different, you can also try **non-procedural la
 
 ## C Programming
 
-> Learn C as a systems programming language and develop a strong understanding of memory, pointers, data representation, and low-level software design.
-
 - **[C Roadmap](https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages%2FC%2Froadmap.md)**: An ordered guide to become a C programmer/developer.
 - **[C Programming Wiki](https://www.reddit.com/r/C_Programming/wiki/index/)**: Official C_Programming subreddit wiki that fill with useful resources.
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
@@ -272,7 +270,7 @@ If you want to explore something different, you can also try **non-procedural la
 
 ## Data Structures & Algorithms
 
-> Data Structures and Algorithms are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA concepts using C may be more relevant and useful.
+Data Structures and Algorithms are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA concepts using C may be more relevant and useful.
 
 - **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
 - **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
@@ -291,7 +289,7 @@ If you want to explore something different, you can also try **non-procedural la
 
 ### C++
 
-> C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
+C++ extends low-level programming with powerful abstraction mechanisms while still providing significant control over performance and memory.
 
 - **[How to Start C++ Development ?](https://github.com/W4RH4WK/cpp-init)**: A practical guide to setting up a C++ development environment.
 - **[Learn C++](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
@@ -304,7 +302,7 @@ If you want to explore something different, you can also try **non-procedural la
 
 ### Rust
 
-> Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
+Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
 
 - **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official Rust book covering ownership, borrowing, memory safety, and concurrency.
 - **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on exercises for practicing Rust.
@@ -315,7 +313,7 @@ If you want to explore something different, you can also try **non-procedural la
 
 ### Zig
 
-> Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
+Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
 
 - **[Zig Learn](https://ziglearn.org/)**: A structured guide to learning Zig syntax and manual memory management.
 - **[Zig Language Reference](https://ziglang.org/documentation/master/)**: Official documentation covering Zig's language features and tooling.
@@ -325,7 +323,7 @@ If you want to explore something different, you can also try **non-procedural la
 
 ### Odin
 
-> Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
+Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
 
 - **[Odin Overview](https://odin-lang.org/docs/overview/)**: An introduction to Odin's syntax, design philosophy, and memory management.
 - **[Odin Demo Program](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)**: A demonstration program covering many Odin language features.
@@ -338,24 +336,24 @@ If you want to explore something different, you can also try **non-procedural la
 ## Non-Procedural Languages
 
 ### Ante
-> A functional systems language inspired by ML, with Rust-inspired memory management.
+A functional systems language inspired by ML, with Rust-inspired memory management.
 
 - **[Ante Lang](https://antelang.org/)**: Official ante Documentation.
 
 ### Carp
-> A LISP designed for game development with Rust-inspired memory management and low-level control.
+A LISP designed for game development with Rust-inspired memory management and low-level control.
 - **[Carp Lang](https://github.com/carp-lang/Carp)**: Official carp Documentation.
 
 ### Futhark
->  An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
+An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
 - **[Futhark Lang](https://futhark-lang.org/)**: Official futhark Documentation
 
 ### Forth
->  A stack-based language well suited for embedded programming and direct hardware control.
+A stack-based language well suited for embedded programming and direct hardware control.
 - **[Awesome Forth](https://github.com/lassik/awesome-forth)**: A full list of learning Forth from scratch.
 
 ### Uxn
-> A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
+A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
 - **[Uxn Site](https://100r.co/site/uxn.html)**: A site dedicated to uxn related stuffs.
 
 ---
