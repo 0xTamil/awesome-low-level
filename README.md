@@ -180,13 +180,11 @@ struct Player {
     int health;
 };
 
-void take_damage(struct Player *player, int damage)
-{
+void take_damage(struct Player *player, int damage) {
     player->health -= damage;
 }
 
-int main(void)
-{
+int main(void) {
     struct Player player = {100};
     take_damage(&player, 20);
     printf("%d\n", player.health);
