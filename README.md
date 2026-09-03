@@ -188,16 +188,14 @@ void take_damage(struct Player *player, int damage)
 int main(void)
 {
     struct Player player = {100};
-
     take_damage(&player, 20);
-
     printf("%d\n", player.health);
 
     return 0;
 }
 ```
 
-**What's different?** In Java, the **data and behavior are grouped together** inside a class, and you call a method on the object. In C, the **data and functions are separate**. You define a `struct` to hold the data and a function to operate on it, passing the data explicitly when needed.
+**Why is C written this way?** C doesn't have **classes or methods** like Java. Instead, C provides `struct` for grouping data and regular functions for defining behavior. This means the **data and functions are separate**, and you explicitly pass the data to the function when you want it to operate on that data.
 
 > **This doesn't mean OOP is bad or useless.** OOP is still widely used in **C++**, especially in areas such as **game engines, graphics, simulations, and large systems**. The important thing is to understand the fundamentals first instead of treating OOP as the default way of thinking in low-level programming.
 
