@@ -67,9 +67,9 @@
 
 ## Why We Made This ?
 
-We made this megathread to help self-learners get started with low-level programming and build a strong foundation in its fundamentals. Having a clear learning path and structure can make it much easier to know where to start and what to learn next, so we created this guide to help with that.
+We made this **megathread** to help **self-learners** get started with **[low-level programming](what-is-low-level-programming-)** and build a strong foundation in its **fundamentals**. Having a clear **learning path and structure** can make it much easier to know where to start and what to learn next, so we created this **guide** to help with that.
 
-We put a lot of time and effort into reviewing the resources included here to make sure they are useful and relevant for learning. This megathread was made purely out of passion for the subject, and we hope it can be useful to anyone who wants to get into low-level programming.
+We put a lot of **time and effort** into reviewing the **resources** included here to make sure they are useful and relevant for learning. This megathread was made purely out of **passion for the subject**, and we hope it can be useful to anyone who wants to get into **[low-level programming](what-is-low-level-programming-)**.
 
 ---
 
