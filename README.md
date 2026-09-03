@@ -152,13 +152,60 @@ You can skip the introductory material and focus on the topics you haven't learn
 
 ### If You Have High-Level Programming Experience
 
-You may already understand high-level programming concepts but have little or no experience with low-level programming. In this case, **don't assume that low-level programming follows the same programming style you're used to.** A lot of low-level code tends to be more **function-oriented, procedural, or data-oriented**, rather than heavily object-oriented. If you're coming from Java or Python, you may want to temporarily put OOP thinking aside and learn how to approach problems in a lower-level style first.
+If you already have experience with a **high-level language** like Python or Java, you probably understand programming fundamentals. However, low-level programming introduces a different set of concepts, so **don't assume you need to approach it in the same way you're used to**.
 
-> That doesn't mean OOP is useless in low-level programming. It's still used in many areas, especially things like **game engines, graphics and simulations**. However, it shouldn't be treated as the default way of thinking about low-level programming.
+When getting started, try to move beyond an **OOP-first mindset** and focus more on understanding **data, memory, control flow, and how the program interacts with the computer**. Depending on the area, you may encounter **procedural, function-oriented, data-oriented, or object-oriented** programming styles.
 
-Once you understand those concepts, you can bring OOP or other programming paradigms back into the picture when they're actually useful.
+For example, the same task can be approached using **OOP in Java** and a more **procedural style in C**.
 
----
+**Java:**
+
+```java
+class Player {
+    int health;
+
+    void takeDamage(int damage) {
+        health -= damage;
+    }
+}
+
+Player player = new Player();
+player.health = 100;
+
+player.takeDamage(20);
+```
+
+**C:**
+
+```c
+struct Player {
+    int health;
+};
+
+void take_damage(struct Player *player, int damage)
+{
+    player->health -= damage;
+}
+
+int main(void)
+{
+    struct Player player = {100};
+
+    take_damage(&player, 20);
+
+    printf("%d\n", player.health);
+
+    return 0;
+}
+'''
+
+**What's different?** In Java, the **data and behavior are grouped together** inside a class, and you call a method on the object. In C, the **data and functions are separate**. You define a `struct` to hold the data and a function to operate on it, passing the data explicitly when needed.
+
+> **This doesn't mean OOP is bad or useless.** OOP is still widely used in **C++**, especially in areas such as **game engines, graphics, simulations, and large systems**. The important thing is to understand the fundamentals first instead of treating OOP as the default way of thinking in low-level programming.
+
+Once you're comfortable with these concepts, you can bring **other programming paradigms** back into the picture and learn when each approach is actually useful.
+
+From there, continue with the roadmap and gradually build your **low-level programming foundation**.
 
 ## How to Learn ?
  
