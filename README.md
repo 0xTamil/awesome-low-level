@@ -129,7 +129,7 @@ You **don't need to follow every resource listed below**. We recommend following
 
 1. **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: Start here if you're completely new to programming. It gives beginners a clear starting point and explains how to get into programming.
 
-2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: After getting comfortable with the basics, we recommend CS50 to build a stronger foundation in programming and computer science. It covers topics such as **C, algorithms, data structures, memory, and resource management**. 0
+2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: After getting comfortable with the basics, we recommend CS50 to build a stronger foundation in programming and computer science. It covers topics such as **C, algorithms, data structures, memory, and resource management**.
 
 3. **Choose a CS curriculum or learning path:** After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)** if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more.
 
