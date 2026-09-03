@@ -67,7 +67,7 @@
 
 ## Why We Made This ?
 
-We made this **megathread** to help **self-learners** get started with **[low-level programming](what-is-low-level-programming-)** and build a strong foundation in its **fundamentals**. Having a clear **learning path and structure** can make it much easier to know where to start and what to learn next, so we created this **guide** to help with that.
+We made this **megathread** to help **self-learners** get started with **low-level programming** and build a strong foundation in its **fundamentals**. Having a clear **learning path and structure** can make it much easier to know where to start and what to learn next, so we created this **guide** to help with that.
 
 We put a lot of **time and effort** into reviewing the **resources** included here to make sure they are useful and relevant for learning. This megathread was made purely out of **passion for the subject**, and we hope it can be useful to anyone who wants to get into **low-level programming**.
 
@@ -197,7 +197,7 @@ int main(void)
 
 > **Why is C written this way ?** C doesn't have **classes or methods** like Java. Instead, C provides `struct` for grouping data and regular functions for defining behavior. This means the **data and functions are separate**, and you explicitly pass the data to the function when you want it to operate on that data.
 
-This C style gives you more direct control over **data, memory, and how functions operate on that data**. You can clearly see what data is being passed around, where it is stored, and how it is modified without relying on **high-level abstractions**.
+This C style gives you more direct control over **data, memory, and functions**. You can clearly see what data is being passed around, where it is stored, and how it is modified without relying on **high-level abstractions**.
 
 > **This doesn't mean OOP is bad or useless.** OOP is still widely used in **C++**, especially in areas such as **game engines, graphics, simulations, and large systems**. The important thing is to understand the fundamentals first instead of treating OOP as the default way of thinking in low-level programming.
 
