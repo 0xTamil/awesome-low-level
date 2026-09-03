@@ -123,21 +123,26 @@ The point is that you don't need to **relearn everything from scratch**. If you 
 
 #### But, You're Really New to Programming
 
-You may coming from a **non-CS background** but want to learn programming and eventually get into low-level programming, don't worry. You don't need to understand everything before starting. First, learn some basic programming & computer science fundamentals. You can check out the;
+If you're coming from a **non-CS background** and want to learn programming before getting into low-level programming, don't worry. You don't need to understand everything beforehand. Start with the basics, build your foundation, and gradually work your way toward low-level concepts.
 
-- **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: A best learning guide for absolute beginners to get into programming.
-- **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Harvard's introductory course covering programming, algorithms, abstraction, and computer science fundamentals.
-- **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical roadmap for learning fundamental computer science concepts.
-- **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
-- **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: A complete community-driven curriculum for self-taught computer science learners.
-- **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
-- **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A large collection of free computer science courses and educational resources.
+You **don't need to follow every resource listed below**. We recommend following them roughly in this order:
 
-Once you're comfortable with the basics, start learning **C** and **Computer Fundamentals**.
+1. **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: Start here if you're completely new to programming. It gives beginners a clear starting point and explains how to get into programming.
 
-> You don't need to become an expert programmer before starting C. Learn the fundamentals, get comfortable writing simple programs, then gradually learn the C-specific concepts you need for low-level programming.
+2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: After getting comfortable with the basics, we recommend CS50 to build a stronger foundation in programming and computer science. It covers topics such as **C, algorithms, data structures, memory, and resource management**. 0
 
-From there, follow the roadmap and build your understanding step by step.
+3. **Choose a CS curriculum or learning path:** After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)** if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more.
+
+   - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical guide to fundamental computer science concepts.
+   - **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
+   - **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
+   - **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A collection of free computer science courses and resources.
+
+Once you're comfortable with the basics, move on to **C** and **Computer Fundamentals**.
+
+> You don't need to become an expert programmer or complete an entire CS degree before starting low-level programming. Build the fundamentals you need, then gradually learn the **C concepts** and **computer fundamentals** required for low-level programming.
+
+From there, **follow the roadmap and build your understanding step by step**.
 
 ### If You Have Some Low-Level Experience
 
