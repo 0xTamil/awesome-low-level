@@ -123,7 +123,7 @@ The point is that you don't need to **relearn everything from scratch**. If you 
 
 #### But, You're Really New to Programming
 
-If you're coming from a **non-CS background** and want to learn programming before getting into low-level programming, don't worry. You don't need to understand everything beforehand. Start with the basics, build your foundation, and gradually work your way toward low-level concepts.
+If you're coming from a **non CS background** and want to learn programming before getting into low-level programming, don't worry. You don't need to understand everything beforehand. Start with the basics, build your foundation, and gradually work your way toward low-level concepts.
 
 You **don't need to follow every resource listed below**. We recommend following them roughly in this order:
 
@@ -131,7 +131,9 @@ You **don't need to follow every resource listed below**. We recommend following
 
 2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: After getting comfortable with the basics, we recommend CS50 to build a stronger foundation in programming and computer science. It covers topics such as **C, algorithms, data structures, memory, and resource management**.
 
-3. **Choose a CS curriculum or learning path:** After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)** if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more.
+3. **[Open Source Society University(OSSU](https://github.com/ossu/computer-science)**After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend OSSU, if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more. 
+
+Below are some additional resources that are also worth checking out.
 
    - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical guide to fundamental computer science concepts.
    - **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
