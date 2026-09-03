@@ -83,7 +83,7 @@ This **megathread is not perfect**, and some **resources or topics may be missin
 
 You may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning **programming from zero**. However, you may still be unfamiliar with how **computers work at a lower level**.
 
-Also, keep in mind that **programming fundamentals are not the same as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the **C specific concepts** that are important for low-level programming.
+Also, keep in mind that **programming fundamentals are not the same as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the **C concepts** that are important for low-level programming.
 
 For example, if you already understand **programming fundamentals**, code like this should be familiar:
 
@@ -99,21 +99,27 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-However, **C specific concepts** for low-level programming go further and include things like **pointers** and **manual memory management**:
+However, **C concepts** for low-level programming go further and include things like **pointers** and **manual memory management**:
 
 ```c
-int *ptr = malloc(sizeof(int));
+int *ages = malloc(5 * sizeof(int));
 
-*ptr = 42;
+for (int i = 0; i < 5; i++) {
+    ages[i] = 18 + i;
+}
 
-printf("%d\n", *ptr);
+for (int i = 0; i < 5; i++) {
+    if (ages[i] >= 18) {
+        printf("Adult\n");
+    }
+}
 
-free(ptr);
+free(ages);
 ```
 
-> **How the code works:** `sizeof(int)` gets the number of bytes needed to store an `int`, `malloc()` allocates that amount of memory and returns its address, `ptr` stores that address, `*ptr = 42` stores `42` in the allocated memory, `printf()` reads the value using `*ptr`, and `free(ptr)` releases the allocated memory.
+> **How the code works:** `malloc()` allocates memory for 5 `int` values, `ages` stores the address of that memory, the first `for` loop fills the allocated memory, and the second `for` loop reads the values and checks the condition. Finally, `free(ages)` releases the allocated memory.
 
-The point is that you don't need to **relearn everything from scratch**. If you already know the programming fundamentals, focus on the **C specific concepts** and **computer fundamentals** you haven't learned yet, then follow the roadmap and build your understanding **step by step**.
+The point is that you don't need to **relearn everything from scratch**. If you already know the programming fundamentals, focus on the **C concepts** and **computer fundamentals** you haven't learned yet, then follow the roadmap and build your understanding **step by step**.
 
 #### But, You're Really New to Programming
 
