@@ -113,7 +113,7 @@ free(ptr);
 
 > **How the code works:** `sizeof(int)` gets the number of bytes needed to store an `int`, `malloc()` allocates that amount of memory and returns its address, `ptr` stores that address, `*ptr = 42` stores `42` in the allocated memory, `printf()` reads the value using `*ptr`, and `free(ptr)` releases the allocated memory.
 
-From there, follow the roadmap and build your understanding step by step.
+The point is that you don't need to **relearn everything from scratch**. If you already know the programming fundamentals, focus on the **C specific concepts** and **computer fundamentals** you haven't learned yet, then follow the roadmap and build your understanding **step by step**.
 
 #### But, You're Really New to Programming
 
