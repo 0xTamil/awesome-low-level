@@ -83,9 +83,9 @@ This **megathread is not perfect**, and some **resources or topics may be missin
 
 You may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning **programming from zero**. However, you may still be unfamiliar with how **computers work at a lower level**.
 
-Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the **C specific concepts** that are important for low-level programming.
+Also, keep in mind that **programming fundamentals are not the same as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the **C specific concepts** that are important for low-level programming.
 
-For example, if you already understand programming fundamentals, code like this should be familiar:
+For example, if you already understand **programming fundamentals**, code like this should be familiar:
 
 ```c
 int age = 20;
@@ -98,9 +98,10 @@ for (int i = 0; i < 5; i++) {
     printf("%d\n", i);
 }
 ```
-While **C specific concepts** for low-level programming include things like **pointers** and **manual memory management**:
 
-```
+However, **C specific concepts** for low-level programming go further and include things like **pointers** and **manual memory management**:
+
+```c
 int *ptr = malloc(sizeof(int));
 
 *ptr = 42;
