@@ -154,7 +154,7 @@ You can skip the introductory material and focus on the topics you haven't learn
 
 If you already have experience with a **high-level language** like Python or Java, you probably understand programming fundamentals. However, low-level programming introduces a different set of concepts, so **don't assume you need to approach it in the same way you're used to**.
 
-When getting started, try to move beyond an **OOP first mindset** and focus more on understanding **data, memory, control flow, and how the program interacts with the computer**. Depending on the area, you may encounter **procedural, function-oriented or data-oriented programming styles.
+When getting started, try to move beyond an **OOP first mindset** and focus more on understanding **data, memory, control flow, and how the program interacts with the computer**. Depending on the area, you may encounter **procedural, function-oriented or data-oriented** programming styles.
 
 For example, the same task can be approached using **OOP in Java** and a more **procedural style in C**.
 
@@ -195,9 +195,9 @@ int main(void)
 }
 ```
 
-**Why is C written this way ?** C doesn't have **classes or methods** like Java. Instead, C provides `struct` for grouping data and regular functions for defining behavior. This means the **data and functions are separate**, and you explicitly pass the data to the function when you want it to operate on that data.
+> **Why is C written this way ?** C doesn't have **classes or methods** like Java. Instead, C provides `struct` for grouping data and regular functions for defining behavior. This means the **data and functions are separate**, and you explicitly pass the data to the function when you want it to operate on that data.
 
-**How is this related to low-level programming ?** This style gives you more direct control over **data, memory, and how functions operate on that data**. You can clearly see what data is being passed around, where it is stored, and how it is modified without relying on **high-level abstractions**.
+This C style gives you more direct control over **data, memory, and how functions operate on that data**. You can clearly see what data is being passed around, where it is stored, and how it is modified without relying on **high-level abstractions**.
 
 > **This doesn't mean OOP is bad or useless.** OOP is still widely used in **C++**, especially in areas such as **game engines, graphics, simulations, and large systems**. The important thing is to understand the fundamentals first instead of treating OOP as the default way of thinking in low-level programming.
 
