@@ -69,21 +69,48 @@
 
 We made this **megathread** to help **self-learners** get started with **[low-level programming](what-is-low-level-programming-)** and build a strong foundation in its **fundamentals**. Having a clear **learning path and structure** can make it much easier to know where to start and what to learn next, so we created this **guide** to help with that.
 
-We put a lot of **time and effort** into reviewing the **resources** included here to make sure they are useful and relevant for learning. This megathread was made purely out of **passion for the subject**, and we hope it can be useful to anyone who wants to get into **[low-level programming](what-is-low-level-programming-)**.
+We put a lot of **time and effort** into reviewing the **resources** included here to make sure they are useful and relevant for learning. This megathread was made purely out of **passion for the subject**, and we hope it can be useful to anyone who wants to get into **low-level programming**.
 
 ---
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. So, Let's say;
+This **megathread is not perfect**, and some **resources or topics may be missing**. Some sections include **multiple resources**, including links to other **megathreads** that cover a topic more comprehensively. You don't need to go through everything, feel free to pick **one or two resources** that best suit your **learning style**. So, Let's say;
 
 ### If You're an Absolute Beginner
 
 #### But, You Already Have Some Programming Experience
 
-You may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level. Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the C-specific concepts that are important for low-level programming.
+You may be coming from a **CS, EEE, IT, or another technical background**. In that case, you don't need to start learning **programming from zero**. However, you may still be unfamiliar with how **computers work at a lower level**.
 
-> For example, a university course may say that you have learned "C basics", but that might mostly mean learning programming fundamentals using C. You should still make sure you understand C itself, especially things like **pointers, memory, arrays, structs, manual memory management, and how C interacts with the machine**.
+Also, keep in mind that **programming fundamentals are not the same thing as knowing C itself**. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the **C specific concepts** that are important for low-level programming.
+
+For example, if you already understand programming fundamentals, code like this should be familiar:
+
+```c
+int age = 20;
+
+if (age >= 18) {
+    printf("Adult\n");
+}
+
+for (int i = 0; i < 5; i++) {
+    printf("%d\n", i);
+}
+```
+While **C specific concepts** for low-level programming include things like **pointers** and **manual memory management**:
+
+```
+int *ptr = malloc(sizeof(int));
+
+*ptr = 42;
+
+printf("%d\n", *ptr);
+
+free(ptr);
+```
+
+> **How the code works:** `sizeof(int)` gets the number of bytes needed to store an `int`, `malloc()` allocates that amount of memory and returns its address, `ptr` stores that address, `*ptr = 42` stores `42` in the allocated memory, `printf()` reads the value using `*ptr`, and `free(ptr)` releases the allocated memory.
 
 From there, follow the roadmap and build your understanding step by step.
 
