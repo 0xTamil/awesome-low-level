@@ -131,7 +131,7 @@ You **don't need to follow every resource listed below**. We recommend following
 
 2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: After getting comfortable with the basics, we recommend CS50 to build a stronger foundation in programming and computer science. It covers topics such as **C, algorithms, data structures, memory, and resource management**.
 
-3. **[Open Source Society University(OSSU](https://github.com/ossu/computer-science)**After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend OSSU, if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more. 
+3. **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend OSSU, if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more. 
 
 Below are some additional resources that are also worth checking out.
 
