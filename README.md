@@ -159,7 +159,6 @@ When getting started, try to move beyond an **OOP-first mindset** and focus more
 For example, the same task can be approached using **OOP in Java** and a more **procedural style in C**.
 
 **Java:**
-
 ```java
 class Player {
     int health;
@@ -176,7 +175,6 @@ player.takeDamage(20);
 ```
 
 **C:**
-
 ```c
 struct Player {
     int health;
@@ -197,7 +195,7 @@ int main(void)
 
     return 0;
 }
-'''
+```
 
 **What's different?** In Java, the **data and behavior are grouped together** inside a class, and you call a method on the object. In C, the **data and functions are separate**. You define a `struct` to hold the data and a function to operate on it, passing the data explicitly when needed.
 
