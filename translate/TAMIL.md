@@ -57,7 +57,7 @@
   - [7. Game Engine Development](#7-game-engine-development)
   - [8. Network Systems Programming](#8-network-systems-programming)
   - [9. Cybersecurity](#9-Cybersecurity)
-- [பரிந்துரைக்கப்படும் Content Creator-கள்](#பரிந்துரைக்கப்படும்-content-creator-கள்)
+- [பரிந்துரைக்கப்படும் படைப்பாளிகள்](#பரிந்துரைக்கப்படும்-படைப்பாளிகள்)
 - [Web Interface](#web-interface)
 - [Discord](#discord)
 - [License](#license)
@@ -155,7 +155,7 @@ free(ages);
 
 Python அல்லது java போன்ற high-level language-களில் ஏற்கனவே அனுபவம் இருந்தால், உங்களுக்கு programming fundamentals நன்றாகப் புரிந்திருக்கும். ஆனால், low-level programming முற்றிலும் வேறுபட்ட அணுகுமுறையைக் கொண்டது. எனவே நீங்கள் பழகிய அதே வழியில் இதையும் அணுகலாம் என்று நினைக்க வேண்டாம்.
 
-ஆரம்பத்தில், OOP (Object-Oriented Programming) சிந்தனையிலிருந்து சற்று வெளியே வந்து, data, memory, control flow மற்றும் program எப்படி கணினியோடு தொடர்பு கொள்கிறது என்பதில் அதிக கவனம் செலுத்துங்கள். நீங்கள் வேலை செய்யும் பகுதியைப் பொறுத்து, procedural, function-oriented அல்லது data-oriented பாணிகளைச் சந்திக்க நேரிடும்.
+ஆரம்பத்தில், OOP (object-oriented programming) சிந்தனையிலிருந்து சற்று வெளியே வந்து, data, memory, control flow மற்றும் program எப்படி கணினியோடு தொடர்பு கொள்கிறது என்பதில் அதிக கவனம் செலுத்துங்கள். நீங்கள் வேலை செய்யும் பகுதியைப் பொறுத்து, procedural, function-oriented அல்லது data-oriented பாணிகளைச் சந்திக்க நேரிடும்.
 
 உதாரணத்திற்கு, ஒரே வேலையை java-வில் OOP பாணியிலும், c-யில் procedural பாணியிலும் எப்படிச் செய்வது என்று பாருங்கள் :
 
@@ -611,7 +611,7 @@ Low-level programming மற்றும் Assembly பயிற்சிகள
 
 ---
 
-# பரிந்துரைக்கப்படும் Content Creator-கள்
+# பரிந்துரைக்கப்படும் படைப்பாளிகள்
 
 Low-level programming சார்ந்த விஷயங்களைப் பேசும் படைப்பாளிகள்
 
