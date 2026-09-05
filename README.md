@@ -285,13 +285,13 @@ If you want to understand **how computers work at a lower level**, learn how mem
 
 ## C vs C++ in Low-Level Programming
 
-There is a common confusion among beginners about which language is better for low-level programming: **C or C++**. You will often hear the advice **"learn C before C++."** There is a reason behind it, but that doesn't mean C++ is a bad choice.
+There is a common confusion among beginners about which language is better for **low-level programming**: **C or C++**. You will often hear the advice **"learn C before C++."** There is a reason behind it, but that doesn't mean **C++ is a bad choice**.
 
-C is often recommended because it does a better job of making you confront what is happening underneath your program. For example, C gives you much less abstraction around things like strings and memory. You have to understand how they work instead of simply relying on a convenient abstraction.
+**C** is often recommended because it does a better job of making you confront what is happening underneath your program. For example, C gives you much less **abstraction** around things like **strings** and **memory**. You have to understand how they work instead of simply relying on a convenient abstraction.
 
-C++ can hide more of those details. Its classes and other features can make programming easier and allow you to write much larger and more complex software, but that also means it can be easier to use something without understanding what is happening underneath.
+**C++** can hide more of those details. Its **classes** and other features can make programming easier and allow you to write much larger and more complex software, but that also means it can be easier to use something without understanding what is happening underneath.
 
-Another thing to understand is that C++ does not automatically make your programs "less low-level." You can write C-like code in C++ if that is what the project needs. The language gives you the choice between staying close to the fundamentals and using higher-level abstractions.
+Another thing to understand is that **C++ does not automatically make your programs "less low-level."** You can write **C-like code in C++** if that is what the project needs. The language gives you the choice between staying close to the **fundamentals** and using **higher-level abstractions**.
 
 > Both languages are capable of building serious software. You can use either one for **low-level systems**.
 
@@ -299,19 +299,19 @@ So, should you always learn C before C++?
 
 **Not necessarily.**
 
-If you prefer C++, you can start with C++ first. You don't have to learn C separately before starting. Just make sure you understand the C fundamentals that C++ is built around as you progress. Likewise, starting with C and moving to C++ later is completely fine.
+If you prefer **C++**, you can start with **C++ first**. You don't have to learn **C separately** before starting. Just make sure you understand the **C fundamentals** that C++ is built around as you progress. Likewise, starting with **C** and moving to **C++** later is completely fine.
 
-> The advice to **"learn C before C++"** is mainly about making the fundamentals easier to understand, not because C++ is incapable of low-level programming. C is a great starting point for understanding the fundamentals, but C++ is still a perfectly valid choice.
+> The advice to **"learn C before C++"** is mainly about making the **fundamentals** easier to understand, not because **C++ is incapable of low-level programming**. **C** is a great starting point for understanding the fundamentals, but **C++ is still a perfectly valid choice**.
 
 ---
 
 ## Let's Gooo !
 
-Now that we have a basic understanding of what low-level programming is, let's start learning it from the ground up. The goal is not to immediately jump into assembly or write an operating system. Instead, we will gradually build an understanding of how computers work, starting from the fundamentals and moving toward programming closer to the hardware.
+Now that we have a basic understanding of what **low-level programming** is, let's start learning it from the ground up. The goal is not to immediately jump into **assembly** or write an **operating system**. Instead, we will gradually build an understanding of how **computers work**, starting from the **fundamentals** and moving toward programming closer to the **hardware**.
 
 You may also notice that this collection does not rely heavily on commonly used websites such as **W3Schools, LeetCode, or general-purpose YouTube channels**. That does not mean those resources are bad. If they are included, there is a reason for it. The goal here is to encourage you to become comfortable with **official documentation, books, technical references, courses, source code, and other high-quality learning materials**.
 
-> **Learning how to find and understand information is part of becoming a good programmer.** Don't depend on tutorials for everything. Learn to read documentation, search for answers, experiment, and understand things for yourself.
+> **Learning how to find and understand information is part of becoming a good programmer.** Don't depend on tutorials for everything. Learn to **read documentation, search for answers, experiment, and understand things for yourself**.
 
 ---
 
@@ -323,49 +323,49 @@ You may also notice that this collection does not rely heavily on commonly used 
 
 ## 1. Basic Electronics
 
-You don't need to study electronics in depth before learning C. A basic understanding of electronics is enough to understand how computers work at the hardware level.
+You don't need to study **electronics in depth** before learning **C**. A basic understanding of **electronics** is enough to understand how computers work at the **hardware level**.
 
 ## 2. Computer Fundamentals
 
-After that, build a strong foundation in computer fundamentals. Learn how computers represent and process information, how the CPU executes instructions, how memory works, and how hardware and software interact. Topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution become increasingly important as you move toward lower-level programming.
+After that, build a strong foundation in **computer fundamentals**. Learn how computers **represent and process information**, how the **CPU executes instructions**, how **memory works**, and how **hardware and software interact**. Topics such as **binary, CPU architecture, memory, storage, registers, caches, and instruction execution** become increasingly important as you move toward **lower-level programming**.
 
 ## 3. C Programming
 
-Once you have a foundation in computer fundamentals, start learning C. Don't focus only on syntax. Pay particular attention to pointers, arrays, structs, memory allocation, stack and heap memory, data representation, bitwise operations, and how programs use memory. The goal is to understand not only what your code does, but also what happens in memory when your code runs.
+Once you have a foundation in **computer fundamentals**, start learning **C**. Don't focus only on **syntax**. Pay particular attention to **pointers, arrays, structs, memory allocation, stack and heap memory, data representation, bitwise operations**, and how programs **use memory**. The goal is to understand not only what your code does, but also **what happens in memory when your code runs**.
 
-> You don't need to master every part of C before moving forward. Build a solid understanding of the language, especially the parts that help you reason about memory and how programs interact with the machine.
+> **You don't need to master every part of C before moving forward.** Build a solid understanding of the language, especially the parts that help you reason about **memory** and how programs **interact with the machine**.
 
 ## 4. Practice Data Structures & Algorithms
 
-After becoming comfortable with C, start practicing data structures and algorithms. Learn how data can be organized, stored, accessed, and processed efficiently. Focus on structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, along with algorithms for searching, sorting, traversal, recursion, and problem solving.
+After becoming comfortable with **C**, start practicing **data structures and algorithms (DSA)**. Learn how data can be **organized, stored, accessed, and processed efficiently**. Focus on structures such as **arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs**, along with algorithms for **searching, sorting, traversal, recursion, and problem solving**.
 
-> Don't treat DSA as something completely separate from C. Implement the structures and algorithms yourself rather than simply relying on libraries. This will strengthen your understanding of both C and problem solving.
+> **Don't treat DSA as something completely separate from C.** Implement the structures and algorithms yourself rather than simply relying on **libraries**. This will strengthen your understanding of both **C** and **problem solving**.
 
 ## 5. Build Small Projects
 
-Once you have a solid understanding of C and have practiced data structures and algorithms, start building small projects. This is where you begin applying what you've learned instead of only studying concepts.
+Once you have a solid understanding of **C** and have practiced **data structures and algorithms**, start building **small projects**. This is where you begin applying what you've learned instead of only studying concepts.
 
-Build things yourself, experiment with different approaches, debug your own mistakes, and gradually work on projects that require you to think about memory, data, program structure, and system behavior.
+Build things yourself, experiment with different approaches, debug your own mistakes, and gradually work on projects that require you to think about **memory, data, program structure, and system behavior**.
 
-> Don't worry about making large or impressive projects. Small programs are enough if they force you to understand what you're doing. The goal is to turn your knowledge of C, computer fundamentals, and DSA into practical programming experience.
+> **Don't worry about making large or impressive projects.** Small programs are enough if they force you to understand what you're doing. The goal is to turn your knowledge of **C, computer fundamentals, and DSA** into **practical programming experience**.
 
 ## 6. Learn Modern Low-Level Languages (Optional)
 
-After gaining practical experience through projects, you can optionally explore additional procedural low-level languages such as C++, Rust, Zig, or Odin.
+After gaining practical experience through projects, you can optionally explore additional **procedural low-level languages** such as **C++, Rust, Zig, or Odin**.
 
-> You don't need to learn all of them. Pick one or two that interest you and explore them alongside your C knowledge. You can also stick with C if you want. C remains highly relevant to low-level programming and is still widely used for operating systems, embedded systems, firmware, compilers, libraries, and other low-level software. Learning another language is useful, but it is not required to become a strong low-level programmer.
+> **You don't need to learn all of them.** Pick one or two that interest you and explore them alongside your **C knowledge**. You can also stick with **C** if you want. C remains highly relevant to **low-level programming** and is still widely used for **operating systems, embedded systems, firmware, compilers, libraries**, and other low-level software. Learning another language is useful, but it is **not required to become a strong low-level programmer**.
 
-You can also explore non-procedural or alternative programming languages such as Ante, Carp, Futhark, Forth, or Uxn if you want to experiment with different programming models.
+You can also explore **non-procedural or alternative programming languages** such as **Ante, Carp, Futhark, Forth, or Uxn** if you want to experiment with different **programming models**.
 
-> If you're not sure what procedural and non-procedural languages mean, procedural languages generally organize programs around explicit instructions and sequences of operations, while non-procedural approaches use different programming models, such as functional or stack-based programming.
+> If you're not sure what **procedural** and **non-procedural languages** mean, procedural languages generally organize programs around **explicit instructions and sequences of operations**, while non-procedural approaches use different programming models, such as **functional or stack-based programming**.
 
 ## 7. Pick a Specialized Field
 
-Once you have built a strong foundation in computer fundamentals, C, data structures and algorithms, and practical programming experience, you can choose a specialized field to focus on.
+Once you have built a strong foundation in **computer fundamentals, C, data structures and algorithms**, and **practical programming experience**, you can choose a **specialized field** to focus on.
 
-> The different specialized fields are covered in the Specialized Field section. You don't need to choose a specialization immediately. First build a strong foundation, gain practical experience, and then explore the areas that interest you most.
+> **The different specialized fields are covered in the Specialized Field section.** You don't need to choose a specialization immediately. First build a **strong foundation**, gain **practical experience**, and then explore the areas that interest you most.
 
-This keeps the main roadmap clean and makes it clear that the actual specialization paths are explained later.
+This keeps the main **roadmap clean** and makes it clear that the actual **specialization paths** are explained later.
 
 ---
 
@@ -398,7 +398,7 @@ This keeps the main roadmap clean and makes it clear that the actual specializat
 
 ## Data Structures & Algorithms
 
-Data Structures and Algorithms are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA concepts using C may be more relevant and useful.
+**Data Structures and Algorithms (DSA)** are generally **language agnostic**, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on **low-level programming**, resources that teach **DSA using C** may be more relevant and useful.
 
 - **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
 - **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
@@ -419,11 +419,11 @@ Data Structures and Algorithms are generally language agnostic, meaning the core
 
 <img width="150" alt="cpp_logo" src="https://github.com/user-attachments/assets/3ed8fce0-cc22-48ae-bde1-3d136f6f4ad1" />
 
-C++ extends low-level programming with powerful abstraction mechanisms while still giving you significant control over memory, performance, and hardware-level details.
+**C++** extends **low-level programming** with powerful **abstraction mechanisms** while still giving you significant control over **memory, performance, and hardware-level details**.
 
-> C++ is a continuously evolving language. Many older books, tutorials, and resources teach outdated versions of C++ or practices that are no longer recommended. When learning C++, we recommend focusing on resources that teach modern C++ standards such as C++17, C++20, and C++23.
+> **C++ is a continuously evolving language.** Many older books, tutorials, and resources teach outdated versions of C++ or practices that are no longer recommended. When learning C++, we recommend focusing on resources that teach **modern C++ standards** such as **C++17, C++20, and C++23**.
 
-We recommend starting with LearnCpp. It’s free, comprehensive, regularly updated, and covers modern C++ from beginner to advanced topics.
+We recommend starting with **LearnCpp**. It’s **free, comprehensive, regularly updated**, and covers **modern C++** from beginner to advanced topics.
 
 - **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 
@@ -441,7 +441,7 @@ Once you're comfortable with the language, use cppreference as your primary docu
 
 - **[cppreference](https://en.cppreference.com/)**: A comprehensive reference for the C++ language and standard library. It's best used for looking up specific language features, library functions, and technical details rather than as a primary learning resource.
 
-That's pretty much all you need to get started with C++. You don't need to go through dozens of different resources. Pick the learning resource that fits your background, practice by writing code, and use cppreference whenever you need to look something up. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
+That's pretty much all you need to get started with **C++**. You don't need to go through dozens of different resources. Use **cppreference** whenever you need to look something up. As you become more comfortable with C++, you can also explore other approaches to structuring **performance-oriented software**:
 
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
@@ -449,7 +449,7 @@ That's pretty much all you need to get started with C++. You don't need to go th
 
 <img width="150" alt="rust-logo-512x512" src="https://github.com/user-attachments/assets/86e703e4-ff32-44c2-9e65-4dc8af1093c7" />
 
-Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
+**Rust** focuses on **systems programming** with strong **compile-time guarantees** for **memory safety** and **concurrency**.
 
 - **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official Rust book covering ownership, borrowing, memory safety, and concurrency.
 - **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on exercises for practicing Rust.
@@ -462,7 +462,7 @@ Rust focuses on systems programming with strong compile-time guarantees for memo
 
 <img width="150" alt="zig-programming-language-icon" src="https://github.com/user-attachments/assets/fa4257a9-5645-48a2-ae13-6657c2710d0a" />
 
-Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
+**Zig** emphasizes **explicit control, predictable behavior**, and close **interoperability with C** while providing a **modern approach to systems programming**.
 
 - **[Zig Learn](https://ziglearn.org/)**: A structured guide to learning Zig syntax and manual memory management.
 - **[Zig Language Reference](https://ziglang.org/documentation/master/)**: Official documentation covering Zig's language features and tooling.
@@ -474,7 +474,7 @@ Zig emphasizes explicit control, predictable behavior, and close interoperabilit
 
 <img width="150" alt="odin" src="https://github.com/user-attachments/assets/0d3d6347-2da6-4545-9a8c-391259d70d93" />
 
-Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
+**Odin** is a **systems programming language** focused on **simplicity, explicitness, performance**, and **practical software development**.
 
 - **[Odin Overview](https://odin-lang.org/docs/overview/)**: An introduction to Odin's syntax, design philosophy, and memory management.
 - **[Odin Demo Program](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)**: A demonstration program covering many Odin language features.
@@ -527,7 +527,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 1. Embedded Systems
 
-**Overview:** Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
+**Overview:** **Embedded programming** involves writing software for devices that perform **specific tasks**, often with limited **memory, processing power, and energy**. It commonly involves working closely with **hardware interfaces, registers, interrupts, timers**, and **communication protocols**.
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
@@ -540,7 +540,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 2. FPGA Programming
 
-**Overview:** FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
+**Overview:** **FPGA development** is different from traditional programming because you are describing **hardware structures** rather than simply writing instructions for a **CPU**. FPGAs can perform many operations **in parallel** and are commonly used in **hardware prototyping, signal processing, networking**, and **high-performance systems**.
 
 - **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of FPGA resources, tools, HDLs, and project tutorials.
 - **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides and learning materials for developing custom programmable logic.
@@ -549,7 +549,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 3. Compilers & Interpreters
 
-**Overview:** Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
+**Overview:** **Compiler and interpreter development** explores how **programming languages work internally**. You may work with **lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations**, and **machine code generation**.
 
 - **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for compiler and runtime development.
 
@@ -557,7 +557,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 4. Operating Systems Development
 
-**Overview:** Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
+**Overview:** **Operating systems development** involves working directly with **processor architecture and hardware**. Important topics include **memory management, process scheduling, interrupts, file systems, device drivers, synchronization**, and **kernel design**.
 
 - **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, tutorials, and project resources for operating system development.
 
@@ -565,7 +565,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 5. GPGPU & Parallel Computing
 
-**Overview:** GPGPU programming uses graphics processors for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
+**Overview:** **GPGPU programming** uses **graphics processors (GPUs)** for general-purpose computation. GPUs are designed to perform large numbers of similar operations **in parallel**, making them useful for **scientific computing, simulations, numerical workloads, machine learning**, and other **compute-intensive applications**.
 
 - **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for GPU computing.
 - **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: Resources covering GPU architecture and parallel computing.
@@ -574,7 +574,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 6. Graphics Programming
 
-**Overview:** Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
+**Overview:** **Graphics programming** combines **programming, mathematics**, and **GPU hardware**. You work with **rendering pipelines, transformations, lighting, textures, shaders**, and graphics APIs such as **Vulkan, OpenGL, and DirectX**.
 
 - **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated resources covering graphics mathematics, rendering, and engine development.
 
@@ -582,7 +582,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 7. Game Engine Development
 
-**Overview:** Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
+**Overview:** **Game engine development** combines multiple **low-level disciplines**. A game engine may include **rendering, physics, audio, input handling, memory management, resource loading, scripting**, and other systems required to **create and run games**.
 
 - **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: Books, tutorials, libraries, and resources for building game engines.
 - **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: A collection of open-source game engines and reference implementations.
@@ -591,7 +591,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 8. Network Systems Programming
 
-**Overview:** Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
+**Overview:** **Network systems programming** focuses on how **computers exchange data**. It involves **sockets, transport protocols, asynchronous programming, concurrency, packet handling**, and **performance optimization** for applications such as **servers, distributed systems**, and **multiplayer games**.
 
 - **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
 - **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
@@ -602,7 +602,7 @@ The sections below provide an overview of each specialization, starting with are
 
 ## 9. Cybersecurity
 
-**Overview:** Cybersecurity focuses on understanding how computer systems, networks, applications, and data can be protected from attacks and unauthorized access. It involves operating system security, networking, cryptography, vulnerability analysis, secure programming, reverse engineering, digital forensics, and penetration testing.
+**Overview:** **Cybersecurity** focuses on understanding how **computer systems, networks, applications, and data** can be protected from **attacks and unauthorized access**. It involves **operating system security, networking, cryptography, vulnerability analysis, secure programming, reverse engineering, digital forensics**, and **penetration testing**.
 
 - **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
 - **[Awesome List](https://github.com/0xor0ne/awesome-list)**: Collection of awesome blog posts, write-ups, and papers focusing on cybersecurity.
@@ -613,7 +613,7 @@ The sections below provide an overview of each specialization, starting with are
 
 A collection of creators who cover topics related to low-level programming.
 
-> Learn from these creators by watching their videos and following along with their projects. Pay attention to how they approach and solve problems, check out their GitHub repositories and source code, and study how they write and structure their code. Treat these great creators as mentors and learn from their experience.
+> Learn from these **creators** by watching their videos, following their projects, and studying their **code and problem-solving approaches**. Treat them as **mentors** and learn from their experience.
 
 - **[Tsoding](https://www.youtube.com/@Tsoding)**
 - **[ThePrimeTimeagen](https://www.youtube.com/@ThePrimeTimeagen)**
