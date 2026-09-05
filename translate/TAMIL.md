@@ -615,7 +615,7 @@ Low-level programming மற்றும் Assembly பயிற்சிகள
 
 Low-level programming சார்ந்த விஷயங்களைப் பேசும் படைப்பாளிகள்
 
-> இவர்களது videos மற்றும் projects-ஐப் பார்த்துப் பின்பற்றுங்கள். சிக்கல்களை இவர்கள் எப்படி அணுகுகிறார்கள், code-ஐ எப்படி அமைக்கிறார்கள் என்பதைக் கவனியுங்கள். இவர்களது gitHub repositories-ஐ ஆராய்ந்து கற்றுக்கொள்ளுங்கள்.
+> இவர்களது videos மற்றும் projects-ஐப் பார்த்துப் பின்பற்றுங்கள். சிக்கல்களை இவர்கள் எப்படி அணுகுகிறார்கள், code-ஐ எப்படி அமைக்கிறார்கள் என்பதைக் கவனியுங்கள். இவர்களது github repositories-ஐ ஆராய்ந்து கற்றுக்கொள்ளுங்கள்.
 
 - **[Tsoding](https://www.youtube.com/@Tsoding)**
 - **[ThePrimeTimeagen](https://www.youtube.com/@ThePrimeTimeagen)**
