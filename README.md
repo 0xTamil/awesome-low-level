@@ -15,7 +15,6 @@
   - [If You Have High-Level Programming Experience](#if-you-have-high-level-programming-experience)
 - [How to Learn](#how-to-learn-)
   - [Project-Based Learning](#project-based-learning)
-    - [Why is it useful for Low-Level Programming](#why-is-it-useful-for-low-level-programming-)
   - [Using AI Tools](#using-ai-tools)
 - [What is Low-Level Programming](#what-is-low-level-programming-)
 - [Low-Level Programming vs System Programming](#low-level-programming-vs-system-programming)
@@ -205,31 +204,27 @@ From there, continue with the roadmap and gradually build your **low-level progr
 
 ## How to Learn ?
  
-Low-level programming can be difficult. You will get stuck, make mistakes, feel burnt out, or sometimes regret starting. That is normal. Learning how to deal with difficult problems is part of becoming a programmer. To get a broader perspective on how to learn programming effectively, check out this resource:
+**Low-level programming** can be difficult. You will get **stuck**, make **mistakes**, feel **burnt out**, or sometimes **regret starting**. That is normal. Learning how to **deal with difficult problems** is part of becoming a programmer. To get a **broader perspective** on how to **learn programming effectively**, check out this resource:
 
 - **[Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)**: A great article for beginners that provides a realistic perspective on learning programming and what it takes to become proficient over time.
 
 ### Project-Based Learning
 
-Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**. Pick a topic, choose a resource from here, learn the concept, and then build or implement something using what you learned.
+Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try **project-based learning**. Pick a **topic**, choose a **resource** from here, learn the **concept**, and then build or implement something using what you learned.
 
-> For example, if you learn about linked lists, implement one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator.
+> For example, if you learn about **linked lists**, implement one yourself in C. If you learn about **memory allocation**, experiment with memory or try building a small allocator.
 
-Try solving problems yourself before looking for a tutorial with the exact solution. Use documentation to check syntax and technical details, then compare your work with other implementations after you have tried it yourself.
+Try **solving problems yourself** before looking for a tutorial with the exact solution. Use **documentation** to check syntax and technical details, then compare your work with other implementations after you have tried it yourself.
 
-> It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code** first. Start by writing something yourself, then learn how to improve it.
-
-#### Why is it useful for Low-Level Programming ?
-
-Low-level programming is not only about knowing concepts. You also need to understand how things actually work in practice. Building projects exposes you to real problems such as pointer bugs, invalid memory access, memory leaks, and debugging. It also forces you to think about how to structure your program and solve problems on your own. You don't need to build large projects. Small experiments and programs are enough. The goal is to apply what you learn instead of only consuming tutorials.
+> It is easy to get **stuck in tutorial hell**, where you keep watching tutorials and collecting resources without actually practicing. Focus on **learning the fundamentals and writing code** first. Start by **writing something yourself**, then learn how to improve it.
 
 ### Using AI Tools
 
-AI tools can be useful, but try not to depend on them for every problem. Before asking AI, spend some time trying to understand and solve the problem yourself. AI can help explain errors, clarify concepts, or guide you in the right direction. However, avoid immediately asking it to write the full solution or build the entire project for you.
+AI tools can be **useful**, but try not to **depend on them for every problem**. Before asking AI, spend some time trying to **understand and solve the problem yourself**. AI can help **explain errors**, **clarify concepts**, or **guide you in the right direction**. However, avoid immediately asking it to **write the full solution** or **build the entire project** for you.
 
 > **Use AI to help you learn and think, not to do all the thinking for you.**
 
-You can also try a **no AI challenge** for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead. It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
+You can also try a **no AI challenge** for a week. Avoid using AI for programming and rely on **documentation**, **books**, **search engines**, **debugging**, and your **own thinking** instead. It may feel harder at first, but you may start to appreciate the process of **figuring things out yourself** and become more **confident in solving problems**.
 
 ---
 
@@ -249,15 +244,15 @@ It gives programmers more direct control over the **CPU, memory, and hardware re
 
 ## Low-Level Programming vs System Programming
 
-Often, people confuse **low-level programming** with **systems programming**, but they are not exactly the same. 
+Often, people confuse **low-level programming** with **systems programming**, but they are not exactly the same.
 
-**Low-level programming is about how closely the code works with the hardware**. It involves things like memory, CPU instructions, pointers, and data layout. 
+**Low-level programming** is about how closely the code works with the **hardware**. It involves things like **memory**, **CPU instructions**, **pointers**, and **data layout**.
 
-**Systems programming is about building software that forms part of a larger computer system or provides important services to other software**, such as operating systems, compilers, databases, drivers, and servers. 
+**Systems programming** is about building software that forms part of a **larger computer system** or provides **important services to other software**, such as **operating systems**, **compilers**, **databases**, **drivers**, and **servers**.
 
-The two often overlap. For example, writing an operating system kernel in C is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build system software using a language that provides more abstraction.
+The two often **overlap**. For example, writing an **operating system kernel in C** is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build **system software using a language that provides more abstraction**.
 
-> **low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
+> **Low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.**
 
 - **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between **systems programming** and **low-level programming**.
 
