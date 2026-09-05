@@ -257,7 +257,7 @@ Systems Programming என்பது ஒரு பெரிய கணினி
 
 > Low-Level Programming என்பது நீங்கள் Machine-க்கு எவ்வளவு அருகில் இருக்கிறீர்கள் என்பதைக் குறிக்கிறது; Systems Programming என்பது நீங்கள் எந்த வகையான Software-ஐ உருவாக்குகிறீர்கள் என்பதைக் குறிக்கிறது.
 
-- **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/): Systems Programming மற்றும் Low-Level Programming இடையே உள்ள வேறுபாட்டை விளக்கும் கட்டுரை.
+- **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/)**: Systems Programming மற்றும் Low-Level Programming இடையே உள்ள வேறுபாட்டை விளக்கும் கட்டுரை.
 
 ---
 
