@@ -651,7 +651,7 @@ Low-level programming சார்ந்த விஷயங்களைப் �
   </a>
 </p>
 
-உங்களுக்குச் சந்தேகங்கள் இருந்தாலோ, கற்க விரும்பினாலோ அல்லது இதில் பங்களிக்க விரும்பினாலோ எங்கள் Discord Server-இல் இணையுங்கள்.
+உங்களுக்குச் சந்தேகங்கள் இருந்தாலோ, கற்க விரும்பினாலோ அல்லது இதில் பங்களிக்க விரும்பினாலோ எங்கள் discord server-இல் இணையுங்கள்.
 
 ---
 
@@ -659,5 +659,5 @@ Low-level programming சார்ந்த விஷயங்களைப் �
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-இந்தத் திட்டம் CC0 1.0 Universal உரிமத்தின் கீழ் பொதுக் களத்தில் (Public Domain) வெளியிடப்பட்டுள்ளது.
+இந்தத் திட்டம் CC0 1.0 Universal உரிமத்தின் கீழ் பொதுக் களத்தில் (public domain) வெளியிடப்பட்டுள்ளது.
 
