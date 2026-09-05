@@ -639,14 +639,6 @@ Browse the entire collection through an interactive, Wikipedia-inspired web inte
 
 **[Awesome Low Level](https://0xtamil.github.io/awesome-low-level/)**
 
-### Features
-
-- **Search & Filter**: Search resources and filter them by language, topic, or format.
-- **Roadmap**: Follow a structured learning path for low-level programming.
-- **Bookmarks**: Save useful resources locally for quick access.
-- **Dark/Light Mode**: Switch between appearance modes with a Wikipedia Vector 2022-inspired design.
-- **Mobile Responsive**: Use the resource collection comfortably on desktop and mobile devices.
-
 ---
 
 # Discord
