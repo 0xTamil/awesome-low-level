@@ -1,15 +1,22 @@
 (() => {
-    // ---- Configure for a different repo by editing AWESOME_REPO in toc.js ----
-    const BLOB_BASE = `https://github.com/${AWESOME_REPO.owner}/${AWESOME_REPO.repo}/blob/${AWESOME_REPO.branch}/`;
+    // ---- To add a repo, edit AWESOME_REPOS in toc.js — nothing here changes ----
+    const repo = getRepoFromQuery();
+    const BLOB_BASE = readmeBlobBase(repo);
+    const README_RAW_BASE = readmeRawBase(repo);
 
     const contentEl = document.getElementById("content");
     const tocEl = document.getElementById("toc");
+    const communityListEl = document.getElementById("communityList");
+    const sourceLinkEl = document.getElementById("sourceLink");
 
     const { closeMobileSidebar } = initPageChrome();
 
+    document.title = repo.name;
+    if (sourceLinkEl) sourceLinkEl.href = `https://github.com/${repo.owner}/${repo.repo}`;
+    renderCommunityList(communityListEl, repo.id, { onNavigate: closeMobileSidebar });
+
     let observer = null;
 
-    // ---------- Helpers ----------
     function escapeHtml(str) {
         const div = document.createElement("div");
         div.textContent = str;
@@ -24,9 +31,8 @@
         if (!tocHeading) return;
 
         const level = Number(tocHeading.tagName[1]);
-        let node = tocHeading;
-        const toRemove = [node];
-        node = node.nextElementSibling;
+        const toRemove = [tocHeading];
+        let node = tocHeading.nextElementSibling;
         while (node) {
             const isHr = node.tagName === "HR";
             const isHeading = /^H[1-4]$/.test(node.tagName);
@@ -69,7 +75,6 @@
         contentEl.querySelectorAll("pre code").forEach((block) => hljs.highlightElement(block));
     }
 
-    // ---------- Sidebar table of contents (nested, collapsible) ----------
     function buildToc() {
         const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4"));
         const tree = buildTocTree(headings);
@@ -122,7 +127,7 @@
 
     async function loadReadme() {
         try {
-            const markdown = await fetchReadmeMarkdown();
+            const markdown = await fetchReadmeMarkdown(repo);
             render(markdown);
         } catch (err) {
             contentEl.innerHTML = `

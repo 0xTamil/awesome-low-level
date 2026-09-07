@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>0xTamil</title>
-    <meta name="description" content="About the awesome-low-level project." />
+    <title>Awesome Low Level</title>
+    <meta name="description"
+        content="A curated roadmap for learning low-level programming, rendered live from the awesome-low-level README." />
     <link rel="icon"
         href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f7a4d'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3E01%3C/text%3E%3C/svg%3E">
 
@@ -20,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
@@ -36,18 +37,21 @@
     <div class="app-shell">
 
         <aside class="sidebar" id="sidebar" aria-label="Site navigation">
-            <a class="sidebar-brand" href="#">
+            <a class="sidebar-brand" href="index.html">
                 <span class="sidebar-brand-title">0xTamil</span>
                 <span class="sidebar-brand-tag">The Great Wiki</span>
             </a>
 
             <nav class="sidebar-nav">
                 <p class="sidebar-label">Community Projects</p>
-                <ul class="community-list">
-                    <li><a href="./index.html" rel="noopener">Awesome
-                            Low-Level</a>
-                    </li>
-                </ul>
+                <div id="communityList"></div>
+
+                <p class="sidebar-label">Contents</p>
+                <div id="toc" class="toc">
+                    <div class="toc-skeleton">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
             </nav>
 
             <div class="sidebar-footer">
@@ -69,37 +73,22 @@
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                     </svg>
                 </button>
-                <a class="source-link" href="https://github.com/0xTamil" target="_blank" rel="noopener">Github
-                    Organization</a>
+                <a id="sourceLink" class="source-link" href="#" target="_blank" rel="noopener">Source on GitHub</a>
             </div>
         </aside>
 
         <main class="main-area">
-            <div class="about-page">
-                <div id="aboutBanner" class="about-banner-wrap">
-                    <div class="about-banner-skeleton"></div>
-                </div>
-
-                <h1 class="about-title">About Us</h1>
-
-                <p class="about-text">
-                    A Tamil community for people who enjoy learning and exploring low-level programming and how
-                    computers work under the hood. We keep things niche, focus on the fundamentals, and learn by
-                    building, experimenting, and sharing what we discover along the way.
-                </p>
-
-                <div class="about-actions">
-                    <a data-discord-link class="about-btn primary" href="https://discord.gg/YZRknMKn2K" target="_blank"
-                        rel="noopener">Join the Discord</a>
-                </div>
+            <div class="content" id="content">
+                <p class="status">Loading README from GitHub…</p>
             </div>
         </main>
 
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
     <script src="toc.js" defer></script>
-    <script src="about.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>

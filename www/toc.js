@@ -1,11 +1,36 @@
-const AWESOME_REPO = { owner: "0xTamil", repo: "awesome-low-level", branch: "main" };
-const README_RAW_URL = `https://raw.githubusercontent.com/${AWESOME_REPO.owner}/${AWESOME_REPO.repo}/${AWESOME_REPO.branch}/README.md`;
-const README_RAW_BASE = `https://raw.githubusercontent.com/${AWESOME_REPO.owner}/${AWESOME_REPO.repo}/${AWESOME_REPO.branch}/`;
+// ---------- Repo registry ----------
+// Add more entries here to list additional community projects. The first
+// entry is the default shown when a page is opened without ?repo=<id>.
+const AWESOME_REPOS = [
+    { id: "low-level", owner: "0xTamil", repo: "awesome-low-level", branch: "main", name: "Awesome Low-Level" },
+];
 
-// How deep the TOC Level should go
+// How deep the sidebar TOC should go
 const MAX_SIDEBAR_TOC_LEVEL = 3;
 
-// Slugs
+function getRepoById(id) {
+    return AWESOME_REPOS.find((r) => r.id === id) || AWESOME_REPOS[0];
+}
+
+function getRepoFromQuery() {
+    return getRepoById(new URLSearchParams(location.search).get("repo"));
+}
+
+function readmeRawBase(repo) {
+    return `https://raw.githubusercontent.com/${repo.owner}/${repo.repo}/${repo.branch}/`;
+}
+
+function readmeBlobBase(repo) {
+    return `https://github.com/${repo.owner}/${repo.repo}/blob/${repo.branch}/`;
+}
+
+async function fetchReadmeMarkdown(repo) {
+    const res = await fetch(`${readmeRawBase(repo)}README.md?_=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`GitHub responded with ${res.status}`);
+    return res.text();
+}
+
+// ---------- Slugs ----------
 function slugifyHeading(text, seen) {
     let slug = text
         .toLowerCase()
@@ -22,14 +47,6 @@ function slugifyHeading(text, seen) {
     return slug;
 }
 
-// Fetch readme
-async function fetchReadmeMarkdown() {
-    const res = await fetch(`${README_RAW_URL}?_=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) throw new Error(`GitHub responded with ${res.status}`);
-    return res.text();
-}
-
-// Parse Readme
 function parseReadme(markdown) {
     const scratch = document.createElement("div");
     scratch.innerHTML = marked.parse(markdown, { gfm: true, breaks: false });
@@ -41,7 +58,7 @@ function parseReadme(markdown) {
     return { scratch, headings };
 }
 
-// Build Tree
+// ---------- Headings TOC tree ----------
 function buildTocTree(headingEls, maxLevel = MAX_SIDEBAR_TOC_LEVEL) {
     const filtered = headingEls.filter((h) => Number(h.tagName[1]) <= maxLevel);
     const items = filtered.length && filtered[0].tagName === "H1" ? filtered.slice(1) : filtered;
@@ -60,13 +77,12 @@ function buildTocTree(headingEls, maxLevel = MAX_SIDEBAR_TOC_LEVEL) {
     return root;
 }
 
-// Render TOC
 function renderTocTree(nodes, { linkPrefix = "", onNavigate = null } = {}) {
     const ul = document.createElement("ul");
 
     nodes.forEach((node) => {
         const li = document.createElement("li");
-        li.className = "toc-node";
+        li.className = node.children.length ? "toc-node collapsed" : "toc-node";
 
         const row = document.createElement("div");
         row.className = "toc-row";
@@ -76,7 +92,7 @@ function renderTocTree(nodes, { linkPrefix = "", onNavigate = null } = {}) {
             twirl.type = "button";
             twirl.className = "toc-twirl";
             twirl.setAttribute("aria-label", "Toggle section");
-            twirl.setAttribute("aria-expanded", "true");
+            twirl.setAttribute("aria-expanded", "false");
             twirl.innerHTML = '<svg viewBox="0 0 24 24"><path d="M6 4l12 8-12 8z" fill="currentColor"/></svg>';
             twirl.addEventListener("click", () => {
                 const collapsed = li.classList.toggle("collapsed");
@@ -110,7 +126,28 @@ function renderTocTree(nodes, { linkPrefix = "", onNavigate = null } = {}) {
     return ul;
 }
 
-// Theme & mobile sidebar toggle
+// ---------- Community projects list (shared by index.html & about.html) ----------
+function renderCommunityList(container, activeId, { onNavigate = null } = {}) {
+    if (!container) return;
+    const ul = document.createElement("ul");
+    ul.className = "community-list";
+
+    AWESOME_REPOS.forEach((repo) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = `about.html?repo=${repo.id}`;
+        a.textContent = repo.name;
+        if (repo.id === activeId) a.classList.add("active");
+        if (onNavigate) a.addEventListener("click", onNavigate);
+        li.appendChild(a);
+        ul.appendChild(li);
+    });
+
+    container.innerHTML = "";
+    container.appendChild(ul);
+}
+
+// ---------- Theme & mobile sidebar toggle ----------
 function initPageChrome() {
     const themeToggle = document.getElementById("themeToggle");
     if (themeToggle) {
