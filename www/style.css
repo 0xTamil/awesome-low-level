@@ -146,7 +146,7 @@ a {
 
 .source-link:hover {
     color: #ffffff;
-    border-bottom-color: var(--accent);
+    border-bottom-color: #ffffff;
 }
 
 /* ---------- Mobile nav toggle + scrim ---------- */
@@ -466,6 +466,11 @@ a {
     border-bottom: 1px solid var(--accent);
     opacity: 1;
     word-break: break-word;
+}
+
+.content a:has(img) {
+    text-decoration: none;
+    border-bottom: none;
 }
 
 .content a:hover {
