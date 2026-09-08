@@ -44,7 +44,7 @@ function slugifyHeading(text, seen) {
 // ---------- Headings TOC tree ----------
 function buildTocTree(headingEls, maxLevel = MAX_SIDEBAR_TOC_LEVEL) {
     const filtered = headingEls.filter((h) => Number(h.tagName[1]) <= maxLevel);
-    const items = filtered.length && filtered[0].tagName === "H1" ? filtered.slice(1) : filtered;
+    const items = filtered.length ? filtered.slice(1) : filtered;
 
     const root = [];
     const stack = [{ level: 0, children: root }];
