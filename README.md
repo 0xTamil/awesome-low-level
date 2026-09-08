@@ -48,6 +48,9 @@
     - [Forth](#forth)
     - [Uxn](#uxn)
 - [Specialized Fields](#specialized-fields)
+  - [Following the Language You Like](following-the-language-you-like)
+  - [Following How Close You Want to Be to Hardware](following-how-close-you-want-to-be-to-hardware)
+  - [Following Your Interests](following-your-interests)
   - [1. Embedded Systems](#1-embedded-systems)
   - [2. FPGA Programming](#2-fpga-programming)
   - [3. Compilers & Interpreters](#3-compilers--interpreters)
@@ -583,7 +586,7 @@ Your interests will probably change over time anyway, and that's completely norm
 
 The good news is that you don't have to lock yourself into a single path from day one. Just pick something that seems fun, keep building things, and let your interests guide you as you gain more experience.
 
-The sections below introduce each specialization in more detail. They start with fields that are closest to the hardware and gradually move toward areas that operate at higher levels of abstraction, making it easier to see how the different domains relate to one another.
+The sections below introduce each specialization, starting with hardware-focused fields and gradually moving toward higher-level domains.
 
 ## 1. Embedded Systems
 
@@ -595,10 +598,6 @@ In this field, you'll commonly use languages like C and C++, with Rust becoming 
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
-
-### Addons
-
-- **[Learn STM32 Microcontroller Programming](https://www.youtube.com/watch?v=vKyL43qXPpk)**: A comprehensive course covering STM32 microcontroller programming.
 
 ---
 
@@ -686,8 +685,6 @@ Network systems programming focuses on how computers communicate and exchange da
 In this field, you'll commonly use C, C++, Rust and Go. You'll work with networking concepts such as sockets, TCP/IP, UDP, HTTP, WebSockets, DNS, TLS/SSL, packet transmission, routing, and load balancing. You'll also encounter important systems programming topics like asynchronous programming, multithreading, concurrency, event loops, epoll, io_uring, and performance optimization.
 
 > The tech stack often includes tools and technologies such as Linux networking, Nginx, HAProxy, Wireshark, gRPC, Redis, Kafka, and cloud platforms. You'll spend time analyzing network traffic, handling thousands or even millions of connections, reducing latency, and ensuring reliable communication between distributed systems.
-
-Network systems programming is widely used in web servers, cloud services, distributed systems, real-time communication platforms, multiplayer game servers, financial systems, and large-scale internet infrastructure.
 
 - **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
 - **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
