@@ -707,6 +707,7 @@ Cybersecurity is the field focused on protecting computer systems, networks, app
 In this field, you'll commonly work with Linux, Windows Internals, C, C++, Python, Rust, and scripting languages like Bash or PowerShell. You'll encounter topics such as network security, operating system security, cryptography, secure coding, authentication, authorization, malware analysis, reverse engineering, binary exploitation, digital forensics, incident response, and vulnerability assessment.
 
 The tech stack often includes tools such as Wireshark, Nmap, Burp Suite, Metasploit, Ghidra, IDA Pro, Sysinternals, John the Ripper, Hashcat, and various SIEM platforms. You'll also learn about networking protocols like TCP/IP, DNS, HTTP/HTTPS, TLS, and how attackers and defenders interact within modern computer systems.
+
 Cybersecurity spans multiple specializations, including penetration testing, security engineering, application security, cloud security, malware research, reverse engineering, digital forensics, and security operations (SOC).
 
 - **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
