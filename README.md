@@ -488,7 +488,7 @@ Once you start feeling comfortable with the language, you'll eventually need a p
 
 - **[cppreference](https://en.cppreference.com/)**: The go-to reference site for the C++ language and standard library. It's incredibly useful when you need to check details about a feature or function, but it's generally better as a reference than as a primary learning resource.
 
-To be honest, you don't need to jump between dozens of courses, books, and tutorials. Starting with LearnCpp, using a book that matches your experience level, and relying on cppreference whenever you need to look something up is more than enough to build a strong foundation. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
+Starting with LearnCpp, using a book that matches your experience level, and relying on cppreference whenever you need to look something up is more than enough to build a strong foundation. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
 
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
@@ -591,7 +591,11 @@ The sections below introduce each specialization in more detail. They start with
 
 ## 1. Embedded Systems
 
-Overview: Embedded programming involves writing software for devices that perform specific tasks, often with limited memory, processing power, and energy. It commonly involves working closely with hardware interfaces, registers, interrupts, timers, and communication protocols.
+Embedded programming is about writing software for dedicated devices that perform specific tasks, such as microcontrollers, IoT devices, robots, automotive systems, drones, smart home devices, and industrial equipment. Unlike desktop or web development, you'll often work much closer to the hardware, where memory, processing power, and energy are limited.
+
+In this field, you'll commonly use languages like C and C++, with Rust becoming increasingly popular in some projects. You'll likely work with microcontrollers such as STM32, ESP32, AVR (Arduino), PIC, and ARM Cortex-M based chips. A large part of development involves communicating with hardware through protocols like UART, SPI, I²C, CAN, and USB, while also dealing with concepts such as GPIO pins, hardware registers, interrupts, timers, DMA, ADCs, and DACs. 
+
+Depending on the project, you may work with sensors, motors, displays, Wi-Fi modules, Bluetooth devices, and real-time operating systems such as FreeRTOS or Zephyr. For debugging and testing, tools like JTAG, SWD, logic analyzers, and oscilloscopes are commonly used.
 
 - **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
 - **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
@@ -604,7 +608,11 @@ Overview: Embedded programming involves writing software for devices that perfor
 
 ## 2. FPGA Programming
 
-Overview: FPGA development is different from traditional programming because you are describing hardware structures rather than simply writing instructions for a CPU. FPGAs can perform many operations in parallel and are commonly used in hardware prototyping, signal processing, networking, and high-performance systems.
+FPGA (Field-Programmable Gate Array) development is quite different from traditional programming because you're not simply writing instructions for a CPU to execute. Instead, you're describing how the hardware itself should be structured and operate. This makes FPGA development feel much closer to digital circuit design than conventional software engineering.
+
+In this field, you'll primarily work with hardware description languages such as Verilog, VHDL, and sometimes SystemVerilog. Common development tools include Xilinx Vivado, Intel Quartus, and various simulation tools used to test hardware designs before deploying them to an FPGA board. Along the way, you'll encounter concepts such as logic gates, flip-flops, finite state machines (FSMs), clock domains, pipelines, timing analysis, and digital signal processing (DSP).
+
+FPGAs excel at parallel processing, meaning they can perform many operations simultaneously rather than executing instructions one by one like a typical CPU. Because of this, they're widely used in hardware prototyping, signal processing, telecommunications, networking equipment, high-frequency trading, AI acceleration, and other high-performance computing systems where speed and low latency are critical.
 
 - **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of FPGA resources, tools, HDLs, and project tutorials.
 - **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides and learning materials for developing custom programmable logic.
@@ -613,7 +621,11 @@ Overview: FPGA development is different from traditional programming because you
 
 ## 3. Compilers & Interpreters
 
-Overview: Compiler and interpreter development explores how programming languages work internally. You may work with lexers, parsers, abstract syntax trees, type systems, optimizers, intermediate representations, and machine code generation.
+Compiler and interpreter development focuses on understanding what happens behind the scenes when you write and run code. Instead of building applications, you're building the tools that process programming languages and translate them into something a computer can understand and execute.
+
+In this field, you'll encounter concepts such as lexers (tokenizers), parsers, Abstract Syntax Trees (ASTs), type systems, semantic analysis, Intermediate Representations (IRs), optimizations, and machine code generation. You'll learn how source code moves through different stages before becoming an executable program.
+
+The tech stack often includes languages like C++, Rust, C, OCaml, and Java, along with tools and projects such as LLVM, Clang, GCC, MLIR, ANTLR, Flex, and Bison. You may also work with virtual machines, bytecode, JIT (Just-In-Time) compilers, garbage collectors, and CPU architectures such as x86-64, ARM, or RISC-V.
 
 - **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for compiler and runtime development.
 
@@ -621,7 +633,11 @@ Overview: Compiler and interpreter development explores how programming language
 
 ## 4. Operating Systems Development
 
-Overview: Operating systems development involves working directly with processor architecture and hardware. Important topics include memory management, process scheduling, interrupts, file systems, device drivers, synchronization, and kernel design.
+Operating systems development is one of the closest software fields to computer hardware. It focuses on building the software layer that sits between applications and the hardware, managing resources such as the CPU, memory, storage devices, and peripherals. When working in this area, you'll gain a deeper understanding of how computers actually function under the hood.
+
+In this field, you'll commonly use C, C++, Rust, and occasionally Assembly. You'll work with topics such as memory management, virtual memory, process and thread scheduling, interrupts, system calls, file systems, device drivers, synchronization, concurrency, and kernel architecture. You'll also encounter processor architectures like x86-64, ARM, and RISC-V, along with low-level concepts such as paging, context switching, bootloaders, and hardware abstraction layers.
+
+Many operating system developers study or contribute to projects like Linux, FreeBSD, Windows internals, Minix, or hobby operating systems. Debugging often involves tools such as GDB, QEMU, Bochs, and various kernel debugging utilities.
 
 - **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, tutorials, and project resources for operating system development.
 
@@ -629,7 +645,11 @@ Overview: Operating systems development involves working directly with processor
 
 ## 5. GPGPU & Parallel Computing
 
-Overview: GPGPU programming uses graphics processors (GPUs) for general-purpose computation. GPUs are designed to perform large numbers of similar operations in parallel, making them useful for scientific computing, simulations, numerical workloads, machine learning, and other compute-intensive applications.
+GPGPU (General-Purpose Computing on Graphics Processing Units) is the practice of using GPUs for more than just rendering graphics. Instead of drawing images, the GPU is used to perform large-scale computations that can be broken into thousands or even millions of smaller tasks running in parallel.
+
+In this field, you'll typically work with languages and frameworks such as CUDA, OpenCL, SYCL, HIP, and C++. You'll learn concepts like parallel programming, threads, warps, kernels, shared memory, memory bandwidth, vectorized computation, and GPU architecture. Typical hardware includes NVIDIA, AMD, and Intel GPUs, often paired with powerful CPUs in high-performance computing systems.
+
+GPGPU is heavily used in areas such as scientific computing, physics simulations, computational biology, financial modeling, machine learning, artificial intelligence, image processing, and other workloads that require massive amounts of computation. Since GPUs contain thousands of smaller processing cores, they can often solve certain problems much faster than traditional CPUs.
 
 - **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for GPU computing.
 - **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: Resources covering GPU architecture and parallel computing.
@@ -638,7 +658,13 @@ Overview: GPGPU programming uses graphics processors (GPUs) for general-purpose 
 
 ## 6. Graphics Programming
 
-Overview: Graphics programming combines programming, mathematics, and GPU hardware. You work with rendering pipelines, transformations, lighting, textures, shaders, and graphics APIs such as Vulkan, OpenGL, and DirectX.
+Graphics programming sits at the intersection of programming, mathematics, and GPU hardware. It focuses on creating and rendering visual content, from simple 2D graphics to realistic 3D worlds used in games, simulations, virtual reality, and visualization software. You'll learn how data is transformed into pixels on a screen and how modern GPUs efficiently render complex scenes in real time.
+
+In this field, you'll commonly use C++ along with graphics APIs such as Vulkan, OpenGL, DirectX 12, and sometimes Metal (Apple). You'll encounter concepts like rendering pipelines, vertex transformations, camera systems, lighting models, textures, materials, shadows, animation, rasterization, and ray tracing. You'll also write shaders using languages such as GLSL, HLSL, or SPIR-V, which run directly on the GPU.
+
+Graphics programming relies heavily on mathematical topics like linear algebra, vectors, matrices, transformations, and geometry. You'll work closely with GPU hardware from companies like NVIDIA, AMD, and Intel, learning how to optimize rendering performance and efficiently use graphics resources.
+
+Graphics programming is used in game engines, 3D modeling software, VR/AR applications, scientific visualization, CAD software, simulation systems, and modern user interfaces.
 
 - **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated resources covering graphics mathematics, rendering, and engine development.
 
@@ -646,7 +672,11 @@ Overview: Graphics programming combines programming, mathematics, and GPU hardwa
 
 ## 7. Game Engine Development
 
-Overview: Game engine development combines multiple low-level disciplines. A game engine may include rendering, physics, audio, input handling, memory management, resource loading, scripting, and other systems required to create and run games.
+Game engine development is one of the broadest areas in low-level programming because it combines several disciplines into a single system. Instead of building an entire game, you're building the technology that games run on. A game engine acts as the foundation that handles graphics, physics, audio, input, memory management, and many other systems working together behind the scenes.
+
+In this field, you'll primarily work with C++, and sometimes C#, Rust, or scripting languages such as Lua. You'll encounter systems like rendering engines, physics engines, audio systems, animation systems, resource management, entity-component systems (ECS), memory allocators, multithreading, scripting systems, and asset pipelines. Graphics APIs such as Vulkan, DirectX, and OpenGL are also commonly used, along with mathematical concepts like vectors, matrices, transformations, and collision detection.
+
+Game engine developers often work with technologies found in engines such as Unreal Engine, Unity, Godot, Source Engine, and custom in-house engines. The field also overlaps with graphics programming, physics simulation, network programming, tools development, and performance optimization.
 
 - **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: Books, tutorials, libraries, and resources for building game engines.
 - **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: A collection of open-source game engines and reference implementations.
@@ -655,7 +685,13 @@ Overview: Game engine development combines multiple low-level disciplines. A gam
 
 ## 8. Network Systems Programming
 
-Overview: Network systems programming focuses on how computers exchange data. It involves sockets, transport protocols, asynchronous programming, concurrency, packet handling, and performance optimization for applications such as servers, distributed systems, and multiplayer games.
+Network systems programming focuses on how computers communicate and exchange data over networks. Instead of building websites or user interfaces, you're working on the underlying systems that allow devices, servers, and applications to send, receive, and process data efficiently. This field powers everything from web servers and cloud infrastructure to multiplayer games and distributed systems.
+
+In this field, you'll commonly use C, C++, Rust and Go. You'll work with networking concepts such as sockets, TCP/IP, UDP, HTTP, WebSockets, DNS, TLS/SSL, packet transmission, routing, and load balancing. You'll also encounter important systems programming topics like asynchronous programming, multithreading, concurrency, event loops, epoll, io_uring, and performance optimization.
+
+The tech stack often includes tools and technologies such as Linux networking, Nginx, HAProxy, Wireshark, gRPC, Redis, Kafka, and cloud platforms. You'll spend time analyzing network traffic, handling thousands or even millions of connections, reducing latency, and ensuring reliable communication between distributed systems.
+
+Network systems programming is widely used in web servers, cloud services, distributed systems, real-time communication platforms, multiplayer game servers, financial systems, and large-scale internet infrastructure.
 
 - **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
 - **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
@@ -666,7 +702,12 @@ Overview: Network systems programming focuses on how computers exchange data. It
 
 ## 9. Cybersecurity
 
-Overview: Cybersecurity focuses on understanding how computer systems, networks, applications, and data can be protected from attacks and unauthorized access. It involves operating system security, networking, cryptography, vulnerability analysis, secure programming, reverse engineering, digital forensics, and penetration testing.
+Cybersecurity is the field focused on protecting computer systems, networks, applications, and data from attacks, vulnerabilities, and unauthorized access. Rather than building features for users, you're learning how systems can be secured, how attackers exploit weaknesses, and how those weaknesses can be detected and prevented.
+
+In this field, you'll commonly work with Linux, Windows Internals, C, C++, Python, Rust, and scripting languages like Bash or PowerShell. You'll encounter topics such as network security, operating system security, cryptography, secure coding, authentication, authorization, malware analysis, reverse engineering, binary exploitation, digital forensics, incident response, and vulnerability assessment.
+
+The tech stack often includes tools such as Wireshark, Nmap, Burp Suite, Metasploit, Ghidra, IDA Pro, Sysinternals, John the Ripper, Hashcat, and various SIEM platforms. You'll also learn about networking protocols like TCP/IP, DNS, HTTP/HTTPS, TLS, and how attackers and defenders interact within modern computer systems.
+Cybersecurity spans multiple specializations, including penetration testing, security engineering, application security, cloud security, malware research, reverse engineering, digital forensics, and security operations (SOC).
 
 - **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
 - **[Awesome List](https://github.com/0xor0ne/awesome-list)**: Collection of awesome blog posts, write-ups, and papers focusing on cybersecurity.
