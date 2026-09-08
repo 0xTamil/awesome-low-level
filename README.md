@@ -90,7 +90,7 @@ It's also important to remember that knowing programming fundamentals isn't the 
 
 You may already be comfortable with concepts like variables, loops, functions, conditional statements, and basic data structures from another language, but there are still many C concepts that are essential for low-level programming.
 
-For example, if you're already familiar with programming basics, the following code should look fairly straightforward to you
+For example, if you're already familiar with programming basics, the following code should look fairly straightforward to you:
 
 ```c
 int age = 20;
