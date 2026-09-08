@@ -65,25 +65,32 @@
 
 ## Why We Made This ?
 
-We made this megathread to help self-learners get started with low-level programming and build a strong foundation in its fundamentals. Having a clear learning path and structure can make it much easier to know where to start and what to learn next, so we created this guide to help with that.
- 
-We put a lot of time and effort into reviewing the resources included here to make sure they are useful and relevant for learning. This megathread was made purely out of passion for the subject, and we hope it can be useful to anyone who wants to get into low-level programming.
+We created this megathread to help complete beginners take their first steps into low-level programming. Getting started can feel overwhelming when you have no idea what to learn, where to begin, or which topics actually matter. That's why we put together a clear learning path that helps you understand the fundamentals in a structured and beginner-friendly way.
+
+We've spent a lot of time reviewing and selecting the resources included here to make sure they're genuinely useful and worth your time. This guide was created by people who are passionate about low-level programming and want to make learning it easier for others. Whether you're completely new or just looking for better direction, we hope this megathread helps you build a strong foundation and gives you a clear idea of what to learn next.
 
 ---
 
 ## How to Refer ?
 
-This megathread is not perfect, and some resources or topics may be missing. Some sections include multiple resources, including links to other megathreads that cover a topic more comprehensively. You don't need to go through everything, feel free to pick one or two resources that best suit your learning style. So, Let's say;
+This megathread isn't meant to be a perfect or complete guide. There are likely some topics and resources we've missed, and that's completely okay. In several sections, you'll find multiple resources and even links to other megathreads that go into much more detail on specific topics.
+
+Don't feel pressured to read or complete everything. Everyone learns differently, so it's perfectly fine to choose one or two resources that match your learning style and stick with those.
+
+So, where should you start ?
 
 ### If You're an Absolute Beginner
 
 #### But, You Already Have Some Programming Experience
 
-You may be coming from a CS, EEE, IT, or another technical background. In that case, you don't need to start learning programming from zero. However, you may still be unfamiliar with how computers work at a lower level.
- 
-Also, keep in mind that programming fundamentals are not the same as knowing C itself. You may have learned variables, loops, functions, conditions, and basic data structures in school or through another language, but still need to learn the C concepts that are important for low-level programming.
- 
-For example, if you already understand programming fundamentals, code like this should be familiar:
+Maybe you're studying Computer Science, IT, EEE, or another technical field. Or perhaps you've learned programming on your own before. If that's the case, you don't need to start from scratch and relearn basic programming concepts.
+
+However, low-level programming is a little different. Even if you can write code, you might not yet understand what happens underneath the surface or how a computer actually works at a lower level.
+It's also important to remember that knowing programming fundamentals isn't the same as knowing C. 
+
+You may already be comfortable with concepts like variables, loops, functions, conditional statements, and basic data structures from another language, but there are still many C concepts that are essential for low-level programming.
+
+For example, if you're already familiar with programming basics, the following code should look fairly straightforward to you
 
 ```c
 int age = 20;
@@ -97,7 +104,7 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-However, C concepts for low-level programming go further and include things like pointers and manual memory management:
+However, the C concepts that matter in low-level programming go beyond the usual programming fundamentals. You'll also need to learn topics such as pointers, memory addresses, and manual memory management, which are essential for understanding how software interacts with hardware:
 
 ```c
 int *ages = malloc(5 * sizeof(int));
@@ -117,43 +124,39 @@ free(ages);
 
 > **How the code works:** `malloc()` allocates memory for 5 `int` values, `ages` stores the address of that memory, the first `for` loop fills the allocated memory, and the second `for` loop reads the values and checks the condition. Finally, `free(ages)` releases the allocated memory.
 
-The point is that you don't need to relearn everything from scratch. If you already know the programming fundamentals, focus on the C concepts and computer fundamentals you haven't learned yet, then follow the roadmap and build your understanding step by step.
+The good news is that you don't need to relearn everything from scratch. If you already understand the basics of programming, spend your time on the C concepts and computer fundamentals you haven't explored yet. Then simply follow the roadmap and continue building your understanding one step at a time.
 
 #### But, You're Really New to Programming
 
-If you're coming from a non CS background and want to learn programming before getting into low-level programming, don't worry. You don't need to understand everything beforehand. Start with the basics, build your foundation, and gradually work your way toward low-level concepts.
- 
-You don't need to follow every resource listed below. We recommend following them roughly in this order:
+If you're coming from a non-CS background and want to learn programming before diving into low-level programming, don't stress about knowing everything in advance. Nobody starts out understanding all of this. Focus on learning the basics first, build a solid foundation, and then gradually work your way toward lower-level concepts as you become more comfortable.
+
+You also don't need to go through every resource listed below. Pick what works best for you and learn at your own pace. That said, we generally recommend following them in roughly this order:
 
 
-1. **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: Start here if you're completely new to programming. It gives beginners a clear starting point and explains how to get into programming.
+1. **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: If you've never programmed before, this is a great place to start. It provides a beginner-friendly introduction and helps answer common questions about getting into programming.
 
-2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: After getting comfortable with the basics, we recommend CS50 to build a stronger foundation in programming and computer science. It covers topics such as C, algorithms, data structures, memory, and resource management.
+2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Once you're comfortable with the basics, CS50 is an excellent next step. It helps build a stronger understanding of both programming and computer science, covering topics such as C, algorithms, data structures and memory.
 
-3. **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: After CS50, you can choose any of the resources below depending on how much computer science you want to learn. We usually recommend OSSU, if you want a more complete and structured path. OSSU provides a broad, self-taught computer science curriculum covering areas such as programming, mathematics, systems, theory, and more. 
+3. **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: After CS50, you can explore additional computer science topics based on your interests and goals. If you're looking for a more complete and structured self-learning path, OSSU is one of the best options available. It offers a full computer science curriculum covering programming, mathematics, computer systems, theory, and many other important subjects.
 
-Below are some additional resources that are also worth checking out.
+The resources above are enough to get you started, but they're not the only options. Below, you'll find several other resources that are also worth checking out depending on what you'd like to learn.
 
    - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical guide to fundamental computer science concepts.
    - **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
    - **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
    - **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A collection of free computer science courses and resources.
 
-Once you're comfortable with the basics, move on to C and Computer Fundamentals.
-
-> You don't need to become an expert programmer or complete an entire CS degree before starting low-level programming. Build the fundamentals you need, then gradually learn the C concepts and computer fundamentals required for low-level programming.
-
 From there, follow the roadmap and build your understanding step by step.
 
 ### If You Have Some Low-Level Experience
 
-You can skip the introductory material and focus on the topics you haven't learned yet. You don't necessarily need to follow the roadmap from the beginning. Use the table of contents to find the concepts you're unfamiliar with and work from there.
+If you've worked with low-level concepts before, feel free to skip the beginner sections and focus on the areas you're less familiar with. There's no need to follow the roadmap from the very beginning. Instead, use the table of contents to jump directly to the topics you want to learn and fill in any gaps in your knowledge.
 
 ### If You Have High-Level Programming Experience
 
-If you already have experience with a high-level language like Python or Java, you probably understand programming fundamentals. However, low-level programming introduces a different set of concepts, so don't assume you need to approach it in the same way you're used to.
- 
-When getting started, try to move beyond an OOP first mindset and focus more on understanding data, memory, control flow, and how the program interacts with the computer. Depending on the area, you may encounter procedural, function-oriented or data-oriented programming styles.
+If you already have experience with languages like Python, Java, or C#, you probably have a solid understanding of programming fundamentals. That gives you a good head start. However, low-level programming comes with a different way of thinking, so it's important not to approach everything exactly the same way.
+
+When learning low-level programming, try not to rely too heavily on an object-oriented mindset. Instead, focus on understanding how data is stored, how memory is managed, how control flow works, and how programs interact with the underlying hardware. Depending on what you're learning, you'll encounter programming styles that are more procedural, function-oriented, or data-oriented than what you're used to in many high-level languages.
  
 For example, the same task can be approached using OOP in Java and a more procedural style in C.
 
@@ -194,37 +197,45 @@ int main(void) {
 
 > **Why is C written this way ?** C doesn't have classes or methods like Java. Instead, C provides `struct` for grouping data and regular functions for defining behavior. This means the data and functions are separate, and you explicitly pass the data to the function when you want it to operate on that data.
 
-This C style gives you more direct control over data, memory, and functions. You can clearly see what data is being passed around, where it is stored, and how it is modified without relying on high-level abstractions.
+This C style of programming gives you greater control over how data is stored, accessed, and modified. Instead of relying on layers of abstraction, you can clearly see what data is being passed around, where it lives in memory, and how different parts of the program interact with it.
 
-> This doesn't mean OOP is bad or useless. OOP is still widely used in C++, especially in areas such as game engines, graphics, simulations, and large systems. The important thing is to understand the fundamentals first instead of treating OOP as the default way of thinking in low-level programming.
+> This doesn't mean OOP is bad or something you should avoid. In fact, it's heavily used in C++, especially in areas like game development, graphics programming, simulations, and large-scale software projects. The key point is not to treat OOP as the default solution to every problem.
 
-Once you're comfortable with these concepts, you can bring other programming paradigms back into the picture and learn when each approach is actually useful.
+Once you become comfortable with concepts like memory, data representation, and program flow, you can explore other programming paradigms and learn where each one makes sense.
 
-From there, continue with the roadmap and gradually build your low-level programming foundation.
+From there, simply continue following the roadmap and gradually build up your low-level programming knowledge one step at a time.
 
 ## How to Learn ?
  
-Low-level programming can be difficult. You will get stuck, make mistakes, feel burnt out, or sometimes regret starting. That is normal. Learning how to deal with difficult problems is part of becoming a programmer. To get a broader perspective on how to learn programming effectively, check out this resource:
+Learning low-level programming isn't always easy. There will be times when you're stuck on a bug for hours, confused by a concept, feeling burned out, or even questioning why you started in the first place. That's completely normal. Every programmer goes through it. In fact, learning how to work through difficult problems is a big part of becoming a better programmer.
+
+If you'd like a broader perspective on what learning programming actually looks like, we highly recommend the following article:
  
-- [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html): A great article for beginners that provides a realistic perspective on learning programming and what it takes to become proficient over time.
+- [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html): A classic article that sets realistic expectations about learning programming and explains why becoming proficient takes time, patience, and consistent practice.
 
 ### Project-Based Learning
  
-Sometimes, you may understand a tutorial but have no idea how to build something on your own. In that case, try project-based learning. Pick a topic, choose a resource from here, learn the concept, and then build or implement something using what you learned.
+One of the most common problems beginners face is understanding a tutorial but having no idea how to build something on their own afterward. If that sounds familiar, try taking a project-based approach to learning.
+
+Pick a topic, learn the fundamentals from one of the resources in this guide, and then build something with it. Applying what you've learned is where most of the real learning happens.
+
+> For example, if you've just learned about linked lists, try implementing one yourself in C. If you're studying memory allocation, experiment with how memory works or try creating a simple memory allocator of your own.
  
-> For example, if you learn about linked lists, implement one yourself in C. If you learn about memory allocation, experiment with memory or try building a small allocator.
+Whenever possible, attempt to solve problems yourself before searching for a tutorial that walks you through the exact solution. Use documentation when you need help with syntax or technical details, but try to think through the problem first. Once you've built something on your own, compare your solution with other implementations and see what you can learn from them.
  
-Try solving problems yourself before looking for a tutorial with the exact solution. Use documentation to check syntax and technical details, then compare your work with other implementations after you have tried it yourself.
- 
-> It is easy to get stuck in tutorial hell, where you keep watching tutorials and collecting resources without actually practicing. Focus on learning the fundamentals and writing code first. Start by writing something yourself, then learn how to improve it.
+> Be careful not to fall into tutorial hell. It's easy to spend hours watching videos, reading articles, and saving resources without ever writing code. Tutorials can teach you concepts, but they can't replace hands-on practice. Focus on learning the fundamentals, building small projects, and writing your own code. It's perfectly fine if your first solutions aren't great. What's important is starting, making mistakes, and gradually improving over time.
  
 ### Using AI Tools
  
-AI tools can be useful, but try not to depend on them for every problem. Before asking AI, spend some time trying to understand and solve the problem yourself. AI can help explain errors, clarify concepts, or guide you in the right direction. However, avoid immediately asking it to write the full solution or build the entire project for you.
+AI can be a great learning aid, but it's best used as a tool, not a shortcut. When you run into a problem, try spending some time working through it on your own before turning to AI. Struggling with a problem might feel frustrating, but that's often where the most valuable learning happens.
+
+AI is most helpful when you use it to explain concepts, help you understand error messages, point out mistakes in your reasoning, or guide you toward possible solutions. Try to avoid immediately asking it to write the entire program or solve the problem from start to finish.
  
-> Use AI to help you learn and think, not to do all the thinking for you.
- 
-You can also try a no AI challenge for a week. Avoid using AI for programming and rely on documentation, books, search engines, debugging, and your own thinking instead. It may feel harder at first, but you may start to appreciate the process of figuring things out yourself and become more confident in solving problems.
+> Use AI to support your learning, not to replace the thinking and problem-solving that help you grow as a programmer.
+
+You can also challenge yourself to spend a week learning without AI. Instead, rely on documentation, books, search engines, debugging tools, and your own problem-solving skills. It may feel slower and more difficult at first, but you'll likely develop a deeper understanding of the material and become more confident tackling problems on your own.
+
+> The goal isn't to avoid AI forever. It's to make sure you're building the skills to solve problems independently, so that when you do use AI, it becomes a helpful assistant rather than something you depend on for every step.
 
 ---
 
@@ -234,50 +245,63 @@ You can also try a no AI challenge for a week. Avoid using AI for programming an
   <img width="4139" alt="Untitled-2026-08-25-2028" src="https://github.com/user-attachments/assets/8c9d045b-edb1-46d5-91dd-558e0dd53737" />
 </p>
 
-The diagram shows different levels of abstraction between the programmer and the computer's hardware. At the bottom, we have the hardware, which is what the computer physically uses to perform operations. Moving upward, we get machine code, Assembly, and programming languages. The higher we go, the more details about the hardware are hidden from the programmer. Low-level programming means working closer to the machine across different parts of the stack. 
+The diagram illustrates the different layers that sit between the programmer and the computer's hardware. At the very bottom is the hardware itself, the physical components that actually execute instructions and perform computations. Above that are machine code, assembly, and programming languages. As you move up the stack, more of the hardware's complexity is hidden behind layers of abstraction, making programming easier but giving you less direct control over what's happening underneath.
  
-It gives programmers more direct control over the CPU, memory, and hardware resources, with less abstraction between the code and the machine. This is why low-level programming is often described as being “close to the hardware.” Languages such as Assembly and C are commonly associated with low-level programming. Languages such as C++, Rust, Zig, and Odin can also be used for low-level and systems programming while providing different levels of abstraction and control.
+Low-level programming is about working closer to the machine and understanding what's happening across these layers. Instead of relying heavily on abstractions, you interact more directly with things like memory, the CPU, and other hardware resources.
+
+That's why low-level programming is often described as being "close to the hardware." Languages such as Assembly and C are classic examples of low-level programming languages. Modern languages like C++, Rust, Zig, and Odin are also widely used for low-level and systems programming, while offering different trade-offs between control, safety, and abstraction.
  
-> Low-level programming is commonly used in operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics, networking, and performance-critical software, where programmers need fine control over memory, hardware, and system performance.
+> Low-level programming is commonly used in areas where performance, efficiency, and hardware control matter most. This includes operating systems, embedded systems, firmware, device drivers, compilers, game engines, graphics programming, networking, and other performance-critical software. In these domains, programmers often need precise control over memory usage, hardware interaction, and system behavior.
 
 ---
 
 ## Low-Level Programming vs System Programming
 
-Often, people confuse low-level programming with systems programming, but they are not exactly the same.
- 
-Low-level programming is about how closely the code works with the hardware. It involves things like memory, CPU instructions, pointers, and data layout.
- 
-Systems programming is about building software that forms part of a larger computer system or provides important services to other software, such as operating systems, compilers, databases, drivers, and servers.
- 
-The two often overlap. For example, writing an operating system kernel in C is both low-level programming and systems programming. However, systems programming does not always have to be low-level. A programmer can build system software using a language that provides more abstraction.
+A common misconception is that low-level programming and systems programming are the same thing. While they're closely related and often overlap, they describe two different ideas.
 
-> Low-level programming describes how close you are to the machine, while systems programming describes the kind of software you are building.
+Low-level programming is about how closely your code interacts with the hardware. It focuses on concepts like memory, CPU instructions, pointers, registers, and data representation. In other words, it's concerned with understanding and controlling what happens underneath the abstractions provided by higher-level languages.
+ 
+Systems programming, on the other hand, is defined more by the type of software being built. It involves creating software that supports, manages, or provides services for other software. Examples include operating systems, compilers, databases, device drivers, runtimes, networking software, and servers.
+ 
+Because many system-level applications need direct access to hardware and efficient resource management, the two areas frequently overlap. For example, writing an operating system kernel in C is both systems programming and low-level programming. However, not all systems programming is necessarily low-level. Modern languages can be used to build system software while providing more abstraction, safety, or convenience.
 
-- **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/):** An article explaining the difference between systems programming and low-level programming.
+> A simple way to think about it is this: low-level programming describes how close your code is to the hardware, while systems programming describes the kind of software you're building.
+
+- **[What is Systems Programming, Really ?](https://willcrichton.net/notes/systems-programming/):** A beginner-friendly article that explores what systems programming actually means and how it differs from low-level programming.
 
 ---
 
 ## Why Learning C is Important ?
  
-C is a de facto standard in the programming world and has been around for decades.
+If you're interested in low-level programming, C is one of the best places to start. Despite being over 50 years old, it remains one of the most important and widely used programming languages in the world. Many of the ideas, tools, and technologies that modern programmers use today have their roots in C.
+
+Some of the reasons C is still so important include:
  
-- C runs on almost every type of computer and system, from tiny embedded devices to large operating systems.
-- C allows you to write programs that use very few system resources, making it well suited for performance-critical and resource-constrained environments.
-- C gives you near-total control over the system, allowing you to work directly with memory, hardware, and even individual bits when necessary.
+- C runs almost everywhere. From tiny microcontrollers and embedded devices to desktop applications, servers, and operating systems, C can be found on nearly every type of computing platform.
+- C is efficient and lightweight. It allows programmers to write software that uses very little memory and processing power, making it ideal for performance-critical and resource-constrained systems.
+- C is flexible. Unlike many modern languages, C doesn't force you into a specific programming style or paradigm. It gives you the freedom to structure programs in whatever way makes the most sense for the problem you're solving.
 - C imposes very few restrictions on programming style. Unlike many higher-level languages, it does not strongly enforce a particular programming paradigm or ideology. As a result, there are very few kinds of programs that cannot be written in C.
-- Many popular programming languages and tools are implemented in C or C++. For example, interpreters and runtimes for languages such as Python, Ruby, PHP, and Perl are largely written in C or C++.
-C helps you develop programming discipline.
+- A huge amount of software is built on C. Many programming languages, operating systems, databases, compilers, and developer tools are written in C or heavily influenced by it. Languages such as Python, Ruby, PHP, and Perl rely on runtimes and implementations that are largely written in C or C++.
  
-- C gives you a lot of freedom, but that freedom also means it is easy to make serious mistakes.
-- Problems such as invalid memory access, buffer overflows, memory leaks, and undefined behavior can occur if you are not careful.
-- Learning C teaches you to be careful with memory, pointers, data, and resources.
-- In this sense, C can be a powerful teacher: mistakes have consequences, which encourages you to develop better programming habits.
-C is also important because its design has influenced many modern programming languages. Its concepts and design decisions can be seen throughout the programming ecosystem. 
+One of the biggest strengths of C is that it teaches you to be careful.
+The language gives you a lot of power and freedom, but with that freedom comes responsibility. Small mistakes can lead to serious problems if you're not paying attention.
+For example, you may encounter issues such as:
+
+- Invalid memory access
+- Buffer overflows
+- Memory leaks
+- Undefined behavior 
+- Pointer related bugs
+
+Learning to avoid these problems forces you to think more carefully about how memory, data, and system resources are being used.
  
-> By studying C, you can better understand why certain language features and abstractions became necessary and gain a deeper understanding of what is happening under the hood something that can be harder to see when working only with higher-level languages such as Python or JavaScript.
+> In many ways, C is an excellent teacher. It doesn't hide as much from you as higher-level languages do, and mistakes often have visible consequences. While this can be frustrating at times, it also helps you develop stronger debugging skills and better programming habits.
+
+Another reason C remains valuable is its influence on the programming world. Many modern languages have borrowed ideas, syntax, and design choices directly from C
  
-If you want to understand how computers work at a lower level, learn how memory and data are handled, or work in low level systems, learning C provides a strong foundation.
+> By learning C, you'll gain a better understanding of why many modern language features exist in the first place. It also helps you see what's happening behind the scenes, something that's often hidden when working with higher-level languages like Python, JavaScript, or Java.
+
+So, that's why learning C provides a strong foundation.
  
 ---
  
