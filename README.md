@@ -558,7 +558,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 
 # Specialized Fields
 
-Choosing a direction in low-level programming can feel overwhelming at first, especially because there are several different ways to approach the decision. You can follow the programming languages you enjoy most, focus on topics that genuinely interest you, or think about how closely you want to work with computer hardware itself.
+Choosing a direction in low-level programming can feel overwhelming at first, especially because there are several different ways to approach the decision. Maybe, You can follow the programming languages you enjoy most, focus on topics that genuinely interest you, or think about how closely you want to work with computer hardware itself.
  
 ## Following the Language You Like
 
