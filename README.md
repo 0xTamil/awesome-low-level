@@ -319,6 +319,7 @@ You may also notice that this collection does not rely heavily on commonly used 
 <p align="center">
   <img width="300" alt="Roadmap" src="https://github.com/user-attachments/assets/e390e835-4b3a-4410-8399-46203d300b8e" />
 </p>
+
 ## 1. Basic Electronics
  
 You don't need to study electronics in depth before learning C. A basic understanding of electronics is enough to understand how computers work at the hardware level.
