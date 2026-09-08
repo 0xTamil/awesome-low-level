@@ -467,27 +467,28 @@ Data Structures and Algorithms (DSA) are generally language agnostic, meaning th
 
 C++ extends low-level programming with powerful abstraction mechanisms while still giving you significant control over memory, performance, and hardware-level details.
  
-> C++ is a continuously evolving language. Many older books, tutorials, and resources teach outdated versions of C++ or practices that are no longer recommended. When learning C++, we recommend focusing on resources that teach modern C++ standards such as C++17, C++20, and C++23.
+> C++ is a continuously evolving language. Because of that, many old tutorials, books, and videos you find online may teach outdated methods or older versions of the language. If you're starting today, it's much better to focus on modern C++, specifically standards like C++17, C++20, and C++23, since those reflect how C++ is actually used nowadays.
  
-We recommend starting with LearnCpp. It’s free, comprehensive, regularly updated, and covers modern C++ from beginner to advanced topics.
+For learning, the resource that gets recommended the most is LearnCpp, and after going through it, it's easy to see why. It's completely free, regularly updated, beginner-friendly, and covers everything from the basics to more advanced concepts using modern C++ practices.
 
 - **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 
-From there, you can supplement your learning with a book depending on your background.
+Honestly, this is probably the best place to start before looking anywhere else.
 
-If you're completely new to programming or new to C++, use:
+After that, you can pick up a book depending on your experience level.
+If you're completely new to programming or have never used C++ before, a great choice is:
 
-- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: The 3rd edition covers C++20 and C++23. A good choice for beginners who are new to both programming and C++.
+- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: The 3rd edition covers modern C++ standards, including C++20 and C++23. It's written with beginners in mind and does a good job teaching both programming concepts and the language itself.
 
-If you already have some C++ programming experience, use:
+If you already have some programming experience and just want to learn modern C++, then:
 
-- **[A Tour of C++](https://www.amazon.com/dp/013681648)**: The 3rd edition provides a concise introduction to modern C++ and covers C++20. The 2nd edition covers C++17.
+- **[A Tour of C++](https://www.amazon.com/dp/013681648)**: The 3rd edition covers C++20, while the 2nd edition focuses on C++17. It's a solid option if you're looking for a quicker overview rather than a beginner-focused textbook.
 
-Once you're comfortable with the language, use cppreference as your primary documentation and reference:
+Once you start feeling comfortable with the language, you'll eventually need a place to look up syntax, language features, or how specific library functions work. That's where cppreference comes in.
 
-- **[cppreference](https://en.cppreference.com/)**: A comprehensive reference for the C++ language and standard library. It's best used for looking up specific language features, library functions, and technical details rather than as a primary learning resource.
+- **[cppreference](https://en.cppreference.com/)**: The go-to reference site for the C++ language and standard library. It's incredibly useful when you need to check details about a feature or function, but it's generally better as a reference than as a primary learning resource.
 
-That's pretty much all you need to get started with C++. You don't need to go through dozens of different resources. Use cppreference whenever you need to look something up. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
+To be honest, you don't need to jump between dozens of courses, books, and tutorials. Starting with LearnCpp, using a book that matches your experience level, and relying on cppreference whenever you need to look something up is more than enough to build a strong foundation. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
 
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
@@ -551,7 +552,7 @@ A stack-based language well suited for embedded programming and direct hardware 
 
 ### Uxn
 A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
-- **[Uxn Site](https://100r.co/site/uxn.html)**: A site dedicated to uxn related stuffs.
+- **[Uxn Site](https://100r.co/site/uxn.html)**: A site dedicated to learning uxn related stuffs.
 
 ---
 
@@ -562,7 +563,7 @@ A small virtual machine and stack-based system for experimenting with low-level 
 </p>
 
 
-Use the diagram above as a guide when deciding which specialization to explore. You can approach it based on the language you enjoy, the domain you're interested in, or how closely you want to work with hardware:
+The diagram above can be a helpful starting point if you're not sure which area of low-level programming you want to focus on. When you first looked at it, you may found that there are a few different ways to approach choosing a path. You can follow the languages you enjoy using, the topics that interest you the most, or simply decide how close you want to work with the hardware itself.
  
 - Language-Driven Path: If you enjoy working with a particular language, consider the fields where that language is commonly used or considered a strong choice. Languages highlighted as Gold Standard in the diagram can be especially relevant for those domains. For example, if you enjoy C++, you may want to explore areas such as Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
 
