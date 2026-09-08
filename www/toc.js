@@ -1,36 +1,30 @@
-// ---------- Repo registry ----------
-// Add more entries here to list additional community projects. The first
-// entry is the default shown when a page is opened without ?repo=<id>.
-const AWESOME_REPOS = [
-    { id: "low-level", owner: "0xTamil", repo: "awesome-low-level", branch: "main", name: "Awesome Low-Level" },
-];
+const REPO = {
+    owner: "0xTamil",
+    repo: "awesome-low-level",
+    branch: "main",
+    name: "Awesome Low-Level"
+};
 
-// How deep the sidebar TOC should go
 const MAX_SIDEBAR_TOC_LEVEL = 3;
 
-function getRepoById(id) {
-    return AWESOME_REPOS.find((r) => r.id === id) || AWESOME_REPOS[0];
-}
-
 function getRepoFromQuery() {
-    return getRepoById(new URLSearchParams(location.search).get("repo"));
+    return REPO;
 }
 
-function readmeRawBase(repo) {
+function readmeRawBase(repo = REPO) {
     return `https://raw.githubusercontent.com/${repo.owner}/${repo.repo}/${repo.branch}/`;
 }
 
-function readmeBlobBase(repo) {
+function readmeBlobBase(repo = REPO) {
     return `https://github.com/${repo.owner}/${repo.repo}/blob/${repo.branch}/`;
 }
 
-async function fetchReadmeMarkdown(repo) {
+async function fetchReadmeMarkdown(repo = REPO) {
     const res = await fetch(`${readmeRawBase(repo)}README.md?_=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`GitHub responded with ${res.status}`);
     return res.text();
 }
 
-// ---------- Slugs ----------
 function slugifyHeading(text, seen) {
     let slug = text
         .toLowerCase()
@@ -45,17 +39,6 @@ function slugifyHeading(text, seen) {
     }
     seen.add(slug);
     return slug;
-}
-
-function parseReadme(markdown) {
-    const scratch = document.createElement("div");
-    scratch.innerHTML = marked.parse(markdown, { gfm: true, breaks: false });
-    const seen = new Set();
-    const headings = Array.from(scratch.querySelectorAll("h1,h2,h3,h4"));
-    headings.forEach((h) => {
-        h.id = slugifyHeading(h.textContent, seen);
-    });
-    return { scratch, headings };
 }
 
 // ---------- Headings TOC tree ----------
@@ -126,38 +109,8 @@ function renderTocTree(nodes, { linkPrefix = "", onNavigate = null } = {}) {
     return ul;
 }
 
-// ---------- Community projects list (shared by index.html & about.html) ----------
-function renderCommunityList(container, activeId, { onNavigate = null } = {}) {
-    if (!container) return;
-    const ul = document.createElement("ul");
-    ul.className = "community-list";
-
-    AWESOME_REPOS.forEach((repo) => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.href = `about.html?repo=${repo.id}`;
-        a.textContent = repo.name;
-        if (repo.id === activeId) a.classList.add("active");
-        if (onNavigate) a.addEventListener("click", onNavigate);
-        li.appendChild(a);
-        ul.appendChild(li);
-    });
-
-    container.innerHTML = "";
-    container.appendChild(ul);
-}
-
-// ---------- Theme & mobile sidebar toggle ----------
+// Mobile sidebar toggle
 function initPageChrome() {
-    const themeToggle = document.getElementById("themeToggle");
-    if (themeToggle) {
-        themeToggle.addEventListener("click", () => {
-            const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-            document.documentElement.setAttribute("data-theme", next);
-            localStorage.setItem("theme", next);
-        });
-    }
-
     const sidebarEl = document.getElementById("sidebar");
     const navToggle = document.getElementById("navToggle");
     const scrim = document.getElementById("scrim");

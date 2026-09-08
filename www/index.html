@@ -4,18 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>0xTamil</title>
-    <meta name="description" content="About Us." />
+    <title>Awesome Low Level</title>
+    <meta name="description"
+        content="A curated roadmap for learning low-level programming, rendered live from the awesome-low-level README." />
     <link rel="icon"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f7a4d'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3E01%3C/text%3E%3C/svg%3E">
-
-    <script>
-        (function () {
-            var saved = localStorage.getItem("theme");
-            var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-            document.documentElement.setAttribute("data-theme", theme);
-        })();
-    </script>
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23000000' stroke='%23ffffff' stroke-width='1.5'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3E01%3C/text%3E%3C/svg%3E">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +16,8 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -36,65 +31,37 @@
     <div class="app-shell">
 
         <aside class="sidebar" id="sidebar" aria-label="Site navigation">
-            <a class="sidebar-brand" href="#">
-                <span class="sidebar-brand-title">0xTamil</span>
-                <span class="sidebar-brand-tag">The Great Wiki</span>
+            <a class="sidebar-brand" href="index.html">
+                <span class="sidebar-brand-title">Awesome Low Level</span>
+                <span class="sidebar-brand-tag">0xTamil - The Great Wiki</span>
             </a>
 
             <nav class="sidebar-nav">
-                <p class="sidebar-label">Community Projects</p>
-                <div id="communityList"></div>
+                <p class="sidebar-label">Contents</p>
+                <div id="toc" class="toc">
+                    <div class="toc-skeleton">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
             </nav>
 
             <div class="sidebar-footer">
-                <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
-                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="4" />
-                        <line x1="12" y1="2" x2="12" y2="4" />
-                        <line x1="12" y1="20" x2="12" y2="22" />
-                        <line x1="4.93" y1="4.93" x2="6.34" y2="6.34" />
-                        <line x1="17.66" y1="17.66" x2="19.07" y2="19.07" />
-                        <line x1="2" y1="12" x2="4" y2="12" />
-                        <line x1="20" y1="12" x2="22" y2="12" />
-                        <line x1="4.93" y1="19.07" x2="6.34" y2="17.66" />
-                        <line x1="17.66" y1="6.34" x2="19.07" y2="4.93" />
-                    </svg>
-                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-                    </svg>
-                </button>
-                <a class="source-link" href="https://github.com/0xTamil" target="_blank" rel="noopener">Github
-                    Organization</a>
+                <a id="sourceLink" class="source-link" href="#" target="_blank" rel="noopener">Source on GitHub</a>
             </div>
         </aside>
 
         <main class="main-area">
-            <div class="about-page">
-                <div class="about-banner-wrap">
-                    <img class="about-banner" src="img/banner.jpg" alt="0xTamil" loading="eager">
-                </div>
-
-                <h1 class="about-title">About Us</h1>
-
-                <p class="about-text">
-                    A Tamil community for people who enjoy learning and exploring low-level programming and how
-                    computers work under the hood. We keep things niche, focus on the fundamentals, and learn by
-                    building, experimenting, and sharing what we discover along the way.
-                </p>
-
-                <div class="about-actions">
-                    <a class="about-btn primary" href="https://discord.gg/YZRknMKn2K" target="_blank"
-                        rel="noopener">Join the Discord</a>
-                </div>
+            <div class="content" id="content">
+                <p class="status">Loading README from GitHub…</p>
             </div>
         </main>
 
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
     <script src="toc.js" defer></script>
-    <script src="about.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
