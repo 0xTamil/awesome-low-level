@@ -562,16 +562,32 @@ A small virtual machine and stack-based system for experimenting with low-level 
  <img width="3810" alt="Stack" src="https://github.com/user-attachments/assets/cceac376-ee29-4695-b2ad-9fdba303d9ce" />
 </p>
 
-
 The diagram above can be a helpful starting point if you're not sure which area of low-level programming you want to focus on. When you first looked at it, you may found that there are a few different ways to approach choosing a path. You can follow the languages you enjoy using, the topics that interest you the most, or simply decide how close you want to work with the hardware itself.
  
-- Language-Driven Path: If you enjoy working with a particular language, consider the fields where that language is commonly used or considered a strong choice. Languages highlighted as Gold Standard in the diagram can be especially relevant for those domains. For example, if you enjoy C++, you may want to explore areas such as Game Engine Development, Graphics Programming, and GPGPU & Parallel Computing.
+## Following the Language You Like
 
-- Hardware-Driven Path: If you want to work closer to physical hardware, pay attention to the Electronics requirement badges on the right side of the diagram, ranging from Low to High. Fields closer to the hardware, such as FPGA Programming and Embedded Systems, generally require a stronger understanding of electronics and digital hardware.
+One easy way to explore different fields is by starting with a programming language you already enjoy. Different domains tend to favor certain languages, and the diagram highlights some of them as "Gold Standard" choices.
 
-- Interest-Driven Learning: You don't need to decide on a specialization immediately, nor do you need to master every foundational topic first. Pick a field that interests you, start building projects, and learn the missing concepts as you encounter them. Your learning path can change as you discover what you enjoy.
-The sections below provide an overview of each specialization, starting with areas that are closest to the hardware and gradually moving toward higher levels of abstraction.
+For example, if you enjoy writing C++, you might find yourself interested in areas like Game Engine Development, Graphics Programming, or GPGPU and Parallel Computing, since C++ is heavily used in those fields. Rather than forcing yourself into a specialization first, it can be useful to see where your favorite language is commonly applied and explore from there.
 
+## Following How Close You Want to Be to Hardware
+
+Another approach is to think about how much interaction you want with actual hardware and electronics.
+
+On the right side of the diagram, you'll notice badges showing the level of electronics knowledge required, ranging from Low to High. Generally, the closer a field is to the hardware, the more you'll need to understand concepts related to electronics, digital logic, and computer hardware.
+
+For example, areas like Embedded Systems and FPGA Programming sit much closer to the hardware layer, so they usually require a stronger understanding of how electronic systems work behind the scenes.
+
+## Following Your Interests
+
+Personally, we think this is the least stressful approach for beginners.
+You don't need to pick a specialization right away, and you definitely don't need to master every fundamental topic before starting something interesting. If a particular field catches your attention, just begin building small projects and learning as you go. Whenever you run into a concept you don't understand, that's the perfect opportunity to learn it.
+
+Your interests will probably change over time anyway, and that's completely normal. Many people start in one area and later discover another field they enjoy even more.
+
+The good news is that you don't have to lock yourself into a single path from day one. Just pick something that seems fun, keep building things, and let your interests guide you as you gain more experience.
+
+The sections below introduce each specialization in more detail. They start with fields that are closest to the hardware and gradually move toward areas that operate at higher levels of abstraction, making it easier to see how the different domains relate to one another.
 
 ## 1. Embedded Systems
 
