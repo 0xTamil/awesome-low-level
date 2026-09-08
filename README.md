@@ -300,12 +300,10 @@ Learning to avoid these problems forces you to think more carefully about how me
  
 > In many ways, C is an excellent teacher. It doesn't hide as much from you as higher-level languages do, and mistakes often have visible consequences. While this can be frustrating at times, it also helps you develop stronger debugging skills and better programming habits.
 
-Another reason C remains valuable is its influence on the programming world. Many modern languages have borrowed ideas, syntax, and design choices directly from C
+Another reason C remains valuable is its influence on the programming world. Many modern languages have borrowed ideas, syntax, and design choices directly from C.
  
 > By learning C, you'll gain a better understanding of why many modern language features exist in the first place. It also helps you see what's happening behind the scenes, something that's often hidden when working with higher-level languages like Python, JavaScript, or Java.
 
-So, that's why learning C provides a strong foundation.
- 
 ---
  
 ## C vs C++ in Low-Level Programming
@@ -472,7 +470,7 @@ C++ extends low-level programming with powerful abstraction mechanisms while sti
  
 > C++ is a continuously evolving language. Because of that, many old tutorials, books, and videos you find online may teach outdated methods or older versions of the language. If you're starting today, it's much better to focus on modern C++, specifically standards like C++17, C++20, and C++23, since those reflect how C++ is actually used nowadays.
  
-For learning, the resource that gets recommended the most is LearnCpp, and after going through it, it's easy to see why. It's completely free, regularly updated, beginner-friendly, and covers everything from the basics to more advanced concepts using modern C++ practices.
+For learning, the resource that gets recommended the most is LearnCpp because it's completely free, regularly updated, beginner-friendly, and covers everything from the basics to more advanced concepts using modern C++ practices.
 
 - **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
 
@@ -491,7 +489,7 @@ Once you start feeling comfortable with the language, you'll eventually need a p
 
 - **[cppreference](https://en.cppreference.com/)**: The go-to reference site for the C++ language and standard library. It's incredibly useful when you need to check details about a feature or function, but it's generally better as a reference than as a primary learning resource.
 
-Starting with LearnCpp, using a book that matches your experience level, and relying on cppreference whenever you need to look something up is more than enough to build a strong foundation. As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
+As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
 
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
