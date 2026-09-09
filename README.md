@@ -69,13 +69,15 @@ A curated collection of resources for learning low-level programming from the gr
 
 ## Who is This For ?
 
-This megathread is for people who are learning programming and keep finding themselves curious about what's happening behind the scenes.
+This megathread is mainly for people who are learning programming and often find themselves wondering what’s actually happening behind the scenes when their code runs.
 
-Maybe you learned some C or C++ in school, followed a few tutorials, wrote a few simple programs, and now you're stuck wondering what to learn next. Maybe you're interested in programming, but every path seems to point toward web development, mobile apps, AI, or whatever framework happens to be popular this month, and none of them really click with you. 
+Maybe you've already learned some C or C++, completed a few tutorials, and built a couple of small projects, but now you're unsure about what to learn next. Or maybe you've looked at popular paths like web development, mobile apps, AI, or the latest trending frameworks, yet none of them really sparked your interest.
 
-Instead, you keep getting drawn toward things that seem a little closer to the computer itself. If you're simply curious about how computers actually work and want to dig deeper than most beginner programming courses go, then this megathread was made for you.
+Instead, you keep finding yourself drawn to questions like: How does the operating system work? What happens when a program is compiled? How does the CPU execute instructions? How do graphics, networking, or hardware actually work under the hood? If that sounds like you, then you're exactly the kind of person this megathread is meant for.
 
-If any of that sounds familiar, you're probably not the only one. A lot of people become interested in low-level programming for the same reasons, but finding a clear place to start can be surprisingly difficult. That's exactly why we decided to put this together.
+One thing you may noticed is that many beginner programming resources focus on teaching how to build applications, but they rarely explain how computers themselves work at a deeper level. For people who are naturally curious about systems, hardware, performance, and the foundations of computing, that can leave a lot of unanswered questions.
+
+So, you're definitely not alone. Many people become interested in low-level programming for the same reason: they want to understand what's happening beneath the abstractions. The challenging part is figuring out where to start, since information is often scattered across different topics and specializations.That's what the next section is going to explain.
 
 ---
 
