@@ -77,7 +77,7 @@ Instead, you keep finding yourself drawn to questions like: How does the operati
 
 One thing you may noticed is that many beginner programming resources focus on teaching how to build applications, but they rarely explain how computers themselves work at a deeper level. For people who are naturally curious about systems, hardware, performance, and the foundations of computing, that can leave a lot of unanswered questions.
 
-So, you're definitely not alone. Many people become interested in low-level programming for the same reason: they want to understand what's happening beneath the abstractions. The challenging part is figuring out where to start, since information is often scattered across different topics and specializations.That's what the next section is going to explain.
+So, you're definitely not alone. Many people become interested in low-level programming for the same reason: they want to understand what's happening beneath the abstractions. The challenging part is figuring out where to start, since information is often scattered across different topics and specializations. That's what the next section is going to explain.
 
 ---
 
