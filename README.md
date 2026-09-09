@@ -92,6 +92,8 @@ You don't need to have everything figured out. You don't need to know exactly wh
 
 If you're simply curious about how computers actually work and want to dig deeper than most beginner programming courses go, then this megathread was made for you.
 
+The goal isn't to turn you into an expert overnight. It's simply to give you a starting point, help you understand what to learn next, and make the path a little less confusing.
+
 ---
 
 ## How to Refer ?
