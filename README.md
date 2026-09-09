@@ -6,8 +6,8 @@ A curated collection of resources for learning low-level programming from the gr
 
 ## Table of Contents
 
-- [Why We Made This](#why-we-made-this-)
 - [Who is This For](#who-is-this-for-)
+- [Why We Made This](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
     - [But, You Already Have Some Programming Experience](#but-you-already-have-some-programming-experience)
@@ -67,32 +67,23 @@ A curated collection of resources for learning low-level programming from the gr
 
 ---
 
+## Who is This For ?
+
+This megathread is for people who are learning programming and keep finding themselves curious about what's happening behind the scenes.
+
+Maybe you learned some C or C++ in school, followed a few tutorials, wrote a few simple programs, and now you're stuck wondering what to learn next. Maybe you're interested in programming, but every path seems to point toward web development, mobile apps, AI, or whatever framework happens to be popular this month, and none of them really click with you. 
+
+Instead, you keep getting drawn toward things that seem a little closer to the computer itself. If you're simply curious about how computers actually work and want to dig deeper than most beginner programming courses go, then this megathread was made for you.
+
+If any of that sounds familiar, you're probably not the only one. A lot of people become interested in low-level programming for the same reasons, but finding a clear place to start can be surprisingly difficult. That's exactly why we decided to put this together.
+
+---
+
 ## Why We Made This ?
 
 We created this megathread to help complete beginners take their first steps into low-level programming. Getting started can feel overwhelming when you have no idea what to learn, where to begin, or which topics actually matter. That's why we put together a clear learning path that helps you understand the fundamentals in a structured and beginner-friendly way.
 
 We've spent a lot of time reviewing and selecting the resources included here to make sure they're genuinely useful and worth your time. This guide was created by people who are passionate about low-level programming and want to make learning it easier for others. Whether you're completely new or just looking for better direction, we hope this megathread helps you build a strong foundation and gives you a clear idea of what to learn next.
-
----
-
-## Who is This For ?
-
-This megathread is for people who are learning programming and keep finding themselves curious about what's happening behind the scenes.
-
-Maybe you learned some C or C++ in school, followed a few tutorials, wrote a few simple programs, and now you're stuck wondering what to learn next. Maybe you're interested in programming, but every path seems to point toward web development, mobile apps, AI, or whatever framework happens to be popular this month, and none of them really click with you. Instead, you keep getting drawn toward things that seem a little closer to the computer itself.
-
-You might have seen someone build a game engine, an operating system, an emulator, a compiler, or a project running on some tiny microcontroller and thought, "Wait... how does someone actually make that?"
-
-Or maybe you've had those moments where you run a program and start asking questions. How does the computer know what to do with my code? Why is one program fast and another slow? What actually happens when I click "Run"? What are all those files and processes doing in the background?
-
-You don't start out curious about things like memory, CPU registers, or operating systems. Most people become interested in those topics because they stumble across something cool and eventually want to understand how it works.
-
-Maybe that's where you are right now.
-You don't need to have everything figured out. You don't need to know exactly which field you want to pursue. You don't even need to know whether low-level programming is the right path for you yet.
-
-If you're simply curious about how computers actually work and want to dig deeper than most beginner programming courses go, then this megathread was made for you.
-
-The goal isn't to turn you into an expert overnight. It's simply to give you a starting point, help you understand what to learn next, and make the path a little less confusing.
 
 ---
 
