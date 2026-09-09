@@ -6,7 +6,6 @@ A curated collection of resources for learning low-level programming from the gr
 
 ## Table of Contents
 
-- [Who is This For](#who-is-this-for-)
 - [Why We Made This](#why-we-made-this-)
 - [How to Refer](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
@@ -64,20 +63,6 @@ A curated collection of resources for learning low-level programming from the gr
 - [Recommended Creators](#recommended-creators)
 - [Discord](#discord)
 - [License](#license)
-
----
-
-## Who is This For ?
-
-This megathread is mainly for people who are learning programming and often find themselves wondering what’s actually happening behind the scenes when their code runs.
-
-Maybe you've already learned some C or C++, completed a few tutorials, and built a couple of small projects, but now you're unsure about what to learn next. Or maybe you've looked at popular paths like web development, mobile apps, AI, or the latest trending frameworks, yet none of them really sparked your interest.
-
-Instead, you keep finding yourself drawn to questions like: How does the operating system work? What happens when a program is compiled? How does the CPU execute instructions? How do graphics, networking, or hardware actually work under the hood? If that sounds like you, then you're exactly the kind of person this megathread is meant for.
-
-One thing you may noticed is that many beginner programming resources focus on teaching how to build applications, but they rarely explain how computers themselves work at a deeper level. For people who are naturally curious about systems, hardware, performance, and the foundations of computing, that can leave a lot of unanswered questions.
-
-So, you're definitely not alone. Many people become interested in low-level programming for the same reason: they want to understand what's happening beneath the abstractions. The challenging part is figuring out where to start, since information is often scattered across different topics and specializations. That's what the next section is going to explain.
 
 ---
 
