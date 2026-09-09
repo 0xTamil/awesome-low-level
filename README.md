@@ -280,11 +280,11 @@ If you're interested in low-level programming, C is one of the best places to st
 
 Some of the reasons C is still so important include:
  
-- C runs almost everywhere. From tiny microcontrollers and embedded devices to desktop applications, servers, and operating systems, C can be found on nearly every type of computing platform.
-- C is efficient and lightweight. It allows programmers to write software that uses very little memory and processing power, making it ideal for performance-critical and resource-constrained systems.
-- C is flexible. Unlike many modern languages, C doesn't force you into a specific programming style or paradigm. It gives you the freedom to structure programs in whatever way makes the most sense for the problem you're solving.
-- C imposes very few restrictions on programming style. Unlike many higher-level languages, it does not strongly enforce a particular programming paradigm or ideology. As a result, there are very few kinds of programs that cannot be written in C.
-- A huge amount of software is built on C. Many programming languages, operating systems, databases, compilers, and developer tools are written in C or heavily influenced by it. Languages such as Python, Ruby, PHP, and Perl rely on runtimes and implementations that are largely written in C or C++.
+- **C runs almost everywhere**. From tiny microcontrollers and embedded devices to desktop applications, servers, and operating systems, C can be found on nearly every type of computing platform.
+- **C is efficient and lightweight**. It allows programmers to write software that uses very little memory and processing power, making it ideal for performance-critical and resource-constrained systems.
+- **C is flexible**. Unlike many modern languages, C doesn't force you into a specific programming style or paradigm. It gives you the freedom to structure programs in whatever way makes the most sense for the problem you're solving.
+- **C imposes very few restrictions on programming style**. Unlike many higher-level languages, it does not strongly enforce a particular programming paradigm or ideology. As a result, there are very few kinds of programs that cannot be written in C.
+- **A huge amount of software is built on C**. Many programming languages, operating systems, databases, compilers, and developer tools are written in C or heavily influenced by it. Languages such as Python, Ruby, PHP, and Perl rely on runtimes and implementations that are largely written in C or C++.
  
 One of the biggest strengths of C is that it teaches you to be careful.
 The language gives you a lot of power and freedom, but with that freedom comes responsibility. Small mistakes can lead to serious problems if you're not paying attention.
