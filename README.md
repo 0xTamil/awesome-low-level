@@ -79,9 +79,7 @@ We've spent a lot of time reviewing and selecting the resources included here to
 
 This megathread is for people who are learning programming and keep finding themselves curious about what's happening behind the scenes.
 
-Maybe you learned some C or C++ in school, followed a few tutorials, wrote a few simple programs, and now you're stuck wondering what to learn next. Maybe you're interested in programming, but every path seems to point toward web development, mobile apps, AI, or whatever framework happens to be popular this month, and none of them really click with you.
-
-Instead, you keep getting drawn toward things that seem a little closer to the computer itself.
+Maybe you learned some C or C++ in school, followed a few tutorials, wrote a few simple programs, and now you're stuck wondering what to learn next. Maybe you're interested in programming, but every path seems to point toward web development, mobile apps, AI, or whatever framework happens to be popular this month, and none of them really click with you. Instead, you keep getting drawn toward things that seem a little closer to the computer itself.
 
 You might have seen someone build a game engine, an operating system, an emulator, a compiler, or a project running on some tiny microcontroller and thought, "Wait... how does someone actually make that?"
 
