@@ -501,9 +501,9 @@ Rust focuses on systems programming with strong compile-time guarantees for memo
 
 - **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official book contains pretty much everything you need to know about Rust.
 - **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on exercises for practicing Rust.
-**[Exercism Rust Track](https://exercism.org/tracks/rust)**: Exercises to learn Rust.
-**[Learning Rust](https://learning-rust.github.io/)**: More about things about Rust.
-**[This Week in Rust](https://this-week-in-rust.org/)**: A weekly newsletter about Rust updates, featured crates, job offers, ongoing pull requests and more.
+- **[Exercism Rust Track](https://exercism.org/tracks/rust)**: Exercises to learn Rust.
+- **[Learning Rust](https://learning-rust.github.io/)**: More about things about Rust.
+- **[This Week in Rust](https://this-week-in-rust.org/)**: A weekly newsletter about Rust updates, featured crates, job offers, ongoing pull requests and more.
 - **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**: Runnable examples demonstrating Rust features.
 - **[Beginner's Series to Rust](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust/)**: Tutorial by Microsoft about Rust.
 - **[The Little Book of Rust Macros](https://veykril.github.io/tlborm/)**: Everything you need to know about Rust macros.
