@@ -499,11 +499,18 @@ As you become more comfortable with C++, you can also explore other approaches t
 
 Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
 
-- **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official Rust book covering ownership, borrowing, memory safety, and concurrency.
+- **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official book contains pretty much everything you need to know about Rust.
 - **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on exercises for practicing Rust.
+**[Exercism Rust Track](https://exercism.org/tracks/rust)**: Exercises to learn Rust.
+**[Learning Rust](https://learning-rust.github.io/)**: More about things about Rust.
+**[This Week in Rust](https://this-week-in-rust.org/)**: A weekly newsletter about Rust updates, featured crates, job offers, ongoing pull requests and more.
 - **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**: Runnable examples demonstrating Rust features.
+- **[Beginner's Series to Rust](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust/)**: Tutorial by Microsoft about Rust.
+- **[The Little Book of Rust Macros](https://veykril.github.io/tlborm/)**: Everything you need to know about Rust macros.
+- **[Learn Rust Page](https://www.rust-lang.org/learn)**: Index of Rust's documentation page. Includes things such as the edition, guide and carbo book.
+- **[Rust FFI Omnibus](https://jakegoulding.com/rust-ffi-omnibus/)**: How to use Rust code in other languages.
+- **[Rust Cheatsheet](https://cheats.rs/)**: List of a bunch of common Rust knowledge.
 - **[Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)**: Learn advanced memory concepts by implementing linked data structures.
-- **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)**: An advanced guide to unsafe Rust and low-level memory operations.
 - **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**: A curated collection of Rust libraries, tools, and resources.
 
 ### Zig
