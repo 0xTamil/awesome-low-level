@@ -688,19 +688,17 @@ A collection of creators who cover topics related to low-level programming.
 
 # Discord
 
-<p align="center">
-  <a href="https://discord.gg/YZRknMKn2K">
-    <img width="400" alt="banner" src="https://github.com/user-attachments/assets/59f2514d-f239-40bf-b620-bc24039dce45" />
-  </a>
-</p>
-
 Join our Discord server if you need help, want to learn low-level programming, or would like to contribute to the megathread.
+
+  <a href="https://discord.gg/YZRknMKn2K">
+    <img width="200" alt="photo_6145283918186353599_y" src="https://github.com/user-attachments/assets/692b8958-4ec9-4b55-bbde-814364832231" />
+  </a>
 
 ---
 
 # License
 
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
 This project is released under the **CC0 1.0 Universal** license, placing the content in the public domain where legally possible.
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
