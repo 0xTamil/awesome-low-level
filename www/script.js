@@ -12,7 +12,7 @@
     document.title = repo.name;
     if (sourceLinkEl) sourceLinkEl.href = `https://github.com/${repo.owner}/${repo.repo}`;
 
-    let observer = null;
+    let scrollSpyHandler = null;
 
     function escapeHtml(str) {
         const div = document.createElement("div");
@@ -82,10 +82,14 @@
     }
 
     function setupScrollSpy() {
-        if (observer) observer.disconnect();
+        if (scrollSpyHandler) {
+            window.removeEventListener("scroll", scrollSpyHandler);
+            window.removeEventListener("resize", scrollSpyHandler);
+            scrollSpyHandler = null;
+        }
 
-        const links = tocEl.querySelectorAll("a[data-target]");
-        const targets = Array.from(links)
+        const links = Array.from(tocEl.querySelectorAll("a[data-target]"));
+        const targets = links
             .map((a) => document.getElementById(a.dataset.target))
             .filter(Boolean);
 
@@ -95,17 +99,47 @@
             links.forEach((a) => a.classList.toggle("active", a.dataset.target === id));
         };
 
-        observer = new IntersectionObserver(
-            (entries) => {
-                const visible = entries
-                    .filter((e) => e.isIntersecting)
-                    .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
-                if (visible.length > 0) setActive(visible[0].target.id);
-            },
-            { rootMargin: "-80px 0px -70% 0px", threshold: 0 }
-        );
+        const ACTIVE_LINE = 96; // px from top of viewport that counts as "current"
 
-        targets.forEach((t) => observer.observe(t));
+        function updateActive() {
+            const atBottom =
+                window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+
+            if (atBottom) {
+                setActive(targets[targets.length - 1].id);
+                return;
+            }
+
+            let currentId = targets[0].id;
+            for (const t of targets) {
+                if (t.getBoundingClientRect().top <= ACTIVE_LINE) {
+                    currentId = t.id;
+                } else {
+                    break;
+                }
+            }
+            setActive(currentId);
+        }
+
+        let ticking = false;
+        scrollSpyHandler = () => {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => {
+                updateActive();
+                ticking = false;
+            });
+        };
+
+        window.addEventListener("scroll", scrollSpyHandler, { passive: true });
+        window.addEventListener("resize", scrollSpyHandler);
+
+        // Activate instantly on click instead of waiting for the scroll to catch up.
+        links.forEach((a) => {
+            a.addEventListener("click", () => setActive(a.dataset.target));
+        });
+
+        updateActive();
     }
 
     function render(markdown) {
