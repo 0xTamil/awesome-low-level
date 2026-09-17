@@ -400,7 +400,9 @@ body.sidebar-collapsed .sidebar-toggle svg {
 .content h1,
 .content h2,
 .content h3,
-.content h4 {
+.content h4,
+.content h5,
+.content h6 {
     font-family: var(--font-mono);
     font-weight: 600;
     color: #ffffff;
@@ -437,6 +439,20 @@ body.sidebar-collapsed .sidebar-toggle svg {
     font-size: 16px;
     margin: 22px 0 8px;
     color: var(--ink);
+}
+
+.content h5 {
+    font-size: 14px;
+    margin: 18px 0 6px;
+    color: var(--ink);
+}
+
+.content h6 {
+    font-size: 13px;
+    margin: 16px 0 6px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .content p {
@@ -583,7 +599,9 @@ body.sidebar-collapsed .sidebar-toggle svg {
     .content h1,
     .content h2,
     .content h3,
-    .content h4 {
+    .content h4,
+    .content h5,
+    .content h6 {
         scroll-margin-top: 64px;
     }
 }

@@ -5,7 +5,7 @@ const REPO = {
     name: "Awesome Low-Level"
 };
 
-const MAX_SIDEBAR_TOC_LEVEL = 4;
+const MAX_SIDEBAR_TOC_LEVEL = 6;
 
 function getRepoFromQuery() {
     return REPO;
@@ -41,7 +41,10 @@ function slugifyHeading(text, seen) {
     return slug;
 }
 
-// Headings TOC tree
+// Headings TOC tree — top-level (parent) headings only, no nested children.
+// Builds the full hierarchy first (so mixed heading levels, e.g. an h1 used
+// later in the doc after h2 sections, still nest correctly), then keeps only
+// the root-level nodes and drops their children.
 function buildTocTree(headingEls, maxLevel = MAX_SIDEBAR_TOC_LEVEL) {
     const filtered = headingEls.filter((h) => Number(h.tagName[1]) <= maxLevel);
     const items = filtered.length ? filtered.slice(1) : filtered;
@@ -57,7 +60,11 @@ function buildTocTree(headingEls, maxLevel = MAX_SIDEBAR_TOC_LEVEL) {
         stack.push({ level, children: node.children });
     });
 
-    return root;
+    return root.map((node) => ({
+        id: node.id,
+        text: node.text.replace(/\s*[?!]+\s*$/, ""),
+        children: [],
+    }));
 }
 
 function renderTocTree(nodes, { linkPrefix = "", onNavigate = null } = {}) {

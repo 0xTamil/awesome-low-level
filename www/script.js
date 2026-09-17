@@ -21,7 +21,7 @@
     }
 
     function stripManualToc() {
-        const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4"));
+        const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4,h5,h6"));
         const tocHeading = headings.find((h) => /^table of contents$/i.test(h.textContent.trim()));
         if (!tocHeading) return;
 
@@ -30,7 +30,7 @@
         let node = tocHeading.nextElementSibling;
         while (node) {
             const isHr = node.tagName === "HR";
-            const isHeading = /^H[1-4]$/.test(node.tagName);
+            const isHeading = /^H[1-6]$/.test(node.tagName);
             if (isHeading && Number(node.tagName[1]) <= level) break;
             toRemove.push(node);
             if (isHr) break;
@@ -58,7 +58,7 @@
 
     function assignHeadingIds() {
         const seen = new Set();
-        contentEl.querySelectorAll("h1,h2,h3,h4").forEach((h) => {
+        contentEl.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((h) => {
             h.id = slugifyHeading(h.textContent, seen);
         });
     }
@@ -69,7 +69,7 @@
     }
 
     function buildToc() {
-        const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4"));
+        const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4,h5,h6"));
         const tree = buildTocTree(headings);
 
         if (tree.length === 0) {
