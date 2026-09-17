@@ -29,12 +29,10 @@ A curated collection of resources for learning low-level programming from the gr
   - [5. Build Small Projects](#5-build-small-projects)
   - [6. Learn Modern Low-Level Languages (Optional)](#6-learn-modern-low-level-languages-optional)
   - [7. Pick a Specialized Field](#7-pick-a-specialized-field)
-- [Prerequisites](#prerequisites)
-  - [Circuits & Electronics](#circuits--electronics)
-  - [Computer Fundamentals](#computer-fundamentals)
-- [Core Foundations](#core-foundations)
-  - [C Programming](#c-programming)
-  - [Data Structures & Algorithms](#data-structures--algorithms)
+- [Circuits & Electronics](#circuits--electronics)
+- [Computer Fundamentals](#computer-fundamentals)
+- [C Programming](#c-programming)
+- [Data Structures & Algorithms](#data-structures--algorithms)
 - [Other Low-Level Languages (Optional)](#other-low-level-languages-optional)
   - [Procedural Languages](#procedural-languages)
     - [C++](#c)
@@ -416,14 +414,12 @@ This keeps the main roadmap clean and makes it clear that the actual specializat
 
 ---
 
-# Prerequisites
-
-## Circuits & Electronics
+# Circuits & Electronics
 
 - **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
 - **[Nand2Tetris](https://www.nand2tetris.org/)**: A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
 
-## Computer Fundamentals
+# Computer Fundamentals
 
 - **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
 - **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
@@ -431,9 +427,7 @@ This keeps the main roadmap clean and makes it clear that the actual specializat
 
 ---
 
-# Core Foundations
-
-## C Programming
+# C Programming
 
 <img width="150" alt="c_512x512" src="https://github.com/user-attachments/assets/4b52552b-d591-4bf8-9d59-64f2e86d61cc" />
 
@@ -443,7 +437,7 @@ This keeps the main roadmap clean and makes it clear that the actual specializat
 - **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
 - **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
 
-## Data Structures & Algorithms
+# Data Structures & Algorithms
 
 Data Structures and Algorithms (DSA) are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
 
