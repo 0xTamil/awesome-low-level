@@ -469,28 +469,11 @@ Data Structures and Algorithms (DSA) are generally language agnostic, meaning th
 C++ extends low-level programming with powerful abstraction mechanisms while still giving you significant control over memory, performance, and hardware-level details.
  
 > C++ is a continuously evolving language. Because of that, many old tutorials, books, and videos you find online may teach outdated methods or older versions of the language. If you're starting today, it's much better to focus on modern C++, specifically standards like C++17, C++20, and C++23, since those reflect how C++ is actually used nowadays.
- 
-For learning, the resource that gets recommended the most is LearnCpp because it's completely free, regularly updated, beginner-friendly, and covers everything from the basics to more advanced concepts using modern C++ practices.
 
-- **[LearnCpp](https://www.learncpp.com/)**: Comprehensive tutorials covering modern C++ from beginner to advanced topics.
-
-Honestly, this is probably the best place to start before looking anywhere else.
-
-After that, you can pick up a book depending on your experience level.
-If you're completely new to programming or have never used C++ before, a great choice is:
-
+- **[LearnCpp](https://www.learncpp.com/)**: The most recommended free resource for learning modern C++. Covers everything from fundamentals to advanced topics using up-to-date best practices.
 - **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: The 3rd edition covers modern C++ standards, including C++20 and C++23. It's written with beginners in mind and does a good job teaching both programming concepts and the language itself.
-
-If you already have some programming experience and just want to learn modern C++, then:
-
 - **[A Tour of C++](https://www.amazon.com/dp/013681648)**: The 3rd edition covers C++20, while the 2nd edition focuses on C++17. It's a solid option if you're looking for a quicker overview rather than a beginner-focused textbook.
-
-Once you start feeling comfortable with the language, you'll eventually need a place to look up syntax, language features, or how specific library functions work. That's where cppreference comes in.
-
-- **[cppreference](https://en.cppreference.com/)**: The go-to reference site for the C++ language and standard library. It's incredibly useful when you need to check details about a feature or function, but it's generally better as a reference than as a primary learning resource.
-
-As you become more comfortable with C++, you can also explore other approaches to structuring performance-oriented software:
-
+- **[Cppreference](https://en.cppreference.com/)**: The definitive reference for the C++ language and standard library. Best used alongside other learning resources.
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
 ### Rust
