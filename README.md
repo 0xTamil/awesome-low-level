@@ -147,10 +147,10 @@ After CS50, you can explore additional computer science topics based on your int
 
 The resources above are enough to get you started, but they're not the only options. Below, you'll find several other resources that are also worth checking out depending on what you'd like to learn.
 
-   - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)**: A practical guide to fundamental computer science concepts.
-   - **[CSdiy](https://csdiy.wiki/en/)**: A self-learning guide to computer science.
-   - **[Teach Yourself CS](https://teachyourselfcs.com/)**: A structured guide for learning computer science independently.
-   - **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**: A collection of free computer science courses and resources.
+   - **[Beej's Guide to Learning Computer Science](https://beej.us/guide/bglcs/)** 
+   - **[CSdiy](https://csdiy.wiki/en/)**
+   - **[Teach Yourself CS](https://teachyourselfcs.com/)**
+   - **[Awesome CS](https://github.com/prakhar1989/awesome-courses)**
 
 From there, follow the roadmap and build your understanding step by step.
 
@@ -355,9 +355,8 @@ You don't need an in-depth knowledge of electronics before you start learning C 
 
 The goal here isn't to become an electrical engineer. Instead, it's to learn a few fundamental concepts that help explain how computers work at the hardware level. Understanding things like voltage, logic gates, and simple digital circuits can make it much easier to grasp what the computer is actually doing behind the scenes.
 
-- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
-- **[Nand2Tetris](https://www.nand2tetris.org/)**: A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
- 
+- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)** **[Nand2Tetris](https://www.nand2tetris.org/)**
+
 ## 2. Computer Fundamentals
  
 Once you have a basic idea of the hardware side, start building a strong foundation in computer fundamentals. This is one of the most important stages of the roadmap because many low-level programming concepts build directly on these ideas.
@@ -366,9 +365,9 @@ Learn how computers store and represent information, how the CPU executes instru
 
 > The better you understand how a computer works internally, the easier it becomes to understand what's really happening when your code runs. Many concepts that seem confusing in low-level programming start to make much more sense once you have a solid grasp of these fundamentals.
 
-- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
-- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
-- **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
+- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**
+- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**
+- **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**
  
 ## 3. C Programming
 
@@ -380,11 +379,11 @@ As you learn, try to look beyond what your code does and start asking how it wor
  
 > You don't need to become a C expert before moving on. The goal is to build a solid understanding of the language, especially the concepts that help you reason about memory, data, and how software interacts with the underlying machine.
 
-- **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**: A classic book covering all about C programming.
-- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
-- **[C FAQ](https://c-faq.com/)**: Answers to common C questions, including pointers, memory management, and language behavior.
-- **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
-- **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
+- **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**
+- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**
+- **[C FAQ](https://c-faq.com/)**
+- **[Dive into Systems](https://diveintosystems.org/book/)**
+- **[C Interfaces and Implementations](https://github.com/drh/cii)**
  
 ## 4. Practice Data Structures & Algorithms
  
@@ -396,14 +395,14 @@ Try not to treat DSA as a completely separate topic from C. Instead of relying s
 
 > DSA usually are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
 
-- **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
-- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
-- **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
-- **[Notes on Data Structures and Programming Techniques](https://cs.yale.edu/homes/aspnes/classes/223/notes.html)**: A comprehensive list of DSA stuffs that fill with exercises and notes. 
-- **[Algorithms for Competitive Programming](https://cp-algorithms.com/)**: A useful site that provides descriptions of many algorithms and data structures.
-- **[Algorithms Design in C](https://www.ime.usp.br/~pf/algorithms/)**: Site of a course on algorithms and data structures using the C programming language.
-- **[C DSA interactive Suite](https://github.com/darshan2456/C_DSA_interactive_suite)**: Interactive terminal based application for learning DSA written in pure C.
-- **[Algorithms (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/home/)**: A detailed textbook and collection of resources covering algorithms and data structures.
+- **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)** 
+- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**
+- **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**
+- **[Notes on Data Structures and Programming Techniques](https://cs.yale.edu/homes/aspnes/classes/223/notes.html)**
+- **[Algorithms for Competitive Programming](https://cp-algorithms.com/)**
+- **[Algorithms Design in C](https://www.ime.usp.br/~pf/algorithms/)**
+- **[C DSA interactive Suite](https://github.com/darshan2456/C_DSA_interactive_suite)**
+- **[Algorithms (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/home/)**
  
 ## 5. Build Small Projects
  
@@ -431,11 +430,11 @@ C++ extends low-level programming with powerful abstraction mechanisms while sti
  
 > C++ is a continuously evolving language. Because of that, many old tutorials, books, and videos you find online may teach outdated methods or older versions of the language. If you're starting today, it's much better to focus on modern C++, specifically standards like C++17, C++20, and C++23, since those reflect how C++ is actually used nowadays.
 
-- **[LearnCpp](https://www.learncpp.com/)**: The most recommended free resource for learning modern C++. Covers everything from fundamentals to advanced topics using up-to-date best practices.
-- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**: The 3rd edition covers modern C++ standards, including C++20 and C++23. It's written with beginners in mind and does a good job teaching both programming concepts and the language itself.
-- **[A Tour of C++](https://www.amazon.com/dp/013681648)**: The 3rd edition covers C++20, while the 2nd edition focuses on C++17. It's a solid option if you're looking for a quicker overview rather than a beginner-focused textbook.
-- **[Cppreference](https://en.cppreference.com/)**: The definitive reference for the C++ language and standard library. Best used alongside other learning resources.
-- **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
+- **[LearnCpp](https://www.learncpp.com/)**
+- **[Programming: Principles and Practice Using C++](https://www.amazon.com/dp/0138308683)**
+- **[A Tour of C++](https://www.amazon.com/dp/013681648)**
+- **[Cppreference](https://en.cppreference.com/)**
+- **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**
 
 #### Rust
 
@@ -443,19 +442,18 @@ C++ extends low-level programming with powerful abstraction mechanisms while sti
 
 Rust focuses on systems programming with strong compile-time guarantees for memory safety and concurrency.
 
-- **[The Rust Programming Language](https://doc.rust-lang.org/book/)**: The official book contains pretty much everything you need to know about Rust.
-- **[Rustlings](https://github.com/rust-lang/rustlings)**: Small hands-on exercises for practicing Rust.
-- **[Exercism Rust Track](https://exercism.org/tracks/rust)**: Exercises to learn Rust.
-- **[Learning Rust](https://learning-rust.github.io/)**: More about things about Rust.
-- **[This Week in Rust](https://this-week-in-rust.org/)**: A weekly newsletter about Rust updates, featured crates, job offers, ongoing pull requests and more.
-- **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**: Runnable examples demonstrating Rust features.
-- **[Beginner's Series to Rust](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust/)**: Tutorial by Microsoft about Rust.
-- **[The Little Book of Rust Macros](https://veykril.github.io/tlborm/)**: Everything you need to know about Rust macros.
-- **[Learn Rust Page](https://www.rust-lang.org/learn)**: Index of Rust's documentation page. Includes things such as the edition, guide and carbo book.
-- **[Rust FFI Omnibus](https://jakegoulding.com/rust-ffi-omnibus/)**: How to use Rust code in other languages.
-- **[Rust Cheatsheet](https://cheats.rs/)**: List of a bunch of common Rust knowledge.
-- **[Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)**: Learn advanced memory concepts by implementing linked data structures.
-- **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**: A curated collection of Rust libraries, tools, and resources.
+- **[The Rust Programming Language](https://doc.rust-lang.org/book/)**
+- **[Rustlings](https://github.com/rust-lang/rustlings)**
+- **[Exercism Rust Track](https://exercism.org/tracks/rust)**
+- **[Learning Rust](https://learning-rust.github.io/)**
+- **[This Week in Rust](https://this-week-in-rust.org/)**
+- **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**
+- **[Beginner's Series to Rust](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust/)**
+- **[The Little Book of Rust Macros](https://veykril.github.io/tlborm/)**
+- **[Learn Rust Page](https://www.rust-lang.org/learn)
+- **[Rust FFI Omnibus](https://jakegoulding.com/rust-ffi-omnibus/)**
+- **[Rust Cheatsheet](https://cheats.rs/)**
+- **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**
 
 #### Zig
 
@@ -463,11 +461,11 @@ Rust focuses on systems programming with strong compile-time guarantees for memo
 
 Zig emphasizes explicit control, predictable behavior, and close interoperability with C while providing a modern approach to systems programming.
 
-- **[Zig Learn](https://ziglearn.org/)**: A structured guide to learning Zig syntax and manual memory management.
-- **[Zig Language Reference](https://ziglang.org/documentation/master/)**: Official documentation covering Zig's language features and tooling.
-- **[Ziglings](https://codeberg.org/ziglings/exercises)**: Interactive exercises designed to teach Zig through broken code.
-- **[Learning Zig](https://pedropark99.github.io/zig-book/)**: A guide to learning systems programming concepts with Zig.
-- **[Awesome Zig](https://github.com/zigcc/awesome-zig)**: A curated collection of Zig libraries, tools, and projects.
+- **[Zig Learn](https://ziglearn.org/)**
+- **[Zig Language Reference](https://ziglang.org/documentation/master/)**
+- **[Ziglings](https://codeberg.org/ziglings/exercises)**
+- **[Learning Zig](https://pedropark99.github.io/zig-book/)**
+- **[Awesome Zig](https://github.com/zigcc/awesome-zig)**
 
 #### Odin
 
@@ -475,11 +473,11 @@ Zig emphasizes explicit control, predictable behavior, and close interoperabilit
 
 Odin is a systems programming language focused on simplicity, explicitness, performance, and practical software development.
 
-- **[Odin Overview](https://odin-lang.org/docs/overview/)**: An introduction to Odin's syntax, design philosophy, and memory management.
-- **[Odin Demo Program](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)**: A demonstration program covering many Odin language features.
-- **[Understanding the Odin Programming Language](https://odinbook.com/)**: An introductory resource for learning Odin.
-- **[Learn Odin in Y Minutes](https://learnxinyminutes.com/odin/)**: A concise overview of Odin syntax.
-- **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**: A collection of Odin libraries, tools, and community resources.
+- **[Odin Overview](https://odin-lang.org/docs/overview/)**
+- **[Odin Demo Program](https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin)**
+- **[Understanding the Odin Programming Language](https://odinbook.com/)**
+- **[Learn Odin in Y Minutes](https://learnxinyminutes.com/odin/)**
+- **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**
  
 If you're curious about different ways of thinking about programming, you can also experiment with less traditional languages such as Ante, Carp, Futhark and Forth. Exploring these languages can expose you to programming concepts and ideas that are very different from what you'll encounter in C.
 
@@ -487,20 +485,19 @@ If you're curious about different ways of thinking about programming, you can al
 
 #### Ante
 A functional systems language inspired by ML, with Rust-inspired memory management.
-
-- **[Ante Lang](https://antelang.org/)**: Official ante Documentation.
+- **[Ante Lang](https://antelang.org/)**
 
 #### Carp
 A LISP designed for game development with Rust-inspired memory management and low-level control.
-- **[Carp Lang](https://github.com/carp-lang/Carp)**: Official carp Documentation.
+- **[Carp Lang](https://github.com/carp-lang/Carp)**
 
 #### Futhark
 An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
-- **[Futhark Lang](https://futhark-lang.org/)**: Official futhark Documentation
+- **[Futhark Lang](https://futhark-lang.org/)**
 
 #### Forth
 A stack-based language well suited for embedded programming and direct hardware control.
-- **[Awesome Forth](https://github.com/lassik/awesome-forth)**: A full list of learning Forth from scratch.
+- **[Awesome Forth](https://github.com/lassik/awesome-forth)**
  
 > If terms like procedural and non-procedural sound confusing, don't worry too much about them right now. Procedural languages, such as C, generally focus on a sequence of instructions that tell the computer exactly what to do step by step. Other programming models, such as functional or stack-based programming, approach problem solving in different ways and can give you a fresh perspective on how programs can be designed.
 
