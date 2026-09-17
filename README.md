@@ -394,9 +394,9 @@ Once you're comfortable writing programs in C, start learning data structures an
 
 Focus on learning common data structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs. Alongside them, study important algorithmic concepts like searching, sorting, recursion, traversal techniques, and general problem-solving strategies.
 
-> Try not to treat DSA as a completely separate topic from C. Instead of relying solely on library implementations, build the data structures and algorithms yourself. Implementing them from scratch will deepen your understanding of memory, pointers, performance, and problem solving while also making you a stronger C programmer.
+Try not to treat DSA as a completely separate topic from C. Instead of relying solely on library implementations, build the data structures and algorithms yourself. Implementing them from scratch will deepen your understanding of memory, pointers, performance, and problem solving while also making you a stronger C programmer.
 
-Data Structures and Algorithms (DSA) are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
+> DSA usually are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
 
 - **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
 - **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
@@ -421,7 +421,7 @@ Don't be afraid to experiment. Try different approaches, break things, fix them,
  
 Once you've built a solid foundation with C and completed a few projects, you may want to explore other low-level languages. Popular choices include C++, Rust, Zig, and Odin, each offering a different balance between performance, control, safety, and developer experience.
 
-Pick one or two that genuinely interest you and learn them alongside C. And if you enjoy working with C, it's perfectly fine to stick with it. C remains one of the most important languages in low-level programming and is still widely used in operating systems, embedded systems, firmware, compilers, libraries, and other system-level software. Learning additional languages can broaden your perspective, but it's not a requirement for becoming a skilled low-level programmer.
+Pick one or two that genuinely interest you and learn them alongside C. And if you enjoy working with C, it's perfectly fine to stick with it. C remains one of the most important languages in low-level programming and is still widely used in industry. Learning additional languages can broaden your perspective, but it's not a requirement for becoming a skilled low-level programmer.
 
 ### Procedural Languages
 
@@ -482,10 +482,8 @@ Odin is a systems programming language focused on simplicity, explicitness, perf
 - **[Understanding the Odin Programming Language](https://odinbook.com/)**: An introductory resource for learning Odin.
 - **[Learn Odin in Y Minutes](https://learnxinyminutes.com/odin/)**: A concise overview of Odin syntax.
 - **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**: A collection of Odin libraries, tools, and community resources.
-
----
  
-If you're curious about different ways of thinking about programming, you can also experiment with less traditional languages such as Ante, Carp, Futhark, Forth, or Uxn. Exploring these languages can expose you to programming concepts and ideas that are very different from what you'll encounter in C.
+If you're curious about different ways of thinking about programming, you can also experiment with less traditional languages such as Ante, Carp, Futhark and Forth. Exploring these languages can expose you to programming concepts and ideas that are very different from what you'll encounter in C.
 
 ### Non-Procedural Languages
 
@@ -508,7 +506,7 @@ A stack-based language well suited for embedded programming and direct hardware 
  
 > If terms like procedural and non-procedural sound confusing, don't worry too much about them right now. Procedural languages, such as C, generally focus on a sequence of instructions that tell the computer exactly what to do step by step. Other programming models, such as functional or stack-based programming, approach problem solving in different ways and can give you a fresh perspective on how programs can be designed.
 
-The goal isn't to collect as many languages as possible. It's to deepen your understanding of programming and learn new ways to think about problems. A programmer who understands the fundamentals well can usually pick up new languages much more easily when needed.
+The reason to learn extra languages because to deepen your understanding of programming and learn new ways to think about problems. A programmer who understands the fundamentals well can usually pick up new languages much more easily when needed.
  
 ## 7. Pick a Specialized Field
  
