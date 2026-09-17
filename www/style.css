@@ -191,7 +191,7 @@ a {
 }
 
 /* ---------- TOC tree ---------- */
-.toc ul,
+#toc>ul,
 .community-list {
     list-style: none;
     margin: 0;
@@ -202,43 +202,7 @@ a {
     margin: 1px 0;
 }
 
-.toc-row {
-    display: flex;
-    align-items: flex-start;
-    gap: 2px;
-}
-
-.toc-twirl {
-    flex: none;
-    width: 18px;
-    height: 26px;
-    display: grid;
-    place-items: center;
-    border: none;
-    background: none;
-    padding: 0;
-    color: var(--muted);
-    cursor: pointer;
-}
-
-.toc-twirl svg {
-    width: 8px;
-    height: 8px;
-    transform: rotate(90deg);
-    transition: transform 0.15s ease;
-}
-
-.toc-node.collapsed>.toc-row>.toc-twirl svg {
-    transform: rotate(0deg);
-}
-
-.toc-spacer {
-    display: inline-block;
-    width: 18px;
-    flex: none;
-}
-
-#toc .toc-row a,
+#toc a,
 .community-list a {
     display: block;
     border-radius: 5px;
@@ -249,10 +213,8 @@ a {
     transition: color 0.15s ease, background-color 0.15s ease;
 }
 
-#toc .toc-row a {
-    flex: 1;
-    min-width: 0;
-    padding: 5px 8px 5px 2px;
+#toc a {
+    padding: 5px 8px;
     margin: 1px 0;
     overflow-wrap: break-word;
 }
@@ -266,32 +228,29 @@ a {
     margin: 1px 0;
 }
 
-#toc .toc-row a:hover,
-#toc .toc-row a.active,
+#toc a:hover,
+#toc a.active,
 .community-list a:hover,
 .community-list a.active {
     color: #ffffff !important;
 }
 
-#toc .toc-row a.active {
+#toc a.active {
     font-weight: 600;
 }
 
 .toc-children {
-    margin-left: 17px;
+    list-style: none;
+    margin: 0;
     padding-left: 20px;
     border-left: 1px solid var(--line);
 }
 
-.toc-node.collapsed>.toc-children {
-    display: none;
-}
-
-.toc-children .toc-row a {
+.toc-children a {
     font-size: 14px;
 }
 
-.toc-children .toc-children .toc-row a {
+.toc-children .toc-children a {
     font-size: 13.5px;
 }
 

@@ -5,7 +5,7 @@ const REPO = {
     name: "Awesome Low-Level"
 };
 
-const MAX_SIDEBAR_TOC_LEVEL = 3;
+const MAX_SIDEBAR_TOC_LEVEL = 4;
 
 function getRepoFromQuery() {
     return REPO;
@@ -65,37 +65,14 @@ function renderTocTree(nodes, { linkPrefix = "", onNavigate = null } = {}) {
 
     nodes.forEach((node) => {
         const li = document.createElement("li");
-        li.className = node.children.length ? "toc-node collapsed" : "toc-node";
-
-        const row = document.createElement("div");
-        row.className = "toc-row";
-
-        if (node.children.length) {
-            const twirl = document.createElement("button");
-            twirl.type = "button";
-            twirl.className = "toc-twirl";
-            twirl.setAttribute("aria-label", "Toggle section");
-            twirl.setAttribute("aria-expanded", "false");
-            twirl.innerHTML = '<svg viewBox="0 0 24 24"><path d="M6 4l12 8-12 8z" fill="currentColor"/></svg>';
-            twirl.addEventListener("click", () => {
-                const collapsed = li.classList.toggle("collapsed");
-                twirl.setAttribute("aria-expanded", String(!collapsed));
-            });
-            row.appendChild(twirl);
-        } else {
-            const spacer = document.createElement("span");
-            spacer.className = "toc-spacer";
-            row.appendChild(spacer);
-        }
+        li.className = "toc-node";
 
         const a = document.createElement("a");
         a.href = `${linkPrefix}#${node.id}`;
         a.textContent = node.text;
         a.dataset.target = node.id;
         if (onNavigate) a.addEventListener("click", onNavigate);
-        row.appendChild(a);
-
-        li.appendChild(row);
+        li.appendChild(a);
 
         if (node.children.length) {
             const childUl = renderTocTree(node.children, { linkPrefix, onNavigate });
