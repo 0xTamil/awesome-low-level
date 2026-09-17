@@ -421,33 +421,11 @@ Don't be afraid to experiment. Try different approaches, break things, fix them,
  
 Once you've built a solid foundation with C and completed a few projects, you may want to explore other low-level languages. Popular choices include C++, Rust, Zig, and Odin, each offering a different balance between performance, control, safety, and developer experience.
 
-The good news is that there's no need to learn all of them.
- 
 Pick one or two that genuinely interest you and learn them alongside C. And if you enjoy working with C, it's perfectly fine to stick with it. C remains one of the most important languages in low-level programming and is still widely used in operating systems, embedded systems, firmware, compilers, libraries, and other system-level software. Learning additional languages can broaden your perspective, but it's not a requirement for becoming a skilled low-level programmer.
- 
-If you're curious about different ways of thinking about programming, you can also experiment with less traditional languages such as Ante, Carp, Futhark, Forth, or Uxn. Exploring these languages can expose you to programming concepts and ideas that are very different from what you'll encounter in C.
- 
-> If terms like procedural and non-procedural sound confusing, don't worry too much about them right now. Procedural languages, such as C, generally focus on a sequence of instructions that tell the computer exactly what to do step by step. Other programming models, such as functional or stack-based programming, approach problem solving in different ways and can give you a fresh perspective on how programs can be designed.
 
-The goal isn't to collect as many languages as possible. It's to deepen your understanding of programming and learn new ways to think about problems. A programmer who understands the fundamentals well can usually pick up new languages much more easily when needed.
- 
-## 7. Pick a Specialized Field
- 
-By this point, you should have a solid foundation in computer fundamentals, C programming, data structures and algorithms, and some hands-on project experience. Once you're comfortable with these core concepts, you can start exploring a specific area of low-level programming that interests you most.
+### Procedural Languages
 
-There’s no rush to specialize right away. Many beginners make the mistake of jumping into advanced topics too early before building the fundamentals. Taking the time to develop a strong foundation first will make learning specialized topics much easier later on.
- 
-> The different specialization paths are covered in the Specialized Fields section later in this guide. For now, focus on learning the fundamentals, building projects, and gaining practical experience. Once you have a better understanding of the field, you'll naturally discover which areas interest you the most.
- 
-This keeps the main roadmap clean and makes it clear that the actual specialization paths are explained later.
-
----
-
-# Other Low-Level Languages *(Optional)*
-
-## Procedural Languages
-
-### C++
+#### C++
 
 <img width="150" alt="cpp_logo" src="https://github.com/user-attachments/assets/3ed8fce0-cc22-48ae-bde1-3d136f6f4ad1" />
 
@@ -461,7 +439,7 @@ C++ extends low-level programming with powerful abstraction mechanisms while sti
 - **[Cppreference](https://en.cppreference.com/)**: The definitive reference for the C++ language and standard library. Best used alongside other learning resources.
 - **[Data-Oriented Design Resources](https://github.com/dbartolini/data-oriented-design)**: A collection of resources for learning about data-oriented design and performance.
 
-### Rust
+#### Rust
 
 <img width="150" alt="rust-logo-512x512" src="https://github.com/user-attachments/assets/86e703e4-ff32-44c2-9e65-4dc8af1093c7" />
 
@@ -481,7 +459,7 @@ Rust focuses on systems programming with strong compile-time guarantees for memo
 - **[Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)**: Learn advanced memory concepts by implementing linked data structures.
 - **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**: A curated collection of Rust libraries, tools, and resources.
 
-### Zig
+#### Zig
 
 <img width="150" alt="zig-programming-language-icon" src="https://github.com/user-attachments/assets/fa4257a9-5645-48a2-ae13-6657c2710d0a" />
 
@@ -493,7 +471,7 @@ Zig emphasizes explicit control, predictable behavior, and close interoperabilit
 - **[Learning Zig](https://pedropark99.github.io/zig-book/)**: A guide to learning systems programming concepts with Zig.
 - **[Awesome Zig](https://github.com/zigcc/awesome-zig)**: A curated collection of Zig libraries, tools, and projects.
 
-### Odin
+#### Odin
 
 <img width="150" alt="odin" src="https://github.com/user-attachments/assets/0d3d6347-2da6-4545-9a8c-391259d70d93" />
 
@@ -506,43 +484,49 @@ Odin is a systems programming language focused on simplicity, explicitness, perf
 - **[Awesome Odin](https://github.com/jakubtomsu/awesome-odin)**: A collection of Odin libraries, tools, and community resources.
 
 ---
+ 
+If you're curious about different ways of thinking about programming, you can also experiment with less traditional languages such as Ante, Carp, Futhark, Forth, or Uxn. Exploring these languages can expose you to programming concepts and ideas that are very different from what you'll encounter in C.
 
-## Non-Procedural Languages
+### Non-Procedural Languages
 
-### Ante
+#### Ante
 A functional systems language inspired by ML, with Rust-inspired memory management.
 
 - **[Ante Lang](https://antelang.org/)**: Official ante Documentation.
 
-### Carp
+#### Carp
 A LISP designed for game development with Rust-inspired memory management and low-level control.
 - **[Carp Lang](https://github.com/carp-lang/Carp)**: Official carp Documentation.
 
-### Futhark
+#### Futhark
 An ML-style functional language for high-performance parallel computing on GPUs, with CUDA, HIP, and OpenCL backends.
 - **[Futhark Lang](https://futhark-lang.org/)**: Official futhark Documentation
 
-### Forth
+#### Forth
 A stack-based language well suited for embedded programming and direct hardware control.
 - **[Awesome Forth](https://github.com/lassik/awesome-forth)**: A full list of learning Forth from scratch.
+ 
+> If terms like procedural and non-procedural sound confusing, don't worry too much about them right now. Procedural languages, such as C, generally focus on a sequence of instructions that tell the computer exactly what to do step by step. Other programming models, such as functional or stack-based programming, approach problem solving in different ways and can give you a fresh perspective on how programs can be designed.
 
-### Uxn
-A small virtual machine and stack-based system for experimenting with low-level programming and hand-written assembly.
-- **[Uxn Site](https://100r.co/site/uxn.html)**: A site dedicated to learning uxn related stuffs.
+The goal isn't to collect as many languages as possible. It's to deepen your understanding of programming and learn new ways to think about problems. A programmer who understands the fundamentals well can usually pick up new languages much more easily when needed.
+ 
+## 7. Pick a Specialized Field
+ 
+By this point, you should have a solid foundation in computer fundamentals, C programming, data structures and algorithms, and some hands-on project experience. Once you're comfortable with these core concepts, you can start exploring a specific area of low-level programming that interests you most.
 
----
-
-# Specialized Fields
+There’s no rush to specialize right away. Many beginners make the mistake of jumping into advanced topics too early before building the fundamentals. Taking the time to develop a strong foundation first will make learning specialized topics much easier later on.
+ 
+### Which Field to Pick ?
 
 If you're new to low-level programming, figuring out where to start can feel a bit confusing. There are several specializations, and each one focuses on different aspects of computers and software. A good way to narrow things down is to follow what naturally interests you, whether that's a programming language you enjoy, a specific field you find exciting, or a desire to work closer to the hardware itself. The important thing is to start somewhere and adjust your path as you learn more about what you enjoy.
  
-## Following the Language You Like
+#### Following the Language You Like
 
 One easy way to explore different fields is by starting with a programming language you already enjoy. Different domains tend to favor certain languages, and many fields have a few languages that are considered industry standards.
 
 > For example, if you enjoy writing C++, you might find yourself interested in areas like Game Engine Development, Graphics Programming, or GPGPU and Parallel Computing, since C++ is heavily used in those fields. Rather than forcing yourself into a specialization first, it can be useful to see where your favorite language is commonly applied and explore from there.
 
-## Following How Close You Want to Be to Hardware
+#### Following How Close You Want to Be to Hardware
 
 Another approach is to think about how much interaction you want with actual hardware and electronics.
 
@@ -550,7 +534,7 @@ Some areas of low-level programming require very little electronics knowledge, w
 
 > For example, areas like Embedded Systems and FPGA Programming sit much closer to the hardware layer, so they usually require a stronger understanding of how electronic systems work behind the scenes.
 
-## Following Your Interests
+#### Following Your Interests
 
 Personally, we think this is the least stressful approach for beginners.
 You don't need to pick a specialization right away, and you definitely don't need to master every fundamental topic before starting something interesting. If a particular field catches your attention, just begin building small projects and learning as you go. Whenever you run into a concept you don't understand, that's the perfect opportunity to learn it.
