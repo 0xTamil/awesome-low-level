@@ -1,5 +1,5 @@
 const REPO = {
-    owner: "0xTamil",
+    owner: "nira-community",
     repo: "awesome-low-level",
     branch: "main",
     name: "Awesome Low-Level"
