@@ -241,13 +241,11 @@ Whenever possible, attempt to solve problems yourself before searching for a tut
  
 AI can be a great learning aid, but it's best used as a tool, not a shortcut. When you run into a problem, try spending some time working through it on your own before turning to AI. Struggling with a problem might feel frustrating, but that's often where the most valuable learning happens.
 
-AI is most helpful when you use it to explain concepts, help you understand error messages, point out mistakes in your reasoning, or guide you toward possible solutions. Try to avoid immediately asking it to write the entire program or solve the problem from start to finish.
+AI is most helpful when you use it to explain concepts, help you understand error messages, point out mistakes in your reasoning, or guide you toward possible solutions. You can also use it like Google to look up things such as syntax, API details, documentation, and quick explanations.
+
+Try to avoid immediately asking AI to write the entire program or solve a problem from start to finish. Use it as a learning tool to understand what you’re doing rather than simply getting the answer.
  
 > Use AI to support your learning, not to replace the thinking and problem-solving that help you grow as a programmer.
-
-You can also challenge yourself to spend a week learning without AI. Instead, rely on documentation, books, search engines, debugging tools, and your own problem-solving skills. It may feel slower and more difficult at first, but you'll likely develop a deeper understanding of the material and become more confident tackling problems on your own.
-
-> The goal isn't to avoid AI forever. It's to make sure you're building the skills to solve problems independently, so that when you do use AI, it becomes a helpful assistant rather than something you depend on for every step.
 
 ---
 
