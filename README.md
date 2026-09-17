@@ -355,7 +355,8 @@ You don't need an in-depth knowledge of electronics before you start learning C 
 
 The goal here isn't to become an electrical engineer. Instead, it's to learn a few fundamental concepts that help explain how computers work at the hardware level. Understanding things like voltage, logic gates, and simple digital circuits can make it much easier to grasp what the computer is actually doing behind the scenes.
 
-- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)** **[Nand2Tetris](https://www.nand2tetris.org/)**
+- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)** 
+- **[Nand2Tetris](https://www.nand2tetris.org/)**
 
 ## 2. Computer Fundamentals
  
@@ -450,7 +451,7 @@ Rust focuses on systems programming with strong compile-time guarantees for memo
 - **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)**
 - **[Beginner's Series to Rust](https://learn.microsoft.com/en-us/shows/beginners-series-to-rust/)**
 - **[The Little Book of Rust Macros](https://veykril.github.io/tlborm/)**
-- **[Learn Rust Page](https://www.rust-lang.org/learn)
+- **[Learn Rust Page](https://www.rust-lang.org/learn)**
 - **[Rust FFI Omnibus](https://jakegoulding.com/rust-ffi-omnibus/)**
 - **[Rust Cheatsheet](https://cheats.rs/)**
 - **[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)**
