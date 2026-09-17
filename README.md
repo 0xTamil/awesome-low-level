@@ -29,10 +29,6 @@ A curated collection of resources for learning low-level programming from the gr
   - [5. Build Small Projects](#5-build-small-projects)
   - [6. Learn Modern Low-Level Languages (Optional)](#6-learn-modern-low-level-languages-optional)
   - [7. Pick a Specialized Field](#7-pick-a-specialized-field)
-- [Circuits & Electronics](#circuits--electronics)
-- [Computer Fundamentals](#computer-fundamentals)
-- [C Programming](#c-programming)
-- [Data Structures & Algorithms](#data-structures--algorithms)
 - [Other Low-Level Languages (Optional)](#other-low-level-languages-optional)
   - [Procedural Languages](#procedural-languages)
     - [C++](#c)
@@ -360,6 +356,9 @@ You might also notice that this megathread doesn't rely heavily on popular begin
 You don't need an in-depth knowledge of electronics before you start learning C or low-level programming. A basic understanding is more than enough.
 
 The goal here isn't to become an electrical engineer. Instead, it's to learn a few fundamental concepts that help explain how computers work at the hardware level. Understanding things like voltage, logic gates, and simple digital circuits can make it much easier to grasp what the computer is actually doing behind the scenes.
+
+- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
+- **[Nand2Tetris](https://www.nand2tetris.org/)**: A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
  
 ## 2. Computer Fundamentals
  
@@ -368,24 +367,45 @@ Once you have a basic idea of the hardware side, start building a strong foundat
 Learn how computers store and represent information, how the CPU executes instructions, how memory is organized, and how software communicates with hardware. As you progress further into low-level programming, topics such as binary, CPU architecture, memory, storage, registers, caches, and instruction execution will become increasingly important.
 
 > The better you understand how a computer works internally, the easier it becomes to understand what's really happening when your code runs. Many concepts that seem confusing in low-level programming start to make much more sense once you have a solid grasp of these fundamentals.
+
+- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
+- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
+- **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
  
 ## 3. C Programming
+
+<img width="150" alt="c_512x512" src="https://github.com/user-attachments/assets/4b52552b-d591-4bf8-9d59-64f2e86d61cc" />
  
 Once you've built a basic understanding of how computers work, it's time to start learning C. While learning the syntax is important, don't stop there. Pay special attention to concepts such as pointers, arrays, structs, memory allocation, stack and heap memory, data representation, and bitwise operations. These topics form the foundation of low-level programming.
 
 As you learn, try to look beyond what your code does and start asking how it works. Where is the data stored? What happens in memory when a function is called? How does the program access and modify data? Developing this mindset will help you get much more out of C than simply learning the language's syntax.
  
 > You don't need to become a C expert before moving on. The goal is to build a solid understanding of the language, especially the concepts that help you reason about memory, data, and how software interacts with the underlying machine.
+
+- **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**: A classic book covering all about C programming.
+- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
+- **[C FAQ](https://c-faq.com/)**: Answers to common C questions, including pointers, memory management, and language behavior.
+- **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
+- **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
  
 ## 4. Practice Data Structures & Algorithms
  
 Once you're comfortable writing programs in C, start learning data structures and algorithms (DSA). These are fundamental tools for organizing data efficiently and solving problems effectively.
 
 Focus on learning common data structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs. Alongside them, study important algorithmic concepts like searching, sorting, recursion, traversal techniques, and general problem-solving strategies.
- 
-The goal isn't just to memorize how these structures and algorithms work, but to understand why they're useful, when to use them, and what trade-offs they involve.
 
 > Try not to treat DSA as a completely separate topic from C. Instead of relying solely on library implementations, build the data structures and algorithms yourself. Implementing them from scratch will deepen your understanding of memory, pointers, performance, and problem solving while also making you a stronger C programmer.
+
+Data Structures and Algorithms (DSA) are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
+
+- **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
+- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
+- **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
+- **[Notes on Data Structures and Programming Techniques](https://cs.yale.edu/homes/aspnes/classes/223/notes.html)**: A comprehensive list of DSA stuffs that fill with exercises and notes. 
+- **[Algorithms for Competitive Programming](https://cp-algorithms.com/)**: A useful site that provides descriptions of many algorithms and data structures.
+- **[Algorithms Design in C](https://www.ime.usp.br/~pf/algorithms/)**: Site of a course on algorithms and data structures using the C programming language.
+- **[C DSA interactive Suite](https://github.com/darshan2456/C_DSA_interactive_suite)**: Interactive terminal based application for learning DSA written in pure C.
+- **[Algorithms (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/home/)**: A detailed textbook and collection of resources covering algorithms and data structures.
  
 ## 5. Build Small Projects
  
@@ -420,44 +440,6 @@ There’s no rush to specialize right away. Many beginners make the mistake of j
 > The different specialization paths are covered in the Specialized Fields section later in this guide. For now, focus on learning the fundamentals, building projects, and gaining practical experience. Once you have a better understanding of the field, you'll naturally discover which areas interest you the most.
  
 This keeps the main roadmap clean and makes it clear that the actual specialization paths are explained later.
-
----
-
-# Circuits & Electronics
-
-- **[MIT OpenCourseWare: Circuits & Electronics](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)**: A university-level introduction to circuits, electronics, and the fundamental concepts behind electrical and digital systems.
-- **[Nand2Tetris](https://www.nand2tetris.org/)**: A famous course about building a general-purpose computer system and a modern software hierarchy from the ground up.
-
-# Computer Fundamentals
-
-- **[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA)**: A visual introduction to the major components and internal processes of a computer.
-- **[Computer Systems: A Programmer's Perspective](https://www.amazon.com/dp/9332573905/)**: A great book covering how computers work and the fundamentals of computer architecture.
-- **[The Hidden Language of Computer Hardware and Software](https://charlespetzold.com/code/)**: An introduction to how computers work, starting from simple communication systems and building toward modern computer architecture.
-
----
-
-# C Programming
-
-<img width="150" alt="c_512x512" src="https://github.com/user-attachments/assets/4b52552b-d591-4bf8-9d59-64f2e86d61cc" />
-
-- **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**: A classic book covering all about C programming.
-- **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**: A practical guide to learning C and its standard library.
-- **[C FAQ](https://c-faq.com/)**: Answers to common C questions, including pointers, memory management, and language behavior.
-- **[Dive into Systems](https://diveintosystems.org/book/)**: A gentle introduction about computer systems & C programming language.
-- **[C Interfaces and Implementations](https://github.com/drh/cii)**: Learn how to design modular and reusable C libraries.
-
-# Data Structures & Algorithms
-
-Data Structures and Algorithms (DSA) are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
-
-- **[MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)**: University lectures covering algorithm design and efficiency.
-- **[CS3 Data Structures & Algorithms](https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/index.html)**: A collection of data structures and algorithms material with exercises.
-- **[Data Structures and Algorithms Tutorial](https://www.w3schools.com/dsa/index.php)**: A beginner-friendly introduction to organizing and processing data.
-- **[Notes on Data Structures and Programming Techniques](https://cs.yale.edu/homes/aspnes/classes/223/notes.html)**: A comprehensive list of DSA stuffs that fill with exercises and notes. 
-- **[Algorithms for Competitive Programming](https://cp-algorithms.com/)**: A useful site that provides descriptions of many algorithms and data structures.
-- **[Algorithms Design in C](https://www.ime.usp.br/~pf/algorithms/)**: Site of a course on algorithms and data structures using the C programming language.
-- **[C DSA interactive Suite](https://github.com/darshan2456/C_DSA_interactive_suite)**: Interactive terminal based application for learning DSA written in pure C.
-- **[Algorithms (Sedgewick & Wayne)](https://algs4.cs.princeton.edu/home/)**: A detailed textbook and collection of resources covering algorithms and data structures.
 
 ---
 
