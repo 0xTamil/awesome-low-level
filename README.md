@@ -143,7 +143,7 @@ If you've never programmed before, this is a great place to start. It provides a
 
 **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**
 
-Once you're comfortable with the basics, CS50 is an excellent next step. It helps build a stronger understanding of both programming and computer science, covering topics such as C, algorithms, data structures and memory.
+Once you’re comfortable with the basics, CS50 is an excellent next step. It helps you build a broad and strong understanding of programming and computer science while teaching you how to think algorithmically and solve programming problems efficiently.
 
 ##### 3. Go Deeper with a Structured Path
 
