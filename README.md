@@ -43,15 +43,17 @@ A curated collection of resources for learning low-level programming from the gr
       - [Following the Language You Like](#following-the-language-you-like)
       - [Following How Close You Want to Be to Hardware](#following-how-close-you-want-to-be-to-hardware)
       - [Following Your Interests](#following-your-interests)
-    - [1. Embedded Systems](#1-embedded-systems)
-    - [2. FPGA Programming](#2-fpga-programming)
-    - [3. Compilers & Interpreters](#3-compilers--interpreters)
-    - [4. Operating Systems Development](#4-operating-systems-development)
-    - [5. GPGPU & Parallel Computing](#5-gpgpu--parallel-computing)
-    - [6. Graphics Programming](#6-graphics-programming)
-    - [7. Game Engine Development](#7-game-engine-development)
-    - [8. Network Systems Programming](#8-network-systems-programming)
-    - [9. Cybersecurity](#9-cybersecurity)
+
+    - [Low-Level Programming Fields (#low-level-programming-fields)
+      - [1. Embedded Systems (#1-embedded-systems)
+      - [2. FPGA Programming](#2-fpga-programming)
+      - [3. Compilers & Interpreters](#3-compilers--interpreters)
+      - [4. Operating Systems Development](#4-operating-systems-development)
+      - [5. GPGPU & Parallel Computing](#5-gpgpu--parallel-computing)
+      - [6. Graphics Programming](#6-graphics-programming)
+      - [7. Game Engine Development](#7-game-engine-development)
+      - [8. Network Systems Programming](#8-network-systems-programming)
+      - [9. Cybersecurity](#9-cybersecurity)
 - [Recommended Creators](#recommended-creators)
 - [Discord](#discord)
 - [License](#license)
@@ -537,9 +539,9 @@ Your interests will probably change over time anyway, and that's completely norm
 
 The good news is that you don't have to lock yourself into a single path from day one. Just pick something that seems fun, keep building things, and let your interests guide you as you gain more experience.
 
-The sections below introduce each specialization, starting with hardware-focused fields and gradually moving toward higher-level domains.
+### Low-Level Programming Fields
 
-## 1. Embedded Systems
+#### 1. Embedded Systems
 
 Embedded programming is about writing software for dedicated devices that perform specific tasks, such as microcontrollers, IoT devices, robots, automotive systems, drones, smart home devices, and industrial equipment. Unlike desktop or web development, you'll often work much closer to the hardware, where memory, processing power, and energy are limited.
 
@@ -547,12 +549,12 @@ In this field, you'll commonly use languages like C and C++, with Rust becoming 
 
 > Depending on the project, you may work with sensors, motors, displays, Wi-Fi modules, Bluetooth devices, and real-time operating systems such as FreeRTOS or Zephyr. For debugging and testing, tools like JTAG, SWD, logic analyzers, and oscilloscopes are commonly used.
 
-- **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**: Resources for bare-metal programming, microcontrollers, and low-level firmware.
-- **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**: Tools and guides for running Linux on embedded hardware.
+- **[Awesome Embedded](https://github.com/nhivp/Awesome-Embedded)**
+- **[Awesome Embedded Linux](https://github.com/fkromer/awesome-embedded-linux)**
 
 ---
 
-## 2. FPGA Programming
+#### 2. FPGA Programming
 
 FPGA (Field-Programmable Gate Array) development is quite different from traditional programming because you're not simply writing instructions for a CPU to execute. Instead, you're describing how the hardware itself should be structured and operate. This makes FPGA development feel much closer to digital circuit design than conventional software engineering.
 
@@ -560,12 +562,12 @@ In this field, you'll primarily work with hardware description languages such as
 
 > FPGAs excel at parallel processing, meaning they can perform many operations simultaneously rather than executing instructions one by one like a typical CPU. Because of this, they're widely used in hardware prototyping, signal processing, telecommunications, networking equipment, high-frequency trading, AI acceleration, and other high-performance computing systems where speed and low latency are critical.
 
-- **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**: A curated list of FPGA resources, tools, HDLs, and project tutorials.
-- **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**: Guides and learning materials for developing custom programmable logic.
+- **[Awesome FPGA](https://github.com/Vitorian/awesome-fpga)**
+- **[Awesome FPGA Programming](https://github.com/emanueledelsozzo/awesome-fpga-programming)**
 
 ---
 
-## 3. Compilers & Interpreters
+#### 3. Compilers & Interpreters
 
 Compiler and interpreter development focuses on understanding what happens behind the scenes when you write and run code. Instead of building applications, you're building the tools that process programming languages and translate them into something a computer can understand and execute.
 
@@ -573,11 +575,11 @@ In this field, you'll encounter concepts such as lexers (tokenizers), parsers, A
 
 > The tech stack often includes languages like C++, Rust, C, OCaml, and Java, along with tools and projects such as LLVM, Clang, GCC, MLIR, ANTLR, Flex, and Bison. You may also work with virtual machines, bytecode, JIT (Just-In-Time) compilers, garbage collectors, and CPU architectures such as x86-64, ARM, or RISC-V.
 
-- **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**: A collection of books, courses, frameworks, and projects for compiler and runtime development.
+- **[Awesome Compilers](https://github.com/aalhour/awesome-compilers)**
 
 ---
 
-## 4. Operating Systems Development
+#### 4. Operating Systems Development
 
 Operating systems development is one of the closest software fields to computer hardware. It focuses on building the software layer that sits between applications and the hardware, managing resources such as the CPU, memory, storage devices, and peripherals. When working in this area, you'll gain a deeper understanding of how computers actually function under the hood.
 
@@ -585,11 +587,11 @@ In this field, you'll commonly use C, C++, Rust, and occasionally Assembly. You'
 
 > Many operating system developers study or contribute to projects like Linux, FreeBSD, Windows internals, Minix, or hobby operating systems. Debugging often involves tools such as GDB, QEMU, Bochs, and various kernel debugging utilities.
 
-- **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**: Specifications, tutorials, and project resources for operating system development.
+- **[Awesome OS Dev](https://github.com/devse-org/awesome-osdev)**
 
 ---
 
-## 5. GPGPU & Parallel Computing
+#### 5. GPGPU & Parallel Computing
 
 GPGPU (General-Purpose Computing on Graphics Processing Units) is the practice of using GPUs for more than just rendering graphics. Instead of drawing images, the GPU is used to perform large-scale computations that can be broken into thousands or even millions of smaller tasks running in parallel.
 
@@ -597,12 +599,12 @@ In this field, you'll typically work with languages and frameworks such as CUDA,
 
 > GPGPU is heavily used in areas such as scientific computing, physics simulations, computational biology, financial modeling, machine learning, artificial intelligence, image processing, and other workloads that require massive amounts of computation. Since GPUs contain thousands of smaller processing cores, they can often solve certain problems much faster than traditional CPUs.
 
-- **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**: Frameworks, technical guides, and libraries for GPU computing.
-- **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**: Resources covering GPU architecture and parallel computing.
+- **[Awesome GPGPU](https://github.com/jslee02/awesome-gpgpu)**
+- **[Awesome GPU](https://github.com/Jokeren/Awesome-GPU)**
 
 ---
 
-## 6. Graphics Programming
+#### 6. Graphics Programming
 
 Graphics programming sits at the intersection of programming, mathematics, and GPU hardware. It focuses on creating and rendering visual content, from simple 2D graphics to realistic 3D worlds used in games, simulations, virtual reality, and visualization software. You'll learn how data is transformed into pixels on a screen and how modern GPUs efficiently render complex scenes in real time.
 
@@ -612,11 +614,11 @@ In this field, you'll commonly use C++ along with graphics APIs such as Vulkan, 
 
 Graphics programming is used in game engines, 3D modeling software, VR/AR applications, scientific visualization, CAD software, simulation systems, and modern user interfaces.
 
-- **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**: Curated resources covering graphics mathematics, rendering, and engine development.
+- **[Awesome Graphics Programming](https://gist.github.com/notnotrobby/ceef71527b4f15869133ba7b397912e9)**
 
 ---
 
-## 7. Game Engine Development
+#### 7. Game Engine Development
 
 Game engine development is one of the broadest areas in low-level programming because it combines several disciplines into a single system. Instead of building an entire game, you're building the technology that games run on. A game engine acts as the foundation that handles graphics, physics, audio, input, memory management, and many other systems working together behind the scenes.
 
@@ -624,12 +626,12 @@ In this field, you'll primarily work with C++, and sometimes C#, Rust, or script
 
 > Game engine developers often work with technologies found in engines such as Unreal Engine, Unity, Godot, Source Engine, and custom in-house engines. The field also overlaps with graphics programming, physics simulation, network programming, tools development, and performance optimization.
 
-- **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**: Books, tutorials, libraries, and resources for building game engines.
-- **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**: A collection of open-source game engines and reference implementations.
+- **[Awesome Game Engine Dev](https://github.com/stevinz/awesome-game-engine-dev)**
+- **[Awesome Game Engines](https://github.com/ChessMax/awesome-game-engines)**
 
 ---
 
-## 8. Network Systems Programming
+#### 8. Network Systems Programming
 
 Network systems programming focuses on how computers communicate and exchange data over networks. Instead of building websites or user interfaces, you're working on the underlying systems that allow devices, servers, and applications to send, receive, and process data efficiently. This field powers everything from web servers and cloud infrastructure to multiplayer games and distributed systems.
 
@@ -637,14 +639,14 @@ In this field, you'll commonly use C, C++, Rust and Go. You'll work with network
 
 > The tech stack often includes tools and technologies such as Linux networking, Nginx, HAProxy, Wireshark, gRPC, Redis, Kafka, and cloud platforms. You'll spend time analyzing network traffic, handling thousands or even millions of connections, reducing latency, and ensuring reliable communication between distributed systems.
 
-- **[Awesome Networking](https://github.com/facyber/awesome-networking)**: Books, courses, protocols, and tutorials for learning computer networking.
-- **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**: Resources for understanding and working with computer networks.
-- **[Awesome Network Programmability](https://github.com/cisco-ie/awesome-network-programmability)**: Libraries and guides for network automation and programmable networking.
-- **[Awesome Game Networking](https://github.com/rumaniel/Awesome-Game-Networking)**: Resources for building multiplayer and real-time networked applications.
+- **[Awesome Networking](https://github.com/facyber/awesome-networking)**
+- **[Awesome Computer Networking](https://github.com/nyquist/awesome-networking)**
+- **[Awesome Network Programmability](https://github.com/cisco-ie/awesome-network-programmability)**
+- **[Awesome Game Networking](https://github.com/rumaniel/Awesome-Game-Networking)**
 
 ---
 
-## 9. Cybersecurity
+#### 9. Cybersecurity
 
 Cybersecurity is the field focused on protecting computer systems, networks, applications, and data from attacks, vulnerabilities, and unauthorized access. Rather than building features for users, you're learning how systems can be secured, how attackers exploit weaknesses, and how those weaknesses can be detected and prevented.
 
@@ -654,8 +656,8 @@ In this field, you'll commonly work with Linux, Windows Internals, C, C++, Pytho
 
 Cybersecurity spans multiple specializations, including penetration testing, security engineering, application security, cloud security, malware research, reverse engineering, digital forensics, and security operations (SOC).
 
-- **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**: A curated list of awesome infosec courses and training resources.
-- **[Awesome List](https://github.com/0xor0ne/awesome-list)**: Collection of awesome blog posts, write-ups, and papers focusing on cybersecurity.
+- **[Awesome Infosec](https://github.com/onlurking/awesome-infosec)**
+- **[Awesome List](https://github.com/0xor0ne/awesome-list)**
 
 ---
 
