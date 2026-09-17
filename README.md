@@ -44,7 +44,7 @@ A curated collection of resources for learning low-level programming from the gr
       - [Following How Close You Want to Be to Hardware](#following-how-close-you-want-to-be-to-hardware)
       - [Following Your Interests](#following-your-interests)
     - [Low-Level Programming Fields] (#low-level-programming-fields)
-      - [1. Embedded Systems (#1-embedded-systems)
+      - [1. Embedded Systems] (#1-embedded-systems)
       - [2. FPGA Programming](#2-fpga-programming)
       - [3. Compilers & Interpreters](#3-compilers--interpreters)
       - [4. Operating Systems Development](#4-operating-systems-development)
