@@ -56,9 +56,9 @@
         });
     }
 
-    function assignHeadingIds() {
+    function assignHeadingIds(headings) {
         const seen = new Set();
-        contentEl.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((h) => {
+        headings.forEach((h) => {
             h.id = slugifyHeading(h.textContent, seen);
         });
     }
@@ -68,8 +68,7 @@
         contentEl.querySelectorAll("pre code").forEach((block) => hljs.highlightElement(block));
     }
 
-    function buildToc() {
-        const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4,h5,h6"));
+    function buildToc(headings) {
         const tree = buildTocTree(headings);
 
         if (tree.length === 0) {
@@ -99,7 +98,7 @@
             links.forEach((a) => a.classList.toggle("active", a.dataset.target === id));
         };
 
-        const ACTIVE_LINE = 96; // px from top of viewport that counts as "current"
+        const ACTIVE_LINE = 96;
 
         function updateActive() {
             const atBottom =
@@ -134,7 +133,6 @@
         window.addEventListener("scroll", scrollSpyHandler, { passive: true });
         window.addEventListener("resize", scrollSpyHandler);
 
-        // Activate instantly on click instead of waiting for the scroll to catch up.
         links.forEach((a) => {
             a.addEventListener("click", () => setActive(a.dataset.target));
         });
@@ -146,9 +144,11 @@
         contentEl.innerHTML = marked.parse(markdown, { gfm: true, breaks: false });
         stripManualToc();
         resolveRelativeUrls();
-        assignHeadingIds();
+
+        const headings = Array.from(contentEl.querySelectorAll("h1,h2,h3,h4,h5,h6"));
+        assignHeadingIds(headings);
         highlightCodeBlocks();
-        buildToc();
+        buildToc(headings);
         setupScrollSpy();
     }
 
