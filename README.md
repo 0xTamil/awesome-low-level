@@ -10,7 +10,7 @@ A curated collection of resources for learning low-level programming from the gr
 - [How to Refer ?](#how-to-refer-)
   - [If You're an Absolute Beginner](#if-youre-an-absolute-beginner)
     - [But, You Already Have Some Programming Experience](#but-you-already-have-some-programming-experience)
-    - [But, You're Really New to Programming](#but-you-already-have-some-programming-experience)
+    - [But, You're Really New to Programming](#but-youre-really-new-to-programming)
       - [1. Start with Basics](#1-start-with-basics)
       - [2. Build your Computer Science Foundation](#2-build-your-computer-science-foundation)
       - [3. Go Deeper with a Structured Path](#3-go-deeper-with-a-structured-path)
