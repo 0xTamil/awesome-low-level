@@ -131,14 +131,25 @@ The good news is that you don't need to relearn everything from scratch. If you 
 
 If you're coming from a non-CS background and want to learn programming before diving into low-level programming, don't stress about knowing everything in advance. Nobody starts out understanding all of this. Focus on learning the basics first, build a solid foundation, and then gradually work your way toward lower-level concepts as you become more comfortable.
 
-You also don't need to go through every resource listed below. Pick what works best for you and learn at your own pace. That said, we generally recommend following them in roughly this order:
+Pick what works best for you and learn at your own pace. That said, we generally recommend following them in roughly this order:
 
+##### 1. Start with Basics
 
-1. **[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**: If you've never programmed before, this is a great place to start. It provides a beginner-friendly introduction and helps answer common questions about getting into programming.
+**[r/learnprogramming wiki](https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started)**
 
-2. **[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**: Once you're comfortable with the basics, CS50 is an excellent next step. It helps build a stronger understanding of both programming and computer science, covering topics such as C, algorithms, data structures and memory.
+If you've never programmed before, this is a great place to start. It provides a beginner-friendly introduction and helps answer common questions about getting into programming.
 
-3. **[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**: After CS50, you can explore additional computer science topics based on your interests and goals. If you're looking for a more complete and structured self-learning path, OSSU is one of the best options available. It offers a full computer science curriculum covering programming, mathematics, computer systems, theory, and many other important subjects.
+##### 2. Build your Computer Science Foundation 
+
+**[CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)**
+
+Once you're comfortable with the basics, CS50 is an excellent next step. It helps build a stronger understanding of both programming and computer science, covering topics such as C, algorithms, data structures and memory.
+
+##### 3. Go Deeper with a Structured Path
+
+**[Open Source Society University (OSSU)](https://github.com/ossu/computer-science)**
+
+After CS50, you can explore additional computer science topics based on your interests and goals. If you're looking for a more complete and structured self-learning path, OSSU is one of the best options available. It offers a full computer science curriculum covering programming, mathematics, computer systems, theory, and many other important subjects.
 
 The resources above are enough to get you started, but they're not the only options. Below, you'll find several other resources that are also worth checking out depending on what you'd like to learn.
 
