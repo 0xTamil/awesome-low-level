@@ -381,8 +381,6 @@ Learn how computers store and represent information, how the CPU executes instru
 Once you've built a basic understanding of how computers work, it's time to start learning C. While learning the syntax is important, don't stop there. Pay special attention to concepts such as pointers, arrays, structs, memory allocation, stack and heap memory, data representation, and bitwise operations. These topics form the foundation of low-level programming.
 
 As you learn, try to look beyond what your code does and start asking how it works. Where is the data stored? What happens in memory when a function is called? How does the program access and modify data? Developing this mindset will help you get much more out of C than simply learning the language's syntax.
- 
-> You don't need to become a C expert before moving on. The goal is to build a solid understanding of the language, especially the concepts that help you reason about memory, data, and how software interacts with the underlying machine.
 
 - **[The ANSI C Book](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)**
 - **[Beej's Guide to C Programming](https://beej.us/guide/bgc/)**
@@ -395,8 +393,6 @@ As you learn, try to look beyond what your code does and start asking how it wor
 Once you're comfortable writing programs in C, start learning data structures and algorithms (DSA). These are fundamental tools for organizing data efficiently and solving problems effectively.
 
 Focus on learning common data structures such as arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs. Alongside them, study important algorithmic concepts like searching, sorting, recursion, traversal techniques, and general problem-solving strategies.
-
-Try not to treat DSA as a completely separate topic from C. Instead of relying solely on library implementations, build the data structures and algorithms yourself. Implementing them from scratch will deepen your understanding of memory, pointers, performance, and problem solving while also making you a stronger C programmer.
 
 > DSA usually are generally language agnostic, meaning the core concepts can be learned using any programming language. However, since this roadmap focuses on low-level programming, resources that teach DSA using C may be more relevant and useful.
 
