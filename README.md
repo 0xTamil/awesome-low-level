@@ -331,10 +331,6 @@ If C++ interests you more, it's perfectly reasonable to start there. You don't n
 
 Likewise, starting with C and moving to C++ later is also a great path. Many developers find that learning C first makes it easier to appreciate what C++ abstractions are actually doing behind the scenes.
  
-> The real purpose behind the advice "learn C before C++" is to help beginners develop a stronger understanding of the fundamentals. It's not because C++ can't be used for low-level programming. C is often an excellent teaching tool for learning how computers work, but C++ remains a completely valid and widely used choice for low-level development.
- 
----
- 
 ## Let's Gooo !
  
 Now that you have a basic idea of what low-level programming is, it's time to start learning. Don't worry, we're not going to jump straight into assembly or start building an operating system on day one. The goal is to build a solid foundation first, understand how computers work, and gradually move closer to the hardware as your knowledge grows.
