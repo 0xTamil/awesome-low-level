@@ -339,7 +339,9 @@ Now that you have a basic idea of what low-level programming is, it's time to st
 
 Take your time with the roadmap. Low-level programming is a broad field, and it's completely normal if some topics take longer to click than others. Focus on understanding the fundamentals before rushing ahead.
 
-Each section in the roadmap starts with an explanation, followed by a list of recommended resources. The resources are generally arranged in priority order, so we recommend starting with the first resource and moving down the list as needed. Depending on the topic, some sections may place a book before an official website or reference, while others may recommend official documentation or references first. Follow the order provided and choose additional resources when you feel you need a different explanation or more depth.
+Each section in the roadmap starts with an explanation, followed by a list of recommended resources. The resources are generally arranged in priority order, so we recommend starting with the first resource and moving down the list as needed. 
+
+Depending on the topic, some sections may place a book before an official website or reference, while others may recommend official documentation or references first. Follow the order provided and choose additional resources when you feel you need a different explanation or more depth.
 
 > One of the most valuable skills you can develop as a programmer is learning how to find and understand information on your own. Tutorials are useful, but they shouldn't be your only source of learning. Get comfortable reading documentation, researching topics, experimenting with code, and figuring things out for yourself. Those skills will help you long after you've finished this roadmap.
  
